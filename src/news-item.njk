@@ -21,6 +21,6 @@ eleventyComputed:
     <p class="label">{{ t.cats[item.category] }}{% if item.date %} <span>{{ item.date | niceDate(entry.lang) }}</span>{% endif %}</p>
     <h1>{{ item[entry.lang].title }}</h1>
   </div>
-  {% if item.image %}<div class="wrap"><img class="post-img" src="{{ item.image }}" alt=""></div>{% endif %}
+  {% if item.image %}<div class="wrap"><img class="post-img" src="{{ item.image }}" alt=""></div>{% else %}<div class="wrap"><div class="post-cover">{{ item.slug | cover | safe }}</div></div>{% endif %}
   <div class="wrap narrow prose">{{ item[entry.lang].body | safe }}</div>
 </article>

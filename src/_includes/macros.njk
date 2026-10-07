@@ -1,6 +1,6 @@
 {% macro newsCard(item, lang, routes, t) %}
 <a class="card news-card" href="{{ routes.news[lang] }}{{ item.slug }}/" data-cat="{{ item.category }}">
-  <div class="thumb">{% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy">{% endif %}</div>
+  <div class="thumb">{% if item.image %}<img src="{{ item.image }}" alt="" loading="lazy">{% else %}{{ item.slug | cover | safe }}{% endif %}</div>
   <p class="label">{{ t.cats[item.category] }}{% if item.date %} <span>{{ item.date | niceDate(lang) }}</span>{% endif %}</p>
   <h3>{{ item[lang].title }}</h3>
 </a>

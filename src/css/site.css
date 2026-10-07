@@ -279,3 +279,9 @@ p { margin: 0 0 1em; }
 .missing { margin: 36px 0 0; max-width: 75ch; color: var(--muted); }
 .missing strong { color: var(--ink); }
 #institucijos, #platformos { scroll-margin-top: 80px; }
+
+.news-card .thumb { background: var(--mist); }
+.news-card .cover { width: 100%; height: 100%; display: block; transition: transform 0.4s; }
+.news-card:hover .cover { transform: scale(1.04); }
+.post-cover { height: clamp(160px, 22vw, 260px); border-radius: 6px; overflow: hidden; margin-bottom: 44px; background: var(--mist); }
+.post-cover .cover { width: 100%; height: 100%; display: block; }

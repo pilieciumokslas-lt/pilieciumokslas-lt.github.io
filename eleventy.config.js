@@ -29,6 +29,34 @@ function cubes() {
   return `<svg class="cubes" viewBox="${-W} ${-3 * lift - h} ${2 * W} ${2 * N * h + 3 * lift}" aria-hidden="true" stroke="#06068f" stroke-width="1" stroke-linejoin="round">${out}</svg>`;
 }
 
+// Soft abstract cover for news posts that have no picture. The pattern is derived from the post's
+// slug, so every post gets its own quiet variation instead of a flat colour block.
+function cover(slug) {
+  let seed = 7;
+  for (const ch of String(slug || "x")) seed = (seed * 31 + ch.charCodeAt(0)) % 2147483647;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const N = 11, w = 46, h = 23, lift = 24;
+  const base = ["#f6f7fc", "#e4e7f3", "#d8dcec"];
+  const accents = [["#c9ccfb", "#aeb2f2", "#989ce6"], ["#ffd3e6", "#f6b9d3", "#e9a2c1"], ["#cfd3de", "#b9bdca", "#a6aab8"]];
+  const ai = Math.floor(rnd() * N * N), bi = Math.floor(rnd() * N * N), acc = accents[Math.floor(rnd() * 2)];
+  let out = "";
+  for (let i = 0; i < N; i++) {
+    for (let j = 0; j < N; j++) {
+      const r = rnd(), k = i * N + j;
+      const z = k === ai ? 2 : k === bi ? 1 : r < 0.62 ? 0 : r < 0.9 ? 1 : 2;
+      const [t, l, rg] = k === ai ? acc : k === bi ? accents[2] : base;
+      const x = (i - j) * w, y = (i + j) * h, H = z * lift;
+      out += `<path fill="${t}" d="M${x},${y - H - h}L${x + w},${y - H}L${x},${y - H + h}L${x - w},${y - H}Z"/>`;
+      if (z) {
+        out += `<path fill="${l}" d="M${x - w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x - w},${y}Z"/>`;
+        out += `<path fill="${rg}" d="M${x + w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x + w},${y}Z"/>`;
+      }
+    }
+  }
+  const cy = N * h;
+  return `<svg class="cover" viewBox="-300 ${cy - 200} 600 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" stroke="#cfd4e8" stroke-width="0.8" stroke-linejoin="round"><rect x="-300" y="${cy - 200}" width="600" height="400" fill="#eef0f8" stroke="none"/>${out}</svg>`;
+}
+
 export default function (cfg) {
   cfg.addPlugin(EleventyHtmlBasePlugin);
   cfg.addPassthroughCopy({ assets: "assets" });
@@ -45,6 +73,7 @@ export default function (cfg) {
   cfg.addWatchTarget("./content/");
 
   cfg.addShortcode("cubes", cubes);
+  cfg.addFilter("cover", cover);
   cfg.addFilter("initials", (name) =>
     (name || "").replace(/^(prof\.|dr\.|doc\.)\s*/gi, "").replace(/^(prof\.|dr\.|doc\.)\s*/gi, "").split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase()
   );
