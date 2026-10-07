@@ -9,7 +9,7 @@
       "services": "Paslaugos",
       "about": "Apie asociaciją",
       "initiatives": "Piliečių mokslo iniciatyvos",
-      "researchers": "Tyrėjams"
+      "researchers": "Piliečių mokslas Lietuvos mokslo institucijose"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -65,14 +65,16 @@
       "pub": "Publikacijos",
       "tools": "Įrankiai ir mokymai",
       "media": "Straipsniai ir interviu",
-      "lt": "Lietuvių kalba"
+      "lt": "Lietuvių kalba",
+      "platforms": "Platformos"
     },
     "pages": "Puslapiai",
     "newer": "Naujesnės",
     "older": "Senesnės",
     "navShort": {
       "initiatives": "Iniciatyvos",
-      "resources": "Ištekliai"
+      "resources": "Ištekliai",
+      "researchers": "Institucijos"
     }
   },
   "en": {
@@ -85,7 +87,7 @@
       "services": "Services",
       "about": "About the association",
       "initiatives": "Citizen science initiatives",
-      "researchers": "For researchers"
+      "researchers": "Citizen science at Lithuanian research institutions"
     },
     "skip": "Skip to content",
     "menu": "Menu",
@@ -141,7 +143,8 @@
       "pub": "Publications",
       "tools": "Tools and training",
       "media": "Articles and interviews",
-      "lt": "In Lithuanian"
+      "lt": "In Lithuanian",
+      "platforms": "Platforms"
     },
     "pages": "Pages",
     "newer": "Newer",
@@ -149,7 +152,8 @@
     "navShort": {
       "initiatives": "Initiatives",
       "resources": "Resources",
-      "about": "About"
+      "about": "About",
+      "researchers": "Institutions"
     }
   }
 }

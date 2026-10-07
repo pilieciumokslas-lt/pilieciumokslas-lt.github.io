@@ -1,9 +1,15 @@
 {
   "lt": {
-    "intro": "Publikacijos, įrankiai, mokymosi medžiaga ir straipsniai apie piliečių mokslą lietuvių ir anglų kalbomis."
+    "intro": "Publikacijos, įrankiai, mokymosi medžiaga, straipsniai ir platformos apie piliečių mokslą lietuvių ir anglų kalbomis.",
+    "platformsTitle": "Europos ir pasaulio platformos",
+    "europeanTitle": "Europa",
+    "globalTitle": "Pasaulis"
   },
   "en": {
-    "intro": "Publications, tools, learning materials and articles on citizen science, in Lithuanian and English."
+    "intro": "Publications, tools, learning materials, articles and platforms on citizen science, in Lithuanian and English.",
+    "platformsTitle": "European and global platforms",
+    "europeanTitle": "Europe",
+    "globalTitle": "Global"
   },
   "items": [
     {
@@ -466,6 +472,120 @@
       "en": {
         "title": "Zoom in on the status of citizen science in Lithuania",
         "text": "A conversation with two Lithuanian citizen science leaders about the state of the field, its challenges and the role of the EU-Citizen.Science platform."
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "name": "ECSA",
+      "logo": "/assets/uploads/logos/ecsa.png",
+      "scope": "european",
+      "url": "https://www.ecsa.ngo/",
+      "lt": {
+        "title": "Europos piliečių mokslo asociacija (ECSA)",
+        "text": "Narystės asociacija, vienijanti piliečių mokslo tyrėjus, praktikus ir organizacijas Europoje. Veikia teminės darbo grupės, kas dvejus metus vyksta konferencija, parengti dešimt piliečių mokslo principų."
+      },
+      "en": {
+        "title": "European Citizen Science Association (ECSA)",
+        "text": "A membership association bringing together citizen science researchers, practitioners and organisations in Europe. It runs thematic working groups, holds a conference every two years and authored the Ten Principles of Citizen Science."
+      }
+    },
+    {
+      "name": "European Citizen Science Platform",
+      "logo": "/assets/uploads/logos/ecs-platform.png",
+      "scope": "european",
+      "url": "https://citizenscience.eu/",
+      "lt": {
+        "title": "Europos piliečių mokslo platforma",
+        "text": "ECSA valdoma platforma (anksčiau EU-Citizen.Science), kurioje galima rasti piliečių mokslo projektus, išteklius ir mokymosi medžiagą, taip pat užregistruoti savo projektą ar organizaciją."
+      },
+      "en": {
+        "title": "European Citizen Science Platform",
+        "text": "A platform managed by ECSA (formerly EU-Citizen.Science) where you can find citizen science projects, resources and training materials, and register your own project or organisation."
+      }
+    },
+    {
+      "name": "CSGP",
+      "logo": "/assets/uploads/logos/csgp.jpg",
+      "scope": "global",
+      "url": "https://citizenscienceglobal.org/",
+      "lt": {
+        "title": "Citizen Science Global Partnership (CSGP)",
+        "text": "Pasaulio regioninių ir nacionalinių piliečių mokslo asociacijų ir jų narių partnerystė, skatinanti piliečių mokslo indėlį į pasaulinį tvarumą."
+      },
+      "en": {
+        "title": "Citizen Science Global Partnership (CSGP)",
+        "text": "A collaboration of the world's regional and national citizen science associations and their members, advancing the contribution of citizen science to global sustainability."
+      }
+    },
+    {
+      "name": "AAPS",
+      "logo": "/assets/uploads/logos/aaps.jpg",
+      "scope": "global",
+      "url": "https://participatorysciences.org/",
+      "lt": {
+        "title": "Association for Advancing Participatory Sciences (AAPS)",
+        "text": "Profesinė draugija, vienijanti dirbančius su visuomenės dalyvavimu grįstais tyrimais. Rengia kasmetinę konferenciją CAPS, leidžia atvirosios prieigos žurnalą „Citizen Science: Theory and Practice“, turi darbo grupes ir išteklių rinkinius."
+      },
+      "en": {
+        "title": "Association for Advancing Participatory Sciences (AAPS)",
+        "text": "A professional society for people working in research done by, for and with members of the public. It holds the annual CAPS conference, publishes the open access journal Citizen Science: Theory and Practice, and runs working groups and toolkits."
+      }
+    },
+    {
+      "name": "Zooniverse",
+      "logo": "/assets/uploads/logos/zooniverse.png",
+      "scope": "global",
+      "url": "https://www.zooniverse.org/",
+      "lt": {
+        "title": "Zooniverse",
+        "text": "Didelė internetinė platforma, kurioje savanoriai padeda tyrėjams klasifikuoti ir analizuoti duomenis. Tyrėjai gali sukurti savo projektą naudodami projektų kūrimo įrankį."
+      },
+      "en": {
+        "title": "Zooniverse",
+        "text": "A large online platform where volunteers help researchers classify and analyse data. Researchers can build their own project with its project builder."
+      }
+    },
+    {
+      "name": "SciStarter",
+      "logo": "/assets/uploads/logos/scistarter.svg",
+      "scope": "global",
+      "url": "https://scistarter.org/",
+      "lt": {
+        "title": "SciStarter",
+        "text": "Piliečių mokslo projektų paieškos platforma: dalyviai randa projektus pagal temą ir vietą, o tyrėjai gali užregistruoti savo projektą ir pasiekti dalyvius."
+      },
+      "en": {
+        "title": "SciStarter",
+        "text": "A project finder for citizen science: participants search projects by topic and location, and researchers can list their own project to reach participants."
+      }
+    },
+    {
+      "name": "iNaturalist",
+      "logo": "/assets/uploads/logos/inaturalist.svg",
+      "scope": "global",
+      "url": "https://www.inaturalist.org/",
+      "lt": {
+        "title": "iNaturalist",
+        "text": "Pasaulinė gamtos stebėjimų platforma ir bendruomenė: dalyviai registruoja augalų, gyvūnų ir grybų stebėjimus, o bendruomenė padeda atpažinti rūšis. Duomenis galima naudoti biologinės įvairovės tyrimams."
+      },
+      "en": {
+        "title": "iNaturalist",
+        "text": "A global platform and community for nature observations: participants record plants, animals and fungi, and the community helps identify species. The data can be used in biodiversity research."
+      }
+    },
+    {
+      "name": "CitSci",
+      "logo": "",
+      "scope": "global",
+      "url": "https://citsci.org/",
+      "lt": {
+        "title": "CitSci.org",
+        "text": "Platforma piliečių mokslo projektams kurti ir valdyti: duomenų rinkimo formoms rengti, dalyviams administruoti ir duomenims tvarkyti."
+      },
+      "en": {
+        "title": "CitSci.org",
+        "text": "A platform for creating and managing citizen science projects: building data collection forms, managing participants and handling data."
       }
     }
   ]

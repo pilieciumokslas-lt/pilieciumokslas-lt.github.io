@@ -67,6 +67,18 @@ content:
           - { name: lt, label: Lietuviškai, type: object, fields: *lang }
           - { name: en, label: English, type: object, fields: *lang }
 
+      - name: platforms
+        label: Europos platformos / European platforms
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: logo, label: Logotipas / Logo, type: image }
+          - { name: scope, label: Tipas, type: select, options: { values: [european, global] } }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
+          - { name: en, label: English, type: object, fields: *lang }
+
   - name: projects
     label: Projektai / Projects
     type: file
@@ -119,7 +131,7 @@ content:
           - { name: en, label: English, type: object, fields: *lang }
 
   - name: researchers
-    label: Tyrėjams / For researchers
+    label: Institucijos / Institutions
     type: file
     path: content/researchers.json
     format: json
@@ -154,14 +166,3 @@ content:
               - { name: url, label: Nuoroda / Link, type: string }
               - { name: lt, label: Pavadinimas lietuviškai, type: string }
               - { name: en, label: Title in English, type: string }
-      - name: platforms
-        label: Europos platformos / European platforms
-        type: object
-        list: true
-        fields:
-          - { name: name, label: Pavadinimas / Name, type: string }
-          - { name: logo, label: Logotipas / Logo, type: image }
-          - { name: scope, label: Tipas, type: select, options: { values: [european, global] } }
-          - { name: url, label: Nuoroda / Link, type: string }
-          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
-          - { name: en, label: English, type: object, fields: *lang }

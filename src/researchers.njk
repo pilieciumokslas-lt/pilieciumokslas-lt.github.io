@@ -13,7 +13,6 @@ permalink: "{{ routes.researchers[lang] }}"
 {{ pageHead(t.nav.researchers, r[lang].intro) }}
 <section class="band">
   <div class="wrap">
-    <h2>{{ r[lang].institutionsTitle }}</h2>
     <div class="grid g3">
       {% for i in r.institutions %}
       <article class="card contact">
@@ -30,23 +29,6 @@ permalink: "{{ routes.researchers[lang] }}"
       </article>
       {% endfor %}
     </div>
-  </div>
-</section>
-<section class="band tint">
-  <div class="wrap">
-    <h2>{{ r[lang].platformsTitle }}</h2>
-    {% for scope in ["european", "global"] %}
-    <h3 class="sub">{{ r[lang][scope + "Title"] }}</h3>
-    <div class="grid g3">
-      {% for p in r.platforms | where("scope", scope) %}
-      <a class="card resource platform" href="{{ p.url }}">
-        <div class="logo-box">{% if p.logo %}<img src="{{ p.logo }}" alt="" loading="lazy">{% else %}<span>{{ p.name }}</span>{% endif %}</div>
-        <h3>{{ p[lang].title }}</h3>
-        <p>{{ p[lang].text }}</p>
-      </a>
-      {% endfor %}
-    </div>
-    {% endfor %}
   </div>
 </section>
 <section class="cta">

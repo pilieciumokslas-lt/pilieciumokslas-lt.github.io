@@ -142,5 +142,13 @@
   {
     "from": "/about/",
     "to": "/apie/"
+  },
+  {
+    "from": "/tyrejams/",
+    "to": "/institucijos/"
+  },
+  {
+    "from": "/en/for-researchers/",
+    "to": "/en/institutions/"
   }
 ]

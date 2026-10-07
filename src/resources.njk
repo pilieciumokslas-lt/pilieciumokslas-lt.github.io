@@ -14,9 +14,9 @@ permalink: "{{ routes.resources[lang] }}"
 <section class="band">
   <div class="wrap">
     <div class="filters" hidden>
-      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}
+      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}<a href="#platformos">{{ t.resGroups.platforms }} &darr;</a>
     </div>
-    <div class="grid g3">
+    <div class="grid g3" id="res-grid">
       {% for r in db.resources.items %}
       <a class="card resource" href="{{ r.url }}" data-cat="{{ groups[r.type] }} {{ r.language }}">
         <p class="label">{{ t.types[r.type] }} <span class="badge">{{ r.language | upper }}</span></p>
@@ -28,6 +28,23 @@ permalink: "{{ routes.resources[lang] }}"
     </div>
   </div>
 </section>
+<section class="band tint" id="platformos">
+  <div class="wrap">
+    <h2>{{ db.resources[lang].platformsTitle }}</h2>
+    {% for scope in ["european", "global"] %}
+    <h3 class="sub">{{ db.resources[lang][scope + "Title"] }}</h3>
+    <div class="grid g3">
+      {% for p in db.resources.platforms | where("scope", scope) %}
+      <a class="card resource platform" href="{{ p.url }}">
+        <div class="logo-box">{% if p.logo %}<img src="{{ p.logo }}" alt="" loading="lazy">{% else %}<span>{{ p.name }}</span>{% endif %}</div>
+        <h3>{{ p[lang].title }}</h3>
+        <p>{{ p[lang].text }}</p>
+      </a>
+      {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
 <script>
   const box = document.querySelector(".filters");
   box.hidden = false;
@@ -35,6 +52,6 @@ permalink: "{{ routes.resources[lang] }}"
     const f = e.target.dataset.filter;
     if (!f) return;
     box.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b === e.target));
-    document.querySelectorAll(".resource").forEach((c) => (c.hidden = f !== "all" && !c.dataset.cat.split(" ").includes(f)));
+    document.querySelectorAll("#res-grid .resource").forEach((c) => (c.hidden = f !== "all" && !c.dataset.cat.split(" ").includes(f)));
   });
 </script>
