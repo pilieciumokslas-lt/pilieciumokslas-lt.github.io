@@ -36,7 +36,7 @@
     },
     {
       "name": "FIDELIS",
-      "logo": "",
+      "logo": "/assets/uploads/logos/fidelis.png",
       "topic": "institutions",
       "scope": "international",
       "url": "https://eden-fidelis.eu/news/fidelis-mentoring-peer-peer-programme-first-cohort-mentors-announced",
@@ -49,7 +49,7 @@
     },
     {
       "name": "COPOS",
-      "logo": "",
+      "logo": "/assets/uploads/logos/copos.png",
       "topic": "nature",
       "scope": "national",
       "url": "https://www.blueactionbanos.eu/",
