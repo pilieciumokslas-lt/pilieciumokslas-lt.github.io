@@ -112,6 +112,58 @@
       "en": {
         "text": "Scientists from the association are part of the RIECS-Concept consortium, which works to design a European Research Infrastructure for Excellence in Citizen Science. They contribute to the project's communication and dissemination activities, helping connect research communities and promote the integration of citizen science resources, data, and practices across Europe."
       }
+    },
+    {
+      "name": "RECONECT",
+      "logo": "",
+      "topic": "society",
+      "scope": "national",
+      "url": "https://ktu.edu/projects/visuomenes-ir-bendruomeniu-atsparumo-stiprinimas-per-pilieciu-moksla-ir-pilietiskuma-reconect/",
+      "lt": {
+        "text": "Lietuvos mokslo tarybos finansuotas Kauno technologijos universiteto projektas „Visuomenės ir bendruomenių atsparumo stiprinimas per piliečių mokslą ir pilietiškumą“ (2023-2026). Atlikta gyventojų apklausa ir interviu, surengti susitikimai su savivaldybių administracijomis ir gyvosios laboratorijos, parengtos rekomendacijos Lietuvos savivaldybėms. Projektui vadovavo asociacijos steigėja prof. dr. Eglė Butkevičienė."
+      },
+      "en": {
+        "text": "\"Strengthening the resilience of societies and communities through citizen science and citizenship\", a Kaunas University of Technology project funded by the Research Council of Lithuania (2023-2026). It included a survey and interviews, meetings with municipal administrations, Living Labs and recommendations for Lithuanian municipalities. The project was led by Prof. Dr. Eglė Butkevičienė, a founding member of the association."
+      }
+    },
+    {
+      "name": "ProBleu",
+      "logo": "",
+      "topic": "nature",
+      "scope": "international",
+      "url": "https://cordis.europa.eu/project/id/101113001",
+      "lt": {
+        "text": "ES projektas (2023-2026), plėtęs Europos mėlynųjų mokyklų tinklą ir piliečių mokslo metodais stiprinęs mokyklų bendruomenių raštingumą vandenynų ir vandens srityje. Projektas prisidėjo prie ES misijos „Atkurti mūsų vandenyną ir vandenis iki 2030 m.“, vienas iš partnerių buvo Kauno technologijos universitetas. Projekte dalyvavo asociacijos steigėja prof. dr. Eglė Butkevičienė."
+      },
+      "en": {
+        "text": "An EU project (2023-2026) that expanded the Network of European Blue Schools and used citizen science to improve ocean and water literacy in school communities. It contributed to the EU Mission \"Restore our Ocean and Waters by 2030\", with Kaunas University of Technology as one of the partners. Prof. Dr. Eglė Butkevičienė, a founding member of the association, took part in the project."
+      }
+    },
+    {
+      "name": "ENHANCE",
+      "logo": "",
+      "topic": "institutions",
+      "scope": "international",
+      "url": "https://en.ktu.edu/projects/empowering-higher-education-through-citizen-science-and-innovative-future-oriented-learning-strategies-enhanse/",
+      "lt": {
+        "text": "Programos „Erasmus+“ projektas „Empowering Higher Education Through Citizen Social Science“. Europos universitetai, tarp jų Kauno technologijos universitetas, stiprino tyrėjų gebėjimus įtraukti piliečius į tyrimus ir taikė ateities dirbtuvių metodą visuomenės iššūkiams aptarti. Projekte dalyvavo asociacijos steigėja prof. dr. Eglė Butkevičienė."
+      },
+      "en": {
+        "text": "The Erasmus+ project \"Empowering Higher Education Through Citizen Social Science\". European universities, including Kaunas University of Technology, built researchers' skills for involving citizens in research and used the futures workshop method to discuss societal challenges. Prof. Dr. Eglė Butkevičienė, a founding member of the association, took part in the project."
+      }
+    },
+    {
+      "name": "CATALISI",
+      "logo": "",
+      "topic": "institutions",
+      "scope": "international",
+      "url": "https://catalisi.eu/ktu/",
+      "lt": {
+        "text": "Projektas, padedantis universitetams įgyvendinti institucinius pokyčius. Kauno technologijos universitetas jame stiprino tyrėjų karjeras ir visuomenės įtraukimą į mokslinius tyrimus: plėtojo piliečių mokslą taikydamas gyvųjų laboratorijų metodus ir parengė visuomenės įtraukimo veiksmų planą. Projekte dalyvavo asociacijos steigėja prof. dr. Eglė Butkevičienė."
+      },
+      "en": {
+        "text": "A project supporting institutional change at universities. Within it, Kaunas University of Technology strengthened research careers and public engagement in research: it advanced citizen science through living-lab approaches and prepared a roadmap for public engagement. Prof. Dr. Eglė Butkevičienė, a founding member of the association, took part in the project."
+      }
     }
   ]
 }

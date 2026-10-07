@@ -43,18 +43,6 @@
       }
     },
     {
-      "name": "RECONECT",
-      "scope": "national",
-      "topic": "society",
-      "url": "https://ktu.edu/projects/visuomenes-ir-bendruomeniu-atsparumo-stiprinimas-per-pilieciu-moksla-ir-pilietiskuma-reconect/",
-      "lt": {
-        "text": "Kauno technologijos universiteto koordinuojamas projektas „Visuomenės ir bendruomenių atsparumo stiprinimas per piliečių mokslą ir pilietiškumą“, finansuojamas Lietuvos mokslo tarybos (2023-2026). Projekto vadovė Eglė Butkevičienė."
-      },
-      "en": {
-        "text": "\"Strengthening public and community resilience through citizen science and civic engagement\", a project coordinated by Kaunas University of Technology and funded by the Research Council of Lithuania (2023-2026). Led by Eglė Butkevičienė."
-      }
-    },
-    {
       "name": "Vis.DuomUo",
       "scope": "national",
       "topic": "institutions",
