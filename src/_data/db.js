@@ -52,8 +52,28 @@ export default function () {
   // The Initiatives page lists the association's own projects together with all other initiatives, sorted by name in the template.
   const allInitiatives = [...projects.items.map((p) => ({ ...p, ours: true })), ...initiatives.items];
 
+  // The Resources page shows everything as one list of cards: publications, tools, articles,
+  // institutional contacts and platforms. Each card belongs to one group, used by the tiles on top.
+  const res = read("resources");
+  const inst = read("researchers");
+  const groupOf = { publication: "pub", report: "pub", tool: "tools", course: "tools", collection: "tools", media: "media" };
+  const order = ["tools", "institutions", "platforms", "pub", "media"];
+  const allResources = [
+    ...res.items.map((r) => ({ group: groupOf[r.type] || "tools", type: r.type, language: r.language, url: r.url, source: r.source, logo: "", lt: r.lt, en: r.en })),
+    ...inst.institutions.map((i) => ({
+      group: "institutions", type: "institution", language: "lt", url: i.url, logo: i.logo, email: i.email, phone: i.phone, links: i.links,
+      lt: { title: i.name, source: i.lt.unit, text: i.lt.text }, en: { title: i.name, source: i.en.unit, text: i.en.text },
+    })),
+    {
+      group: "institutions", type: "institution", language: "", url: "", logo: "", email: read("about").email, note: true,
+      lt: { title: inst.lt.missingTitle, text: inst.lt.missingText }, en: { title: inst.en.missingTitle, text: inst.en.missingText },
+    },
+    ...res.platforms.map((p) => ({ group: "platforms", type: "platform", language: "en", url: p.url, logo: p.logo, name: p.name, lt: p.lt, en: p.en })),
+  ].sort((a, b) => order.indexOf(a.group) - order.indexOf(b.group));
+
   return {
     news,
+    allResources,
     newsPages,
     newsIndex,
     redirects: read("redirects"),

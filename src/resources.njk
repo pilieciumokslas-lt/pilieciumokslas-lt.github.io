@@ -9,72 +9,59 @@ permalink: "{{ routes.resources[lang] }}"
 ---
 {%- from "macros.njk" import pageHead -%}
 {%- set t = i18n[lang] -%}
-{%- set groups = { publication: "pub", report: "pub", tool: "tools", course: "tools", collection: "tools", media: "media" } -%}
+{%- set all = db.allResources -%}
 {{ pageHead(t.nav.resources, db.resources[lang].intro) }}
 <section class="band">
   <div class="wrap">
-    <div class="filters" hidden>
-      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}<a href="#institucijos">{{ t.resGroups.institutions }} &darr;</a><a href="#platformos">{{ t.resGroups.platforms }} &darr;</a>
-    </div>
-    <div class="grid g3" id="res-grid">
-      {% for r in db.resources.items %}
-      <a class="card resource" href="{{ r.url }}" data-cat="{{ groups[r.type] }} {{ r.language }}">
-        <p class="label">{{ t.types[r.type] }} <span class="badge">{{ r.language | upper }}</span></p>
-        <h3>{{ r[lang].title }}</h3>
-        <p class="src">{{ r.source }}</p>
-        <p>{{ r[lang].text }}</p>
-      </a>
+    <div class="topics res-tiles">
+      <button type="button" class="topic t-all" data-filter="all" aria-pressed="true"><span class="count">{{ all.length - 1 }}</span>{{ t.resGroups.all }}<span class="desc">{{ t.resDesc.all }}</span></button>
+      {% for g in ["tools", "institutions", "platforms", "pub", "media"] %}
+      <button type="button" class="topic g-{{ g }}" data-filter="{{ g }}" aria-pressed="false"><span class="count">{{ (all | where("group", g)).length - (1 if g == "institutions" else 0) }}</span>{{ t.resGroups[g] }}<span class="desc">{{ t.resDesc[g] }}</span></button>
       {% endfor %}
     </div>
-  </div>
-</section>
-<section class="band" id="institucijos">
-  <div class="wrap">
-    <h2>{{ t.institutionsTitle }}</h2>
-    <p class="lead section-lead">{{ db.researchers[lang].intro }}</p>
-    <div class="grid g3">
-      {% for i in db.researchers.institutions %}
-      <article class="card contact">
-        {% if i.logo %}<div class="logo-box"><img src="{{ i.logo }}" alt="" loading="lazy"></div>{% endif %}
-        <h3>{{ i.name }}</h3>
-        <p class="unit">{{ i[lang].unit }}</p>
-        <p>{{ i[lang].text }}</p>
+    <p class="res-tools"><label><input type="checkbox" id="only-lt"> {{ t.onlyLt }}</label></p>
+    <div class="grid g3" id="res-grid">
+      {% for r in all %}
+      <article class="card rcard g-{{ r.group }}{% if r.note %} rnote{% endif %}" data-cat="{{ r.group }}" data-lang="{{ r.language }}">
+        <p class="label">{{ t.resGroups[r.group] if r.note else t.types[r.type] }}{% if r.language and r.group != "institutions" and r.group != "platforms" %} <span class="badge">{{ r.language | upper }}</span>{% endif %}</p>
+        {% if r.logo %}<div class="logo-box"><img src="{{ r.logo }}" alt="" loading="lazy"></div>{% endif %}
+        <h3>{% if r.url %}<a href="{{ r.url }}">{{ r[lang].title }}</a>{% else %}{{ r[lang].title }}{% endif %}</h3>
+        {% if r.source or r[lang].source %}<p class="src">{{ r[lang].source or r.source }}</p>{% endif %}
+        <p class="rtext">{{ r[lang].text }}</p>
+        {% if r.email or r.phone or r.links %}
         <ul class="reach">
-          {% if i.email %}<li><a href="mailto:{{ i.email }}">{{ i.email }}</a></li>{% endif %}
-          {% if i.phone %}<li>{{ i.phone }}</li>{% endif %}
-          {% for l in i.links %}<li><a href="{{ l.url }}">{{ l[lang] }}</a></li>{% endfor %}
+          {% if r.email %}<li><a href="mailto:{{ r.email }}">{{ r.email }}</a></li>{% endif %}
+          {% if r.phone %}<li>{{ r.phone }}</li>{% endif %}
+          {% for l in r.links %}<li><a href="{{ l.url }}">{{ l[lang] }}</a></li>{% endfor %}
         </ul>
-        <a class="more" href="{{ i.url }}">{{ t.more }}</a>
+        {% endif %}
+        {% if r.url %}<a class="more" href="{{ r.url }}">{{ t.open }}</a>{% endif %}
       </article>
       {% endfor %}
     </div>
-    <p class="missing"><strong>{{ db.researchers[lang].missingTitle }}</strong> {{ db.researchers[lang].missingText }} <a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
-  </div>
-</section>
-<section class="band tint" id="platformos">
-  <div class="wrap">
-    <h2>{{ db.resources[lang].platformsTitle }}</h2>
-    {% for scope in ["european", "global"] %}
-    <h3 class="sub">{{ db.resources[lang][scope + "Title"] }}</h3>
-    <div class="grid g3">
-      {% for p in db.resources.platforms | where("scope", scope) %}
-      <a class="card resource platform" href="{{ p.url }}">
-        <div class="logo-box">{% if p.logo %}<img src="{{ p.logo }}" alt="" loading="lazy">{% else %}<span>{{ p.name }}</span>{% endif %}</div>
-        <h3>{{ p[lang].title }}</h3>
-        <p>{{ p[lang].text }}</p>
-      </a>
-      {% endfor %}
-    </div>
-    {% endfor %}
   </div>
 </section>
 <script>
-  const box = document.querySelector(".filters");
-  box.hidden = false;
-  box.addEventListener("click", (e) => {
-    const f = e.target.dataset.filter;
-    if (!f) return;
-    box.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b === e.target));
-    document.querySelectorAll("#res-grid .resource").forEach((c) => (c.hidden = f !== "all" && !c.dataset.cat.split(" ").includes(f)));
+  const tiles = document.querySelector(".res-tiles"), onlyLt = document.getElementById("only-lt");
+  const cards = [...document.querySelectorAll("#res-grid .rcard")];
+  // Old links such as #institucijos and #platformos open the matching group.
+  const fromHash = { "#institucijos": "institutions", "#platformos": "platforms", "#publikacijos": "pub", "#irankiai": "tools" };
+  let current = fromHash[location.hash] || "all";
+  function apply() {
+    tiles.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.filter === current));
+    cards.forEach((c) => {
+      const inGroup = current === "all" ? !c.classList.contains("rnote") : c.dataset.cat === current;
+      const inLang = !onlyLt.checked || c.dataset.lang === "lt" || c.classList.contains("rnote");
+      c.hidden = !(inGroup && inLang);
+    });
+  }
+  tiles.addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (!b) return;
+    current = b.dataset.filter;
+    apply();
   });
+  onlyLt.addEventListener("change", apply);
+  window.addEventListener("hashchange", () => { if (fromHash[location.hash]) { current = fromHash[location.hash]; apply(); } });
+  apply();
 </script>

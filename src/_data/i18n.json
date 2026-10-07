@@ -43,7 +43,9 @@
       "collection": "Rinkinys",
       "publication": "Publikacija",
       "report": "Ataskaita",
-      "media": "Straipsnis ar interviu"
+      "media": "Straipsnis ar interviu",
+      "institution": "Institucija",
+      "platform": "Platforma"
     },
     "scopes": {
       "all": "Visos",
@@ -61,13 +63,12 @@
     "allTopics": "Visos iniciatyvos",
     "ours": "Asociacijos projektas",
     "resGroups": {
-      "all": "Visi",
-      "pub": "Publikacijos",
+      "all": "Visi ištekliai",
       "tools": "Įrankiai ir mokymai",
-      "media": "Straipsniai ir interviu",
-      "lt": "Lietuvių kalba",
-      "platforms": "Platformos",
-      "institutions": "Institucijos"
+      "institutions": "Pagalba institucijose",
+      "platforms": "Platformos ir tinklai",
+      "pub": "Publikacijos",
+      "media": "Straipsniai ir interviu"
     },
     "pages": "Puslapiai",
     "newer": "Naujesnės",
@@ -78,7 +79,17 @@
     },
     "people": "Žmonės",
     "example": "Pavyzdys",
-    "institutionsTitle": "Piliečių mokslas Lietuvos mokslo institucijose"
+    "institutionsTitle": "Piliečių mokslas Lietuvos mokslo institucijose",
+    "resDesc": {
+      "all": "Viskas vienoje vietoje.",
+      "tools": "Praktinės priemonės, gairės ir kursai piliečių mokslo projektui pradėti ir vykdyti.",
+      "institutions": "Piliečių mokslo centrai ir konsultantai Lietuvos universitetuose: kur kreiptis savo institucijoje.",
+      "platforms": "Europos ir pasaulio platformos bei asociacijos projektams rasti, registruoti ir bendraminčiams sutikti.",
+      "pub": "Moksliniai straipsniai, monografijos ir ataskaitos apie piliečių mokslą Lietuvoje.",
+      "media": "Populiarūs tekstai ir pokalbiai apie piliečių mokslą."
+    },
+    "onlyLt": "Tik lietuvių kalba",
+    "contactUs": "Parašykite mums"
   },
   "en": {
     "site": "Lithuanian Citizen Science Association",
@@ -124,7 +135,9 @@
       "collection": "Collection",
       "publication": "Publication",
       "report": "Report",
-      "media": "Article or interview"
+      "media": "Article or interview",
+      "institution": "Institution",
+      "platform": "Platform"
     },
     "scopes": {
       "all": "All",
@@ -142,13 +155,12 @@
     "allTopics": "All initiatives",
     "ours": "Association project",
     "resGroups": {
-      "all": "All",
-      "pub": "Publications",
+      "all": "All resources",
       "tools": "Tools and training",
-      "media": "Articles and interviews",
-      "lt": "In Lithuanian",
-      "platforms": "Platforms",
-      "institutions": "Institutions"
+      "institutions": "Support at institutions",
+      "platforms": "Platforms and networks",
+      "pub": "Publications",
+      "media": "Articles and interviews"
     },
     "pages": "Pages",
     "newer": "Newer",
@@ -160,6 +172,16 @@
     },
     "people": "People",
     "example": "Example",
-    "institutionsTitle": "Citizen science at Lithuanian research institutions"
+    "institutionsTitle": "Citizen science at Lithuanian research institutions",
+    "resDesc": {
+      "all": "Everything in one place.",
+      "tools": "Practical tools, guidelines and courses for starting and running a citizen science project.",
+      "institutions": "Citizen science centres and advisers at Lithuanian universities: who to contact at your institution.",
+      "platforms": "European and global platforms and associations for finding and registering projects and meeting peers.",
+      "pub": "Research articles, monographs and reports on citizen science in Lithuania.",
+      "media": "Accessible texts and conversations about citizen science."
+    },
+    "onlyLt": "In Lithuanian only",
+    "contactUs": "Write to us"
   }
 }
