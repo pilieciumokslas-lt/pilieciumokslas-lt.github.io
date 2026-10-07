@@ -20,8 +20,8 @@
       }
     },
     {
-      "name": "Kauno rajono piliečių asamblėja",
-      "logo": "",
+      "name": "Kauno rajono piliečių asamblėjos vertinimas",
+      "logo": "/assets/uploads/logos/kauno-rajonas.png",
       "topic": "society",
       "scope": "national",
       "url": "/naujienos/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/",
@@ -29,7 +29,7 @@
         "text": "Asociacija stebi ir vertina, kaip piliečių įsitraukimas veikia sprendimų priėmimą Kauno rajone. Asamblėjoje atsitiktinai atrinkti gyventojai svarsto, kaip pasiekti, kad profilaktinėmis sveikatos priežiūros paslaugomis pasinaudotų visos gyventojų grupės. Projektą įgyvendina Kauno rajono savivaldybės administracija kartu su Nacionaline NVO koalicija ir partneriais, finansuoja Šveicarijos ir Lietuvos bendradarbiavimo programa „Pilietinis įsitraukimas“."
       },
       "en": {
-        "name": "Kaunas District citizens' assembly",
+        "name": "Evaluation of the Kaunas District citizens' assembly",
         "url": "/en/news/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/",
         "text": "The association observes and evaluates how citizen engagement affects decision-making in Kaunas District. In the assembly, randomly selected residents discuss how to make sure that all groups of residents use preventive healthcare services. The project is implemented by the Kaunas District Municipality Administration together with the National NGO Coalition and partners, and funded by the Swiss-Lithuanian Cooperation Programme \"Civic Engagement\"."
       }
