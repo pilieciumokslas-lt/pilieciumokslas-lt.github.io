@@ -21,7 +21,7 @@
       <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav">
         {%- for k in ["news", "projects", "initiatives", "resources", "researchers", "services", "about"] %}
-        <a href="{{ routes[k][lang] }}"{% if key == k %} aria-current="page"{% endif %}>{{ t.nav[k] }}</a>
+        <a href="{{ routes[k][lang] }}"{% if key == k %} aria-current="page"{% endif %}>{% if t.navShort[k] %}<span class="n-short" aria-hidden="true">{{ t.navShort[k] }}</span><span class="n-full">{{ t.nav[k] }}</span>{% else %}{{ t.nav[k] }}{% endif %}</a>
         {%- endfor %}
         <span class="lang">
           <a href="{{ page.url if lang == 'lt' else alt }}" lang="lt"{% if lang == "lt" %} aria-current="true"{% endif %}>LT</a>

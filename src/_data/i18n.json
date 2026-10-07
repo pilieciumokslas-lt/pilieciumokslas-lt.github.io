@@ -5,10 +5,10 @@
     "nav": {
       "news": "Naujienos",
       "projects": "Mūsų projektai",
-      "resources": "Ištekliai",
+      "resources": "Ištekliai mokslininkams ir piliečiams",
       "services": "Paslaugos",
-      "about": "Apie mus",
-      "initiatives": "Iniciatyvos",
+      "about": "Apie asociaciją",
+      "initiatives": "Piliečių mokslo iniciatyvos",
       "researchers": "Tyrėjams"
     },
     "skip": "Pereiti prie turinio",
@@ -69,7 +69,11 @@
     },
     "pages": "Puslapiai",
     "newer": "Naujesnės",
-    "older": "Senesnės"
+    "older": "Senesnės",
+    "navShort": {
+      "initiatives": "Iniciatyvos",
+      "resources": "Ištekliai"
+    }
   },
   "en": {
     "site": "Lithuanian Citizen Science Association",
@@ -77,10 +81,10 @@
     "nav": {
       "news": "News",
       "projects": "Our projects",
-      "resources": "Resources",
+      "resources": "Resources for researchers and citizens",
       "services": "Services",
-      "about": "About",
-      "initiatives": "Initiatives",
+      "about": "About the association",
+      "initiatives": "Citizen science initiatives",
       "researchers": "For researchers"
     },
     "skip": "Skip to content",
@@ -141,6 +145,11 @@
     },
     "pages": "Pages",
     "newer": "Newer",
-    "older": "Older"
+    "older": "Older",
+    "navShort": {
+      "initiatives": "Initiatives",
+      "resources": "Resources",
+      "about": "About"
+    }
   }
 }
