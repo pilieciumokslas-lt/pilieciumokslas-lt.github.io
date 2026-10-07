@@ -128,7 +128,7 @@
     },
     {
       "name": "ProBleu",
-      "logo": "",
+      "logo": "/assets/uploads/logos/probleu.png",
       "topic": "nature",
       "scope": "international",
       "url": "https://cordis.europa.eu/project/id/101113001",
@@ -154,7 +154,7 @@
     },
     {
       "name": "CATALISI",
-      "logo": "",
+      "logo": "/assets/uploads/logos/catalisi.png",
       "topic": "institutions",
       "scope": "international",
       "url": "https://catalisi.eu/ktu/",
