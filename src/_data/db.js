@@ -49,7 +49,7 @@ export default function () {
 
   const projects = read("projects");
   const initiatives = read("initiatives");
-  // The Initiatives page lists the association's own projects first, then everything else.
+  // The Initiatives page lists the association's own projects together with all other initiatives, sorted by name in the template.
   const allInitiatives = [...projects.items.map((p) => ({ ...p, ours: true })), ...initiatives.items];
 
   return {

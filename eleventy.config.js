@@ -48,6 +48,9 @@ export default function (cfg) {
   cfg.addFilter("initials", (name) =>
     (name || "").replace(/^(prof\.|dr\.|doc\.)\s*/gi, "").replace(/^(prof\.|dr\.|doc\.)\s*/gi, "").split(/\s+/).map((w) => w[0]).join("").slice(0, 2).toUpperCase()
   );
+  cfg.addFilter("byName", (arr, lang) =>
+    [...(arr || [])].sort((a, b) => ((a[lang] && a[lang].name) || a.name).localeCompare((b[lang] && b[lang].name) || b.name, lang, { sensitivity: "base" }))
+  );
   cfg.addFilter("take", (arr, n) => (arr || []).slice(0, n));
   cfg.addFilter("where", (arr, key, val) => (arr || []).filter((x) => x[key] === val));
   cfg.addFilter("inLang", (arr, lang) => (arr || []).filter((x) => x[lang] && x[lang].title));

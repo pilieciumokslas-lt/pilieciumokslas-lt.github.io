@@ -20,7 +20,7 @@ permalink: "{{ routes.initiatives[lang] }}"
       {% endfor %}
     </div>
     <div class="grid g3">
-      {% for i in all %}
+      {% for i in all | byName(lang) %}
       <a class="card initiative t-{{ i.topic }}" href="{{ i[lang].url or i.url or routes.projects[lang] }}" data-cat="{{ i.topic }}">
         <p class="label">{{ t.topics[i.topic] }}</p>
         <h3>{{ i[lang].name or i.name }}</h3>
