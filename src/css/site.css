@@ -241,3 +241,5 @@ p { margin: 0 0 1em; }
 .platform { background: var(--paper); border: 1.5px solid var(--line); }
 .platform:hover { border-color: var(--blue); }
 .band.tint .sub:first-of-type { margin-top: 0; }
+
+.center { text-align: center; margin: 48px 0 0; }
