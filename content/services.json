@@ -8,7 +8,7 @@
   "items": [
     {
       "lt": {
-        "title": "Piliečių mokslo projektų kūrimas ir konsultacijos",
+        "title": "Piliečių mokslo projektų rengimas ir konsultacijos",
         "text": "Padedame tyrėjams, institucijoms ir bendruomenėms pradėti ir valdyti piliečių mokslo projektus. Konsultuojame dėl metodikos, duomenų rinkimo, analizės ir projekto valdymo.",
         "example": "COPOS: kartu su Kuršių nerijos nacionalinio parko direkcija kuriame piliečių mokslu grįstą pajūrio ir kopų būklės vertinimo sistemą."
       },
@@ -23,14 +23,14 @@
       "lt": {
         "title": "Piliečių įtraukimas į mokslą ir politikos formavimą",
         "text": "Kuriame ir įgyvendiname procesus, kurie įtraukia piliečius į sprendimų priėmimą ir politikos formavimą. Padedame planuoti ir organizuoti piliečių asamblėjas, viešas konsultacijas ir diskusijas.",
-        "example": "Kauno rajono piliečių asamblėja: stebime ir vertiname, kaip gyventojų įsitraukimas veikia sprendimų priėmimą."
+        "example": "Kauno rajono piliečių asamblėjos vertinimas: vertiname, kaip gyventojų įsitraukimas veikia sprendimų priėmimą."
       },
       "en": {
         "title": "Citizen engagement in science and policy",
         "text": "We design and implement processes that involve citizens in decision-making and policy development. We assist in planning and organizing citizens' assemblies, public consultations, and policy dialogues.",
-        "example": "Kaunas District citizens' assembly: we observe and evaluate how residents' engagement affects decision-making."
+        "example": "Evaluation of the Kaunas District citizens' assembly: we evaluate how residents' engagement affects decision-making."
       },
-      "example_url": "/naujienos/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/"
+      "example_url": "/projektai/"
     },
     {
       "lt": {

@@ -272,3 +272,5 @@ p { margin: 0 0 1em; }
 .plinks a { font: 600 0.9rem var(--display); }
 .services .example { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.95rem; color: var(--ink); }
 .services .example a { white-space: nowrap; font-weight: 600; }
+.person .avatar { width: 132px; height: 132px; }
+.person img.avatar { background: var(--mist); filter: grayscale(1); }

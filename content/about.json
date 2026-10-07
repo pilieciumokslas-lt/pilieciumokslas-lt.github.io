@@ -26,7 +26,7 @@
   "people": [
     {
       "name": "Dr. Monika Mačiulienė",
-      "photo": "",
+      "photo": "/assets/uploads/people/monika-maciuliene.jpg",
       "links": [
         {
           "label": "ORCID",
@@ -39,17 +39,21 @@
       ],
       "lt": {
         "role": "Steigėja ir vadovė",
-        "bio": "Vilniaus Gedimino technikos universiteto (VILNIUS TECH) vyresnioji mokslo darbuotoja. Tyrinėja dalyvaujamuosius mokslo metodus, piliečių ir atvirąjį mokslą."
+        "bio": "Tyrinėja dalyvaujamuosius mokslo metodus, piliečių ir atvirąjį mokslą."
       },
       "en": {
         "role": "Founder and Director",
-        "bio": "Senior researcher at Vilnius Gediminas Technical University (VILNIUS TECH). She studies participatory research methods, citizen science and open science."
+        "bio": "She studies participatory research methods, citizen science and open science."
       }
     },
     {
       "name": "Prof. dr. Eglė Butkevičienė",
-      "photo": "",
+      "photo": "/assets/uploads/people/egle-butkeviciene.jpg",
       "links": [
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5631-360X"
+        },
         {
           "label": "LinkedIn",
           "url": "https://www.linkedin.com/in/eglebutkeviciene/"
@@ -66,15 +70,20 @@
     },
     {
       "name": "Dr. Diana Marčiulynienė",
-      "photo": "",
-      "links": [],
+      "photo": "/assets/uploads/people/diana-marciulyniene.jpg",
+      "links": [
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-0501-6680"
+        }
+      ],
       "lt": {
         "role": "Steigėja",
-        "bio": ""
+        "bio": "Lietuvos agrarinių ir miškų mokslų centro (LAMMC) Miškų instituto vyriausioji mokslo darbuotoja. Tiria miško ir miesto medžių sveikatą, kenkėjus ir ligas, taiko piliečių mokslo metodus medžių sveikatai ir biologinei įvairovei saugoti."
       },
       "en": {
         "role": "Founding member",
-        "bio": ""
+        "bio": "Chief Researcher at the Institute of Forestry of the Lithuanian Research Centre for Agriculture and Forestry (LAMMC). She studies forest and urban tree health, pests and diseases, and uses citizen science approaches for tree health and biodiversity conservation."
       }
     }
   ]
