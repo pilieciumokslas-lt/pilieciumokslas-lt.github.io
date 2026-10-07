@@ -20,6 +20,7 @@
   "institutions": [
     {
       "name": "Vilniaus universitetas",
+      "logo": "/assets/uploads/logos/vu-library.png",
       "url": "https://biblioteka.vu.lt/mokslinei-veiklai/pilieciu-mokslas",
       "phone": "",
       "email": "",
@@ -46,6 +47,7 @@
     },
     {
       "name": "VILNIUS TECH",
+      "logo": "/assets/uploads/logos/vilnius-tech.png",
       "url": "https://vilniustech.lt/kurybiniu-industriju-fakultetas/fakulteto-padaliniai/pilieciu-mokslo-centras/",
       "phone": "(0 5) 251 2414",
       "email": "",
@@ -72,6 +74,7 @@
     },
     {
       "name": "Kauno technologijos universitetas",
+      "logo": "/assets/uploads/logos/ktu.svg",
       "url": "https://biblioteka.ktu.edu/pilieciu-mokslas/",
       "phone": "+370 (37) 300 652",
       "email": "pilieciumokslas@ktu.lt",
@@ -95,6 +98,7 @@
   "platforms": [
     {
       "name": "ECSA",
+      "logo": "/assets/uploads/logos/ecsa.png",
       "scope": "european",
       "url": "https://www.ecsa.ngo/",
       "lt": {
@@ -108,6 +112,7 @@
     },
     {
       "name": "European Citizen Science Platform",
+      "logo": "/assets/uploads/logos/ecs-platform.png",
       "scope": "european",
       "url": "https://citizenscience.eu/",
       "lt": {
@@ -121,6 +126,7 @@
     },
     {
       "name": "CSGP",
+      "logo": "/assets/uploads/logos/csgp.jpg",
       "scope": "global",
       "url": "https://citizenscienceglobal.org/",
       "lt": {
@@ -134,6 +140,7 @@
     },
     {
       "name": "AAPS",
+      "logo": "/assets/uploads/logos/aaps.jpg",
       "scope": "global",
       "url": "https://participatorysciences.org/",
       "lt": {
@@ -147,6 +154,7 @@
     },
     {
       "name": "Zooniverse",
+      "logo": "/assets/uploads/logos/zooniverse.png",
       "scope": "global",
       "url": "https://www.zooniverse.org/",
       "lt": {
@@ -160,6 +168,7 @@
     },
     {
       "name": "SciStarter",
+      "logo": "/assets/uploads/logos/scistarter.svg",
       "scope": "global",
       "url": "https://scistarter.org/",
       "lt": {
@@ -173,6 +182,7 @@
     },
     {
       "name": "iNaturalist",
+      "logo": "/assets/uploads/logos/inaturalist.svg",
       "scope": "global",
       "url": "https://www.inaturalist.org/",
       "lt": {
@@ -186,6 +196,7 @@
     },
     {
       "name": "CitSci",
+      "logo": "",
       "scope": "global",
       "url": "https://citsci.org/",
       "lt": {

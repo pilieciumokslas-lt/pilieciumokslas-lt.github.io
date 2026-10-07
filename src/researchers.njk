@@ -17,6 +17,7 @@ permalink: "{{ routes.researchers[lang] }}"
     <div class="grid g3">
       {% for i in r.institutions %}
       <article class="card contact">
+        {% if i.logo %}<div class="logo-box"><img src="{{ i.logo }}" alt="" loading="lazy"></div>{% endif %}
         <h3>{{ i.name }}</h3>
         <p class="unit">{{ i[lang].unit }}</p>
         <p>{{ i[lang].text }}</p>
@@ -39,6 +40,7 @@ permalink: "{{ routes.researchers[lang] }}"
     <div class="grid g3">
       {% for p in r.platforms | where("scope", scope) %}
       <a class="card resource platform" href="{{ p.url }}">
+        <div class="logo-box">{% if p.logo %}<img src="{{ p.logo }}" alt="" loading="lazy">{% else %}<span>{{ p.name }}</span>{% endif %}</div>
         <h3>{{ p[lang].title }}</h3>
         <p>{{ p[lang].text }}</p>
       </a>

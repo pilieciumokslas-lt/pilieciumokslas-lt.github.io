@@ -243,3 +243,10 @@ p { margin: 0 0 1em; }
 .band.tint .sub:first-of-type { margin-top: 0; }
 
 .center { text-align: center; margin: 48px 0 0; }
+
+.logo-box { height: 64px; display: flex; align-items: center; margin-bottom: 20px; }
+.logo-box img { max-height: 100%; max-width: min(200px, 100%); width: auto; height: auto; object-fit: contain; }
+.logo-box span { font: 700 1.5rem var(--display); letter-spacing: -0.03em; color: var(--ink); }
+.platform:hover { background: var(--paper); color: var(--ink); }
+.platform:hover p { color: var(--muted); }
+.platform:hover h3 { color: var(--blue); }
