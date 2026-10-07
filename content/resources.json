@@ -365,6 +365,20 @@
     {
       "type": "tool",
       "language": "en",
+      "source": "Labenne, 2025 / European Citizen Science",
+      "url": "https://doi.org/10.5281/zenodo.15148118",
+      "lt": {
+        "title": "Įsivertinimo įrankis: kiek piliečių mokslas įsitvirtinęs jūsų organizacijoje",
+        "text": "„Excel“ formos įrankis organizacijoms (mokslo institucijoms, bibliotekoms, muziejams, NVO, įmonėms) įsivertinti, kiek piliečių mokslas yra jų veiklos dalis. Vertinamos keturios sritys pagal projekto TIME4CS, kuriame dalyvavo ir Kauno technologijos universitetas, modelį: tyrimai, švietimas ir informuotumas, pagalbos ištekliai ir infrastruktūra, politika ir vertinimas. Užpildžius iškart matomas rezultatas."
+      },
+      "en": {
+        "title": "Self-assessment Tool for Institutional Changes and Impact",
+        "text": "An Excel-based tool for organisations (research organisations, libraries, museums, NGOs, companies) to assess how far citizen science is embedded in their work. It covers four areas from the framework of the TIME4CS project, in which Kaunas University of Technology also took part: research, education and awareness, support resources and infrastructure, policy and assessment. Results appear as soon as it is filled in."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "en",
       "source": "Mačiulienė, 2026 / FIDELIS",
       "url": "/assets/uploads/docs/fidelis-sp3-handout.pdf",
       "lt": {
