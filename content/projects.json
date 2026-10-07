@@ -7,16 +7,16 @@
   },
   "items": [
     {
-      "name": "CLIMAS",
-      "logo": "/assets/uploads/logos/climas.png",
-      "topic": "society",
-      "scope": "international",
-      "url": "https://www.climas-project.eu/",
+      "name": "COPOS",
+      "logo": "/assets/uploads/logos/copos.png",
+      "topic": "nature",
+      "scope": "national",
+      "url": "https://www.blueactionbanos.eu/",
       "lt": {
-        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) yra programos „Europos horizontas“ projektas, kuriame kartu su suinteresuotosiomis šalimis, taikant vertybėmis grįstus metodus, dizaino mąstymą ir piliečių mokslą, sukurtas prisitaikymo prie klimato kaitos įrankių rinkinys. Asociacija taiko CLIMAS Toolbox organizuojant klimato asamblėjas ir kitus svarstomosios demokratijos procesus."
+        "text": "COPOS (Community Observation and Protection of Shoreline Systems) yra bendruomenės veiksmų projektas Kuršių nerijoje, finansuojamas pagal ES remiamo projekto BlueActionBANOS kvietimą. Projektą koordinuoja Kuršių nerijos nacionalinio parko direkcija, asociacija yra partnerė. Per 24 mėnesius kartu su gyventojais, moksleiviais, parko darbuotojais ir lankytojais kuriama ir išbandoma piliečių mokslu grįsta pajūrio ir kopų būklės vertinimo sistema, o bendruomenės surinkti duomenys reguliariai aptariami priimant parko valdymo sprendimus."
       },
       "en": {
-        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) is a Horizon Europe project that co-designed a climate adaptation toolbox with stakeholders, using values-based approaches, design thinking and citizen science. The association applies the CLIMAS Toolbox when organising climate assemblies and other deliberative processes."
+        "text": "COPOS (Community Observation and Protection of Shoreline Systems) is a community-led action on the Curonian Spit, funded through the open call of the EU-funded BlueActionBANOS project. It is coordinated by the Curonian Spit National Park Administration, with the association as partner. Over 24 months, residents, school pupils, park staff and visitors co-design and pilot a citizen science assessment system for the shore and dunes, and the data collected by the community is reviewed regularly as part of the Park's management decisions."
       }
     },
     {
@@ -48,16 +48,16 @@
       }
     },
     {
-      "name": "COPOS",
-      "logo": "/assets/uploads/logos/copos.png",
-      "topic": "nature",
-      "scope": "national",
-      "url": "https://www.blueactionbanos.eu/",
+      "name": "CLIMAS",
+      "logo": "/assets/uploads/logos/climas.png",
+      "topic": "society",
+      "scope": "international",
+      "url": "https://www.climas-project.eu/",
       "lt": {
-        "text": "COPOS (Community Observation and Protection of Shoreline Systems) yra bendruomenės veiksmų projektas Kuršių nerijoje, finansuojamas pagal ES remiamo projekto BlueActionBANOS kvietimą. Projektą koordinuoja Kuršių nerijos nacionalinio parko direkcija, asociacija yra partnerė. Per 24 mėnesius kartu su gyventojais, moksleiviais, parko darbuotojais ir lankytojais kuriama ir išbandoma piliečių mokslu grįsta pajūrio ir kopų būklės vertinimo sistema, o bendruomenės surinkti duomenys reguliariai aptariami priimant parko valdymo sprendimus."
+        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) yra programos „Europos horizontas“ projektas, kuriame kartu su suinteresuotosiomis šalimis, taikant vertybėmis grįstus metodus, dizaino mąstymą ir piliečių mokslą, sukurtas prisitaikymo prie klimato kaitos įrankių rinkinys. Asociacija taiko CLIMAS Toolbox organizuojant klimato asamblėjas ir kitus svarstomosios demokratijos procesus."
       },
       "en": {
-        "text": "COPOS (Community Observation and Protection of Shoreline Systems) is a community-led action on the Curonian Spit, funded through the open call of the EU-funded BlueActionBANOS project. It is coordinated by the Curonian Spit National Park Administration, with the association as partner. Over 24 months, residents, school pupils, park staff and visitors co-design and pilot a citizen science assessment system for the shore and dunes, and the data collected by the community is reviewed regularly as part of the Park's management decisions."
+        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) is a Horizon Europe project that co-designed a climate adaptation toolbox with stakeholders, using values-based approaches, design thinking and citizen science. The association applies the CLIMAS Toolbox when organising climate assemblies and other deliberative processes."
       }
     },
     {
