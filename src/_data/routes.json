@@ -26,5 +26,9 @@
   "initiatives": {
     "lt": "/iniciatyvos/",
     "en": "/en/initiatives/"
+  },
+  "researchers": {
+    "lt": "/tyrejams/",
+    "en": "/en/for-researchers/"
   }
 }

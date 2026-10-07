@@ -20,7 +20,7 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="{{ t.menu }}">
       <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span></label>
       <nav class="nav">
-        {%- for k in ["news", "projects", "initiatives", "resources", "services", "about"] %}
+        {%- for k in ["news", "projects", "initiatives", "resources", "researchers", "services", "about"] %}
         <a href="{{ routes[k][lang] }}"{% if key == k %} aria-current="page"{% endif %}>{{ t.nav[k] }}</a>
         {%- endfor %}
         <span class="lang">
@@ -41,7 +41,7 @@
         <p><a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
       </div>
       <nav>
-        {%- for k in ["news", "projects", "initiatives", "resources", "services", "about"] %}
+        {%- for k in ["news", "projects", "initiatives", "resources", "researchers", "services", "about"] %}
         <a href="{{ routes[k][lang] }}">{{ t.nav[k] }}</a>
         {%- endfor %}
       </nav>

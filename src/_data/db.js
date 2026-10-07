@@ -57,6 +57,7 @@ export default function () {
     newsPages,
     newsIndex,
     redirects: read("redirects"),
+    researchers: read("researchers"),
     home: read("home"),
     about: read("about"),
     services: read("services"),

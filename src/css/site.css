@@ -224,3 +224,16 @@ p { margin: 0 0 1em; }
 .pager .nums a { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid var(--line); }
 .pager .nums a:hover, .pager .step:hover { color: var(--blue); border-color: var(--blue); }
 .pager .nums a[aria-current] { background: var(--blue); border-color: var(--blue); color: #fff; }
+
+.contact { display: flex; flex-direction: column; background: var(--paper); border: 1.5px solid var(--line); border-top: 4px solid var(--blue); border-radius: 6px; padding: 28px; }
+.contact:nth-child(3n + 2) { border-top-color: var(--pink); }
+.contact:nth-child(3n) { border-top-color: var(--ink); }
+.contact h3 { font-size: 1.35rem; }
+.contact .unit { font: 600 0.9rem var(--display); color: var(--blue); margin: 6px 0 14px; }
+.contact p { color: var(--muted); font-size: 0.97rem; }
+.reach { list-style: none; padding: 14px 0 0; margin: 0 0 18px; border-top: 1px solid var(--line); font-size: 0.95rem; }
+.reach li { margin-bottom: 6px; }
+.contact .more { margin-top: auto; }
+.resource:hover h3 { color: #fff; }
+.cta-text { max-width: 60ch; margin: 14px 0 0; opacity: 0.85; }
+@media (min-width: 901px) and (max-width: 1240px) { .nav { gap: 14px; font-size: 0.88rem; } .brand { font-size: 1.1rem; } }

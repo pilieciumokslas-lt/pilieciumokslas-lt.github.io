@@ -1,0 +1,55 @@
+---
+layout: base.njk
+key: researchers
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.researchers[lang] }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set r = db.researchers -%}
+{{ pageHead(t.nav.researchers, r[lang].intro) }}
+<section class="band">
+  <div class="wrap">
+    <h2>{{ r[lang].institutionsTitle }}</h2>
+    <div class="grid g3">
+      {% for i in r.institutions %}
+      <article class="card contact">
+        <h3>{{ i.name }}</h3>
+        <p class="unit">{{ i[lang].unit }}</p>
+        <p>{{ i[lang].text }}</p>
+        <ul class="reach">
+          {% if i.email %}<li><a href="mailto:{{ i.email }}">{{ i.email }}</a></li>{% endif %}
+          {% if i.phone %}<li>{{ i.phone }}</li>{% endif %}
+          {% for l in i.links %}<li><a href="{{ l.url }}">{{ l[lang] }}</a></li>{% endfor %}
+        </ul>
+        <a class="more" href="{{ i.url }}">{{ t.more }}</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="band tint">
+  <div class="wrap">
+    <h2>{{ r[lang].platformsTitle }}</h2>
+    <div class="grid g2">
+      {% for p in r.platforms %}
+      <a class="card resource" href="{{ p.url }}">
+        <h3>{{ p[lang].title }}</h3>
+        <p>{{ p[lang].text }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <div>
+      <h2>{{ r[lang].missingTitle }}</h2>
+      <p class="cta-text">{{ r[lang].missingText }}</p>
+    </div>
+    <a class="btn btn-white" href="mailto:{{ db.about.email }}">{{ t.ctaBtn }}</a>
+  </div>
+</section>

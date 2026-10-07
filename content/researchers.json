@@ -1,0 +1,85 @@
+{
+  "lt": {
+    "intro": "Norite taikyti piliečių mokslo metodus savo tyrimuose? Čia rasite, kur kreiptis savo institucijoje ir kokios Europos platformos gali padėti.",
+    "institutionsTitle": "Kur kreiptis savo institucijoje",
+    "platformsTitle": "Europos platformos",
+    "missingTitle": "Jūsų institucijos sąraše nėra?",
+    "missingText": "Parašykite mums: padėsime rasti kontaktą arba pakonsultuosime patys. Jei jūsų institucijoje veikia piliečių mokslo centras ar konsultuojantis padalinys, praneškite, ir įtrauksime jį į sąrašą."
+  },
+  "en": {
+    "intro": "Want to use citizen science methods in your research? Here is who to contact at your own institution and which European platforms can help.",
+    "institutionsTitle": "Who to contact at your institution",
+    "platformsTitle": "European platforms",
+    "missingTitle": "Is your institution not listed?",
+    "missingText": "Write to us: we will help you find a contact or advise you ourselves. If your institution has a citizen science centre or an advisory unit, let us know and we will add it to the list."
+  },
+  "institutions": [
+    {
+      "name": "Vilniaus universitetas",
+      "url": "https://biblioteka.vu.lt/mokslinei-veiklai/pilieciu-mokslas",
+      "phone": "",
+      "email": "",
+      "lt": {
+        "unit": "Bibliotekos Mokslinės komunikacijos ir informacijos centras",
+        "text": "Bibliotekos svetainėje rasite piliečių mokslo principus, tipus, sėkmės istorijas ir patarimus, kaip inicijuoti piliečių mokslo veiklas. Atvirojo mokslo klausimais konsultuoja Mokslinės komunikacijos ir informacijos centro specialistai."
+      },
+      "en": {
+        "unit": "Scholarly Communication and Information Centre of the Library",
+        "text": "The library website covers the principles and types of citizen science, success stories and advice on how to start citizen science activities (in Lithuanian). Specialists of the Scholarly Communication and Information Centre advise on open science questions."
+      },
+      "links": [
+        { "url": "https://biblioteka.vu.lt/mokslinei-veiklai/pilieciu-mokslas/kaip-inicijuoti-pilieciu-mokslo-veiklas", "lt": "Kaip inicijuoti piliečių mokslo veiklas?", "en": "How to start citizen science activities (in Lithuanian)" },
+        { "url": "https://biblioteka.vu.lt/mokslinei-veiklai/kontaktai", "lt": "Konsultantų kontaktai", "en": "Contacts of the advisers" }
+      ]
+    },
+    {
+      "name": "VILNIUS TECH",
+      "url": "https://vilniustech.lt/kurybiniu-industriju-fakultetas/fakulteto-padaliniai/pilieciu-mokslo-centras/",
+      "phone": "(0 5) 251 2414",
+      "email": "",
+      "lt": {
+        "unit": "Piliečių mokslo centras (Kūrybinių industrijų fakultetas)",
+        "text": "Centras vienoje vietoje telkia mokymosi išteklius ir ekspertinę paramą VILNIUS TECH bendruomenei bei partneriams, skatina visuomenės įsitraukimą į mokslinius tyrimus ir atsakingų mokslinių tyrimų ir inovacijų (AMTI) principų sklaidą. Centro vadovė prof. dr. Aelita Skaržauskienė."
+      },
+      "en": {
+        "unit": "Citizen Science Centre (Faculty of Creative Industries)",
+        "text": "The centre brings together learning resources and expert support for the VILNIUS TECH community and partners, and promotes public engagement in research and the principles of responsible research and innovation (RRI). Head of the centre: Prof. Dr. Aelita Skaržauskienė."
+      },
+      "links": [
+        { "url": "https://vilniustech.lt/wp-content/uploads/2026/03/PIlieciu-mokslo-principai.pdf", "lt": "Piliečių mokslo principai (PDF)", "en": "Principles of citizen science (PDF, in Lithuanian)" },
+        { "url": "https://vilniustech.lt/wp-content/uploads/2026/03/Atsakingi-moksliniai-tyrimai-ir-inovacijos-praktinis-vadovas.pdf", "lt": "Atsakingi moksliniai tyrimai ir inovacijos: praktinis vadovas (PDF)", "en": "Responsible research and innovation: a practical guide (PDF, in Lithuanian)" }
+      ]
+    },
+    {
+      "name": "Kauno technologijos universitetas",
+      "url": "https://biblioteka.ktu.edu/pilieciu-mokslas/",
+      "phone": "+370 (37) 300 652",
+      "email": "pilieciumokslas@ktu.lt",
+      "lt": {
+        "unit": "Piliečių mokslo centras (KTU biblioteka)",
+        "text": "Centras informuoja universiteto bendruomenę ir visuomenę apie galimybes inicijuoti ir įgyvendinti piliečių mokslo projektus, kaupia ir skleidžia gerąją patirtį, organizuoja mokymus, susitikimus ir diskusijas."
+      },
+      "en": {
+        "unit": "Citizen Science Centre (KTU Library)",
+        "text": "The centre informs the university community and the public about ways to start and run citizen science projects, collects and shares good practice, and organises training, meetings and discussions."
+      },
+      "links": [
+        { "url": "https://biblioteka.ktu.edu/wp-content/uploads/sites/38/2024/03/KTU-pilieciu-mokslo-projektu-inicijavimo-ir-vykdymo-gaires.pdf", "lt": "Piliečių mokslo projektų inicijavimo ir įgyvendinimo gairės (PDF)", "en": "Guidelines for starting and running citizen science projects (PDF, in Lithuanian)" }
+      ]
+    }
+  ],
+  "platforms": [
+    {
+      "name": "ECSA",
+      "url": "https://www.ecsa.ngo/",
+      "lt": { "title": "Europos piliečių mokslo asociacija (ECSA)", "text": "Narystės asociacija, vienijanti piliečių mokslo tyrėjus, praktikus ir organizacijas Europoje. Veikia teminės darbo grupės, kas dvejus metus vyksta konferencija, parengti dešimt piliečių mokslo principų." },
+      "en": { "title": "European Citizen Science Association (ECSA)", "text": "A membership association bringing together citizen science researchers, practitioners and organisations in Europe. It runs thematic working groups, holds a conference every two years and authored the Ten Principles of Citizen Science." }
+    },
+    {
+      "name": "European Citizen Science Platform",
+      "url": "https://citizenscience.eu/",
+      "lt": { "title": "Europos piliečių mokslo platforma", "text": "ECSA valdoma platforma (anksčiau EU-Citizen.Science), kurioje galima rasti piliečių mokslo projektus, išteklius ir mokymosi medžiagą, taip pat užregistruoti savo projektą ar organizaciją." },
+      "en": { "title": "European Citizen Science Platform", "text": "A platform managed by ECSA (formerly EU-Citizen.Science) where you can find citizen science projects, resources and training materials, and register your own project or organisation." }
+    }
+  ]
+}

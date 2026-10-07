@@ -117,3 +117,48 @@ content:
         fields:
           - { name: lt, label: Lietuviškai, type: object, fields: *lang }
           - { name: en, label: English, type: object, fields: *lang }
+
+  - name: researchers
+    label: Tyrėjams / For researchers
+    type: file
+    path: content/researchers.json
+    format: json
+    fields:
+      - name: institutions
+        label: Institucijos / Institutions
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Institucija / Institution, type: string }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: email, label: El. paštas / Email, type: string }
+          - { name: phone, label: Telefonas / Phone, type: string }
+          - name: lt
+            label: Lietuviškai
+            type: object
+            fields:
+              - { name: unit, label: Padalinys, type: string }
+              - { name: text, label: Aprašymas, type: text }
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: unit, label: Unit, type: string }
+              - { name: text, label: Description, type: text }
+          - name: links
+            label: Papildomos nuorodos / Extra links
+            type: object
+            list: true
+            fields:
+              - { name: url, label: Nuoroda / Link, type: string }
+              - { name: lt, label: Pavadinimas lietuviškai, type: string }
+              - { name: en, label: Title in English, type: string }
+      - name: platforms
+        label: Europos platformos / European platforms
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
+          - { name: en, label: English, type: object, fields: *lang }

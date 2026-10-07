@@ -8,7 +8,8 @@
       "resources": "Ištekliai",
       "services": "Paslaugos",
       "about": "Apie mus",
-      "initiatives": "Iniciatyvos"
+      "initiatives": "Iniciatyvos",
+      "researchers": "Tyrėjams"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -79,7 +80,8 @@
       "resources": "Resources",
       "services": "Services",
       "about": "About",
-      "initiatives": "Initiatives"
+      "initiatives": "Initiatives",
+      "researchers": "For researchers"
     },
     "skip": "Skip to content",
     "menu": "Menu",
