@@ -330,6 +330,20 @@
     },
     {
       "type": "tool",
+      "language": "lt",
+      "source": "INFODEMIJA, Mykolo Romerio universitetas, 2026",
+      "url": "https://www.infodemija.lt/",
+      "lt": {
+        "title": "INFODEMIJA: mokslo auditorijų segmentai Lietuvoje",
+        "text": "Internetinė platforma, kurioje galima tyrinėti keturis Lietuvos gyventojų segmentus pagal požiūrį į mokslą ir klimato kaitą, jų profilius ir informacijos kanalus. Pateikiamos penkios komunikacijos strategijos ir 73 tarptautiniai gerosios praktikos pavyzdžiai."
+      },
+      "en": {
+        "title": "INFODEMIJA: science audience segments in Lithuania",
+        "text": "An online platform (in Lithuanian) for exploring four segments of Lithuania's population by their views on science and climate change, with their profiles and information channels. It offers five communication strategies and 73 international examples of good practice."
+      }
+    },
+    {
+      "type": "tool",
       "language": "en",
       "source": "Mačiulienė, 2026 / FIDELIS",
       "url": "/assets/uploads/docs/fidelis-sp3-handout.pdf",
