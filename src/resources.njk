@@ -14,7 +14,7 @@ permalink: "{{ routes.resources[lang] }}"
 <section class="band">
   <div class="wrap">
     <div class="filters" hidden>
-      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}<a href="#platformos">{{ t.resGroups.platforms }} &darr;</a>
+      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}<a href="#institucijos">{{ t.resGroups.institutions }} &darr;</a><a href="#platformos">{{ t.resGroups.platforms }} &darr;</a>
     </div>
     <div class="grid g3" id="res-grid">
       {% for r in db.resources.items %}
@@ -26,6 +26,29 @@ permalink: "{{ routes.resources[lang] }}"
       </a>
       {% endfor %}
     </div>
+  </div>
+</section>
+<section class="band" id="institucijos">
+  <div class="wrap">
+    <h2>{{ t.institutionsTitle }}</h2>
+    <p class="lead section-lead">{{ db.researchers[lang].intro }}</p>
+    <div class="grid g3">
+      {% for i in db.researchers.institutions %}
+      <article class="card contact">
+        {% if i.logo %}<div class="logo-box"><img src="{{ i.logo }}" alt="" loading="lazy"></div>{% endif %}
+        <h3>{{ i.name }}</h3>
+        <p class="unit">{{ i[lang].unit }}</p>
+        <p>{{ i[lang].text }}</p>
+        <ul class="reach">
+          {% if i.email %}<li><a href="mailto:{{ i.email }}">{{ i.email }}</a></li>{% endif %}
+          {% if i.phone %}<li>{{ i.phone }}</li>{% endif %}
+          {% for l in i.links %}<li><a href="{{ l.url }}">{{ l[lang] }}</a></li>{% endfor %}
+        </ul>
+        <a class="more" href="{{ i.url }}">{{ t.more }}</a>
+      </article>
+      {% endfor %}
+    </div>
+    <p class="missing"><strong>{{ db.researchers[lang].missingTitle }}</strong> {{ db.researchers[lang].missingText }} <a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
   </div>
 </section>
 <section class="band tint" id="platformos">

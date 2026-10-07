@@ -9,7 +9,6 @@
       "services": "Paslaugos",
       "about": "Apie asociaciją",
       "initiatives": "Piliečių mokslo iniciatyvos Lietuvoje",
-      "researchers": "Piliečių mokslas Lietuvos mokslo institucijose",
       "explainer": "Kas yra piliečių mokslas?"
     },
     "skip": "Pereiti prie turinio",
@@ -67,18 +66,19 @@
       "tools": "Įrankiai ir mokymai",
       "media": "Straipsniai ir interviu",
       "lt": "Lietuvių kalba",
-      "platforms": "Platformos"
+      "platforms": "Platformos",
+      "institutions": "Institucijos"
     },
     "pages": "Puslapiai",
     "newer": "Naujesnės",
     "older": "Senesnės",
     "navShort": {
       "initiatives": "Iniciatyvos",
-      "resources": "Ištekliai",
-      "researchers": "Institucijos"
+      "resources": "Ištekliai"
     },
     "people": "Žmonės",
-    "example": "Pavyzdys"
+    "example": "Pavyzdys",
+    "institutionsTitle": "Piliečių mokslas Lietuvos mokslo institucijose"
   },
   "en": {
     "site": "Lithuanian Citizen Science Association",
@@ -90,7 +90,6 @@
       "services": "Services",
       "about": "About the association",
       "initiatives": "Citizen science initiatives in Lithuania",
-      "researchers": "Citizen science at Lithuanian research institutions",
       "explainer": "What is citizen science?"
     },
     "skip": "Skip to content",
@@ -148,7 +147,8 @@
       "tools": "Tools and training",
       "media": "Articles and interviews",
       "lt": "In Lithuanian",
-      "platforms": "Platforms"
+      "platforms": "Platforms",
+      "institutions": "Institutions"
     },
     "pages": "Pages",
     "newer": "Newer",
@@ -156,10 +156,10 @@
     "navShort": {
       "initiatives": "Initiatives",
       "resources": "Resources",
-      "about": "About",
-      "researchers": "Institutions"
+      "about": "About"
     },
     "people": "People",
-    "example": "Example"
+    "example": "Example",
+    "institutionsTitle": "Citizen science at Lithuanian research institutions"
   }
 }

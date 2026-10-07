@@ -145,10 +145,18 @@
   },
   {
     "from": "/tyrejams/",
-    "to": "/institucijos/"
+    "to": "/istekliai/#institucijos"
   },
   {
     "from": "/en/for-researchers/",
-    "to": "/en/institutions/"
+    "to": "/en/resources/#institucijos"
+  },
+  {
+    "from": "/institucijos/",
+    "to": "/istekliai/#institucijos"
+  },
+  {
+    "from": "/en/institutions/",
+    "to": "/en/resources/#institucijos"
   }
 ]

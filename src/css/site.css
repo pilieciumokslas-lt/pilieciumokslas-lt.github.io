@@ -274,3 +274,8 @@ p { margin: 0 0 1em; }
 .services .example a { white-space: nowrap; font-weight: 600; }
 .person .avatar { width: 132px; height: 132px; }
 .person img.avatar { background: var(--mist); filter: grayscale(1); }
+
+.section-lead { color: var(--muted); margin: -12px 0 32px; font-size: 1.1rem; }
+.missing { margin: 36px 0 0; max-width: 75ch; color: var(--muted); }
+.missing strong { color: var(--ink); }
+#institucijos, #platformos { scroll-margin-top: 80px; }

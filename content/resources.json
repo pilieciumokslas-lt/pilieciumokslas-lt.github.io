@@ -1,12 +1,12 @@
 {
   "lt": {
-    "intro": "Publikacijos, įrankiai, mokymosi medžiaga, straipsniai ir platformos apie piliečių mokslą lietuvių ir anglų kalbomis.",
+    "intro": "Publikacijos, įrankiai, mokymosi medžiaga ir straipsniai apie piliečių mokslą, kontaktai Lietuvos mokslo institucijose ir tarptautinės platformos.",
     "platformsTitle": "Europos ir pasaulio platformos",
     "europeanTitle": "Europa",
     "globalTitle": "Pasaulis"
   },
   "en": {
-    "intro": "Publications, tools, learning materials, articles and platforms on citizen science, in Lithuanian and English.",
+    "intro": "Publications, tools, learning materials and articles on citizen science, contacts at Lithuanian research institutions and international platforms.",
     "platformsTitle": "European and global platforms",
     "europeanTitle": "Europe",
     "globalTitle": "Global"
