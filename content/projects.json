@@ -1,0 +1,116 @@
+{
+  "lt": {
+    "intro": "Asociacija dalyvauja nacionaliniuose ir tarptautiniuose projektuose, skatinančiuose piliečių mokslą, visuomenės įtraukimą ir demokratines inovacijas. Kuriame įtraukių tyrimų įrankius ir metodus, organizuojame piliečių asamblėjas, stipriname mokslininkų, institucijų ir bendruomenių bendradarbiavimą."
+  },
+  "en": {
+    "intro": "The association participates in national and international projects that promote citizen science, public engagement, and democratic innovation. Our activities include developing tools and methods for inclusive research, organizing citizen assemblies, and strengthening collaboration between scientists, institutions, and communities."
+  },
+  "items": [
+    {
+      "name": "CLIMAS",
+      "logo": "/assets/uploads/logos/climas.png",
+      "topic": "society",
+      "scope": "international",
+      "url": "https://www.climas-project.eu/",
+      "lt": {
+        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) yra programos „Europos horizontas“ projektas, kuriame kartu su suinteresuotosiomis šalimis, taikant vertybėmis grįstus metodus, dizaino mąstymą ir piliečių mokslą, sukurtas prisitaikymo prie klimato kaitos įrankių rinkinys. Asociacija taiko CLIMAS Toolbox organizuojant klimato asamblėjas ir kitus svarstomosios demokratijos procesus."
+      },
+      "en": {
+        "text": "CLIMAS (CLIMAte change citizens engagement toolbox for dealing with Societal resilience) is a Horizon Europe project that co-designed a climate adaptation toolbox with stakeholders, using values-based approaches, design thinking and citizen science. The association applies the CLIMAS Toolbox when organising climate assemblies and other deliberative processes."
+      }
+    },
+    {
+      "name": "Kauno rajono piliečių asamblėja",
+      "logo": "",
+      "topic": "society",
+      "scope": "national",
+      "url": "/naujienos/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/",
+      "lt": {
+        "text": "Asociacija stebi ir vertina, kaip piliečių įsitraukimas veikia sprendimų priėmimą Kauno rajone. Asamblėjoje atsitiktinai atrinkti gyventojai svarsto, kaip pasiekti, kad profilaktinėmis sveikatos priežiūros paslaugomis pasinaudotų visos gyventojų grupės. Projektą įgyvendina Kauno rajono savivaldybės administracija kartu su Nacionaline NVO koalicija ir partneriais, finansuoja Šveicarijos ir Lietuvos bendradarbiavimo programa „Pilietinis įsitraukimas“."
+      },
+      "en": {
+        "name": "Kaunas District citizens' assembly",
+        "url": "/en/news/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/",
+        "text": "The association observes and evaluates how citizen engagement affects decision-making in Kaunas District. In the assembly, randomly selected residents discuss how to make sure that all groups of residents use preventive healthcare services. The project is implemented by the Kaunas District Municipality Administration together with the National NGO Coalition and partners, and funded by the Swiss-Lithuanian Cooperation Programme \"Civic Engagement\"."
+      }
+    },
+    {
+      "name": "FIDELIS",
+      "logo": "",
+      "topic": "institutions",
+      "scope": "international",
+      "url": "https://eden-fidelis.eu/news/fidelis-mentoring-peer-peer-programme-first-cohort-mentors-announced",
+      "lt": {
+        "text": "FIDELIS yra Europos Komisijos finansuojamas projektas, padedantis skaitmeninėms talpykloms tapti prieinamesnėms ir patikimesnėms. Asociacijos vadovė dr. Monika Mačiulienė atrinkta į pirmąją FIDELIS mentorių grupę ir dalyvauja mentorystės bei tarpusavio paramos programoje „Fostering engagement between repositories and end users“, skirtoje talpyklų ir jų naudotojų ryšiui stiprinti."
+      },
+      "en": {
+        "text": "FIDELIS is a European Commission funded project that addresses the challenges digital repositories face in becoming more accessible and trustworthy. The association's director, Dr. Monika Mačiulienė, was selected for the first cohort of FIDELIS mentors and takes part in the mentoring and peer-to-peer support programme \"Fostering engagement between repositories and end users\"."
+      }
+    },
+    {
+      "name": "COPOS",
+      "logo": "",
+      "topic": "nature",
+      "scope": "national",
+      "url": "https://www.blueactionbanos.eu/",
+      "lt": {
+        "text": "COPOS (Community Observation and Protection of Shoreline Systems) yra bendruomenės veiksmų projektas Kuršių nerijoje, finansuojamas pagal ES remiamo projekto BlueActionBANOS kvietimą. Projektą koordinuoja Kuršių nerijos nacionalinio parko direkcija, asociacija yra partnerė. Per 24 mėnesius kartu su gyventojais, moksleiviais, parko darbuotojais ir lankytojais kuriama ir išbandoma piliečių mokslu grįsta pajūrio ir kopų būklės vertinimo sistema, o bendruomenės surinkti duomenys reguliariai aptariami priimant parko valdymo sprendimus."
+      },
+      "en": {
+        "text": "COPOS (Community Observation and Protection of Shoreline Systems) is a community-led action on the Curonian Spit, funded through the open call of the EU-funded BlueActionBANOS project. It is coordinated by the Curonian Spit National Park Administration, with the association as partner. Over 24 months, residents, school pupils, park staff and visitors co-design and pilot a citizen science assessment system for the shore and dunes, and the data collected by the community is reviewed regularly as part of the Park's management decisions."
+      }
+    },
+    {
+      "name": "DIGICHer",
+      "logo": "/assets/uploads/logos/digicher.png",
+      "topic": "culture",
+      "scope": "international",
+      "url": "https://www.digicher-project.eu/",
+      "lt": {
+        "text": "Asociacija prisideda prie DIGICHer projekto, skatinančio įtraukų ir etišką mažumų bendruomenių kultūros paveldo skaitmeninimą. Taikome piliečių mokslo ir bendrakūros metodus, kad sustiprintume tyrėjų, institucijų ir bendruomenių dalyvavimą ir bendradarbiavimą."
+      },
+      "en": {
+        "text": "The association contributes to DIGICHer, which promotes inclusive and ethical digitisation of minority communities' cultural heritage. Our role focuses on applying citizen science and co-creation methods to strengthen participation and collaboration between researchers, institutions, and communities."
+      }
+    },
+    {
+      "name": "CS4Welfare",
+      "logo": "/assets/uploads/logos/cs4welfare.png",
+      "topic": "society",
+      "scope": "national",
+      "url": "https://en.ktu.edu/projects/citizen-science-as-an-innovative-form-of-citizen-participation-for-welfare-society-development-cs4welfare/",
+      "lt": {
+        "text": "Asociacija prisidėjo prie mokslinio projekto, tyrusio piliečių mokslo potencialą spręsti socialines vietos bendruomenių problemas. Projekte nagrinėta, kaip gali bendradarbiauti piliečiai, tyrėjai ir institucijos, nustatytos dalyvavimo kliūtys ir parengtos rekomendacijos viešosioms institucijoms dėl piliečių mokslo taikymo Lietuvoje."
+      },
+      "en": {
+        "text": "The association supported a research project exploring the potential of citizen science to address social challenges in local communities. The project examined how citizens, researchers, and institutions can collaborate, identified barriers to participation, and developed recommendations for public bodies on applying citizen science in Lithuania."
+      }
+    },
+    {
+      "name": "EU-Citizen.Science",
+      "logo": "/assets/uploads/logos/eu-citizen-science.jpg",
+      "topic": "institutions",
+      "scope": "international",
+      "url": "https://citizenscience.eu/about/",
+      "lt": {
+        "text": "Asociacija įkurta įgyvendinant EU-Citizen.Science, programos „Horizontas 2020“ projektą, sukūrusį pagrindinį Europos piliečių mokslo žinių ir bendruomenės centrą. Projektu siekta stiprinti tyrėjų, praktikų ir politikos formuotojų bendradarbiavimą, skatinti piliečių dalyvavimą moksle ir įtvirtinti piliečių mokslą kaip pripažintą visuomenės įtraukimo ir mokslo komunikacijos būdą Europoje."
+      },
+      "en": {
+        "text": "The association was founded during the EU-Citizen.Science project, a Horizon 2020 initiative that created Europe's main knowledge and community hub for citizen science. The project aimed to strengthen collaboration among researchers, practitioners, and policymakers, promote citizen participation in research, and advance citizen science as a recognized approach to public engagement and science communication across Europe."
+      }
+    },
+    {
+      "name": "RIECS-Concept",
+      "logo": "/assets/uploads/logos/riecs-concept.png",
+      "topic": "institutions",
+      "scope": "international",
+      "url": "https://concept.riecs.eu/",
+      "lt": {
+        "text": "Asociacijos mokslininkai dalyvauja RIECS-Concept konsorciume, kuriančiame Europos piliečių mokslo kompetencijos mokslinių tyrimų infrastruktūros koncepciją. Jie prisideda prie projekto komunikacijos ir sklaidos veiklų, padeda jungti mokslo bendruomenes ir skatinti piliečių mokslo išteklių, duomenų ir praktikų integraciją Europoje."
+      },
+      "en": {
+        "text": "Scientists from the association are part of the RIECS-Concept consortium, which works to design a European Research Infrastructure for Excellence in Citizen Science. They contribute to the project's communication and dissemination activities, helping connect research communities and promote the integration of citizen science resources, data, and practices across Europe."
+      }
+    }
+  ]
+}

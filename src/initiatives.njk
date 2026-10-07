@@ -1,0 +1,43 @@
+---
+layout: base.njk
+key: initiatives
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.initiatives[lang] }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set all = db.allInitiatives -%}
+{{ pageHead(t.nav.initiatives, db.initiatives[lang].intro) }}
+<section class="band">
+  <div class="wrap">
+    <div class="topics">
+      <button type="button" class="topic t-all" data-filter="all" aria-pressed="true"><span class="count">{{ all.length }}</span>{{ t.allTopics }}</button>
+      {% for k in ["nature", "society", "institutions", "culture"] %}
+      <button type="button" class="topic t-{{ k }}" data-filter="{{ k }}" aria-pressed="false"><span class="count">{{ (all | where("topic", k)).length }}</span>{{ t.topics[k] }}</button>
+      {% endfor %}
+    </div>
+    <div class="grid g3">
+      {% for i in all %}
+      <a class="card initiative t-{{ i.topic }}" href="{{ i[lang].url or i.url or routes.projects[lang] }}" data-cat="{{ i.topic }}">
+        <p class="label">{{ t.topics[i.topic] }}</p>
+        <h3>{{ i[lang].name or i.name }}</h3>
+        <p class="desc">{{ i[lang].text }}</p>
+        <p class="scope">{{ t.scopes[i.scope] }}{% if i.ours %}<span class="ours">{{ t.ours }}</span>{% endif %}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script>
+  const box = document.querySelector(".topics");
+  box.addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    const f = btn.dataset.filter;
+    box.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b === btn));
+    document.querySelectorAll(".initiative").forEach((c) => (c.hidden = f !== "all" && c.dataset.cat !== f));
+  });
+</script>

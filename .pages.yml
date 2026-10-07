@@ -1,0 +1,119 @@
+# Pages CMS (https://pagescms.org) - the editor the team uses to add news, projects, resources and funding calls.
+media:
+  input: assets/uploads
+  output: /assets/uploads
+
+x-lang: &lang
+  - { name: title, label: Pavadinimas / Title, type: string }
+  - { name: text, label: Aprašymas / Description, type: text }
+
+content:
+  - name: news
+    label: Naujienos / News
+    type: collection
+    path: content/news
+    format: json
+    filename: "{year}-{month}-{day}-{primary}.json"
+    view:
+      fields: [lt.title, date, category]
+      primary: lt.title
+      sort: [date]
+      default: { sort: date, order: desc }
+    fields:
+      - { name: date, label: Data, type: date, required: true }
+      - name: category
+        label: Kategorija
+        type: select
+        options:
+          values:
+            - { value: news, label: Naujienos }
+            - { value: events, label: Renginiai }
+            - { value: projects, label: Projektai }
+            - { value: funding, label: Finansavimas }
+      - { name: image, label: Nuotrauka, type: image }
+      - name: lt
+        label: Lietuviškai
+        type: object
+        fields:
+          - { name: title, label: Pavadinimas, type: string, required: true }
+          - { name: summary, label: Santrauka, type: text }
+          - { name: body, label: Tekstas, type: rich-text }
+      - name: en
+        label: English (leave empty if there is no English version)
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: summary, label: Summary, type: text }
+          - { name: body, label: Text, type: rich-text }
+
+  - name: resources
+    label: Ištekliai / Resources
+    type: file
+    path: content/resources.json
+    format: json
+    fields:
+      - name: items
+        label: Ištekliai / Resources
+        type: object
+        list: true
+        fields:
+          - name: type
+            label: Tipas / Type
+            type: select
+            options: { values: [publication, report, tool, course, collection, media] }
+          - { name: language, label: Kalba / Language, type: select, options: { values: [lt, en] } }
+          - { name: source, label: Autoriai ir metai arba šaltinis / Authors and year or source, type: string }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
+          - { name: en, label: English, type: object, fields: *lang }
+
+  - name: projects
+    label: Projektai / Projects
+    type: file
+    path: content/projects.json
+    format: json
+    fields:
+      - name: items
+        label: Mūsų projektai / Our projects
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: logo, label: Logotipas / Logo, type: image }
+          - { name: topic, label: Tema, type: select, options: { values: [nature, society, institutions, culture] } }
+          - { name: scope, label: Tipas, type: select, options: { values: [national, international] } }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: lt, label: Lietuviškai, type: object, fields: [{ name: text, label: Aprašymas, type: text }] }
+          - { name: en, label: English, type: object, fields: [{ name: name, label: Name (if different in English), type: string }, { name: url, label: Link (if different in English), type: string }, { name: text, label: Description, type: text }] }
+
+  - name: initiatives
+    label: Iniciatyvos / Initiatives
+    type: file
+    path: content/initiatives.json
+    format: json
+    fields:
+      - name: items
+        label: Iniciatyvos / Initiatives
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: scope, label: Tipas, type: select, options: { values: [national, international] } }
+          - { name: topic, label: Tema, type: select, options: { values: [nature, society, institutions, culture] } }
+          - { name: url, label: Nuoroda / Link, type: string }
+          - { name: lt, label: Lietuviškai, type: object, fields: [{ name: text, label: Aprašymas, type: text }] }
+          - { name: en, label: English, type: object, fields: [{ name: text, label: Description, type: text }] }
+
+  - name: services
+    label: Paslaugos / Services
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: items
+        label: Paslaugos / Services
+        type: object
+        list: true
+        fields:
+          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
+          - { name: en, label: English, type: object, fields: *lang }

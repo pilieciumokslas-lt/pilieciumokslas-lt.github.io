@@ -1,0 +1,30 @@
+{
+  "lt": { "intro": "Teikiame paslaugas savivaldybėms, piliečių organizacijoms ir kitoms suinteresuotoms grupėms. Padedame planuoti ir įgyvendinti įtraukius sprendimų priėmimo procesus." },
+  "en": { "intro": "We work with municipalities, civil society organisations and other stakeholder groups, and help plan and run inclusive decision-making processes." },
+  "items": [
+    {
+      "lt": { "title": "Piliečių mokslo projektų kūrimas ir konsultacijos", "text": "Padedame tyrėjams, institucijoms ir bendruomenėms pradėti ir valdyti piliečių mokslo projektus. Konsultuojame dėl metodikos, duomenų rinkimo, analizės ir projekto valdymo." },
+      "en": { "title": "Citizen science project development and consultation", "text": "We support researchers, organizations, and communities in launching and managing citizen science projects, from concept to outcomes. Our services include advice on research design, data collection, analysis, and project management." }
+    },
+    {
+      "lt": { "title": "Piliečių įtraukimas į mokslą ir politikos formavimą", "text": "Kuriame ir įgyvendiname procesus, kurie įtraukia piliečius į sprendimų priėmimą ir politikos formavimą. Padedame planuoti ir organizuoti piliečių asamblėjas, viešas konsultacijas ir diskusijas." },
+      "en": { "title": "Citizen engagement in science and policy", "text": "We design and implement processes that involve citizens in decision-making and policy development. We assist in planning and organizing citizens' assemblies, public consultations, and policy dialogues." }
+    },
+    {
+      "lt": { "title": "Svarstomosios demokratijos procesų įgyvendinimas", "text": "Padedame planuoti ir įgyvendinti svarstomosios demokratijos procesus, tokius kaip klimato asamblėjos ar politikos dialogai. Naudojame <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, pritaikytą šių procesų organizavimui ir analizei." },
+      "en": { "title": "Deliberative processes and CLIMAS Toolbox application", "text": "We apply the <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, a set of tools developed within the CLIMAS project to support the organization of Climate Assemblies and other deliberative processes. We provide methodological support and practical guidance for its use." }
+    },
+    {
+      "lt": { "title": "Komunikacija ir sklaida mokslo bei inovacijų projektuose", "text": "Rengiame komunikacijos strategijas, padedame planuoti rezultatų sklaidą, kuriame informacinį ir vizualinį turinį, koordinuojame komunikaciją su visuomene ir žiniasklaida." },
+      "en": { "title": "Communication and dissemination in research and innovation projects", "text": "We develop communication strategies, plan dissemination activities, create informational and visual content, and coordinate engagement with the public and media." }
+    },
+    {
+      "lt": { "title": "Mokymai ir gebėjimų stiprinimas", "text": "Vykdome mokymus lietuvių ir anglų kalbomis apie piliečių mokslą, dalyvaujamąjį tyrimą, deliberaciją, moderavimą, bendrakūrą bei įtraukaus dialogo metodus." },
+      "en": { "title": "Training and capacity building", "text": "We provide training in Lithuanian and English on citizen science, participatory research, deliberation, facilitation, co-creation, and inclusive dialogue methods." }
+    },
+    {
+      "lt": { "title": "Tyrimų ir duomenų komunikacija", "text": "Padedame paversti tyrimų rezultatus suprantamu turiniu: rengiame ataskaitas, infografikus, duomenų vizualizacijas ir interaktyvius pasakojimus, skirtus įvairioms auditorijoms." },
+      "en": { "title": "Research and data communication", "text": "We help translate research findings into accessible content by preparing reports, infographics, data visualizations, and interactive stories tailored to different audiences." }
+    }
+  ]
+}

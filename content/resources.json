@@ -1,0 +1,192 @@
+{
+  "lt": {
+    "intro": "Publikacijos, įrankiai, mokymosi medžiaga ir straipsniai apie piliečių mokslą lietuvių ir anglų kalbomis."
+  },
+  "en": {
+    "intro": "Publications, tools, learning materials and articles on citizen science, in Lithuanian and English."
+  },
+  "items": [
+    {
+      "type": "publication",
+      "language": "lt",
+      "source": "Butkevičienė, Mačiulienė, Mickevičiūtė, Vaidelytė, Vitkauskaitė-Ramanauskienė, Balázs, 2022",
+      "url": "https://doi.org/10.5755/e01.9786090217702",
+      "lt": {
+        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
+        "text": "Monografija (Kaunas: Technologija) apie piliečių mokslą kaip piliečių ir mokslininkų bendradarbiavimą sprendžiant socialines problemas: sampratą, ekosistemą, dalyvius, procesus ir taikymo galimybes Lietuvoje."
+      },
+      "en": {
+        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
+        "text": "A monograph in Lithuanian (Kaunas: Technologija) on citizen science as a way for citizens and scientists to work together on social problems: the concept, the ecosystem, participants, processes and possible applications in Lithuania."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "lt",
+      "source": "KTU / LibOCS, 2026",
+      "url": "/naujienos/isleista-monografija-apie-bibliotekininku-kompetencijas-pilieciu-moksle/",
+      "lt": {
+        "title": "Bibliotekininkų kompetencijos, įgalinančios įsitraukimą į piliečių mokslo veiklas",
+        "text": "Kauno technologijos universiteto išleista monografija, parengta remiantis LibOCS projekto tyrimais. Leidinį recenzavo Piliečių mokslo asociacijos atstovės."
+      },
+      "en": {
+        "title": "Bibliotekininkų kompetencijos, įgalinančios įsitraukimą į piliečių mokslo veiklas",
+        "text": "A monograph in Lithuanian published by Kaunas University of Technology, based on research from the LibOCS project. Reviewed by representatives of the Lithuanian Citizen Science Association."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Skaržauskienė, Mačiulienė, 2021",
+      "url": "https://doi.org/10.3390/su132413980",
+      "lt": {
+        "title": "Citizen science addressing challenges of sustainability",
+        "text": "Straipsnis žurnale „Sustainability“ apie suinteresuotųjų šalių požiūrį, motyvaciją ir kliūtis dalyvauti piliečių mokslo iniciatyvose, sprendžiančiose tvarumo iššūkius Lietuvoje."
+      },
+      "en": {
+        "title": "Citizen science addressing challenges of sustainability",
+        "text": "An article in the journal Sustainability on stakeholder perceptions, motivations and barriers to taking part in citizen science initiatives that address sustainability challenges in Lithuania."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Tauginienė, Butkevičienė, Vohland ir kt., 2020",
+      "url": "https://doi.org/10.1057/s41599-020-0471-y",
+      "lt": {
+        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
+        "text": "Straipsnis žurnale „Palgrave Communications“ apie piliečių mokslą socialiniuose ir humanitariniuose moksluose."
+      },
+      "en": {
+        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
+        "text": "An article in Palgrave Communications on citizen science in the social sciences and humanities."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Klimczuk, Butkevičienė, Kerla, 2022",
+      "url": "https://doi.org/10.3389/fsoc.2022.836149",
+      "lt": {
+        "title": "Citizen Science and Social Innovation: Mutual Relations, Barriers, Needs, and Development Factors",
+        "text": "Žurnalo „Frontiers in Sociology“ teminio rinkinio įvadinis straipsnis apie piliečių mokslo ir socialinių inovacijų sąsajas."
+      },
+      "en": {
+        "title": "Citizen Science and Social Innovation: Mutual Relations, Barriers, Needs, and Development Factors",
+        "text": "The editorial of a Frontiers in Sociology research collection on how citizen science and social innovation relate to each other."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Rozenberga, Saviča, 2023",
+      "url": "https://doi.org/10.5281/zenodo.8386352",
+      "lt": {
+        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
+        "text": "Latvijos universiteto tyrėjų stendinis pranešimas apie tyrėjų, mokslininkų mėgėjų ir atminties institucijų bendradarbiavimą Baltijos šalyse."
+      },
+      "en": {
+        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
+        "text": "A poster by University of Latvia researchers on collaboration between researchers, amateur scientists and memory institutions in the Baltic States."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "lt",
+      "source": "ECSA / KTU biblioteka",
+      "url": "https://biblioteka.ktu.edu/wp-content/uploads/sites/38/2025/08/10-pilieciu-mokslo-principu.pdf",
+      "lt": {
+        "title": "10 piliečių mokslo principų",
+        "text": "Europos piliečių mokslo asociacijos (ECSA) dešimt piliečių mokslo principų lietuvių kalba."
+      },
+      "en": {
+        "title": "Ten principles of citizen science (in Lithuanian)",
+        "text": "The ten principles of citizen science by the European Citizen Science Association (ECSA), in Lithuanian. The English original is on the ECSA website."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "en",
+      "source": "CLIMAS",
+      "url": "https://www.climas-project.eu/",
+      "lt": {
+        "title": "CLIMAS Toolbox",
+        "text": "CLIMAS projekte sukurtas įrankių rinkinys klimato asamblėjoms ir kitiems svarstomosios demokratijos procesams organizuoti."
+      },
+      "en": {
+        "title": "CLIMAS Toolbox",
+        "text": "A set of tools developed within the CLIMAS project to support the organization of Climate Assemblies and other deliberative processes."
+      }
+    },
+    {
+      "type": "course",
+      "language": "lt",
+      "source": "LibOCS",
+      "url": "https://open.ktu.edu/course/view.php?id=161",
+      "lt": {
+        "title": "Piliečių mokslas bibliotekininkams",
+        "text": "Atviros prieigos savarankiško mokymosi kursas visiems, besidomintiems piliečių mokslu ir norintiems mokytis savo tempu."
+      },
+      "en": {
+        "title": "Citizen science for librarians",
+        "text": "An open access self-paced course for anyone interested in citizen science."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "en",
+      "source": "LibOCS",
+      "url": "https://www.libocs.ut.ee/toolkit/",
+      "lt": {
+        "title": "Piliečių mokslo priemonių rinkinys bibliotekininkams",
+        "text": "Atvirosios prieigos išteklius su medžiaga, apimančia septynias piliečių mokslo ir atvirojo mokslo temas."
+      },
+      "en": {
+        "title": "Citizen science toolkit for librarians",
+        "text": "An open access resource with materials covering seven citizen science and open science topics."
+      }
+    },
+    {
+      "type": "collection",
+      "language": "en",
+      "source": "LibOCS",
+      "url": "https://zenodo.org/records/11243773",
+      "lt": {
+        "title": "Išteklių apie piliečių mokslą sąrašas",
+        "text": "Daugiau kaip 100 naudingų išteklių apie piliečių mokslą „Zenodo“ talpykloje."
+      },
+      "en": {
+        "title": "List of citizen science resources",
+        "text": "More than 100 useful citizen science resources in the Zenodo repository."
+      }
+    },
+    {
+      "type": "media",
+      "language": "lt",
+      "source": "KTU biblioteka, 2022",
+      "url": "https://biblioteka.ktu.edu/news/pilieciu-mokslas-tai-idomu/",
+      "lt": {
+        "title": "Piliečių mokslas? Tai įdomu!",
+        "text": "Interviu su dr. Monika Mačiuliene apie tai, kas yra piliečių mokslas, kodėl jis svarbus ir kaip gali stiprinti universitetų, bibliotekų ir bendruomenių ryšį."
+      },
+      "en": {
+        "title": "Piliečių mokslas? Tai įdomu!",
+        "text": "An interview in Lithuanian with Dr. Monika Mačiulienė on what citizen science is, why it matters and how it can strengthen links between universities, libraries and communities. An English version is on the LibOCS website."
+      }
+    },
+    {
+      "type": "media",
+      "language": "en",
+      "source": "EU-Citizen.Science, 2020",
+      "url": "https://citizenscience.eu/blog/2020/03/31/zoom-status-citizen-science-lithuania",
+      "lt": {
+        "title": "Zoom in on the status of citizen science in Lithuania",
+        "text": "Pokalbis su dviem Lietuvos piliečių mokslo lyderėmis apie srities būklę, iššūkius ir EU-Citizen.Science platformos vaidmenį."
+      },
+      "en": {
+        "title": "Zoom in on the status of citizen science in Lithuania",
+        "text": "A conversation with two Lithuanian citizen science leaders about the state of the field, its challenges and the role of the EU-Citizen.Science platform."
+      }
+    }
+  ]
+}

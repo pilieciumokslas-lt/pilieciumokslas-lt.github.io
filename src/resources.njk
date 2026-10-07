@@ -1,0 +1,40 @@
+---
+layout: base.njk
+key: resources
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.resources[lang] }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set groups = { publication: "pub", report: "pub", tool: "tools", course: "tools", collection: "tools", media: "media" } -%}
+{{ pageHead(t.nav.resources, db.resources[lang].intro) }}
+<section class="band">
+  <div class="wrap">
+    <div class="filters" hidden>
+      {% for c in ["all", "pub", "tools", "media", "lt"] %}<button type="button" data-filter="{{ c }}"{% if c == "all" %} aria-pressed="true"{% endif %}>{{ t.resGroups[c] }}</button>{% endfor %}
+    </div>
+    <div class="grid g3">
+      {% for r in db.resources.items %}
+      <a class="card resource" href="{{ r.url }}" data-cat="{{ groups[r.type] }} {{ r.language }}">
+        <p class="label">{{ t.types[r.type] }} <span class="badge">{{ r.language | upper }}</span></p>
+        <h3>{{ r[lang].title }}</h3>
+        <p class="src">{{ r.source }}</p>
+        <p>{{ r[lang].text }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script>
+  const box = document.querySelector(".filters");
+  box.hidden = false;
+  box.addEventListener("click", (e) => {
+    const f = e.target.dataset.filter;
+    if (!f) return;
+    box.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b === e.target));
+    document.querySelectorAll(".resource").forEach((c) => (c.hidden = f !== "all" && !c.dataset.cat.split(" ").includes(f)));
+  });
+</script>

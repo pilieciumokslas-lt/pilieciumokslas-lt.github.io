@@ -1,0 +1,30 @@
+{
+  "home": {
+    "lt": "/",
+    "en": "/en/"
+  },
+  "news": {
+    "lt": "/naujienos/",
+    "en": "/en/news/"
+  },
+  "projects": {
+    "lt": "/projektai/",
+    "en": "/en/projects/"
+  },
+  "resources": {
+    "lt": "/istekliai/",
+    "en": "/en/resources/"
+  },
+  "services": {
+    "lt": "/paslaugos/",
+    "en": "/en/services/"
+  },
+  "about": {
+    "lt": "/apie/",
+    "en": "/en/about/"
+  },
+  "initiatives": {
+    "lt": "/iniciatyvos/",
+    "en": "/en/initiatives/"
+  }
+}

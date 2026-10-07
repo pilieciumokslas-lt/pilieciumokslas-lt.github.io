@@ -1,0 +1,26 @@
+---
+layout: base.njk
+key: services
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.services[lang] }}"
+---
+{%- from "macros.njk" import newsCard, pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set pageTitle = t.nav.services -%}
+{{ pageHead(t.nav.services, db.services[lang].intro) }}
+<section class="band">
+  <div class="wrap">
+    <ol class="grid g2 services full">
+      {% for s in db.services.items %}<li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s[lang].title }}</h3><p>{{ s[lang].text | safe }}</p></li>{% endfor %}
+    </ol>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <h2>{{ t.cta }}</h2>
+    <a class="btn btn-white" href="mailto:{{ db.about.email }}">{{ t.ctaBtn }}</a>
+  </div>
+</section>

@@ -1,0 +1,51 @@
+{%- set t = i18n[lang] -%}
+{%- set other = "en" if lang == "lt" else "lt" -%}
+{%- set alt = altUrl or routes[key][other] -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- set ttl = pageTitle or (t.nav[key] if key != "home") -%}
+  <title>{% if ttl %}{{ ttl | safe }} | {% endif %}{{ t.site }}</title>
+  <meta name="description" content="{{ (description or t.tagline) | safe }}">
+  <link rel="alternate" hreflang="{{ other }}" href="{{ alt }}">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{ t.skip }}</a>
+  <header class="top">
+    <div class="wrap top-in">
+      <a class="brand" href="{{ routes.home[lang] }}"><span class="dot"></span>pilieciumokslas.lt</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="{{ t.menu }}">
+      <label for="nav-toggle" class="burger" aria-hidden="true"><span></span><span></span></label>
+      <nav class="nav">
+        {%- for k in ["news", "projects", "initiatives", "resources", "services", "about"] %}
+        <a href="{{ routes[k][lang] }}"{% if key == k %} aria-current="page"{% endif %}>{{ t.nav[k] }}</a>
+        {%- endfor %}
+        <span class="lang">
+          <a href="{{ page.url if lang == 'lt' else alt }}" lang="lt"{% if lang == "lt" %} aria-current="true"{% endif %}>LT</a>
+          <a href="{{ page.url if lang == 'en' else alt }}" lang="en"{% if lang == "en" %} aria-current="true"{% endif %}>EN</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+{{ content | safe }}
+  </main>
+  <footer class="foot">
+    <div class="wrap foot-in">
+      <div>
+        <p class="brand"><span class="dot"></span>pilieciumokslas.lt</p>
+        <p>{{ t.site }}</p>
+        <p><a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
+      </div>
+      <nav>
+        {%- for k in ["news", "projects", "initiatives", "resources", "services", "about"] %}
+        <a href="{{ routes[k][lang] }}">{{ t.nav[k] }}</a>
+        {%- endfor %}
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

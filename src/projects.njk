@@ -1,0 +1,32 @@
+---
+layout: base.njk
+key: projects
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.projects[lang] }}"
+---
+{%- from "macros.njk" import newsCard, pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set pageTitle = t.nav.projects -%}
+{{ pageHead(t.nav.projects, db.projects[lang].intro) }}
+<section class="band">
+  <div class="wrap">
+    <div class="grid g2">
+      {% for p in db.projects.items %}
+      <article class="card project">
+        <div class="project-head"><h3>{{ p[lang].name or p.name }}</h3>{% if p.logo %}<img class="logo" src="{{ p.logo }}" alt="" loading="lazy">{% endif %}</div>
+        <p>{{ p[lang].text }}</p>
+        {% set u = p[lang].url or p.url %}{% if u %}<a class="more" href="{{ u }}">{{ t.more }}</a>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <h2>{{ t.initiativesTeaser }}</h2>
+    <a class="btn btn-white" href="{{ routes.initiatives[lang] }}">{{ t.allInitiatives }}</a>
+  </div>
+</section>

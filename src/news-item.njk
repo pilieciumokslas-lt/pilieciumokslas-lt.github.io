@@ -1,0 +1,25 @@
+---
+layout: base.njk
+key: news
+pagination:
+  data: db.newsPages
+  size: 1
+  alias: entry
+permalink: "{{ routes.news[entry.lang] }}{{ entry.item.slug }}/"
+eleventyComputed:
+  lang: "{{ entry.lang }}"
+  pageTitle: "{{ entry.item[entry.lang].title }}"
+  description: "{{ entry.item[entry.lang].summary }}"
+  altUrl: "{% set o = 'en' if entry.lang == 'lt' else 'lt' %}{{ routes.news[o] }}{% if entry.item[o].title %}{{ entry.item.slug }}/{% endif %}"
+---
+{%- set t = i18n[entry.lang] -%}
+{%- set item = entry.item -%}
+<article class="post">
+  <div class="wrap narrow">
+    <p><a class="more back" href="{{ routes.news[entry.lang] }}">{{ t.back }}</a></p>
+    <p class="label">{{ t.cats[item.category] }}{% if item.date %} <span>{{ item.date | niceDate(entry.lang) }}</span>{% endif %}</p>
+    <h1>{{ item[entry.lang].title }}</h1>
+  </div>
+  {% if item.image %}<div class="wrap"><img class="post-img" src="{{ item.image }}" alt=""></div>{% endif %}
+  <div class="wrap narrow prose">{{ item[entry.lang].body | safe }}</div>
+</article>

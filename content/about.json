@@ -1,0 +1,28 @@
+{
+  "email": "info@pilieciumokslas.lt",
+  "membership_form": "https://forms.gle/ksVLoH32v8EdDE4C6",
+  "lt": {
+    "intro": "Asociacija sutelkia piliečių mokslo tyrėjus ir praktikus Lietuvoje ir veikia kaip augančios bendruomenės komunikacijos ir koordinavimo centras.",
+    "goals": [
+      "Sutelkti mokslininkus bei praktikus, nagrinėjančius ir užsiimančius piliečių mokslu.",
+      "Veikti kaip komunikacijos ir koordinavimo centras augančiai piliečių mokslo bendruomenei.",
+      "Organizuoti mokslo populiarinimo renginius, pristatyti mokslinius tyrimus bei piliečių mokslo projektus."
+    ],
+    "governance": "<p>Steigėja ir vadovė: dr. Monika Mačiulienė</p><p>Steigėjos: dr. Eglė Butkevičienė, dr. Diana Marčiulynienė</p>",
+    "documents": "<p><a href=\"https://pilieciumokslas.lt/wp-content/uploads/2026/03/gep_pma_signed.pdf\">Lyčių lygybės užtikrinimo veiksmų planas 2026-2028 (anglų k.)</a></p>",
+    "membership": "<p>Asociacijos nariu gali tapti veiksnus 18 metų sulaukęs fizinis asmuo arba Lietuvos Respublikos įstatymų nustatyta tvarka veikiantis juridinis asmuo, pripažįstantis asociacijos tikslus ir sutinkantis aktyviai dalyvauti asociacijos veikloje.</p><p>Pateiktą prašymą asociacijos valdyba apsvarsto ir sprendimą pateikia per 30 darbo dienų nuo prašymo pateikimo dienos. Pranešimas apie valdybos sprendimą siunčiamas elektroninio pašto adresu, kurį asmuo nurodė savo prašyme.</p>",
+    "contact": "Bendradarbiavimo klausimais rašykite mums."
+  },
+  "en": {
+    "intro": "The association brings together citizen science researchers and practitioners in Lithuania and acts as a communication and coordination hub for the growing community.",
+    "goals": [
+      "Bring together researchers and practitioners engaged in the study and practice of citizen science.",
+      "Act as a communication and coordination hub for the growing citizen science community in Lithuania.",
+      "Organise science communication events, present research and promote citizen science projects."
+    ],
+    "governance": "<p>Founder and Director: Dr. Monika Mačiulienė</p><p>Founding Members: Dr. Eglė Butkevičienė, Dr. Diana Marčiulynienė</p>",
+    "documents": "<p><a href=\"https://pilieciumokslas.lt/wp-content/uploads/2026/03/gep_pma_signed.pdf\">Gender Equality Plan 2026-2028</a></p>",
+    "membership": "<p>Membership is open to any legally capable natural person aged 18 or over, and to any legal entity operating under the laws of the Republic of Lithuania, who recognises the goals of the association and agrees to take an active part in its activities.</p><p>The board of the association reviews each application and gives its decision within 30 working days of submission. The decision is sent to the email address given in the application.</p>",
+    "contact": "For collaboration inquiries, please write to us."
+  }
+}

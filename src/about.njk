@@ -1,0 +1,42 @@
+---
+layout: base.njk
+key: about
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.about[lang] }}"
+---
+{%- from "macros.njk" import newsCard, pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set pageTitle = t.nav.about -%}
+{%- set a = db.about[lang] -%}
+{{ pageHead(t.site, a.intro) }}
+<section class="band">
+  <div class="wrap about">
+    <div>
+      <h2>{{ t.goals }}</h2>
+      <ol class="goals">{% for g in a.goals %}<li>{{ g }}</li>{% endfor %}</ol>
+    </div>
+    <div>
+      <h2>{{ t.governance }}</h2>
+      {{ a.governance | safe }}
+      <h2>{{ t.documents }}</h2>
+      {{ a.documents | safe }}
+    </div>
+  </div>
+</section>
+<section class="band tint">
+  <div class="wrap about">
+    <div>
+      <h2>{{ t.membership }}</h2>
+      {{ a.membership | safe }}
+      <p><a class="btn" href="{{ db.about.membership_form }}">{{ t.join }}</a></p>
+    </div>
+    <div>
+      <h2>{{ t.contact }}</h2>
+      <p>{{ a.contact }}</p>
+      <p><a class="big-link" href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
+    </div>
+  </div>
+</section>

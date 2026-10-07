@@ -1,0 +1,30 @@
+---
+layout: base.njk
+key: news
+pagination:
+  data: db.newsIndex
+  size: 1
+  alias: idx
+permalink: "{{ idx.url }}"
+eleventyComputed:
+  lang: "{{ idx.lang }}"
+  altUrl: "{{ idx.alt }}"
+---
+{%- from "macros.njk" import newsCard, pageHead -%}
+{%- set t = i18n[idx.lang] -%}
+{{ pageHead(t.nav.news, t.tagline) }}
+<section class="band">
+  <div class="wrap">
+    <nav class="filters">
+      {% for c in idx.cats %}<a href="{{ c.url }}"{% if c.key == idx.cat %} aria-current="true"{% endif %}>{{ t.cats[c.key] }}</a>{% endfor %}
+    </nav>
+    <div class="grid g3">{% for item in idx.items %}{{ newsCard(item, idx.lang, routes, t) }}{% endfor %}</div>
+    {% if idx.total > 1 %}
+    <nav class="pager" aria-label="{{ t.pages }}">
+      {% if idx.prev %}<a class="step" href="{{ idx.prev }}">&larr; {{ t.newer }}</a>{% endif %}
+      <span class="nums">{% for p in idx.pages %}<a href="{{ p.url }}"{% if p.n == idx.page %} aria-current="page"{% endif %}>{{ p.n }}</a>{% endfor %}</span>
+      {% if idx.next %}<a class="step" href="{{ idx.next }}">{{ t.older }} &rarr;</a>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</section>

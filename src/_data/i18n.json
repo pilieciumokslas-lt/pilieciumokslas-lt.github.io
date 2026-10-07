@@ -1,0 +1,144 @@
+{
+  "lt": {
+    "site": "Piliečių mokslo asociacija",
+    "tagline": "Piliečių ir atvirojo mokslo naujienos Lietuvoje",
+    "nav": {
+      "news": "Naujienos",
+      "projects": "Projektai",
+      "resources": "Ištekliai",
+      "services": "Paslaugos",
+      "about": "Apie mus",
+      "initiatives": "Iniciatyvos"
+    },
+    "skip": "Pereiti prie turinio",
+    "menu": "Meniu",
+    "latest": "Naujienos",
+    "allNews": "Visos naujienos",
+    "whatWeDo": "Ką darome",
+    "allServices": "Visos paslaugos",
+    "ourProjects": "Mūsų projektai",
+    "allProjects": "Visi projektai",
+    "more": "Plačiau",
+    "open": "Atidaryti",
+    "back": "Visos naujienos",
+    "cta": "Planuojate piliečių mokslo projektą ar dalyvaujamąjį procesą?",
+    "ctaBtn": "Susisiekite",
+    "goals": "Veiklos tikslai",
+    "governance": "Valdymo struktūra",
+    "documents": "Dokumentai",
+    "membership": "Narystė",
+    "join": "Pildyti narystės formą",
+    "contact": "Kontaktai",
+    "cats": {
+      "all": "Visos",
+      "news": "Naujienos",
+      "events": "Renginiai",
+      "projects": "Projektai",
+      "funding": "Finansavimas"
+    },
+    "types": {
+      "tool": "Įrankis",
+      "course": "Kursas",
+      "collection": "Rinkinys",
+      "publication": "Publikacija",
+      "report": "Ataskaita",
+      "media": "Straipsnis ar interviu"
+    },
+    "scopes": {
+      "all": "Visos",
+      "national": "Nacionalinis",
+      "international": "Tarptautinis"
+    },
+    "topics": {
+      "nature": "Gamta ir biologinė įvairovė",
+      "society": "Visuomenė ir demokratija",
+      "culture": "Kultūra ir paveldas",
+      "institutions": "Atvirasis mokslas ir institucijos"
+    },
+    "allInitiatives": "Visos iniciatyvos",
+    "initiativesTeaser": "Norite prisijungti prie piliečių mokslo? Peržiūrėkite iniciatyvas Lietuvoje.",
+    "allTopics": "Visos iniciatyvos",
+    "ours": "Asociacijos projektas",
+    "resGroups": {
+      "all": "Visi",
+      "pub": "Publikacijos",
+      "tools": "Įrankiai ir mokymai",
+      "media": "Straipsniai ir interviu",
+      "lt": "Lietuvių kalba"
+    },
+    "pages": "Puslapiai",
+    "newer": "Naujesnės",
+    "older": "Senesnės"
+  },
+  "en": {
+    "site": "Lithuanian Citizen Science Association",
+    "tagline": "Citizen and open science news from Lithuania",
+    "nav": {
+      "news": "News",
+      "projects": "Projects",
+      "resources": "Resources",
+      "services": "Services",
+      "about": "About",
+      "initiatives": "Initiatives"
+    },
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "latest": "News",
+    "allNews": "All news",
+    "whatWeDo": "What we do",
+    "allServices": "All services",
+    "ourProjects": "Our projects",
+    "allProjects": "All projects",
+    "more": "Read more",
+    "open": "Open",
+    "back": "All news",
+    "cta": "Planning a citizen science project or a participatory process?",
+    "ctaBtn": "Get in touch",
+    "goals": "Goals",
+    "governance": "Governance",
+    "documents": "Documents",
+    "membership": "Membership",
+    "join": "Fill in the membership form",
+    "contact": "Contact",
+    "cats": {
+      "all": "All",
+      "news": "News",
+      "events": "Events",
+      "projects": "Projects",
+      "funding": "Funding"
+    },
+    "types": {
+      "tool": "Tool",
+      "course": "Course",
+      "collection": "Collection",
+      "publication": "Publication",
+      "report": "Report",
+      "media": "Article or interview"
+    },
+    "scopes": {
+      "all": "All",
+      "national": "National",
+      "international": "International"
+    },
+    "topics": {
+      "nature": "Nature and biodiversity",
+      "society": "Society and democracy",
+      "culture": "Culture and heritage",
+      "institutions": "Open science and institutions"
+    },
+    "allInitiatives": "All initiatives",
+    "initiativesTeaser": "Want to take part in citizen science? Browse the initiatives in Lithuania.",
+    "allTopics": "All initiatives",
+    "ours": "Association project",
+    "resGroups": {
+      "all": "All",
+      "pub": "Publications",
+      "tools": "Tools and training",
+      "media": "Articles and interviews",
+      "lt": "In Lithuanian"
+    },
+    "pages": "Pages",
+    "newer": "Newer",
+    "older": "Older"
+  }
+}

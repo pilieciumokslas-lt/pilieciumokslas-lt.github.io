@@ -1,0 +1,154 @@
+{
+  "lt": {
+    "intro": "Piliečių mokslo iniciatyvos ir projektai, vykdomi Lietuvoje arba su partneriais iš Lietuvos. Prisijunkite prie stebėjimų, tyrimų ir bendruomenių."
+  },
+  "en": {
+    "intro": "Citizen science initiatives and projects run in Lithuania or with Lithuanian partners. Join the observations, research and communities."
+  },
+  "items": [
+    {
+      "name": "Rūšių ralis",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://rusiuralis.lt",
+      "lt": {
+        "text": "Kasmetinės biologinės įvairovės fiksavimo varžybos: savanorių ir mokslininkų komandos per savaitgalį pasirinktoje gamtinėje teritorijoje stengiasi aptikti ir užregistruoti kuo daugiau augalų, gyvūnų ir grybų rūšių."
+      },
+      "en": {
+        "text": "An annual biodiversity recording competition: teams of volunteers and scientists try to identify and record as many plant, animal and fungal species as possible in a chosen natural area over one weekend."
+      }
+    },
+    {
+      "name": "Paukščiai prie mano namų",
+      "scope": "national",
+      "topic": "nature",
+      "url": "http://www.birdlife.lt/pauksciai-prie-mano-namu",
+      "lt": {
+        "text": "Lietuvos ornitologų draugijos akcija: gyventojai vieną valandą stebi ir skaičiuoja prie jų namų apsilankančius paukščius, o duomenis pateikia internetinėje formoje. Stebėjimai padeda sekti laukinių paukščių populiacijų pokyčius."
+      },
+      "en": {
+        "text": "A count organised by the Lithuanian Ornithological Society: residents spend one hour observing and counting the birds that visit their homes and submit the data through an online form. The observations help track changes in wild bird populations."
+      }
+    },
+    {
+      "name": "iNaturalist Lietuva",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://www.facebook.com/groups/945276845676996",
+      "lt": {
+        "text": "Lietuvos iNaturalist naudotojų bendruomenės „Facebook“ grupė. iNaturalist platformoje kiekvienas gali registruoti gamtos stebėjimus ir padėti atpažinti rūšis."
+      },
+      "en": {
+        "text": "The Facebook group of the Lithuanian iNaturalist community. On the iNaturalist platform anyone can record nature observations and help identify species."
+      }
+    },
+    {
+      "name": "Bronės Pajiedaitės takais",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://www.vdu.lt/lt/pristatytas-vdu-projektas-birutes-pajiedaites-takais/",
+      "lt": {
+        "text": "Vytauto Didžiojo universiteto projektas, pavadintas gėlavandenių samangyvių tyrimų Lietuvoje pradininkės Bronės Pajiedaitės (1910-1946) vardu. [GAP: ką projekte daro piliečiai ir veikianti nuoroda, iš Monikos]"
+      },
+      "en": {
+        "text": "A Vytautas Magnus University project named after Bronė Pajiedaitė (1910-1946), the pioneer of freshwater bryozoan research in Lithuania. [GAP: what citizens do in the project and a working link, from Monika]"
+      }
+    },
+    {
+      "name": "RECONNECT",
+      "scope": "national",
+      "topic": "society",
+      "url": "https://ktu.edu/projects/visuomenes-ir-bendruomeniu-atsparumo-stiprinimas-per-pilieciu-moksla-ir-pilietiskuma-reconect/",
+      "lt": {
+        "text": "Kauno technologijos universiteto koordinuojamas projektas „Visuomenės ir bendruomenių atsparumo stiprinimas per piliečių mokslą ir pilietiškumą“, finansuojamas Lietuvos mokslo tarybos (2023-2026). Projekto vadovė Eglė Butkevičienė."
+      },
+      "en": {
+        "text": "\"Strengthening public and community resilience through citizen science and civic engagement\", a project coordinated by Kaunas University of Technology and funded by the Research Council of Lithuania (2023-2026). Led by Eglė Butkevičienė."
+      }
+    },
+    {
+      "name": "Vis.DuomUo",
+      "scope": "national",
+      "topic": "institutions",
+      "url": "https://sc.bns.lt/view/item/vdu-projekte-demesys-pilieciu-mokslo-palaikymui-475916",
+      "lt": {
+        "text": "Vytauto Didžiojo universiteto projektas, finansuojamas „NextGenerationEU“ lėšomis. Kuriamos gairės ir infrastruktūra, kad piliečių surinkti duomenys būtų veiksmingai naudojami, dalijami ir valdomi universiteto moksliniuose tyrimuose."
+      },
+      "en": {
+        "text": "A Vytautas Magnus University project funded by NextGenerationEU. It develops guidelines and infrastructure so that data collected by citizens can be effectively used, shared and managed in the university's research."
+      }
+    },
+    {
+      "name": "AMBER",
+      "scope": "international",
+      "topic": "nature",
+      "url": "https://amber.international/",
+      "lt": {
+        "text": "AMBER (Adaptive Management of Barriers in European Rivers) siekia veiksmingiau atkurti Europos upių vientisumą. Savanoriai programėle „Barrier Tracker“ fiksuoja upių užtvaras: jų vietą, aukštį ir nuotraukas."
+      },
+      "en": {
+        "text": "AMBER (Adaptive Management of Barriers in European Rivers) works towards a more effective restoration of stream connectivity in European rivers. Volunteers use the Barrier Tracker app to record river barriers: their location, height and photos."
+      }
+    },
+    {
+      "name": "Coalition Clean Baltic",
+      "scope": "international",
+      "topic": "nature",
+      "url": "https://www.ccb.se/citizen-science",
+      "lt": {
+        "text": "Baltijos jūros aplinkos apsaugai skirtas organizacijų tinklas. Piliečiai dalyvauja pakrančių ir upių stebėsenoje, plastiko taršos fiksavime ir ekosistemų atkūrimo darbuose."
+      },
+      "en": {
+        "text": "A network of organisations dedicated to protecting the Baltic Sea environment. Citizens take part in coastal and river monitoring, plastic tracking and ecosystem restoration work."
+      }
+    },
+    {
+      "name": "Green Stories",
+      "scope": "international",
+      "topic": "nature",
+      "url": "https://latlit.eu/theprojects/green-stories/",
+      "lt": {
+        "text": "„Interreg“ Latvijos ir Lietuvos programos projektas (2024-2026), kuriuo siekiama didinti visuomenės, ypač moksleivių, supratimą apie augalijos svarbą ir gamtos apsaugą. Lietuvoje projektą įgyvendina Aukštaitijos nacionalinio parko ir Labanoro regioninio parko direkcija."
+      },
+      "en": {
+        "text": "An Interreg Latvia-Lithuania Programme project (2024-2026) that aims to raise awareness among the public, especially schoolchildren, of the importance of flora and nature conservation. In Lithuania it is implemented by the Directorate of Aukštaitija National Park and Labanoras Regional Park."
+      }
+    },
+    {
+      "name": "YouCount",
+      "scope": "international",
+      "topic": "society",
+      "url": "https://www.youcountproject.eu/",
+      "lt": {
+        "text": "Programos „Horizontas 2020“ projektas, kuriame jaunimas kartu su tyrėjais ir suinteresuotosiomis šalimis kūrė naujas žinias apie jaunų žmonių socialinę įtrauktį. Jaunuoliai iš vietos bendruomenių dalyvavo kaip tyrėjai visuose projekto etapuose."
+      },
+      "en": {
+        "text": "A Horizon 2020 project in which young people, researchers and stakeholders co-created new knowledge on the social inclusion of youth. Young people from local communities took part as co-researchers at every stage of the project."
+      }
+    },
+    {
+      "name": "INCENTIVE",
+      "scope": "international",
+      "topic": "institutions",
+      "url": "https://incentive-project.eu/",
+      "lt": {
+        "text": "Programos „Horizontas 2020“ projektas, padėjęs universitetams atsiverti piliečiams ir įtraukti juos į mokslinius tyrimus. Projekte įkurti keturi piliečių mokslo centrai Europoje. Partneris iš Lietuvos: Vilniaus Gedimino technikos universitetas."
+      },
+      "en": {
+        "text": "A Horizon 2020 project that helped universities open their doors to citizens and involve them in research. It established four citizen science hubs across Europe. Lithuanian partner: Vilnius Gediminas Technical University."
+      }
+    },
+    {
+      "name": "LibOCS",
+      "scope": "international",
+      "topic": "institutions",
+      "url": "https://www.libocs.ut.ee/",
+      "lt": {
+        "text": "ES finansuotas projektas „Universitetų bibliotekos, stiprinančios akademinės bendruomenės ir visuomenės ryšį per piliečių mokslą Baltijos šalyse“ (2022-2024)."
+      },
+      "en": {
+        "text": "\"University libraries strengthening the academia-society connection through citizen science in the Baltics\", an EU funded project (2022-2024)."
+      }
+    }
+  ]
+}
