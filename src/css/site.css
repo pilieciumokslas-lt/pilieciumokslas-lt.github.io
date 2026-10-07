@@ -237,3 +237,7 @@ p { margin: 0 0 1em; }
 .resource:hover h3 { color: #fff; }
 .cta-text { max-width: 60ch; margin: 14px 0 0; opacity: 0.85; }
 @media (min-width: 901px) and (max-width: 1240px) { .nav { gap: 14px; font-size: 0.88rem; } .brand { font-size: 1.1rem; } }
+
+.platform { background: var(--paper); border: 1.5px solid var(--line); }
+.platform:hover { border-color: var(--blue); }
+.band.tint .sub:first-of-type { margin-top: 0; }

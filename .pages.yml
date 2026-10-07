@@ -159,6 +159,7 @@ content:
         list: true
         fields:
           - { name: name, label: Pavadinimas / Name, type: string }
+          - { name: scope, label: Tipas, type: select, options: { values: [european, global] } }
           - { name: url, label: Nuoroda / Link, type: string }
           - { name: lt, label: Lietuviškai, type: object, fields: *lang }
           - { name: en, label: English, type: object, fields: *lang }

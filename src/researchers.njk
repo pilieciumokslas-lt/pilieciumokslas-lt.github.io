@@ -34,14 +34,17 @@ permalink: "{{ routes.researchers[lang] }}"
 <section class="band tint">
   <div class="wrap">
     <h2>{{ r[lang].platformsTitle }}</h2>
-    <div class="grid g2">
-      {% for p in r.platforms %}
-      <a class="card resource" href="{{ p.url }}">
+    {% for scope in ["european", "global"] %}
+    <h3 class="sub">{{ r[lang][scope + "Title"] }}</h3>
+    <div class="grid g3">
+      {% for p in r.platforms | where("scope", scope) %}
+      <a class="card resource platform" href="{{ p.url }}">
         <h3>{{ p[lang].title }}</h3>
         <p>{{ p[lang].text }}</p>
       </a>
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
 <section class="cta">
