@@ -39,12 +39,13 @@
       "logo": "/assets/uploads/logos/fidelis.png",
       "topic": "institutions",
       "scope": "international",
-      "url": "https://eden-fidelis.eu/news/fidelis-mentoring-peer-peer-programme-first-cohort-mentors-announced",
+      "url": "/naujienos/asociacijos-vadove-atrinkta-fidelis-mentore/",
       "lt": {
         "text": "FIDELIS yra Europos Komisijos finansuojamas projektas, padedantis skaitmeninėms talpykloms tapti prieinamesnėms ir patikimesnėms. Asociacijos vadovė dr. Monika Mačiulienė atrinkta į pirmąją FIDELIS mentorių grupę ir dalyvauja mentorystės bei tarpusavio paramos programoje „Fostering engagement between repositories and end users“, skirtoje talpyklų ir jų naudotojų ryšiui stiprinti."
       },
       "en": {
-        "text": "FIDELIS is a European Commission funded project that addresses the challenges digital repositories face in becoming more accessible and trustworthy. The association's director, Dr. Monika Mačiulienė, was selected for the first cohort of FIDELIS mentors and takes part in the mentoring and peer-to-peer support programme \"Fostering engagement between repositories and end users\"."
+        "text": "FIDELIS is a European Commission funded project that addresses the challenges digital repositories face in becoming more accessible and trustworthy. The association's director, Dr. Monika Mačiulienė, was selected for the first cohort of FIDELIS mentors and takes part in the mentoring and peer-to-peer support programme \"Fostering engagement between repositories and end users\".",
+        "url": "/en/news/asociacijos-vadove-atrinkta-fidelis-mentore/"
       }
     },
     {

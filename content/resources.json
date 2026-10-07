@@ -330,6 +330,20 @@
     },
     {
       "type": "tool",
+      "language": "en",
+      "source": "Mačiulienė, 2026 / FIDELIS",
+      "url": "/assets/uploads/docs/fidelis-sp3-handout.pdf",
+      "lt": {
+        "title": "Designing with your users, not for them: participatory approaches for repositories",
+        "text": "Dviejų puslapių FIDELIS mokymų atmintinė talpykloms: kaip skaito užimtas tyrėjas, kaip jam pritaikyti puslapius ir el. laiškus, kvietimo pokalbiui tekstas ir penki klausimai duomenų teikėjams."
+      },
+      "en": {
+        "title": "Designing with your users, not for them: participatory approaches for repositories",
+        "text": "A two-page handout from the FIDELIS training for repositories: how a busy researcher reads, how to design pages and emails for them, an invitation text and five questions for conversations with depositors."
+      }
+    },
+    {
+      "type": "tool",
       "language": "lt",
       "source": "ECSA / KTU biblioteka",
       "url": "https://biblioteka.ktu.edu/wp-content/uploads/sites/38/2025/08/10-pilieciu-mokslo-principu.pdf",
