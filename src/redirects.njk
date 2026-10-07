@@ -1,0 +1,18 @@
+---
+pagination:
+  data: db.redirects
+  size: 1
+  alias: r
+permalink: "{{ r.from }}"
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="lt">
+<head>
+  <meta charset="utf-8">
+  <title>pilieciumokslas.lt</title>
+  <link rel="canonical" href="{{ r.to }}">
+  <meta http-equiv="refresh" content="0; url={{ r.to }}">
+</head>
+<body><p><a href="{{ r.to }}">{{ r.to }}</a></p></body>
+</html>

@@ -32,6 +32,8 @@ function cubes() {
 export default function (cfg) {
   cfg.addPlugin(EleventyHtmlBasePlugin);
   cfg.addPassthroughCopy({ assets: "assets" });
+  // Files that must keep their old address, e.g. documents linked from outside.
+  cfg.addPassthroughCopy({ static: "/" });
   cfg.addPassthroughCopy({ "src/css": "css" });
   for (const f of ["inter", "space-grotesk"]) {
     for (const s of ["latin", "latin-ext"]) {
