@@ -1,0 +1,22 @@
+---
+layout: base.njk
+key: explainer
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.explainer[lang] }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set e = db.explainer[lang] -%}
+{{ pageHead(e.title, e.intro) }}
+<section class="band">
+  <div class="wrap narrow prose explainer">{{ e.body | safe }}</div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <h2>{{ t.initiativesTeaser }}</h2>
+    <a class="btn btn-white" href="{{ routes.initiatives[lang] }}">{{ t.allInitiatives }}</a>
+  </div>
+</section>

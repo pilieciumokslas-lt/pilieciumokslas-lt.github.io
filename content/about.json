@@ -8,7 +8,6 @@
       "Veikti kaip komunikacijos ir koordinavimo centras augančiai piliečių mokslo bendruomenei.",
       "Organizuoti mokslo populiarinimo renginius, pristatyti mokslinius tyrimus bei piliečių mokslo projektus."
     ],
-    "governance": "<p>Steigėja ir vadovė: dr. Monika Mačiulienė</p><p>Steigėjos: dr. Eglė Butkevičienė, dr. Diana Marčiulynienė</p>",
     "documents": "<p><a href=\"/wp-content/uploads/2026/03/gep_pma_signed.pdf\">Lyčių lygybės užtikrinimo veiksmų planas 2026-2028 (anglų k.)</a></p>",
     "membership": "<p>Asociacijos nariu gali tapti veiksnus 18 metų sulaukęs fizinis asmuo arba Lietuvos Respublikos įstatymų nustatyta tvarka veikiantis juridinis asmuo, pripažįstantis asociacijos tikslus ir sutinkantis aktyviai dalyvauti asociacijos veikloje.</p><p>Pateiktą prašymą asociacijos valdyba apsvarsto ir sprendimą pateikia per 30 darbo dienų nuo prašymo pateikimo dienos. Pranešimas apie valdybos sprendimą siunčiamas elektroninio pašto adresu, kurį asmuo nurodė savo prašyme.</p>",
     "contact": "Bendradarbiavimo klausimais rašykite mums."
@@ -20,9 +19,63 @@
       "Act as a communication and coordination hub for the growing citizen science community in Lithuania.",
       "Organise science communication events, present research and promote citizen science projects."
     ],
-    "governance": "<p>Founder and Director: Dr. Monika Mačiulienė</p><p>Founding Members: Dr. Eglė Butkevičienė, Dr. Diana Marčiulynienė</p>",
     "documents": "<p><a href=\"/wp-content/uploads/2026/03/gep_pma_signed.pdf\">Gender Equality Plan 2026-2028</a></p>",
     "membership": "<p>Membership is open to any legally capable natural person aged 18 or over, and to any legal entity operating under the laws of the Republic of Lithuania, who recognises the goals of the association and agrees to take an active part in its activities.</p><p>The board of the association reviews each application and gives its decision within 30 working days of submission. The decision is sent to the email address given in the application.</p>",
     "contact": "For collaboration inquiries, please write to us."
-  }
+  },
+  "people": [
+    {
+      "name": "Dr. Monika Mačiulienė",
+      "photo": "",
+      "links": [
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-8527-7468"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/maciuliene/"
+        }
+      ],
+      "lt": {
+        "role": "Steigėja ir vadovė",
+        "bio": "Vilniaus Gedimino technikos universiteto (VILNIUS TECH) vyresnioji mokslo darbuotoja. Tyrinėja dalyvaujamuosius mokslo metodus, piliečių ir atvirąjį mokslą."
+      },
+      "en": {
+        "role": "Founder and Director",
+        "bio": "Senior researcher at Vilnius Gediminas Technical University (VILNIUS TECH). She studies participatory research methods, citizen science and open science."
+      }
+    },
+    {
+      "name": "Prof. dr. Eglė Butkevičienė",
+      "photo": "",
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/eglebutkeviciene/"
+        }
+      ],
+      "lt": {
+        "role": "Steigėja",
+        "bio": "Kauno technologijos universiteto Socialinių, humanitarinių mokslų ir menų fakulteto profesorė, piliečių mokslo tyrimų grupės vadovė. Europos piliečių mokslo asociacijos (ECSA) valdybos narė."
+      },
+      "en": {
+        "role": "Founding member",
+        "bio": "Professor at the Faculty of Social Sciences, Arts and Humanities of Kaunas University of Technology, where she heads the citizen science research group. Member of the Board of the European Citizen Science Association (ECSA)."
+      }
+    },
+    {
+      "name": "Dr. Diana Marčiulynienė",
+      "photo": "",
+      "links": [],
+      "lt": {
+        "role": "Steigėja",
+        "bio": ""
+      },
+      "en": {
+        "role": "Founding member",
+        "bio": ""
+      }
+    }
+  ]
 }

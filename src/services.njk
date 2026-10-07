@@ -14,7 +14,7 @@ permalink: "{{ routes.services[lang] }}"
 <section class="band">
   <div class="wrap">
     <ol class="grid g2 services full">
-      {% for s in db.services.items %}<li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s[lang].title }}</h3><p>{{ s[lang].text | safe }}</p></li>{% endfor %}
+      {% for s in db.services.items %}<li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s[lang].title }}</h3><p>{{ s[lang].text | safe }}</p>{% if s[lang].example %}<p class="example"><strong>{{ t.example }}:</strong> {{ s[lang].example }}{% if s.example_url %} <a href="{{ s.example_url }}">{{ t.more }}</a>{% endif %}</p>{% endif %}</li>{% endfor %}
     </ol>
   </div>
 </section>

@@ -127,8 +127,21 @@ content:
         type: object
         list: true
         fields:
-          - { name: lt, label: Lietuviškai, type: object, fields: *lang }
-          - { name: en, label: English, type: object, fields: *lang }
+          - { name: example_url, label: Pavyzdžio nuoroda / Example link, type: string }
+          - name: lt
+            label: Lietuviškai
+            type: object
+            fields:
+              - { name: title, label: Pavadinimas, type: string }
+              - { name: text, label: Aprašymas, type: text }
+              - { name: example, label: Pavyzdys, type: text }
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Description, type: text }
+              - { name: example, label: Example, type: text }
 
   - name: researchers
     label: Institucijos / Institutions
@@ -166,3 +179,57 @@ content:
               - { name: url, label: Nuoroda / Link, type: string }
               - { name: lt, label: Pavadinimas lietuviškai, type: string }
               - { name: en, label: Title in English, type: string }
+
+  - name: people
+    label: Žmonės / People
+    type: file
+    path: content/about.json
+    format: json
+    fields:
+      - name: people
+        label: Žmonės / People
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Vardas ir pavardė / Name, type: string }
+          - { name: photo, label: Nuotrauka / Photo, type: image }
+          - name: lt
+            label: Lietuviškai
+            type: object
+            fields:
+              - { name: role, label: Pareigos, type: string }
+              - { name: bio, label: Aprašymas, type: text }
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: role, label: Role, type: string }
+              - { name: bio, label: Description, type: text }
+          - name: links
+            label: Nuorodos / Links
+            type: object
+            list: true
+            fields:
+              - { name: label, label: Pavadinimas / Label, type: string }
+              - { name: url, label: Nuoroda / Link, type: string }
+
+  - name: explainer
+    label: Kas yra piliečių mokslas? / What is citizen science?
+    type: file
+    path: content/explainer.json
+    format: json
+    fields:
+      - name: lt
+        label: Lietuviškai
+        type: object
+        fields:
+          - { name: title, label: Pavadinimas, type: string }
+          - { name: intro, label: Įžanga, type: text }
+          - { name: body, label: Tekstas, type: rich-text }
+      - name: en
+        label: English
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: intro, label: Intro, type: text }
+          - { name: body, label: Text, type: rich-text }

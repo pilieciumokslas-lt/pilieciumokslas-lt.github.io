@@ -9,7 +9,8 @@
       "services": "Paslaugos",
       "about": "Apie asociaciją",
       "initiatives": "Piliečių mokslo iniciatyvos Lietuvoje",
-      "researchers": "Piliečių mokslas Lietuvos mokslo institucijose"
+      "researchers": "Piliečių mokslas Lietuvos mokslo institucijose",
+      "explainer": "Kas yra piliečių mokslas?"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -75,7 +76,9 @@
       "initiatives": "Iniciatyvos",
       "resources": "Ištekliai",
       "researchers": "Institucijos"
-    }
+    },
+    "people": "Žmonės",
+    "example": "Pavyzdys"
   },
   "en": {
     "site": "Lithuanian Citizen Science Association",
@@ -87,7 +90,8 @@
       "services": "Services",
       "about": "About the association",
       "initiatives": "Citizen science initiatives in Lithuania",
-      "researchers": "Citizen science at Lithuanian research institutions"
+      "researchers": "Citizen science at Lithuanian research institutions",
+      "explainer": "What is citizen science?"
     },
     "skip": "Skip to content",
     "menu": "Menu",
@@ -154,6 +158,8 @@
       "resources": "Resources",
       "about": "About",
       "researchers": "Institutions"
-    }
+    },
+    "people": "People",
+    "example": "Example"
   }
 }

@@ -257,3 +257,18 @@ p { margin: 0 0 1em; }
   .nav .n-short { display: none; }
   .nav .n-full { position: static; width: auto; height: auto; overflow: visible; clip-path: none; white-space: normal; }
 }
+
+.explainer h2 { font-size: 1.6rem; margin: 2em 0 0.6em; }
+.explainer h2:first-child { margin-top: 0; }
+.explainer li { margin-bottom: 0.8em; }
+.person { background: var(--paper); border-radius: 6px; padding: 28px; }
+.person .avatar { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; display: grid; place-items: center; background: var(--blue); color: #fff; font: 600 1.6rem var(--display); margin-bottom: 18px; }
+.person:nth-child(3n + 2) div.avatar { background: var(--pink); }
+.person:nth-child(3n) div.avatar { background: var(--ink); }
+.person h3 { font-size: 1.25rem; }
+.person .unit { font: 600 0.9rem var(--display); color: var(--blue); margin: 6px 0 12px; }
+.person p { color: var(--muted); font-size: 0.97rem; }
+.plinks { display: flex; gap: 16px; margin: 0; }
+.plinks a { font: 600 0.9rem var(--display); }
+.services .example { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.95rem; color: var(--ink); }
+.services .example a { white-space: nowrap; font-weight: 600; }

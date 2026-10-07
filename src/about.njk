@@ -19,14 +19,28 @@ permalink: "{{ routes.about[lang] }}"
       <ol class="goals">{% for g in a.goals %}<li>{{ g }}</li>{% endfor %}</ol>
     </div>
     <div>
-      <h2>{{ t.governance }}</h2>
-      {{ a.governance | safe }}
       <h2>{{ t.documents }}</h2>
       {{ a.documents | safe }}
     </div>
   </div>
 </section>
 <section class="band tint">
+  <div class="wrap">
+    <h2>{{ t.people }}</h2>
+    <div class="grid g3">
+      {% for p in db.about.people %}
+      <article class="person">
+        {% if p.photo %}<img class="avatar" src="{{ p.photo }}" alt="" loading="lazy">{% else %}<div class="avatar" aria-hidden="true">{{ p.name | initials }}</div>{% endif %}
+        <h3>{{ p.name }}</h3>
+        <p class="unit">{{ p[lang].role }}</p>
+        {% if p[lang].bio %}<p>{{ p[lang].bio }}</p>{% endif %}
+        {% if p.links.length %}<p class="plinks">{% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="band">
   <div class="wrap about">
     <div>
       <h2>{{ t.membership }}</h2>

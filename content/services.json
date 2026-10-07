@@ -1,30 +1,88 @@
 {
-  "lt": { "intro": "Teikiame paslaugas savivaldybėms, piliečių organizacijoms ir kitoms suinteresuotoms grupėms. Padedame planuoti ir įgyvendinti įtraukius sprendimų priėmimo procesus." },
-  "en": { "intro": "We work with municipalities, civil society organisations and other stakeholder groups, and help plan and run inclusive decision-making processes." },
+  "lt": {
+    "intro": "Teikiame paslaugas savivaldybėms, piliečių organizacijoms ir kitoms suinteresuotoms grupėms. Padedame planuoti ir įgyvendinti įtraukius sprendimų priėmimo procesus."
+  },
+  "en": {
+    "intro": "We work with municipalities, civil society organisations and other stakeholder groups, and help plan and run inclusive decision-making processes."
+  },
   "items": [
     {
-      "lt": { "title": "Piliečių mokslo projektų kūrimas ir konsultacijos", "text": "Padedame tyrėjams, institucijoms ir bendruomenėms pradėti ir valdyti piliečių mokslo projektus. Konsultuojame dėl metodikos, duomenų rinkimo, analizės ir projekto valdymo." },
-      "en": { "title": "Citizen science project development and consultation", "text": "We support researchers, organizations, and communities in launching and managing citizen science projects, from concept to outcomes. Our services include advice on research design, data collection, analysis, and project management." }
+      "lt": {
+        "title": "Piliečių mokslo projektų kūrimas ir konsultacijos",
+        "text": "Padedame tyrėjams, institucijoms ir bendruomenėms pradėti ir valdyti piliečių mokslo projektus. Konsultuojame dėl metodikos, duomenų rinkimo, analizės ir projekto valdymo.",
+        "example": "COPOS: kartu su Kuršių nerijos nacionalinio parko direkcija kuriame piliečių mokslu grįstą pajūrio ir kopų būklės vertinimo sistemą."
+      },
+      "en": {
+        "title": "Citizen science project development and consultation",
+        "text": "We support researchers, organizations, and communities in launching and managing citizen science projects, from concept to outcomes. Our services include advice on research design, data collection, analysis, and project management.",
+        "example": "COPOS: together with the Curonian Spit National Park Administration we are designing a citizen science system for assessing the condition of the shore and dunes."
+      },
+      "example_url": "/projektai/"
     },
     {
-      "lt": { "title": "Piliečių įtraukimas į mokslą ir politikos formavimą", "text": "Kuriame ir įgyvendiname procesus, kurie įtraukia piliečius į sprendimų priėmimą ir politikos formavimą. Padedame planuoti ir organizuoti piliečių asamblėjas, viešas konsultacijas ir diskusijas." },
-      "en": { "title": "Citizen engagement in science and policy", "text": "We design and implement processes that involve citizens in decision-making and policy development. We assist in planning and organizing citizens' assemblies, public consultations, and policy dialogues." }
+      "lt": {
+        "title": "Piliečių įtraukimas į mokslą ir politikos formavimą",
+        "text": "Kuriame ir įgyvendiname procesus, kurie įtraukia piliečius į sprendimų priėmimą ir politikos formavimą. Padedame planuoti ir organizuoti piliečių asamblėjas, viešas konsultacijas ir diskusijas.",
+        "example": "Kauno rajono piliečių asamblėja: stebime ir vertiname, kaip gyventojų įsitraukimas veikia sprendimų priėmimą."
+      },
+      "en": {
+        "title": "Citizen engagement in science and policy",
+        "text": "We design and implement processes that involve citizens in decision-making and policy development. We assist in planning and organizing citizens' assemblies, public consultations, and policy dialogues.",
+        "example": "Kaunas District citizens' assembly: we observe and evaluate how residents' engagement affects decision-making."
+      },
+      "example_url": "/naujienos/spreskime-kartu-kauno-rajone-prasidejo-pilieciu-asambleja/"
     },
     {
-      "lt": { "title": "Svarstomosios demokratijos procesų įgyvendinimas", "text": "Padedame planuoti ir įgyvendinti svarstomosios demokratijos procesus, tokius kaip klimato asamblėjos ar politikos dialogai. Naudojame <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, pritaikytą šių procesų organizavimui ir analizei." },
-      "en": { "title": "Deliberative processes and CLIMAS Toolbox application", "text": "We apply the <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, a set of tools developed within the CLIMAS project to support the organization of Climate Assemblies and other deliberative processes. We provide methodological support and practical guidance for its use." }
+      "lt": {
+        "title": "Svarstomosios demokratijos procesų įgyvendinimas",
+        "text": "Padedame planuoti ir įgyvendinti svarstomosios demokratijos procesus, tokius kaip klimato asamblėjos ar politikos dialogai. Naudojame <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, pritaikytą šių procesų organizavimui ir analizei.",
+        "example": "CLIMAS: projekte sukurtą įrankių rinkinį taikome klimato asamblėjoms ir kitiems svarstomosios demokratijos procesams."
+      },
+      "en": {
+        "title": "Deliberative processes and CLIMAS Toolbox application",
+        "text": "We apply the <a href=\"https://www.climas-project.eu/\">CLIMAS Toolbox</a>, a set of tools developed within the CLIMAS project to support the organization of Climate Assemblies and other deliberative processes. We provide methodological support and practical guidance for its use.",
+        "example": "CLIMAS: we apply the toolbox developed in the project to climate assemblies and other deliberative processes."
+      },
+      "example_url": "https://www.climas-project.eu/"
     },
     {
-      "lt": { "title": "Komunikacija ir sklaida mokslo bei inovacijų projektuose", "text": "Rengiame komunikacijos strategijas, padedame planuoti rezultatų sklaidą, kuriame informacinį ir vizualinį turinį, koordinuojame komunikaciją su visuomene ir žiniasklaida." },
-      "en": { "title": "Communication and dissemination in research and innovation projects", "text": "We develop communication strategies, plan dissemination activities, create informational and visual content, and coordinate engagement with the public and media." }
+      "lt": {
+        "title": "Komunikacija ir sklaida mokslo bei inovacijų projektuose",
+        "text": "Rengiame komunikacijos strategijas, padedame planuoti rezultatų sklaidą, kuriame informacinį ir vizualinį turinį, koordinuojame komunikaciją su visuomene ir žiniasklaida.",
+        "example": "RIECS-Concept: prisidedame prie Europos piliečių mokslo infrastruktūros projekto komunikacijos ir sklaidos."
+      },
+      "en": {
+        "title": "Communication and dissemination in research and innovation projects",
+        "text": "We develop communication strategies, plan dissemination activities, create informational and visual content, and coordinate engagement with the public and media.",
+        "example": "RIECS-Concept: we contribute to the communication and dissemination of the European citizen science infrastructure project."
+      },
+      "example_url": "https://concept.riecs.eu/"
     },
     {
-      "lt": { "title": "Mokymai ir gebėjimų stiprinimas", "text": "Vykdome mokymus lietuvių ir anglų kalbomis apie piliečių mokslą, dalyvaujamąjį tyrimą, deliberaciją, moderavimą, bendrakūrą bei įtraukaus dialogo metodus." },
-      "en": { "title": "Training and capacity building", "text": "We provide training in Lithuanian and English on citizen science, participatory research, deliberation, facilitation, co-creation, and inclusive dialogue methods." }
+      "lt": {
+        "title": "Mokymai ir gebėjimų stiprinimas",
+        "text": "Vykdome mokymus lietuvių ir anglų kalbomis apie piliečių mokslą, dalyvaujamąjį tyrimą, deliberaciją, moderavimą, bendrakūrą bei įtraukaus dialogo metodus.",
+        "example": "FIDELIS: 2026 m. rugsėjį parengėme ir vedėme mokymus Europos skaitmeninių talpyklų darbuotojams apie paslaugų kūrimą kartu su naudotojais."
+      },
+      "en": {
+        "title": "Training and capacity building",
+        "text": "We provide training in Lithuanian and English on citizen science, participatory research, deliberation, facilitation, co-creation, and inclusive dialogue methods.",
+        "example": "FIDELIS: in September 2026 we prepared and ran a training for staff of European digital repositories on designing services together with users."
+      },
+      "example_url": "/naujienos/asociacija-fidelis-mentorystes-programoje/"
     },
     {
-      "lt": { "title": "Tyrimų ir duomenų komunikacija", "text": "Padedame paversti tyrimų rezultatus suprantamu turiniu: rengiame ataskaitas, infografikus, duomenų vizualizacijas ir interaktyvius pasakojimus, skirtus įvairioms auditorijoms." },
-      "en": { "title": "Research and data communication", "text": "We help translate research findings into accessible content by preparing reports, infographics, data visualizations, and interactive stories tailored to different audiences." }
+      "lt": {
+        "title": "Tyrimų ir duomenų komunikacija",
+        "text": "Padedame paversti tyrimų rezultatus suprantamu turiniu: rengiame ataskaitas, infografikus, duomenų vizualizacijas ir interaktyvius pasakojimus, skirtus įvairioms auditorijoms.",
+        "example": "INFODEMIJA: asociacijos atstovų vadovaujamo tyrimo rezultatai pateikti interaktyvioje platformoje apie mokslo auditorijų segmentus Lietuvoje."
+      },
+      "en": {
+        "title": "Research and data communication",
+        "text": "We help translate research findings into accessible content by preparing reports, infographics, data visualizations, and interactive stories tailored to different audiences.",
+        "example": "INFODEMIJA: the results of a study led by the association's representatives are presented on an interactive platform about science audience segments in Lithuania."
+      },
+      "example_url": "https://www.infodemija.lt/"
     }
   ]
 }
