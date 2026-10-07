@@ -49,6 +49,20 @@
       }
     },
     {
+      "name": "SoilTribes",
+      "logo": "",
+      "topic": "nature",
+      "scope": "international",
+      "url": "/naujienos/soiltribes-praktiku-bendruomene/",
+      "lt": {
+        "text": "Programos „Europos horizontas“ ES misijos „Dirvožemio susitarimas Europai“ projektas (2025-2027), stiprinantis dirvožemio raštingumą ir žmonių ryšį su dirvožemiu. Nuo 2026 m. kovo asociacija yra projekto praktikų bendruomenės narė: kartu su mokslo, verslo, valdžios, pilietinės visuomenės ir meno atstovais iš visos Europos dalijasi patirtimi ir kuria dirvožemio raštingumo priemones."
+      },
+      "en": {
+        "url": "/en/news/soiltribes-praktiku-bendruomene/",
+        "text": "A Horizon Europe project under the EU Mission \"A Soil Deal for Europe\" (2025-2027) that strengthens soil literacy and people's connection with soil. Since March 2026 the association has been a member of the project's Community of Practice, sharing experience and co-designing soil literacy tools with people from academia, business, government, civil society and the arts across Europe."
+      }
+    },
+    {
       "name": "CLIMAS",
       "logo": "/assets/uploads/logos/climas.png",
       "topic": "society",
