@@ -9,20 +9,6 @@
     {
       "type": "publication",
       "language": "lt",
-      "source": "Butkevičienė, Mačiulienė, Mickevičiūtė, Vaidelytė, Vitkauskaitė-Ramanauskienė, Balázs, 2022",
-      "url": "https://doi.org/10.5755/e01.9786090217702",
-      "lt": {
-        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
-        "text": "Monografija (Kaunas: Technologija) apie piliečių mokslą kaip piliečių ir mokslininkų bendradarbiavimą sprendžiant socialines problemas: sampratą, ekosistemą, dalyvius, procesus ir taikymo galimybes Lietuvoje."
-      },
-      "en": {
-        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
-        "text": "A monograph in Lithuanian (Kaunas: Technologija) on citizen science as a way for citizens and scientists to work together on social problems: the concept, the ecosystem, participants, processes and possible applications in Lithuania."
-      }
-    },
-    {
-      "type": "publication",
-      "language": "lt",
       "source": "KTU / LibOCS, 2026",
       "url": "/naujienos/isleista-monografija-apie-bibliotekininku-kompetencijas-pilieciu-moksle/",
       "lt": {
@@ -36,30 +22,114 @@
     },
     {
       "type": "publication",
-      "language": "en",
-      "source": "Skaržauskienė, Mačiulienė, 2021",
-      "url": "https://doi.org/10.3390/su132413980",
+      "language": "lt",
+      "source": "Butkevičienė, Mačiulienė, Mickevičiūtė, Vaidelytė, Vitkauskaitė-Ramanauskienė, Balázs, 2022",
+      "url": "https://doi.org/10.5755/e01.9786090217702",
       "lt": {
-        "title": "Citizen science addressing challenges of sustainability",
-        "text": "Straipsnis žurnale „Sustainability“ apie suinteresuotųjų šalių požiūrį, motyvaciją ir kliūtis dalyvauti piliečių mokslo iniciatyvose, sprendžiančiose tvarumo iššūkius Lietuvoje."
+        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
+        "text": "Monografija (Kaunas: Technologija) apie piliečių mokslą kaip piliečių ir mokslininkų bendradarbiavimą sprendžiant socialines problemas: sampratą, ekosistemą, dalyvius, procesus ir taikymo galimybes Lietuvoje."
       },
       "en": {
-        "title": "Citizen science addressing challenges of sustainability",
-        "text": "An article in the journal Sustainability on stakeholder perceptions, motivations and barriers to taking part in citizen science initiatives that address sustainability challenges in Lithuania."
+        "title": "Piliečių mokslas kaip inovatyvi piliečių dalyvavimo forma kuriant gerovės visuomenę",
+        "text": "A monograph in Lithuanian (Kaunas: Technologija) on citizen science as a way for citizens and scientists to work together on social problems: the concept, the ecosystem, participants, processes and possible applications in Lithuania."
       }
     },
     {
       "type": "publication",
       "language": "en",
-      "source": "Tauginienė, Butkevičienė, Vohland ir kt., 2020",
-      "url": "https://doi.org/10.1057/s41599-020-0471-y",
+      "source": "Skaržauskienė, Mačiulienė, Wildevuur et al., 2025",
+      "url": "https://www.emerald.com/jec/article/19/1/111/1245257",
       "lt": {
-        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
-        "text": "Straipsnis žurnale „Palgrave Communications“ apie piliečių mokslą socialiniuose ir humanitariniuose moksluose."
+        "title": "Developing citizen science ecosystem: critical factors for quadruple helix stakeholders engagement",
+        "text": "Straipsnis žurnale „Journal of Enterprising Communities“ apie požiūrį į piliečių mokslo ekosistemos plėtrą, nuostatas, nuogąstavimus ir motyvaciją keturiose šalyse, tarp jų Lietuvoje."
       },
       "en": {
-        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
-        "text": "An article in Palgrave Communications on citizen science in the social sciences and humanities."
+        "title": "Developing citizen science ecosystem: critical factors for quadruple helix stakeholders engagement",
+        "text": "An article in the Journal of Enterprising Communities on perceptions, attitudes, concerns and motivation regarding the development of the citizen science ecosystem in four countries, including Lithuania."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Filipeti, Mumelaš, 2025",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/02666669251333396",
+      "lt": {
+        "title": "Research on the competencies of librarians needed for organizing and conducting citizen science activities",
+        "text": "Straipsnis žurnale „Information Development“: tikslinių grupių diskusijomis tirta, kokių kompetencijų reikia Lietuvos akademinių ir viešųjų bibliotekų darbuotojams, organizuojantiems piliečių mokslo veiklas."
+      },
+      "en": {
+        "title": "Research on the competencies of librarians needed for organizing and conducting citizen science activities",
+        "text": "An article in Information Development: focus groups were used to study which competencies librarians in Lithuanian academic and public libraries need to organise citizen science activities."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Uogintė, Byčenkienė, Davtalab et al., 2024",
+      "url": "https://link.springer.com/article/10.1007/s10661-024-12503-7",
+      "lt": {
+        "title": "Exploring the abundance and characteristics of litter in Lithuanian riversides: a citizen science approach",
+        "text": "Straipsnis žurnale „Environmental Monitoring and Assessment“: 2022 ir 2023 m. kartu su moksleiviais tirtos šiukšlės ir jų šaltiniai Lietuvos upių pakrantėse."
+      },
+      "en": {
+        "title": "Exploring the abundance and characteristics of litter in Lithuanian riversides: a citizen science approach",
+        "text": "An article in Environmental Monitoring and Assessment: in 2022 and 2023 litter and its sources on Lithuanian riversides were studied together with schoolchildren."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Birk, Tõiste, Ignat, Kaseorg et al., 2024",
+      "url": "https://liberquarterly.eu/article/view/19068",
+      "lt": {
+        "title": "Implementing citizen science activities in Baltic University Libraries: On the road to a citizen science hub",
+        "text": "Straipsnis žurnale „LIBER Quarterly“ apie piliečių mokslo praktikas penkiuose Baltijos šalių universitetuose, tarp jų Kauno technologijos ir Vytauto Didžiojo universitetuose, ir LibOCS projekto patirtį."
+      },
+      "en": {
+        "title": "Implementing citizen science activities in Baltic University Libraries: On the road to a citizen science hub",
+        "text": "An article in LIBER Quarterly on citizen science practices at five Baltic universities, including Kaunas University of Technology and Vytautas Magnus University, and the experience of the LibOCS project."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Froeling, Gignac, Toran et al., 2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0013935123022739",
+      "lt": {
+        "title": "Implementing co-created citizen science in five environmental epidemiological studies in the CitieS-Health project",
+        "text": "Straipsnis žurnale „Environmental Research“ apie projektą CitieS-Health, kuriame penkiose Europos šalyse, tarp jų Lietuvoje, epidemiologiniai tyrimai kurti kartu su piliečiais visuose tyrimo etapuose."
+      },
+      "en": {
+        "title": "Implementing co-created citizen science in five environmental epidemiological studies in the CitieS-Health project",
+        "text": "An article in Environmental Research on the CitieS-Health project, in which epidemiological studies in five European countries, including Lithuania, were co-created with citizens at every stage of the research."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Rozenberga, Saviča, 2023",
+      "url": "https://doi.org/10.5281/zenodo.8386352",
+      "lt": {
+        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
+        "text": "Latvijos universiteto tyrėjų stendinis pranešimas apie tyrėjų, mokslininkų mėgėjų ir atminties institucijų bendradarbiavimą Baltijos šalyse."
+      },
+      "en": {
+        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
+        "text": "A poster by University of Latvia researchers on collaboration between researchers, amateur scientists and memory institutions in the Baltic States."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Kocman, Righi, Errandonea et al., 2023",
+      "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2023.1177413/full",
+      "lt": {
+        "title": "Toolkit for conducting citizen science activities in environmental epidemiology",
+        "text": "Straipsnis žurnale „Frontiers in Environmental Science“, pristatantis piliečių mokslo įrankių rinkinį aplinkos epidemiologijai. Įrankiai kurti ir taikyti ir bandomajame tyrime Kaune, vienas iš autorių dirba Vytauto Didžiojo universitete."
+      },
+      "en": {
+        "title": "Toolkit for conducting citizen science activities in environmental epidemiology",
+        "text": "An article in Frontiers in Environmental Science presenting a citizen science toolkit for environmental epidemiology. The tools were developed and used in a pilot study in Kaunas among others, and one of the authors is at Vytautas Magnus University."
       }
     },
     {
@@ -79,15 +149,183 @@
     {
       "type": "publication",
       "language": "en",
-      "source": "Rozenberga, Saviča, 2023",
-      "url": "https://doi.org/10.5281/zenodo.8386352",
+      "source": "Mačiulienė, Butkevičienė, 2022",
+      "url": "https://www.mdpi.com/2071-1050/14/4/2155",
       "lt": {
-        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
-        "text": "Latvijos universiteto tyrėjų stendinis pranešimas apie tyrėjų, mokslininkų mėgėjų ir atminties institucijų bendradarbiavimą Baltijos šalyse."
+        "title": "The ecosystem approach in addressing sustainable development goals through citizen science in Lithuania",
+        "text": "Straipsnis žurnale „Sustainability“, apžvelgiantis piliečių mokslo ekosistemą Lietuvoje ir jos indėlį į darnaus vystymosi tikslus. Ekosistema dar ankstyvoje stadijoje ir susiskaidžiusi, nacionalinių projektų nedaug."
       },
       "en": {
-        "title": "The Baltic States on the road to citizen science: researcher and citizen engagement",
-        "text": "A poster by University of Latvia researchers on collaboration between researchers, amateur scientists and memory institutions in the Baltic States."
+        "title": "The ecosystem approach in addressing sustainable development goals through citizen science in Lithuania",
+        "text": "An article in Sustainability reviewing the citizen science ecosystem in Lithuania and its contribution to the Sustainable Development Goals. The ecosystem is at an early stage and fragmented, with few national projects."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Gražulevičienė, Andrušaitytė, Rapalavičius et al., 2022",
+      "url": "https://link.springer.com/article/10.1186/s12889-022-13824-3",
+      "lt": {
+        "title": "Environmentally related gender health risks: findings from citizen science cross-sectional study",
+        "text": "Straipsnis žurnale „BMC Public Health“: CitieS-Health bandomojo tyrimo Kaune duomenimis nagrinėjami su aplinka susiję vyrų ir moterų sveikatos rizikos veiksniai."
+      },
+      "en": {
+        "title": "Environmentally related gender health risks: findings from citizen science cross-sectional study",
+        "text": "An article in BMC Public Health: using data from the CitieS-Health pilot study in Kaunas, it examines environmentally related health risks in men and women."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Skaržauskienė, Mačiulienė, 2021",
+      "url": "https://doi.org/10.3390/su132413980",
+      "lt": {
+        "title": "Citizen science addressing challenges of sustainability",
+        "text": "Straipsnis žurnale „Sustainability“ apie suinteresuotųjų šalių požiūrį, motyvaciją ir kliūtis dalyvauti piliečių mokslo iniciatyvose, sprendžiančiose tvarumo iššūkius Lietuvoje."
+      },
+      "en": {
+        "title": "Citizen science addressing challenges of sustainability",
+        "text": "An article in the journal Sustainability on stakeholder perceptions, motivations and barriers to taking part in citizen science initiatives that address sustainability challenges in Lithuania."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Gražulevičienė, Andrušaitytė, Rapalavičius, 2021",
+      "url": "https://www.mdpi.com/2071-1050/13/16/9368",
+      "lt": {
+        "title": "Measuring the outcomes of a participatory research study: findings from an environmental epidemiological study in Kaunas City",
+        "text": "Straipsnis žurnale „Sustainability“ apie 2019-2021 m. Kaune su gyventojais vykdyto aplinkos epidemiologijos tyrimo rezultatus, tarp jų apie tai, ką dalyvavimas tyrime davė patiems gyventojams."
+      },
+      "en": {
+        "title": "Measuring the outcomes of a participatory research study: findings from an environmental epidemiological study in Kaunas City",
+        "text": "An article in Sustainability on the outcomes of an environmental epidemiological study carried out with residents of Kaunas in 2019-2021, including what the participants themselves gained from taking part."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Gražulevičienė, Andrušaitytė, Dėdelė et al., 2021",
+      "url": "https://www.mdpi.com/1660-4601/18/11/6126",
+      "lt": {
+        "title": "Urban environment and health: a cross-sectional study of the influence of environmental quality and physical activity on blood pressure",
+        "text": "Straipsnis žurnale „International Journal of Environmental Research and Public Health“ apie Kauno gyvenamosios aplinkos kokybės, fizinio aktyvumo ir kraujospūdžio sąsajas. Tyrimo klausimus ir duomenų rinkimą mokslininkai rengė kartu su dalyviais."
+      },
+      "en": {
+        "title": "Urban environment and health: a cross-sectional study of the influence of environmental quality and physical activity on blood pressure",
+        "text": "An article in the International Journal of Environmental Research and Public Health on the links between neighbourhood environmental quality, physical activity and blood pressure in Kaunas. Researchers shaped the research questions and data collection together with participants."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Vohland, Göbel, Balázs et al., 2021",
+      "url": "https://library.oapen.org/bitstream/handle/20.500.12657/46119/1/2021_Book_TheScienceOfCitizenScience.pdf#page=41",
+      "lt": {
+        "title": "Citizen science in Europe",
+        "text": "Atvirosios prieigos knygos „The Science of Citizen Science“ skyrius, apžvelgiantis piliečių mokslą Europos šalyse. Apie Lietuvą rašoma, kad terminas „piliečių mokslas“ dar naujas, o tarp projektų minimi „Rūšių ralis“ ir „Bronės Pajiedaitės takais“."
+      },
+      "en": {
+        "title": "Citizen science in Europe",
+        "text": "A chapter of the open access book The Science of Citizen Science, reviewing citizen science across European countries. On Lithuania it notes that the term \"piliečių mokslas\" is still new and mentions projects such as Rūšių ralis and Bronės Pajiedaitės takais."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Tauginienė, Butkevičienė, Vohland et al., 2020",
+      "url": "https://doi.org/10.1057/s41599-020-0471-y",
+      "lt": {
+        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
+        "text": "Straipsnis žurnale „Palgrave Communications“ apie piliečių mokslą socialiniuose ir humanitariniuose moksluose."
+      },
+      "en": {
+        "title": "Citizen science in the social sciences and humanities: the power of interdisciplinarity",
+        "text": "An article in Palgrave Communications on citizen science in the social sciences and humanities."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Gražulevičienė, Andrušaitytė et al., 2020",
+      "url": "https://www.mdpi.com/1660-4601/17/20/7696",
+      "lt": {
+        "title": "Neighborhood social and built environment and disparities in the risk of hypertension: A cross-sectional study",
+        "text": "Straipsnis žurnale „International Journal of Environmental Research and Public Health“: piliečių mokslo tyrime Kaune nagrinėta, kaip gyvenamosios aplinkos kokybė ir žaliosios erdvės siejasi su hipertenzijos rizika."
+      },
+      "en": {
+        "title": "Neighborhood social and built environment and disparities in the risk of hypertension: A cross-sectional study",
+        "text": "An article in the International Journal of Environmental Research and Public Health: a citizen science study in Kaunas examined how neighbourhood quality and green spaces relate to the risk of hypertension."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Gražulevičienė, Andrušaitytė, Dėdelė et al., 2020",
+      "url": "https://www.mdpi.com/1660-4601/17/12/4420",
+      "lt": {
+        "title": "Environmental quality perceptions and health: A cross-sectional study of citizens of Kaunas, Lithuania",
+        "text": "Straipsnis žurnale „International Journal of Environmental Research and Public Health“ su pirmųjų CitieS-Health bandomojo tyrimo Kaune metų rezultatais. Tyrimo klausimą apie hipertenzijos paplitimą skirtinguose rajonuose suformulavo patys gyventojai."
+      },
+      "en": {
+        "title": "Environmental quality perceptions and health: A cross-sectional study of citizens of Kaunas, Lithuania",
+        "text": "An article in the International Journal of Environmental Research and Public Health with first-year findings of the CitieS-Health pilot study in Kaunas. The research question on hypertension across districts was formulated by the residents themselves."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Balčiauskas, Balčiauskienė, Litvaitis, Tijušas, 2020",
+      "url": "https://www.mdpi.com/2071-1050/12/22/9777",
+      "lt": {
+        "title": "Citizen scientists showed a four-fold increase of lynx numbers in Lithuania",
+        "text": "Straipsnis žurnale „Sustainability“: medžiotojų, miškininkų ir kitų savanorių stebėjimai parodė, kad lūšių Lietuvoje padaugėjo keturis kartus, o duomenys panaudoti peržiūrint rūšies apsaugos statusą."
+      },
+      "en": {
+        "title": "Citizen scientists showed a four-fold increase of lynx numbers in Lithuania",
+        "text": "An article in Sustainability: observations by hunters, foresters and other volunteers showed a four-fold increase in lynx numbers in Lithuania, and the data supported a review of the species' conservation status."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Balčiauskas, Balčiauskienė, Litvaitis et al., 2020",
+      "url": "https://connectsci.au/wr/article-abstract/48/1/76/40991",
+      "lt": {
+        "title": "Adaptive monitoring: Using citizen scientists to track wolf populations when winter-track counts become unreliable",
+        "text": "Straipsnis žurnale „Wildlife Research“: 2015-2018 m. medžiotojai, miškininkai ir ūkininkai teikė vilkų stebėjimų duomenis, kuriuos Aplinkos ministerija pripažino kaip papildomą šaltinį vilkų populiacijos valdymo politikai."
+      },
+      "en": {
+        "title": "Adaptive monitoring: Using citizen scientists to track wolf populations when winter-track counts become unreliable",
+        "text": "An article in Wildlife Research: in 2015-2018 hunters, foresters and farmers reported wolf observations, which the Ministry of Environment accepted as a complement to other surveys for wolf management policy."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Vandzinskaitė, Kobierska, Schmeller et al., 2010",
+      "url": "https://www.mdpi.com/1424-2818/2/9/1130",
+      "lt": {
+        "title": "Cultural diversity issues in biodiversity monitoring - cases of Lithuania, Poland and Denmark",
+        "text": "Straipsnis žurnale „Diversity“, lyginantis savanorių dalyvavimą biologinės įvairovės stebėsenoje Lietuvoje, Lenkijoje ir Danijoje ir jį lemiančius istorinius, kultūrinius ir socialinius veiksnius."
+      },
+      "en": {
+        "title": "Cultural diversity issues in biodiversity monitoring - cases of Lithuania, Poland and Denmark",
+        "text": "An article in Diversity comparing volunteer involvement in biodiversity monitoring in Lithuania, Poland and Denmark, and the historical, cultural and social factors behind it."
+      }
+    },
+    {
+      "type": "publication",
+      "language": "en",
+      "source": "Bell, Marzano, Cent, Kobierska et al., 2008",
+      "url": "https://link.springer.com/article/10.1007/s10531-008-9357-9",
+      "lt": {
+        "title": "What counts? Volunteers and their organisations in the recording and monitoring of biodiversity",
+        "text": "Straipsnis žurnale „Biodiversity and Conservation“ apie savanorių organizacijas biologinės įvairovės stebėsenoje. Vienas iš nagrinėtų atvejų: Lietuvos ornitologų draugija."
+      },
+      "en": {
+        "title": "What counts? Volunteers and their organisations in the recording and monitoring of biodiversity",
+        "text": "An article in Biodiversity and Conservation on volunteer organisations in biodiversity recording and monitoring. One of the cases studied is the Lithuanian Ornithological Society."
       }
     },
     {
