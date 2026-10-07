@@ -9,7 +9,24 @@
   {%- set ttl = pageTitle or (t.nav[key] if key != "home") -%}
   <title>{% if ttl %}{{ ttl | safe }} | {% endif %}{{ t.site }}</title>
   <meta name="description" content="{{ (description or t.tagline) | safe }}">
-  <link rel="alternate" hreflang="{{ other }}" href="{{ alt }}">
+  {%- set site = "https://www.pilieciumokslas.lt" %}
+  {%- set desc = (description or t.tagline) %}
+  {%- set shareImg = site + (ogImage or "/share.jpg") %}
+  <link rel="canonical" href="{{ site }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ other }}" href="{{ site }}{{ alt }}">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-96.png" type="image/png" sizes="96x96">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#1f1fff">
+  <meta property="og:site_name" content="pilieciumokslas.lt">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ (ttl or t.site) | safe }}">
+  <meta property="og:description" content="{{ desc | safe }}">
+  <meta property="og:url" content="{{ site }}{{ page.url }}">
+  <meta property="og:image" content="{{ shareImg }}">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/css/site.css">
 </head>
 <body>

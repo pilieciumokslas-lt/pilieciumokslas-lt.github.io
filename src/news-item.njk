@@ -10,6 +10,7 @@ eleventyComputed:
   lang: "{{ entry.lang }}"
   pageTitle: "{{ entry.item[entry.lang].title }}"
   description: "{{ entry.item[entry.lang].summary }}"
+  ogImage: "{{ entry.item.image }}"
   altUrl: "{% set o = 'en' if entry.lang == 'lt' else 'lt' %}{{ routes.news[o] }}{% if entry.item[o].title %}{{ entry.item.slug }}/{% endif %}"
 ---
 {%- set t = i18n[entry.lang] -%}

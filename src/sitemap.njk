@@ -1,0 +1,16 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for key, r in routes %}{% for lang in langs %}
+  <url><loc>https://www.pilieciumokslas.lt{{ r[lang] }}</loc></url>
+{%- endfor %}{% endfor %}
+{%- for p in db.newsIndex %}{% if p.url != routes.news[p.lang] %}
+  <url><loc>https://www.pilieciumokslas.lt{{ p.url }}</loc></url>
+{%- endif %}{% endfor %}
+{%- for e in db.newsPages %}
+  <url><loc>https://www.pilieciumokslas.lt{{ routes.news[e.lang] }}{{ e.item.slug }}/</loc>{% if e.item.date %}<lastmod>{{ e.item.date }}</lastmod>{% endif %}</url>
+{%- endfor %}
+</urlset>
