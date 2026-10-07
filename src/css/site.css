@@ -316,3 +316,7 @@ p { margin: 0 0 1em; }
 @media (max-width: 1100px) { .res-tiles { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 620px) { .res-tiles { grid-template-columns: repeat(2, 1fr); } .topic .desc { display: none; } }
 .rcard .logo-box img { height: 100%; max-height: 52px; min-width: 40px; }
+
+.res-tiles .topic { position: relative; }
+.tile-icon { position: absolute; top: 16px; right: 16px; width: 30px; height: 30px; color: var(--c); opacity: 0.9; }
+.topic[aria-pressed="true"] .tile-icon { color: #fff; }
