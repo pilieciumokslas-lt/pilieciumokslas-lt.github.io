@@ -7,7 +7,8 @@ export default function () {
     .readdirSync("content/news")
     .filter((f) => f.endsWith(".json"))
     .map((f) => ({ slug: f.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.json$/, ""), ...read(`news/${f.slice(0, -5)}`) }))
-    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    // Newest first. Posts from the same day are ordered by their optional time field.
+    .sort((a, b) => `${b.date || ""} ${b.time || "12:00"}`.localeCompare(`${a.date || ""} ${a.time || "12:00"}`));
 
   // One page per news item per language. English pages exist only where an English title is filled in.
   const newsPages = news.flatMap((item) =>

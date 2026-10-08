@@ -21,6 +21,7 @@ content:
       default: { sort: date, order: desc }
     fields:
       - { name: date, label: Data, type: date, required: true }
+      - { name: time, label: "Laikas (nebūtina, pvz. 14:30; tos pačios dienos naujienoms rikiuoti)", type: string }
       - name: category
         label: Kategorija
         type: select
