@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-08",
+  "time": "12:00",
+  "category": "news",
+  "image": "",
+  "lt": {
+    "title": "„Zooniverse“ paskelbė dirbtinio intelekto etikos gaires piliečių mokslui",
+    "summary": "Didžiausia piliečių mokslo platforma „Zooniverse“ paskelbė pirmąsias dirbtinio intelekto etikos gaires: principus ir praktines rekomendacijas projektams, naudojantiems dirbtinį intelektą.",
+    "body": "<p>2026 m. rugsėjo 9 d. piliečių mokslo platforma „Zooniverse“ paskelbė pirmąsias savo dirbtinio intelekto etikos gaires („AI Ethics Framework“). Jose pateikiami principai ir praktinės rekomendacijos, kaip atsakingai naudoti dirbtinį intelektą ir mašininį mokymąsi piliečių moksle ir dalyvaujamuosiuose tyrimuose.</p>\n<p>Gaires sudaro trys dalys: pagrindiniai principai, veiksmai, kurių imasi pati platforma, ir rekomendacijos projektų komandoms. Daugiausia dėmesio skiriama skaidrumui, dalyvių pasirinkimo laisvei ir bendriems lūkesčiams projektuose, kuriuose naudojamas dirbtinis intelektas.</p>\n<p>Gairės parengtos padedant „Kavli“ fondui ir tariantis su savanoriais, projektų komandomis bei dirbtinio intelekto, etikos, komunikacijos ir dalyvaujamųjų tyrimų ekspertais. „Zooniverse“ jas vadina gyvu dokumentu, kuris bus atnaujinamas.</p>\n<p>Gairės pravers visiems, kas planuoja piliečių mokslo projektą, kuriame savanorių surinkti ar sužymėti duomenys naudojami dirbtinio intelekto modeliams mokyti.</p>\n<p><a href=\"https://www.zooniverse.org/about/ai-ethics\">„Zooniverse“ dirbtinio intelekto etikos gairės (anglų k.)</a></p>\n<p><a href=\"https://blog.zooniverse.org/2026/09/09/a-new-ai-ethics-framework-for-zooniverse\">„Zooniverse“ pranešimas apie gaires (anglų k.)</a></p>"
+  },
+  "en": {
+    "title": "Zooniverse publishes an AI ethics framework for citizen science",
+    "summary": "Zooniverse, the largest citizen science platform, has published its first AI Ethics Framework: principles and practical recommendations for projects that use AI.",
+    "body": "<p>On 9 September 2026 the citizen science platform Zooniverse launched its first AI Ethics Framework. It offers principles and practical recommendations for the responsible use of AI and machine learning in citizen science and participatory research.</p>\n<p>The framework has three parts: key principles, actions taken by the platform itself, and recommendations for project teams. It focuses on transparency, participant choice and shared expectations in projects that use AI.</p>\n<p>It was developed with support from the Kavli Foundation and in consultation with volunteers, project teams and experts in AI, ethics, communications and participatory research. Zooniverse describes it as a living framework that will be updated.</p>\n<p>The framework is useful for anyone planning a citizen science project in which data collected or labelled by volunteers is used to train AI models.</p>\n<p><a href=\"https://www.zooniverse.org/about/ai-ethics\">Zooniverse AI Ethics Framework</a></p>\n<p><a href=\"https://blog.zooniverse.org/2026/09/09/a-new-ai-ethics-framework-for-zooniverse\">Zooniverse announcement</a></p>"
+  }
+}

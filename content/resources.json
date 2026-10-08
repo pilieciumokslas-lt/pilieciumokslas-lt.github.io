@@ -379,6 +379,20 @@
     {
       "type": "tool",
       "language": "en",
+      "source": "Zooniverse, 2026",
+      "url": "https://www.zooniverse.org/about/ai-ethics",
+      "lt": {
+        "title": "„Zooniverse“ dirbtinio intelekto etikos gairės",
+        "text": "Principai ir praktinės rekomendacijos, kaip atsakingai naudoti dirbtinį intelektą ir mašininį mokymąsi piliečių mokslo projektuose: skaidrumas, dalyvių pasirinkimo laisvė ir aiškūs lūkesčiai."
+      },
+      "en": {
+        "title": "Zooniverse AI Ethics Framework",
+        "text": "Principles and practical recommendations for the responsible use of AI and machine learning in citizen science projects: transparency, participant choice and clear expectations."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "en",
       "source": "Mačiulienė, 2026 / FIDELIS",
       "url": "/assets/uploads/docs/fidelis-sp3-handout.pdf",
       "lt": {
