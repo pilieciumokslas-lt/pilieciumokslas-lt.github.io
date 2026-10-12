@@ -350,6 +350,20 @@
     },
     {
       "type": "tool",
+      "language": "en",
+      "source": "Mačiulienė, 2026 / DIGICHer",
+      "url": "/assets/uploads/docs/digicher-gender-digitisation-webinar.pdf",
+      "lt": {
+        "title": "Gender in the digitisation of cultural heritage: seminaro skaidrės",
+        "text": "Mokomojo seminaro skaidrės apie lytį kultūros paveldo skaitmeninime: šeši etapai, kuriuose atsiranda nelygybė, pavyzdžiai iš archyvų ir muziejų, trys savanorių įtraukimo formatai ir kontrolinis sąrašas paveldo institucijoms. Su šaltinių sąrašu."
+      },
+      "en": {
+        "title": "Gender in the digitisation of cultural heritage: webinar slides",
+        "text": "Slides from a training webinar on gender in the digitisation of cultural heritage: six stages where gaps arise, cases from archives and museums, three formats for involving volunteers and a checklist for heritage institutions. With a list of sources."
+      }
+    },
+    {
+      "type": "tool",
       "language": "lt",
       "source": "INFODEMIJA, Mykolo Romerio universitetas, 2026",
       "url": "https://www.infodemija.lt/",
