@@ -80,6 +80,8 @@ export default function () {
     redirects: read("redirects"),
     researchers: read("researchers"),
     explainer: read("explainer"),
+    participation: read("participation"),
+    participationData: read("participation-data"),
     home: read("home"),
     about: read("about"),
     services: read("services"),

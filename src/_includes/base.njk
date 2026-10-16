@@ -58,7 +58,7 @@
         <p><a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
       </div>
       <nav>
-        {%- for k in ["explainer", "news", "projects", "initiatives", "resources", "services", "about"] %}
+        {%- for k in ["explainer", "participation", "news", "projects", "initiatives", "resources", "services", "about"] %}
         <a href="{{ routes[k][lang] }}">{{ t.nav[k] }}</a>
         {%- endfor %}
       </nav>

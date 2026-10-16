@@ -9,7 +9,8 @@
       "services": "Paslaugos",
       "about": "Apie asociaciją",
       "initiatives": "Piliečių mokslo iniciatyvos Lietuvoje",
-      "explainer": "Kas yra piliečių mokslas?"
+      "explainer": "Kas yra piliečių mokslas?",
+      "participation": "Kas nori dalyvauti tyrimuose?"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -101,7 +102,8 @@
       "services": "Services",
       "about": "About the association",
       "initiatives": "Citizen science initiatives in Lithuania",
-      "explainer": "What is citizen science?"
+      "explainer": "What is citizen science?",
+      "participation": "Who wants to take part in research?"
     },
     "skip": "Skip to content",
     "menu": "Menu",

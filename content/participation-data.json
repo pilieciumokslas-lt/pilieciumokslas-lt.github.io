@@ -1,0 +1,66 @@
+{
+  "_source": "INFODEMIJA survey, N = 1005, 2024. Item m5 by LPA segment_4. Unweighted, 'don't know' (9) and missing excluded per item. Computed 2026-10-16 from LPA_dataset_with_profiles_N1005.csv (segments) and INFODEMIJA_survey_data_anonymized.csv (answers). Not edited through Pages CMS.",
+  "overall": { "n": 930, "yes": 18.5, "undecided": 19.0, "no": 62.5, "definitelyYes": 3.3 },
+  "segments": [
+    { "id": "s1", "lt": "Mokslo entuziastai", "en": "Science enthusiasts", "pop": 30.2, "n": 285, "yes": 44.9, "undecided": 22.8, "no": 32.3, "shareOfWilling": 74.4, "shareOfUndecided": 36.7 },
+    { "id": "s2", "lt": "Nuosaikieji palaikytojai", "en": "Moderate supporters", "pop": 29.9, "n": 269, "yes": 3.3, "undecided": 23.8, "no": 72.9, "shareOfWilling": 5.2, "shareOfUndecided": 36.2 },
+    { "id": "s3", "lt": "Tylieji pasitikintieji", "en": "Quiet trusters", "pop": 23.4, "n": 215, "yes": 14.4, "undecided": 20.5, "no": 65.1, "shareOfWilling": 18.0, "shareOfUndecided": 24.9 },
+    { "id": "s4", "lt": "Nutolę nuo mokslo", "en": "Distant from science", "pop": 16.5, "n": 161, "yes": 2.5, "undecided": 2.5, "no": 95.0, "shareOfWilling": 2.3, "shareOfUndecided": 2.3 }
+  ],
+  "groups": { "willing": 172, "undecided": 177, "all": 1005 },
+  "profile": [
+    { "lt": "18-34 metų", "en": "Aged 18-34", "willing": 43.6, "undecided": 28.8, "all": 21.9 },
+    { "lt": "55 metų ir vyresni", "en": "Aged 55 or over", "willing": 30.8, "undecided": 34.5, "all": 45.5 },
+    { "lt": "Turi universitetinį išsilavinimą", "en": "University degree", "willing": 29.1, "undecided": 16.9, "all": 15.7 },
+    { "lt": "Gyvena penkiuose didžiausiuose miestuose", "en": "Live in the five largest cities", "willing": 59.9, "undecided": 41.8, "all": 41.3 },
+    { "lt": "Gyvena gyvenvietėse iki 10 tūkst. gyventojų", "en": "Live in places of up to 10,000 people", "willing": 26.7, "undecided": 37.3, "all": 41.9 },
+    { "lt": "Dažnai savanoriauja ar padeda kitiems", "en": "Often volunteer or help others", "willing": 37.2, "undecided": 21.3, "all": 19.0 },
+    { "lt": "Bent retkarčiais dalyvauja mokslo renginiuose", "en": "Attend science events at least rarely", "willing": 63.9, "undecided": 48.9, "all": 35.7 }
+  ],
+  "channels": [
+    { "lt": "„YouTube“ ir kitas vaizdo platformas", "en": "YouTube and other video platforms", "willing": 41.4, "undecided": 25.4, "all": 25.4 },
+    { "lt": "Socialinius tinklus", "en": "Social media", "willing": 38.9, "undecided": 22.5, "all": 23.7 },
+    { "lt": "Pažintines TV stotis", "en": "Educational TV channels", "willing": 37.1, "undecided": 20.7, "all": 22.4 },
+    { "lt": "Naujienų portalus", "en": "News portals", "willing": 36.7, "undecided": 22.7, "all": 24.8 },
+    { "lt": "Vikipediją", "en": "Wikipedia", "willing": 33.5, "undecided": 12.6, "all": 19.0 },
+    { "lt": "LRT televiziją", "en": "LRT public television", "willing": 32.6, "undecided": 20.7, "all": 27.0 },
+    { "lt": "Mokslinius žurnalus", "en": "Scientific journals", "willing": 31.6, "undecided": 10.2, "all": 13.3 },
+    { "lt": "Komercines TV stotis", "en": "Commercial TV channels", "willing": 21.6, "undecided": 19.3, "all": 25.8 },
+    { "lt": "Valdžios, švietimo ir gydymo įstaigų svetaines", "en": "Government, education and healthcare websites", "willing": 20.8, "undecided": 15.1, "all": 12.2 },
+    { "lt": "Radiją", "en": "Radio", "willing": 14.3, "undecided": 16.8, "all": 19.5 }
+  ],
+  "labels": {
+    "lt": {
+      "yes": "Norėtų dalyvauti",
+      "undecided": "Nei taip, nei ne",
+      "no": "Nenorėtų",
+      "ofPop": "gyventojų",
+      "allPeople": "Visi gyventojai",
+      "segment": "Segmentas",
+      "popShare": "Gyventojų dalis",
+      "willingShare": "Norinčiųjų dalyvauti dalis",
+      "undecidedShare": "Svyruojančiųjų dalis",
+      "total": "Iš viso, žmonių",
+      "whoTheyAre": "Kas jie",
+      "channelsGroup": "Apie mokslą dažnai sužino per",
+      "showTable": "Rodyti duomenis lentelėje",
+      "people": { "willing": "172", "undecided": "177", "all": "1 005" }
+    },
+    "en": {
+      "yes": "Would like to take part",
+      "undecided": "Neither yes nor no",
+      "no": "Would not",
+      "ofPop": "of the population",
+      "allPeople": "All residents",
+      "segment": "Segment",
+      "popShare": "Share of population",
+      "willingShare": "Share of those who would like to take part",
+      "undecidedShare": "Share of the undecided",
+      "total": "Total, people",
+      "whoTheyAre": "Who they are",
+      "channelsGroup": "Often learn about science through",
+      "showTable": "Show the data as a table",
+      "people": { "willing": "172", "undecided": "177", "all": "1,005" }
+    }
+  }
+}

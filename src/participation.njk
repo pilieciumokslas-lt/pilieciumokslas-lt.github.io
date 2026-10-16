@@ -1,0 +1,147 @@
+---
+layout: base.njk
+key: participation
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.participation[lang] }}"
+eleventyComputed:
+  description: "{{ db.participation[lang].intro }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set p = db.participation[lang] -%}
+{%- set d = db.participationData -%}
+{%- set L = d.labels[lang] -%}
+{%- set keys = [["yes", "c-yes"], ["undecided", "c-mid"], ["no", "c-no"]] -%}
+{%- macro bar(name, row) -%}
+<div class="m5-bar" role="img" aria-label="{{ name }}: {% for k in keys %}{{ L[k[0]] | lower }} {{ row[k[0]] | pct(lang) }}{% if not loop.last %}, {% endif %}{% endfor %}">
+  {%- for k in keys %}<i class="{{ k[1] }}" style="flex-grow: {{ row[k[0]] }}" title="{{ name }}: {{ L[k[0]] | lower }} {{ row[k[0]] | pct(lang) }}"></i>{% endfor -%}
+</div>
+{%- endmacro -%}
+{{ pageHead(p.title, p.intro) }}
+<section class="band">
+  <div class="wrap">
+    <p class="m5-question">{{ p.question }}</p>
+    <ul class="stats">
+      {%- for k in keys %}
+      <li class="stat {{ k[1] }}"><span class="value">{{ d.overall[k[0]] | pct(lang) }}</span><span class="what">{{ L[k[0]] }}</span></li>
+      {%- endfor %}
+    </ul>
+
+    <h2>{{ p.chartTitle }}</h2>
+    <figure class="m5-chart">
+      <ul class="m5-legend">
+        {%- for k in keys %}
+        <li><span class="sw {{ k[1] }}"></span>{{ L[k[0]] }}</li>
+        {%- endfor %}
+      </ul>
+      <div class="m5-row m5-head" aria-hidden="true"><span></span><span class="m5-yes">{{ L.yes }}</span><span></span></div>
+      {%- for s in d.segments %}
+      <div class="m5-row">
+        <span class="m5-name">{{ s[lang] }}<span>{{ s.pop | pct(lang) }} {{ L.ofPop }}</span></span>
+        <span class="m5-yes">{{ s.yes | pct(lang) }}</span>
+        {{ bar(s[lang], s) }}
+      </div>
+      {%- endfor %}
+      <div class="m5-row total">
+        <span class="m5-name">{{ L.allPeople }}<span>n = {{ d.overall.n }}</span></span>
+        <span class="m5-yes">{{ d.overall.yes | pct(lang) }}</span>
+        {{ bar(L.allPeople, d.overall) }}
+      </div>
+      <figcaption class="fig-note">{{ p.chartNote | safe }}</figcaption>
+    </figure>
+    <details class="data-details">
+      <summary>{{ L.showTable }}</summary>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>{{ L.segment }}</th><th class="n">{{ L.yes }}</th><th class="n">{{ L.undecided }}</th><th class="n">{{ L.no }}</th><th class="n">n</th></tr></thead>
+          <tbody>
+            {%- for s in d.segments %}
+            <tr><td>{{ s[lang] }}</td><td class="n">{{ s.yes | pct(lang) }}</td><td class="n">{{ s.undecided | pct(lang) }}</td><td class="n">{{ s.no | pct(lang) }}</td><td class="n">{{ s.n }}</td></tr>
+            {%- endfor %}
+            <tr class="sum"><td>{{ L.allPeople }}</td><td class="n">{{ d.overall.yes | pct(lang) }}</td><td class="n">{{ d.overall.undecided | pct(lang) }}</td><td class="n">{{ d.overall.no | pct(lang) }}</td><td class="n">{{ d.overall.n }}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="band tint">
+  <div class="wrap">
+    <h2>{{ p.compositionTitle }}</h2>
+    <p class="section-lead m5-lead">{{ p.compositionText }}</p>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr><th>{{ L.segment }}</th><th class="n">{{ L.popShare }}</th><th class="n hl">{{ L.willingShare }}</th><th class="n">{{ L.undecidedShare }}</th></tr></thead>
+        <tbody>
+          {%- for s in d.segments %}
+          <tr><td>{{ s[lang] }}</td><td class="n">{{ s.pop | pct(lang) }}</td><td class="n hl">{{ s.shareOfWilling | pct(lang) }}</td><td class="n">{{ s.shareOfUndecided | pct(lang) }}</td></tr>
+          {%- endfor %}
+        </tbody>
+        <tfoot><tr><td>{{ L.total }}</td><td class="n">{{ L.people.all }}</td><td class="n">{{ L.people.willing }}</td><td class="n">{{ L.people.undecided }}</td></tr></tfoot>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <h2>{{ p.profileTitle }}</h2>
+    <p class="section-lead m5-lead">{{ p.profileText }}</p>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead><tr><th></th><th class="n hl">{{ L.yes }}<span>n = {{ L.people.willing }}</span></th><th class="n">{{ L.undecided }}<span>n = {{ L.people.undecided }}</span></th><th class="n">{{ L.allPeople }}<span>N = {{ L.people.all }}</span></th></tr></thead>
+        <tbody>
+          <tr class="group"><th colspan="4">{{ L.whoTheyAre }}</th></tr>
+          {%- for r in d.profile %}
+          <tr><td>{{ r[lang] }}</td><td class="n hl">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
+          {%- endfor %}
+          <tr class="group"><th colspan="4">{{ L.channelsGroup }}</th></tr>
+          {%- for r in d.channels %}
+          <tr><td>{{ r[lang] }}</td><td class="n hl">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="band tint">
+  <div class="wrap">
+    <h2>{{ p.segmentsTitle }}</h2>
+    <div class="grid g2">
+      {%- for s in d.segments %}
+      {%- set txt = (p.segments | where("id", s.id))[0] %}
+      <article class="contact seg">
+        <h3>{{ s[lang] }}</h3>
+        <p class="unit">{{ s.pop | pct(lang) }} {{ L.ofPop }}</p>
+        <ul class="seg-m5">
+          <li><span class="sw c-yes"></span>{{ L.yes }}: <strong>{{ s.yes | pct(lang) }}</strong></li>
+          <li><span class="sw c-mid"></span>{{ L.undecided }}: <strong>{{ s.undecided | pct(lang) }}</strong></li>
+        </ul>
+        <p>{{ txt.text }}</p>
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap narrow prose explainer">
+    <h2>{{ p.practiceTitle }}</h2>
+    {{ p.practice | safe }}
+    <div class="m5-method">
+      <h2>{{ p.methodTitle }}</h2>
+      {{ p.method | safe }}
+    </div>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <h2>{{ t.cta }}</h2>
+    <a class="btn btn-white" href="{{ routes.services[lang] }}">{{ t.ctaBtn }}</a>
+  </div>
+</section>

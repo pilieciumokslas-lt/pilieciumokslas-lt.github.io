@@ -214,6 +214,44 @@ content:
               - { name: label, label: Pavadinimas / Label, type: string }
               - { name: url, label: Nuoroda / Link, type: string }
 
+  # Texts of the "Who wants to take part in research?" page. The numbers, table rows and labels
+  # live in content/participation-data.json and are changed in code, not here.
+  - name: participation
+    label: Kas nori dalyvauti tyrimuose? / Who wants to take part in research?
+    type: file
+    path: content/participation.json
+    format: json
+    fields:
+      - name: lt
+        label: Lietuviškai
+        type: object
+        fields: &participation
+          - { name: title, label: Pavadinimas / Title, type: string }
+          - { name: intro, label: Įžanga / Intro, type: text }
+          - { name: question, label: Tekstas virš skaičių / Text above the figures, type: text }
+          - { name: chartTitle, label: Diagramos pavadinimas / Chart title, type: string }
+          - { name: chartNote, label: Pastaba po diagrama / Note under the chart, type: rich-text }
+          - { name: compositionTitle, label: Antraštė "Trys iš keturių" / Heading "Three in four", type: string }
+          - { name: compositionText, label: Tekstas / Text, type: text }
+          - { name: profileTitle, label: Antraštė "Kas jie" / Heading "Who they are", type: string }
+          - { name: profileText, label: Tekstas / Text, type: text }
+          - { name: segmentsTitle, label: Segmentų antraštė / Segments heading, type: string }
+          - name: segments
+            label: Segmentų tekstai / Segment texts
+            type: object
+            list: true
+            fields:
+              - { name: id, label: "Segmentas (s1-s4) / Segment (s1-s4)", type: select, options: { values: [s1, s2, s3, s4] } }
+              - { name: text, label: Tekstas / Text, type: text }
+          - { name: practiceTitle, label: Antraštė "Planuojant projektą" / Heading "When you plan a project", type: string }
+          - { name: practice, label: Tekstas / Text, type: rich-text }
+          - { name: methodTitle, label: Antraštė "Apie duomenis" / Heading "About the data", type: string }
+          - { name: method, label: Tekstas / Text, type: rich-text }
+      - name: en
+        label: English
+        type: object
+        fields: *participation
+
   - name: explainer
     label: Kas yra piliečių mokslas? / What is citizen science?
     type: file

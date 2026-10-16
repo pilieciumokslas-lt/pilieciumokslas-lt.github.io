@@ -83,6 +83,11 @@ export default function (cfg) {
   cfg.addFilter("take", (arr, n) => (arr || []).slice(0, n));
   cfg.addFilter("where", (arr, key, val) => (arr || []).filter((x) => x[key] === val));
   cfg.addFilter("inLang", (arr, lang) => (arr || []).filter((x) => x[lang] && x[lang].title));
+  // Percentages with one decimal: "18,5 %" in Lithuanian, "18.5%" in English.
+  cfg.addFilter("pct", (v, lang) => {
+    const s = Number(v).toFixed(1);
+    return lang === "lt" ? `${s.replace(".", ",")} %` : `${s}%`;
+  });
   cfg.addFilter("niceDate", (d, lang) =>
     d ? new Intl.DateTimeFormat(lang === "lt" ? "lt-LT" : "en-GB", { dateStyle: "long" }).format(new Date(d)) : ""
   );

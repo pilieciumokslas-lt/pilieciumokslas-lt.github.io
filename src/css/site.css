@@ -320,3 +320,57 @@ p { margin: 0 0 1em; }
 .res-tiles .topic { position: relative; }
 .tile-icon { position: absolute; top: 16px; right: 16px; width: 30px; height: 30px; color: var(--c); opacity: 0.9; }
 .topic[aria-pressed="true"] .tile-icon { color: #fff; }
+
+/* Who wants to take part in research: figures, one stacked bar chart and data tables */
+.c-yes { --c: var(--blue); }
+.c-mid { --c: #8f92ff; }
+.c-no { --c: #d9dbff; }
+.m5-question { font-size: 1.15rem; max-width: 62ch; margin: 0 0 28px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; list-style: none; padding: 0; margin: 0 0 clamp(48px, 7vw, 80px); }
+.stat { background: var(--mist); border-radius: 6px; padding: 22px 26px 24px; border-top: 6px solid var(--c); }
+.stat .value { display: block; font: 600 clamp(2.2rem, 5vw, 3rem)/1 var(--display); letter-spacing: -0.02em; }
+.stat .what { display: block; margin-top: 10px; color: var(--muted); font-size: 0.97rem; }
+.m5-chart { margin: 0; }
+.m5-legend { display: flex; flex-wrap: wrap; gap: 8px 22px; list-style: none; padding: 0; margin: 0 0 12px; font-size: 0.92rem; color: var(--muted); }
+.m5-legend li, .seg-m5 li { display: flex; align-items: center; gap: 8px; }
+.sw { width: 12px; height: 12px; border-radius: 3px; background: var(--c); flex: none; }
+.m5-row { display: grid; grid-template-columns: minmax(0, 15rem) 5rem minmax(0, 1fr); align-items: center; gap: 6px 18px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.m5-head { padding: 0 0 6px; border-bottom-color: var(--ink); }
+.m5-head .m5-yes { font: 600 0.75rem var(--display); letter-spacing: 0.04em; color: var(--muted); }
+.m5-row.total { border-bottom: 0; }
+.m5-name { font: 600 1rem/1.3 var(--display); }
+.m5-name span { display: block; font: 400 0.85rem var(--body); color: var(--muted); }
+.m5-yes { font: 600 1.05rem var(--display); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.m5-bar { display: flex; gap: 2px; height: 22px; }
+.m5-bar i { display: block; min-width: 2px; flex-basis: 0; background: var(--c); }
+.m5-bar i:last-child { border-radius: 0 4px 4px 0; }
+.m5-bar:hover i { opacity: 0.55; }
+.m5-bar:hover i:hover { opacity: 1; }
+.fig-note { color: var(--muted); font-size: 0.92rem; max-width: 72ch; margin-top: 18px; }
+.fig-note p { margin: 0; }
+.data-details { margin-top: 20px; }
+.data-details summary { cursor: pointer; font: 600 0.92rem var(--display); color: var(--blue); }
+.data-details .table-wrap { margin-top: 16px; }
+.table-wrap { overflow-x: auto; }
+.data-table { width: 100%; min-width: 480px; border-collapse: collapse; font-size: 0.97rem; background: var(--paper); }
+.data-table th, .data-table td { padding: 11px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: bottom; }
+.data-table thead th { font: 600 0.8rem/1.3 var(--display); letter-spacing: 0.03em; color: var(--muted); border-bottom: 1.5px solid var(--ink); }
+.data-table thead th span { display: block; font-weight: 400; }
+.data-table .n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.data-table thead th.n { white-space: normal; }
+.data-table .hl { font-weight: 600; }
+.data-table thead th.hl { color: var(--ink); }
+.data-table tr.group th { padding-top: 26px; font: 600 0.75rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pink); }
+.data-table tr.sum td, .data-table tfoot td { font-weight: 600; border-top: 1.5px solid var(--ink); }
+.data-table tfoot td { font-weight: 400; color: var(--muted); border-bottom: 0; }
+.m5-lead { max-width: 72ch; margin: -12px 0 28px; }
+.seg-m5 { list-style: none; padding: 0; margin: 0 0 14px; font-size: 0.95rem; color: var(--ink); }
+.seg-m5 li { margin-bottom: 4px; }
+.m5-method { margin-top: 3em; padding-top: 1.5em; border-top: 1px solid var(--line); font-size: 0.95rem; color: var(--muted); }
+.m5-method h2 { font-size: 1.2rem; color: var(--ink); }
+@media (max-width: 640px) {
+  .m5-row { grid-template-columns: 4.5rem minmax(0, 1fr); }
+  .m5-name { grid-column: 1 / -1; }
+  .m5-head span:first-child { display: none; }
+  .m5-yes { text-align: left; }
+}
