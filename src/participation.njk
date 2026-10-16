@@ -15,22 +15,54 @@ eleventyComputed:
 {%- set d = db.participationData -%}
 {%- set L = d.labels[lang] -%}
 {%- set keys = [["yes", "c-yes"], ["undecided", "c-mid"], ["no", "c-no"]] -%}
+{%- set dotMax = 70 -%}
+{#- A 100% bar split into the three answers. -#}
 {%- macro bar(name, row) -%}
 <div class="m5-bar" role="img" aria-label="{{ name }}: {% for k in keys %}{{ L[k[0]] | lower }} {{ row[k[0]] | pct(lang) }}{% if not loop.last %}, {% endif %}{% endfor %}">
   {%- for k in keys %}<i class="{{ k[1] }}" style="flex-grow: {{ row[k[0]] }}" title="{{ name }}: {{ L[k[0]] | lower }} {{ row[k[0]] | pct(lang) }}"></i>{% endfor -%}
 </div>
 {%- endmacro -%}
+{#- One row of the dot chart: all residents, the undecided and those willing on one 0-70% track. -#}
+{%- macro dotRow(r) -%}
+{%- set lo = r.all if r.all < r.willing else r.willing -%}
+{%- set hi = r.willing if r.all < r.willing else r.all -%}
+<div class="dot-row">
+  <span class="dot-label">{{ r[lang] }}</span>
+  <span class="dot-track" role="img" aria-label="{{ r[lang] }}: {{ L.yes | lower }} {{ r.willing | pct(lang) }}, {{ L.undecided | lower }} {{ r.undecided | pct(lang) }}, {{ L.allPeople | lower }} {{ r.all | pct(lang) }}">
+    <span class="dot-link" style="left: {{ (lo / dotMax * 100) | round(2) }}%; width: {{ ((hi - lo) / dotMax * 100) | round(2) }}%"></span>
+    <span class="pt d-all" style="left: {{ (r.all / dotMax * 100) | round(2) }}%" title="{{ L.allPeople }}: {{ r.all | pct(lang) }}"></span>
+    <span class="pt d-mid" style="left: {{ (r.undecided / dotMax * 100) | round(2) }}%" title="{{ L.undecided }}: {{ r.undecided | pct(lang) }}"></span>
+    <span class="pt d-yes" style="left: {{ (r.willing / dotMax * 100) | round(2) }}%" title="{{ L.yes }}: {{ r.willing | pct(lang) }}"></span>
+  </span>
+  <span class="dot-val">{{ r.willing | pct(lang) }}</span>
+</div>
+{%- endmacro -%}
+{%- macro dotLegend() -%}
+<ul class="m5-legend">
+  <li><span class="dotkey d-yes"></span>{{ L.yes }}</li>
+  <li><span class="dotkey d-mid"></span>{{ L.undecided }}</li>
+  <li><span class="dotkey d-all"></span>{{ L.allPeople }}</li>
+</ul>
+{%- endmacro -%}
 {{ pageHead(p.title, p.intro) }}
+
 <section class="band">
   <div class="wrap">
+    <h2>{{ p.waffleTitle }}</h2>
     <p class="m5-question">{{ p.question }}</p>
-    <ul class="stats">
-      {%- for k in keys %}
-      <li class="stat {{ k[1] }}"><span class="value">{{ d.overall[k[0]] | pct(lang) }}</span><span class="what">{{ L[k[0]] }}</span></li>
-      {%- endfor %}
-    </ul>
+    <div class="waffle-wrap">
+      <div class="waffle" role="img" aria-label="{% for k in keys %}{{ L[k[0]] }} {{ d.overall[k[0]] | pct(lang) }}{% if not loop.last %}, {% endif %}{% endfor %}">
+        {%- for k in keys %}{% for i in range(0, d.waffle[k[0]]) %}<i class="{{ k[1] }}"></i>{% endfor %}{% endfor -%}
+      </div>
+      <ul class="waffle-key">
+        {%- for k in keys %}
+        <li><span class="sw {{ k[1] }}"></span><span class="value">{{ d.overall[k[0]] | pct(lang) }}</span><span class="what">{{ L[k[0]] }}</span></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <p class="fig-note">{{ p.waffleNote }}</p>
 
-    <h2>{{ p.chartTitle }}</h2>
+    <h2 class="m5-h2">{{ p.chartTitle }}</h2>
     <figure class="m5-chart">
       <ul class="m5-legend">
         {%- for k in keys %}
@@ -40,13 +72,13 @@ eleventyComputed:
       <div class="m5-row m5-head" aria-hidden="true"><span></span><span class="m5-yes">{{ L.yes }}</span><span></span></div>
       {%- for s in d.segments %}
       <div class="m5-row">
-        <span class="m5-name">{{ s[lang] }}<span>{{ s.pop | pct(lang) }} {{ L.ofPop }}</span></span>
+        <span class="m5-name"><span class="sw seg-{{ s.id }}"></span>{{ s[lang] }}<small>{{ s.pop | pct(lang) }} {{ L.ofPop }}</small></span>
         <span class="m5-yes">{{ s.yes | pct(lang) }}</span>
         {{ bar(s[lang], s) }}
       </div>
       {%- endfor %}
       <div class="m5-row total">
-        <span class="m5-name">{{ L.allPeople }}<span>n = {{ d.overall.n }}</span></span>
+        <span class="m5-name">{{ L.allPeople }}<small>n = {{ d.overall.n }}</small></span>
         <span class="m5-yes">{{ d.overall.yes | pct(lang) }}</span>
         {{ bar(L.allPeople, d.overall) }}
       </div>
@@ -72,40 +104,73 @@ eleventyComputed:
 <section class="band tint">
   <div class="wrap">
     <h2>{{ p.compositionTitle }}</h2>
-    <p class="section-lead m5-lead">{{ p.compositionText }}</p>
-    <div class="table-wrap">
-      <table class="data-table">
-        <thead><tr><th>{{ L.segment }}</th><th class="n">{{ L.popShare }}</th><th class="n hl">{{ L.willingShare }}</th><th class="n">{{ L.undecidedShare }}</th></tr></thead>
-        <tbody>
-          {%- for s in d.segments %}
-          <tr><td>{{ s[lang] }}</td><td class="n">{{ s.pop | pct(lang) }}</td><td class="n hl">{{ s.shareOfWilling | pct(lang) }}</td><td class="n">{{ s.shareOfUndecided | pct(lang) }}</td></tr>
-          {%- endfor %}
-        </tbody>
-        <tfoot><tr><td>{{ L.total }}</td><td class="n">{{ L.people.all }}</td><td class="n">{{ L.people.willing }}</td><td class="n">{{ L.people.undecided }}</td></tr></tfoot>
-      </table>
-    </div>
+    <p class="m5-lead">{{ p.compositionText }}</p>
+    <figure class="m5-chart comp">
+      <ul class="m5-legend">
+        {%- for s in d.segments %}
+        <li><span class="sw seg-{{ s.id }}"></span>{{ s[lang] }}</li>
+        {%- endfor %}
+      </ul>
+      {%- for row in [["allPeople", "pop", L.people.all], ["yes", "shareOfWilling", L.people.willing], ["undecided", "shareOfUndecided", L.people.undecided]] %}
+      <div class="comp-row{% if loop.index == 2 %} hl{% endif %}">
+        <span class="m5-name">{{ L[row[0]] }}<small>{{ row[2] }} {{ "žm." if lang == "lt" else "people" }}</small></span>
+        <div class="m5-bar comp-bar" role="img" aria-label="{{ L[row[0]] }}: {% for s in d.segments %}{{ s[lang] }} {{ s[row[1]] | pct(lang) }}{% if not loop.last %}, {% endif %}{% endfor %}">
+          {%- for s in d.segments %}<i class="seg-{{ s.id }}" style="flex-grow: {{ s[row[1]] }}" title="{{ s[lang] }}: {{ s[row[1]] | pct(lang) }}">{% if loop.first %}<b>{{ s[row[1]] | pct(lang) }}</b>{% endif %}</i>{% endfor -%}
+        </div>
+      </div>
+      {%- endfor %}
+    </figure>
+    <details class="data-details">
+      <summary>{{ L.showTable }}</summary>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th>{{ L.segment }}</th><th class="n">{{ L.popShare }}</th><th class="n">{{ L.willingShare }}</th><th class="n">{{ L.undecidedShare }}</th></tr></thead>
+          <tbody>
+            {%- for s in d.segments %}
+            <tr><td>{{ s[lang] }}</td><td class="n">{{ s.pop | pct(lang) }}</td><td class="n">{{ s.shareOfWilling | pct(lang) }}</td><td class="n">{{ s.shareOfUndecided | pct(lang) }}</td></tr>
+            {%- endfor %}
+          </tbody>
+          <tfoot><tr><td>{{ L.total }}</td><td class="n">{{ L.people.all }}</td><td class="n">{{ L.people.willing }}</td><td class="n">{{ L.people.undecided }}</td></tr></tfoot>
+        </table>
+      </div>
+    </details>
   </div>
 </section>
 
 <section class="band">
   <div class="wrap">
     <h2>{{ p.profileTitle }}</h2>
-    <p class="section-lead m5-lead">{{ p.profileText }}</p>
-    <div class="table-wrap">
-      <table class="data-table">
-        <thead><tr><th></th><th class="n hl">{{ L.yes }}<span>n = {{ L.people.willing }}</span></th><th class="n">{{ L.undecided }}<span>n = {{ L.people.undecided }}</span></th><th class="n">{{ L.allPeople }}<span>N = {{ L.people.all }}</span></th></tr></thead>
-        <tbody>
-          <tr class="group"><th colspan="4">{{ L.whoTheyAre }}</th></tr>
-          {%- for r in d.profile %}
-          <tr><td>{{ r[lang] }}</td><td class="n hl">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
-          {%- endfor %}
-          <tr class="group"><th colspan="4">{{ L.channelsGroup }}</th></tr>
-          {%- for r in d.channels %}
-          <tr><td>{{ r[lang] }}</td><td class="n hl">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
-          {%- endfor %}
-        </tbody>
-      </table>
-    </div>
+    <p class="m5-lead">{{ p.profileText }}</p>
+    <figure class="m5-chart dots">
+      {{ dotLegend() }}
+      <div class="dot-row dot-axis" aria-hidden="true">
+        <span></span>
+        <span class="dot-track">{% for v in [0, 20, 40, 60] %}<b style="left: {{ (v / dotMax * 100) | round(2) }}%">{{ v }}{{ " %" if lang == "lt" else "%" }}</b>{% endfor %}</span>
+        <span class="dot-val">{{ L.yes }}</span>
+      </div>
+      <p class="dot-group">{{ L.whoTheyAre }}</p>
+      {%- for r in d.profile %}{{ dotRow(r) }}{% endfor %}
+      <p class="dot-group">{{ L.channelsGroup }}</p>
+      {%- for r in d.channels %}{{ dotRow(r) }}{% endfor %}
+    </figure>
+    <details class="data-details">
+      <summary>{{ L.showTable }}</summary>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead><tr><th></th><th class="n">{{ L.yes }}<span>n = {{ L.people.willing }}</span></th><th class="n">{{ L.undecided }}<span>n = {{ L.people.undecided }}</span></th><th class="n">{{ L.allPeople }}<span>N = {{ L.people.all }}</span></th></tr></thead>
+          <tbody>
+            <tr class="group"><th colspan="4">{{ L.whoTheyAre }}</th></tr>
+            {%- for r in d.profile %}
+            <tr><td>{{ r[lang] }}</td><td class="n">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
+            {%- endfor %}
+            <tr class="group"><th colspan="4">{{ L.channelsGroup }}</th></tr>
+            {%- for r in d.channels %}
+            <tr><td>{{ r[lang] }}</td><td class="n">{{ r.willing | pct(lang) }}</td><td class="n">{{ r.undecided | pct(lang) }}</td><td class="n">{{ r.all | pct(lang) }}</td></tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -115,14 +180,21 @@ eleventyComputed:
     <div class="grid g2">
       {%- for s in d.segments %}
       {%- set txt = (p.segments | where("id", s.id))[0] %}
-      <article class="contact seg">
+      <article class="seg-card seg-{{ s.id }}">
         <h3>{{ s[lang] }}</h3>
         <p class="unit">{{ s.pop | pct(lang) }} {{ L.ofPop }}</p>
-        <ul class="seg-m5">
+        {{ bar(s[lang], s) }}
+        <ul class="seg-key">
           <li><span class="sw c-yes"></span>{{ L.yes }}: <strong>{{ s.yes | pct(lang) }}</strong></li>
           <li><span class="sw c-mid"></span>{{ L.undecided }}: <strong>{{ s.undecided | pct(lang) }}</strong></li>
         </ul>
-        <p>{{ txt.text }}</p>
+        <p class="ch-title">{{ L.cardChannels }}</p>
+        <ul class="ch-bars">
+          {%- for c in s.channels %}
+          <li><span class="ch-name">{{ c[lang] }}</span><span class="ch-track"><i style="width: {{ (c.v / 50 * 100) | round(2) }}%"></i></span><span class="ch-val">{{ c.v | pct(lang) }}</span></li>
+          {%- endfor %}
+        </ul>
+        <p class="seg-text">{{ txt.text }}</p>
       </article>
       {%- endfor %}
     </div>
@@ -130,10 +202,14 @@ eleventyComputed:
 </section>
 
 <section class="band">
-  <div class="wrap narrow prose explainer">
+  <div class="wrap">
     <h2>{{ p.practiceTitle }}</h2>
-    {{ p.practice | safe }}
-    <div class="m5-method">
+    <ol class="grid tips">
+      {%- for tip in p.practice %}
+      <li><span class="tip-fig">{{ tip.figure }}</span><h3>{{ tip.title }}</h3><p>{{ tip.text }}</p></li>
+      {%- endfor %}
+    </ol>
+    <div class="m5-method narrow">
       <h2>{{ p.methodTitle }}</h2>
       {{ p.method | safe }}
     </div>

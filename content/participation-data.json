@@ -1,11 +1,40 @@
 {
-  "_source": "INFODEMIJA survey, N = 1005, 2024. Item m5 by LPA segment_4. Unweighted, 'don't know' (9) and missing excluded per item. Computed 2026-10-16 from LPA_dataset_with_profiles_N1005.csv (segments) and INFODEMIJA_survey_data_anonymized.csv (answers). Not edited through Pages CMS.",
+  "_source": "INFODEMIJA survey, N = 1005, 2024 (Zenodo DOI 10.5281/zenodo.21134838). Item m5 by LPA segment_4. Unweighted, 'don't know' (9) and missing excluded per item. Computed 2026-10-16 from LPA_dataset_with_profiles_N1005.csv (segments) and INFODEMIJA_survey_data_anonymized.csv (answers). Waffle = 172/177/581 of 930 rounded to 100 squares by largest remainder. Not edited through Pages CMS.",
   "overall": { "n": 930, "yes": 18.5, "undecided": 19.0, "no": 62.5, "definitelyYes": 3.3 },
+  "waffle": { "yes": 19, "undecided": 19, "no": 62 },
   "segments": [
-    { "id": "s1", "lt": "Mokslo entuziastai", "en": "Science enthusiasts", "pop": 30.2, "n": 285, "yes": 44.9, "undecided": 22.8, "no": 32.3, "shareOfWilling": 74.4, "shareOfUndecided": 36.7 },
-    { "id": "s2", "lt": "Nuosaikieji palaikytojai", "en": "Moderate supporters", "pop": 29.9, "n": 269, "yes": 3.3, "undecided": 23.8, "no": 72.9, "shareOfWilling": 5.2, "shareOfUndecided": 36.2 },
-    { "id": "s3", "lt": "Tylieji pasitikintieji", "en": "Quiet trusters", "pop": 23.4, "n": 215, "yes": 14.4, "undecided": 20.5, "no": 65.1, "shareOfWilling": 18.0, "shareOfUndecided": 24.9 },
-    { "id": "s4", "lt": "Nutolę nuo mokslo", "en": "Distant from science", "pop": 16.5, "n": 161, "yes": 2.5, "undecided": 2.5, "no": 95.0, "shareOfWilling": 2.3, "shareOfUndecided": 2.3 }
+    {
+      "id": "s1", "lt": "Mokslo entuziastai", "en": "Science enthusiasts", "pop": 30.2, "n": 285, "yes": 44.9, "undecided": 22.8, "no": 32.3, "shareOfWilling": 74.4, "shareOfUndecided": 36.7,
+      "channels": [
+        { "lt": "„YouTube“", "en": "YouTube", "v": 46.4 },
+        { "lt": "Pažintinės TV stotys", "en": "Educational TV", "v": 44.6 },
+        { "lt": "Naujienų portalai", "en": "News portals", "v": 43.5 }
+      ]
+    },
+    {
+      "id": "s2", "lt": "Nuosaikieji palaikytojai", "en": "Moderate supporters", "pop": 29.9, "n": 269, "yes": 3.3, "undecided": 23.8, "no": 72.9, "shareOfWilling": 5.2, "shareOfUndecided": 36.2,
+      "channels": [
+        { "lt": "„YouTube“", "en": "YouTube", "v": 35.9 },
+        { "lt": "Socialiniai tinklai", "en": "Social media", "v": 32.6 },
+        { "lt": "Naujienų portalai", "en": "News portals", "v": 28.6 }
+      ]
+    },
+    {
+      "id": "s3", "lt": "Tylieji pasitikintieji", "en": "Quiet trusters", "pop": 23.4, "n": 215, "yes": 14.4, "undecided": 20.5, "no": 65.1, "shareOfWilling": 18.0, "shareOfUndecided": 24.9,
+      "channels": [
+        { "lt": "LRT televizija", "en": "LRT public TV", "v": 30.2 },
+        { "lt": "Komercinės TV stotys", "en": "Commercial TV", "v": 22.0 },
+        { "lt": "Radijas", "en": "Radio", "v": 15.4 }
+      ]
+    },
+    {
+      "id": "s4", "lt": "Nutolę nuo mokslo", "en": "Distant from science", "pop": 16.5, "n": 161, "yes": 2.5, "undecided": 2.5, "no": 95.0, "shareOfWilling": 2.3, "shareOfUndecided": 2.3,
+      "channels": [
+        { "lt": "Komercinės TV stotys", "en": "Commercial TV", "v": 15.4 },
+        { "lt": "Radijas", "en": "Radio", "v": 12.8 },
+        { "lt": "LRT televizija", "en": "LRT public TV", "v": 7.5 }
+      ]
+    }
   ],
   "groups": { "willing": 172, "undecided": 177, "all": 1005 },
   "profile": [
@@ -18,16 +47,16 @@
     { "lt": "Bent retkarčiais dalyvauja mokslo renginiuose", "en": "Attend science events at least rarely", "willing": 63.9, "undecided": 48.9, "all": 35.7 }
   ],
   "channels": [
-    { "lt": "„YouTube“ ir kitas vaizdo platformas", "en": "YouTube and other video platforms", "willing": 41.4, "undecided": 25.4, "all": 25.4 },
-    { "lt": "Socialinius tinklus", "en": "Social media", "willing": 38.9, "undecided": 22.5, "all": 23.7 },
-    { "lt": "Pažintines TV stotis", "en": "Educational TV channels", "willing": 37.1, "undecided": 20.7, "all": 22.4 },
-    { "lt": "Naujienų portalus", "en": "News portals", "willing": 36.7, "undecided": 22.7, "all": 24.8 },
-    { "lt": "Vikipediją", "en": "Wikipedia", "willing": 33.5, "undecided": 12.6, "all": 19.0 },
-    { "lt": "LRT televiziją", "en": "LRT public television", "willing": 32.6, "undecided": 20.7, "all": 27.0 },
-    { "lt": "Mokslinius žurnalus", "en": "Scientific journals", "willing": 31.6, "undecided": 10.2, "all": 13.3 },
-    { "lt": "Komercines TV stotis", "en": "Commercial TV channels", "willing": 21.6, "undecided": 19.3, "all": 25.8 },
-    { "lt": "Valdžios, švietimo ir gydymo įstaigų svetaines", "en": "Government, education and healthcare websites", "willing": 20.8, "undecided": 15.1, "all": 12.2 },
-    { "lt": "Radiją", "en": "Radio", "willing": 14.3, "undecided": 16.8, "all": 19.5 }
+    { "lt": "„YouTube“ ir kitos vaizdo platformos", "en": "YouTube and other video platforms", "willing": 41.4, "undecided": 25.4, "all": 25.4 },
+    { "lt": "Socialiniai tinklai", "en": "Social media", "willing": 38.9, "undecided": 22.5, "all": 23.7 },
+    { "lt": "Pažintinės TV stotys", "en": "Educational TV channels", "willing": 37.1, "undecided": 20.7, "all": 22.4 },
+    { "lt": "Naujienų portalai", "en": "News portals", "willing": 36.7, "undecided": 22.7, "all": 24.8 },
+    { "lt": "Vikipedija", "en": "Wikipedia", "willing": 33.5, "undecided": 12.6, "all": 19.0 },
+    { "lt": "LRT televizija", "en": "LRT public television", "willing": 32.6, "undecided": 20.7, "all": 27.0 },
+    { "lt": "Moksliniai žurnalai", "en": "Scientific journals", "willing": 31.6, "undecided": 10.2, "all": 13.3 },
+    { "lt": "Komercinės TV stotys", "en": "Commercial TV channels", "willing": 21.6, "undecided": 19.3, "all": 25.8 },
+    { "lt": "Valdžios, švietimo ir gydymo įstaigų svetainės", "en": "Government, education and healthcare websites", "willing": 20.8, "undecided": 15.1, "all": 12.2 },
+    { "lt": "Radijas", "en": "Radio", "willing": 14.3, "undecided": 16.8, "all": 19.5 }
   ],
   "labels": {
     "lt": {
@@ -43,6 +72,7 @@
       "total": "Iš viso, žmonių",
       "whoTheyAre": "Kas jie",
       "channelsGroup": "Apie mokslą dažnai sužino per",
+      "cardChannels": "Apie mokslą dažnai sužino per",
       "showTable": "Rodyti duomenis lentelėje",
       "people": { "willing": "172", "undecided": "177", "all": "1 005" }
     },
@@ -59,6 +89,7 @@
       "total": "Total, people",
       "whoTheyAre": "Who they are",
       "channelsGroup": "Often learn about science through",
+      "cardChannels": "Often learn about science through",
       "showTable": "Show the data as a table",
       "people": { "willing": "172", "undecided": "177", "all": "1,005" }
     }

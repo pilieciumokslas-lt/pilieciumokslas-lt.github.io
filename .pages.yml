@@ -228,7 +228,9 @@ content:
         fields: &participation
           - { name: title, label: Pavadinimas / Title, type: string }
           - { name: intro, label: Įžanga / Intro, type: text }
-          - { name: question, label: Tekstas virš skaičių / Text above the figures, type: text }
+          - { name: waffleTitle, label: Pirma antraštė / First heading, type: string }
+          - { name: question, label: Tekstas virš langelių / Text above the squares, type: text }
+          - { name: waffleNote, label: Pastaba po langeliais / Note under the squares, type: string }
           - { name: chartTitle, label: Diagramos pavadinimas / Chart title, type: string }
           - { name: chartNote, label: Pastaba po diagrama / Note under the chart, type: rich-text }
           - { name: compositionTitle, label: Antraštė "Trys iš keturių" / Heading "Three in four", type: string }
@@ -244,7 +246,14 @@ content:
               - { name: id, label: "Segmentas (s1-s4) / Segment (s1-s4)", type: select, options: { values: [s1, s2, s3, s4] } }
               - { name: text, label: Tekstas / Text, type: text }
           - { name: practiceTitle, label: Antraštė "Planuojant projektą" / Heading "When you plan a project", type: string }
-          - { name: practice, label: Tekstas / Text, type: rich-text }
+          - name: practice
+            label: Kortelės / Cards
+            type: object
+            list: true
+            fields:
+              - { name: figure, label: Skaičius / Figure, type: string }
+              - { name: title, label: Antraštė / Heading, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
           - { name: methodTitle, label: Antraštė "Apie duomenis" / Heading "About the data", type: string }
           - { name: method, label: Tekstas / Text, type: rich-text }
       - name: en
