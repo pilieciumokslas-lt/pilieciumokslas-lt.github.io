@@ -378,6 +378,35 @@
     },
     {
       "type": "tool",
+      "language": "lt",
+      "source": "Piliečių mokslo asociacija pagal INFODEMIJA duomenis, 2026",
+      "url": "/kas-nori-dalyvauti-tyrimuose/",
+      "lt": {
+        "title": "Kas Lietuvoje nori dalyvauti moksliniuose tyrimuose?",
+        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5\u00a0%), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
+      },
+      "en": {
+        "title": "Who in Lithuania wants to take part in research?",
+        "text": "Data for researchers planning a citizen science project: how many residents would like to take part in research (18.5%), who they are and which channels reach them. Based on the representative INFODEMIJA survey (N = 1,005).",
+        "url": "/en/who-wants-to-take-part-in-research/"
+      }
+    },
+    {
+      "type": "tool",
+      "language": "lt",
+      "source": "Mačiulienė, 2026",
+      "url": "/assets/uploads/docs/dalyviu-paieskos-planas.docx",
+      "lt": {
+        "title": "Dalyvių paieškos planas: darbo lapas",
+        "text": "Darbo lapas, padedantis suplanuoti, kaip pasiekti piliečių mokslo projekto dalyvius: kokių žmonių reikia, kuris gyventojų segmentas jiems artimiausias, kokiais kanalais ir per kokius tarpininkus juos kviesti. Su keturių segmentų atmintine ir klausimais kolegos patikrai. „Word“ formatu."
+      },
+      "en": {
+        "title": "Participant recruitment plan: worksheet",
+        "text": "A worksheet (in Lithuanian) for planning how to reach participants for a citizen science project: who you need, which population segment they are closest to, and which channels and intermediaries to use. With a summary of the four segments and questions for a peer check. Word format."
+      }
+    },
+    {
+      "type": "tool",
       "language": "en",
       "source": "Labenne, 2025 / European Citizen Science",
       "url": "https://doi.org/10.5281/zenodo.15148118",

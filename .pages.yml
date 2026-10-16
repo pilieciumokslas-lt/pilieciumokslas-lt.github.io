@@ -66,7 +66,13 @@ content:
           - { name: source, label: Autoriai ir metai arba šaltinis / Authors and year or source, type: string }
           - { name: url, label: Nuoroda / Link, type: string }
           - { name: lt, label: Lietuviškai, type: object, fields: *lang }
-          - { name: en, label: English, type: object, fields: *lang }
+          - name: en
+            label: English
+            type: object
+            fields:
+              - { name: title, label: Title, type: string }
+              - { name: text, label: Description, type: text }
+              - { name: url, label: "Link to the English version (optional, if different)", type: string }
 
       - name: platforms
         label: Europos platformos / European platforms

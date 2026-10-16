@@ -34,7 +34,9 @@ permalink: "{{ routes.resources[lang] }}"
       <article class="card rcard g-{{ r.group }}{% if r.note %} rnote{% endif %}" data-cat="{{ r.group }}" data-lang="{{ r.language }}">
         <p class="label">{{ t.resGroups[r.group] if r.note else t.types[r.type] }}{% if r.language and r.group != "institutions" and r.group != "platforms" %} <span class="badge">{{ r.language | upper }}</span>{% endif %}</p>
         {% if r.logo %}<div class="logo-box"><img src="{{ r.logo }}" alt="" loading="lazy"></div>{% endif %}
-        <h3>{% if r.url %}<a href="{{ r.url }}">{{ r[lang].title }}</a>{% else %}{{ r[lang].title }}{% endif %}</h3>
+        {#- A card can link to a page in the reader's language: en.url overrides url. -#}
+        {%- set u = r[lang].url or r.url %}
+        <h3>{% if u %}<a href="{{ u }}">{{ r[lang].title }}</a>{% else %}{{ r[lang].title }}{% endif %}</h3>
         {% if r.source or r[lang].source %}<p class="src">{{ r[lang].source or r.source }}</p>{% endif %}
         <p class="rtext">{{ r[lang].text }}</p>
         {% if r.email or r.phone or r.links %}
@@ -44,7 +46,7 @@ permalink: "{{ routes.resources[lang] }}"
           {% for l in r.links %}<li><a href="{{ l.url }}">{{ l[lang] }}</a></li>{% endfor %}
         </ul>
         {% endif %}
-        {% if r.url %}<a class="more" href="{{ r.url }}">{{ t.open }}</a>{% endif %}
+        {% if u %}<a class="more" href="{{ u }}">{{ t.open }}</a>{% endif %}
       </article>
       {% endfor %}
     </div>
