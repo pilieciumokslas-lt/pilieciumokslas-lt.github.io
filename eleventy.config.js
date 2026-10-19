@@ -1,4 +1,14 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import markdownIt from "markdown-it";
+
+// Text from the editor may arrive as Markdown (paragraphs, [links](...)) or as HTML.
+// Imported posts are HTML and are left as they are; everything else is converted.
+const md = markdownIt({ html: true, linkify: true, breaks: true });
+const richText = (text) => {
+  const t = String(text || "").trim();
+  if (!t) return "";
+  return /^<(p|ul|ol|h[1-6]|div|figure|blockquote|table|img)\b/i.test(t) ? t : md.render(t);
+};
 
 // Isometric cube field used in the hero. Deterministic, so it looks the same on every build.
 function cubes() {
@@ -80,6 +90,7 @@ export default function (cfg) {
   cfg.addFilter("byName", (arr, lang) =>
     [...(arr || [])].sort((a, b) => ((a[lang] && a[lang].name) || a.name).localeCompare((b[lang] && b[lang].name) || b.name, lang, { sensitivity: "base" }))
   );
+  cfg.addFilter("richText", richText);
   cfg.addFilter("take", (arr, n) => (arr || []).slice(0, n));
   cfg.addFilter("where", (arr, key, val) => (arr || []).filter((x) => x[key] === val));
   cfg.addFilter("inLang", (arr, lang) => (arr || []).filter((x) => x[lang] && x[lang].title));

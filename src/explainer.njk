@@ -12,7 +12,7 @@ permalink: "{{ routes.explainer[lang] }}"
 {%- set e = db.explainer[lang] -%}
 {{ pageHead(e.title, e.intro) }}
 <section class="band">
-  <div class="wrap narrow prose explainer">{{ e.body | safe }}</div>
+  <div class="wrap narrow prose explainer">{{ e.body | richText | safe }}</div>
 </section>
 <section class="cta">
   <div class="wrap">
