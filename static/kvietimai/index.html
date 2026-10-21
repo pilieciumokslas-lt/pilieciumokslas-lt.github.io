@@ -227,6 +227,9 @@ html,body{margin:0;padding:0}
 .hm-facet button[disabled]{color:var(--hm-mute);opacity:.55;cursor:default}
 .hm-facet button span:last-child{color:var(--hm-mute);font-variant-numeric:tabular-nums}
 .hm-results{min-width:0;display:flex;flex-direction:column;gap:.8rem}
+.hm-when-seg{margin:.2rem 0 .6rem}
+.hm-rounds ul{margin:.4rem 0 0;padding-left:1.1rem}
+.hm-rounds li{margin:.25rem 0}
 .hm-dl{display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:baseline;margin:.1rem 0 .8rem}
 .hm-clear{font-family:var(--hm-util);font-size:.82rem;background:none;border:0;color:var(--hm-cobalt);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .hm-facet>summary{cursor:pointer;list-style:none;font-family:var(--hm-display);font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;color:var(--hm-cobalt);padding:.35rem 0;display:flex;justify-content:space-between}
@@ -316,6 +319,11 @@ html,body{margin:0;padding:0}
             <button type="button" data-v="size">Largest grant</button>
           </div>
           <button type="button" class="hm-clear" id="calls-clear">Clear filters</button>
+        </div>
+        <div class="hm-seg hm-when-seg" role="group" aria-label="Which calls" id="calls-when">
+          <button type="button" data-v="Open and upcoming">Open and upcoming</button>
+          <button type="button" data-v="Past since 2024">Past rounds since 2024</button>
+          <button type="button" data-v="All">All</button>
         </div>
         <div class="hm-facets" id="explore-facets" hidden aria-label="Filters"></div>
         <div class="hm-chiprow hm-active" id="calls-active"></div>
@@ -461,18 +469,32 @@ dash.calc('sources', {
   },
 });
 
+// A call series: the Portal topic identifier without year and numbers, or the call name without
+// years and numbers plus the funder. Used for expected rounds and for each call's other rounds.
+function seriesKey(c) {
+  const m = /\(([A-Z0-9][A-Za-z0-9-]+)\)$/.exec(c.opportunity || '');
+  if (m && c.family === 'portal') return m[1].split('-').filter((p) => !/^20\d\d$/.test(p) && !/^\d{1,2}$/.test(p) && p !== 'two' && p !== 'stage').join('-');
+  const name = String(c.opportunity || '').split(' / ')[0].toLowerCase().replace(/20\d\d([-\u2013]20\d\d)?/g, '').replace(/\b[ivx]+\b/g, '').replace(/nr\.?\s*\d+/g, '').replace(/[0-9]+/g, '').replace(/[^a-ząčęėįšųūž ]/g, ' ').replace(/\s+/g, ' ').trim();
+  return (c.funder || '').split(/[,;]/)[0].trim().toLowerCase() + '|' + name.slice(0, 70);
+}
+
+dash.calc('rounds', {
+  inputs: ['calls', 'calls_past', 'calls_past_lt', 'calls_past_local'],
+  title: 'Rounds per call series',
+  description: 'Every call grouped by series (see the expected calc), with its deadline, so each call can list the other rounds of the same series since January 2024.',
+  fn: (calls, calls_past, calls_past_lt, calls_past_local) => {
+    const all = [calls, calls_past, calls_past_lt, calls_past_local].reduce((a, x) => a.concat(Array.isArray(x) ? x : []), []);
+    return all.map((c) => ({ id: c.id, series: seriesKey(c), title: c.opportunity, deadline: c.deadline || '', opens: c.opens || '', status: c.status, amount: c.amount || '', link: c.link || '' }));
+  },
+});
+
 dash.calc('expected', {
   inputs: ['calls', 'calls_past', 'calls_past_lt', 'calls_past_local'],
   title: 'Rounds expected from last year',
   description: 'Call series that had a deadline between today and 60 days ahead, one year earlier, and have no open, upcoming or rolling call now. A series is the Portal topic identifier without year and numbers, or the call name without years and numbers plus the funder.',
   fn: (calls, calls_past, calls_past_lt, calls_past_local) => {
     const all = [calls, calls_past, calls_past_lt, calls_past_local].reduce((a, x) => a.concat(Array.isArray(x) ? x : []), []);
-    const key = (c) => {
-      const m = /\(([A-Z0-9][A-Za-z0-9-]+)\)$/.exec(c.opportunity || '');
-      if (m && c.family === 'portal') return m[1].split('-').filter((p) => !/^20\d\d$/.test(p) && !/^\d{1,2}$/.test(p) && p !== 'two' && p !== 'stage').join('-');
-      const name = String(c.opportunity || '').split(' / ')[0].toLowerCase().replace(/20\d\d([-\u2013]20\d\d)?/g, '').replace(/\b[ivx]+\b/g, '').replace(/nr\.?\s*\d+/g, '').replace(/[0-9]+/g, '').replace(/[^a-ząčęėįšųūž ]/g, ' ').replace(/\s+/g, ' ').trim();
-      return (c.funder || '').split(/[,;]/)[0].trim().toLowerCase() + '|' + name.slice(0, 70);
-    };
+    const key = seriesKey;
     const day = 86400000;
     const now = Date.now();
     const from = new Date(now - 365 * day).toISOString().slice(0, 10);
@@ -897,8 +919,45 @@ dash.calc('cycles', {
       if (c.why) det.append(m(el('p', null, c.why), c._src || 'calls', 'why', c.id));
       body.append(det);
     }
+    const others = otherRounds(c);
+    if (others.length) {
+      const det = el('details', 'hm-rounds');
+      const past = others.filter((r) => r.status === 'Closed').length;
+      det.append(el('summary', null, 'Other rounds of this call: ' + others.length + (past ? ' (' + past + ' past)' : '')));
+      const ul = el('ul');
+      others.slice(0, 12).forEach((r) => {
+        const li = el('li');
+        li.append(el('span', 'hm-meta', r.deadline ? fmtDate(new Date(r.deadline)) : 'No date'), document.createTextNode(' '));
+        li.append(link(r.title, r.link, null));
+        if (r.status !== 'Closed') li.append(document.createTextNode(' '), el('span', 'hm-tag', r.status || 'Open'));
+        if (r.amount) li.append(el('div', 'hm-meta', r.amount));
+        ul.append(li);
+      });
+      det.append(ul);
+      if (others.length > 12) det.append(el('p', 'hm-meta', 'And ' + (others.length - 12) + ' more. Search the call name with "All" selected to see them.'));
+      body.append(det);
+    }
     it.append(when, body);
     return it;
+  }
+
+  let roundsIndex = null, roundsFrom = null;
+  function otherRounds(c) {
+    const d = dash.data('rounds');
+    if (d.status !== 'ok') return [];
+    if (roundsFrom !== d.data) {
+      roundsFrom = d.data;
+      roundsIndex = { bySeries: new Map(), byId: new Map() };
+      d.data.forEach((r) => {
+        roundsIndex.byId.set(r.id, r.series);
+        if (!roundsIndex.bySeries.has(r.series)) roundsIndex.bySeries.set(r.series, []);
+        roundsIndex.bySeries.get(r.series).push(r);
+      });
+    }
+    const s = roundsIndex.byId.get(c.id);
+    const list = (s && roundsIndex.bySeries.get(s)) || [];
+    if (list.length < 2 || list.length > 80) return [];
+    return list.filter((r) => r.id !== c.id).sort((a, b) => (b.deadline || '9').localeCompare(a.deadline || '9'));
   }
 
   const PAGE = 50;
@@ -1090,6 +1149,15 @@ dash.calc('cycles', {
     resetCalls();
     drawPage();
   });
+  document.getElementById('calls-when')?.addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-v]');
+    if (!b) return;
+    sel.time.clear();
+    sel.time.add(b.dataset.v);
+    state.time = b.dataset.v === 'Open and upcoming' ? 'open' : 'any';
+    resetCalls();
+    drawPage();
+  });
   const openFacets = new Set();
   document.getElementById('calls-filterbtn')?.addEventListener('click', (e) => {
     const p = document.getElementById('explore-facets');
@@ -1208,6 +1276,7 @@ dash.calc('cycles', {
     const list = document.getElementById('calls-list');
     const more = document.getElementById('calls-more');
     if (!listState(list, d, 'No calls in the database.')) { more.hidden = true; document.getElementById('explore-facets').replaceChildren(); return; }
+    document.querySelectorAll('#calls-when button').forEach((b) => b.setAttribute('aria-pressed', String(sel.time.has(b.dataset.v))));
     const words = callNorm(state.q).split(/\s+/).filter(Boolean);
     drawFacets(d.data, words);
     drawActive();
