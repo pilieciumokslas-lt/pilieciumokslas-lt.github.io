@@ -1,0 +1,387 @@
+[
+ {
+  "flow": "Funding landscape by level",
+  "steps": [
+   "Lithuania: LKT, Media Support Fund, NGO Fund, SADM, VRM, URM calls, National Sports Agency, public health bureaus, municipalities",
+   "EU: ESF+, ERPF, Erasmus+, Creative Europe, CERV, European Solidarity Corps",
+   "Region: Nordplus, Nordic Culture Point, Interreg, Baltic Culture Fund, Nordic Council of Ministers",
+   "Donors: Swiss programme, EEA and Norway Grants, private and community funds"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "The deck's map of funding sources in four groups.",
+  "source": "Subačienė 2026, slide 12",
+  "id": "f1"
+ },
+ {
+  "flow": "Direct call",
+  "steps": [
+   "Organisation prepares its own application",
+   "Submits to the fund or programme administrator",
+   "Administrator selects and funds"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example: LIFE applications go straight to the European Commission via the Funding & Tenders portal.",
+  "source": "Subačienė 2026, slides 11, 50",
+  "id": "f2"
+ },
+ {
+  "flow": "Periodic calls",
+  "steps": [
+   "Fund announces a call every year or several times a year",
+   "Organisation checks deadlines before planning",
+   "Organisation applies in the next round"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example: Erasmus+ main KA210 and KA220 deadline passed in March 2026, so most fields prepare for 2027.",
+  "source": "Subačienė 2026, slides 11, 42",
+  "id": "f3"
+ },
+ {
+  "flow": "Planning or sub-call mode",
+  "steps": [
+   "Main beneficiary is designated in advance",
+   "It runs partnerships, procurement or separate calls",
+   "Other organisations join as partners, suppliers or sub-call winners"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example: a large share of the Swiss-Lithuanian programme goes through pre-defined projects.",
+  "source": "Subačienė 2026, slides 11, 14",
+  "id": "f4"
+ },
+ {
+  "flow": "Co-financing or top-up",
+  "steps": [
+   "Organisation secures international funding or plans its budget",
+   "A fund covers only part of the budget, or tops up the funding already secured",
+   "Organisation covers the rest from its own funds"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Ask early whether you can contribute your own funds.",
+  "source": "Subačienė 2026, slides 7, 11",
+  "id": "f5"
+ },
+ {
+  "flow": "EU programmes: how calls reach applicants",
+  "steps": [
+   "ESF+ and ERPF: national calls",
+   "Erasmus+: direct and national calls",
+   "Creative Europe and CERV: direct European Commission calls",
+   "Interreg: calls run by each programme"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Summary of delivery channels for EU programmes relevant to several sectors.",
+  "source": "Subačienė 2026, slide 13",
+  "id": "f6"
+ },
+ {
+  "flow": "ESFA AID2 project idea selection",
+  "steps": [
+   "ESF-funded project AID2 run by ESFA",
+   "ESFA opens selection of project ideas (from 23 March 2026)",
+   "Public and private legal entities submit ideas via a form",
+   "Selected organisations contribute to the AID2 goal"
+  ],
+  "applies_to": [
+   "NGO",
+   "SME",
+   "Large company",
+   "Public body"
+  ],
+  "notes": "Goal: help socially vulnerable and excluded people enter the labour market.",
+  "source": "Subačienė 2026, slide 30",
+  "id": "f7"
+ },
+ {
+  "flow": "Erasmus+ youth field in Lithuania",
+  "steps": [
+   "EU Erasmus+ programme",
+   "Youth Affairs Agency (JRA) administers the youth field in Lithuania",
+   "JRA publishes calls and application forms",
+   "Organisations apply by the deadline"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "2026 second or third round deadline: 1 October 2026.",
+  "source": "Subačienė 2026, slide 43",
+  "id": "f8"
+ },
+ {
+  "flow": "Interreg",
+  "steps": [
+   "ERDF: about 10 billion EUR for Interreg across the EU in 2021-2027",
+   "Seven Interreg programmes open to Lithuanian participants",
+   "Each programme runs its own calls",
+   "Lead beneficiary (public body or NGO) applies with partners, private partners allowed"
+  ],
+  "applies_to": [
+   "Municipality",
+   "Public body",
+   "University",
+   "Research institution",
+   "NGO",
+   "SME"
+  ],
+  "notes": "Central Baltic also runs Small Project Proposals open to SMEs.",
+  "source": "Subačienė 2026, slides 13, 47-49",
+  "id": "f9"
+ },
+ {
+  "flow": "EEA and Norway Grants 2021-2028 in Lithuania",
+  "steps": [
+   "Donor states allocate 117.85 million EUR to Lithuania",
+   "Lithuania chose two main national programmes: Civil Protection (46 million EUR) and Justice (43.7 million EUR)",
+   "Donors reserve part of the funds for a Civil Society Fund",
+   "Civil Society Fund is administered by Atviros Lietuvos fondas, \"OSFL Projektai\" and the National Platform of NGDOs",
+   "NGOs apply to the Civil Society Fund"
+  ],
+  "applies_to": [
+   "NGO"
+  ],
+  "notes": "Projects can run until 2031.",
+  "source": "Subačienė 2026, slide 36",
+  "id": "f10"
+ },
+ {
+  "flow": "Swiss-Lithuanian Cooperation Programme 2024-2029",
+  "steps": [
+   "Swiss-Europe Contribution",
+   "Swiss-Lithuanian programme with three areas",
+   "CPVA publishes calls",
+   "Large share delivered through pre-defined projects"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Areas: mother and child health and well-being; vocational education and training; civic engagement.",
+  "source": "Subačienė 2026, slides 14, 37",
+  "id": "f11"
+ },
+ {
+  "flow": "Municipal public health programme",
+  "steps": [
+   "Each municipality runs a Public Health Promotion Special Programme",
+   "Municipality announces a selection call for projects or measures",
+   "NGOs and communities apply",
+   "Municipality publishes the list of funded measures"
+  ],
+  "applies_to": [
+   "NGO"
+  ],
+  "notes": "Examples: Klaipėda district (call of 2 March 2026), Vilnius city.",
+  "source": "Subačienė 2026, slides 25-26",
+  "id": "f12"
+ },
+ {
+  "flow": "Local Action Group calls",
+  "steps": [
+   "Local Action Group (association of community and other NGOs, business and municipality representatives)",
+   "LAG announces local calls",
+   "NGOs registered in the LAG territory or local community organisations apply"
+  ],
+  "applies_to": [
+   "NGO"
+  ],
+  "notes": "Rural and urban LAGs exist. The deck does not state where LAG funds come from.",
+  "source": "Subačienė 2026, slides 31-32",
+  "id": "f13"
+ },
+ {
+  "flow": "Preparing an application",
+  "steps": [
+   "Find the call document (guidelines, funding conditions or competition regulations)",
+   "Read the selection criteria and what earns points",
+   "Check your commitments and the financial conditions",
+   "Check you have the team and partners",
+   "Justify the need with data and sources",
+   "Link problem, activities and results",
+   "Break the work down (WBS) and schedule it (Gantt)"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "",
+  "source": "Projektų valdymas 2026, slide 2, 3, 9, 10, 15, 17",
+  "id": "f14"
+ },
+ {
+  "flow": "Project logic chain",
+  "steps": [
+   "Relevance and importance: the problem",
+   "Objectives and activities: the idea and how it is done",
+   "Results: the benefit"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Activities that do not answer a stated problem break the chain.",
+  "source": "Projektų valdymas 2026, slide 3, 16",
+  "id": "f15"
+ },
+ {
+  "flow": "Work breakdown structure",
+  "steps": [
+   "Level 1: main project phases",
+   "Level 2: parts of each phase",
+   "Level 3: detailed work packages"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example phases: preparation, design, implementation, testing and handover.",
+  "source": "Projektų valdymas 2026, slide 15",
+  "id": "f16"
+ },
+ {
+  "flow": "Budget structure for activities",
+  "steps": [
+   "Administration costs: administrator, accountant, admin communication, premises and utilities, other (bank fees)",
+   "Implementation costs: team salaries, external experts, team communication, travel, services, goods",
+   "Indirect costs: check whether the call allows them"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "",
+  "source": "Žuravliova 2026, slide 3",
+  "id": "f17"
+ },
+ {
+  "flow": "Calculating a salary line",
+  "steps": [
+   "Set the hourly rate including employer taxes and note its basis",
+   "Multiply by planned hours for the project period",
+   "Multiply by 1.0862 or 1.1101 for leave compensation",
+   "Record the result as the workplace cost"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example: 15 EUR/h x 200 h = 3,000 EUR; x 1.0862 = 3,258.60 EUR.",
+  "source": "Žuravliova 2026, slide 6, 7",
+  "id": "f18"
+ },
+ {
+  "flow": "Justifying a service or goods line",
+  "steps": [
+   "Name the item",
+   "State quantity (hours, days, months, km, participants)",
+   "State the unit rate and its source",
+   "Show the calculation"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "Example: accounting 100 EUR/month x 10 months = 1,000 EUR, based on a past invoice.",
+  "source": "Žuravliova 2026, slide 8, 9",
+  "id": "f19"
+ },
+ {
+  "flow": "Co-financing sources",
+  "steps": [
+   "Cash: earned income, 1.2% income tax donations, business support, membership fees, municipal co-financing",
+   "In-kind: volunteer hours valued at a justified hourly rate"
+  ],
+  "applies_to": [
+   "NGO"
+  ],
+  "notes": "",
+  "source": "Žuravliova 2026, slide 12",
+  "id": "f20"
+ },
+ {
+  "flow": "Proving a cost is eligible",
+  "steps": [
+   "Contract and acceptance act for services",
+   "Invoice",
+   "Internal order where needed (for example travel)",
+   "Payroll records (contract, job description, timesheet, payroll sheet)",
+   "Travel documents"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "",
+  "source": "Žuravliova 2026, slide 13",
+  "id": "f21"
+ },
+ {
+  "flow": "Checking SME status",
+  "steps": [
+   "Count staff in annual work units",
+   "Check annual turnover or balance sheet total",
+   "Add partner and linked enterprises",
+   "Compare with micro, small and medium thresholds",
+   "Look at the reporting year and the two previous years"
+  ],
+  "applies_to": [
+   "SME"
+  ],
+  "notes": "",
+  "source": "Priemonės verslui 2026, slide 2, 3, 4",
+  "id": "f22"
+ },
+ {
+  "flow": "Regional budget split",
+  "steps": [
+   "2021-2027 EU investments are split between the Capital region (SR) and Central and Western Lithuania (VVL)",
+   "Calls then set separate SR and VVL budgets",
+   "Your project draws on the envelope for its region"
+  ],
+  "applies_to": [
+   "All"
+  ],
+  "notes": "SR 235.5 million EUR, VVL 896.6 million EUR.",
+  "source": "Priemonės verslui 2026, slide 5, 11, 14, 17, 18, 20",
+  "id": "f23"
+ },
+ {
+  "flow": "Young farmer preferential loan",
+  "steps": [
+   "Check age, registration and competence requirements",
+   "Apply to NMA within the call window, or before the budget runs out",
+   "Receive a preferential loan of up to 100,000 EUR covering up to 100% of eligible costs"
+  ],
+  "applies_to": [
+   "Individual"
+  ],
+  "notes": "Legal persons meeting the age and competence rules can also apply.",
+  "source": "Priemonės verslui 2026, slide 14, 15, 16",
+  "id": "f24"
+ },
+ {
+  "flow": "Applying for an agricultural or rural investment measure",
+  "steps": [
+   "Update your data in public registers",
+   "Confirm no debts to the state budget or Sodra",
+   "Fill applicant and project information",
+   "List eligible costs with 3 comparable offers each",
+   "Set financing sources equal to the value with VAT",
+   "Declare fixed assets and land",
+   "Justify innovativeness",
+   "Set realistic monitoring indicators",
+   "Accept commitments, sign the declaration and all data consents",
+   "Attach a business plan if the measure requires it"
+  ],
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "notes": "Given in the deck after the NMA and local action group sections.",
+  "source": "Priemonės verslui 2026, slide 23, 24, 25, 26, 27",
+  "id": "f25"
+ }
+]

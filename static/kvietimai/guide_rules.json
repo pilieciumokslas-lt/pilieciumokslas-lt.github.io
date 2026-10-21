@@ -1,0 +1,786 @@
+[
+ {
+  "topic": "What a project is",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "A project is limited in time (for example up to 4 years), has a team, a fixed budget (for example 3,000-450,000 EUR) and a unique result.",
+  "source": "Subačienė 2026, slide 6",
+  "id": "r1"
+ },
+ {
+  "topic": "Eligibility check before applying",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Before applying, check four things: do you meet the call requirements, can you co-finance from your own funds, can you take on long-term commitments, and do you have a team.",
+  "source": "Subačienė 2026, slide 7",
+  "id": "r2"
+ },
+ {
+  "topic": "Co-financing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Some funds cover only part of the budget, or top up international funding you already have. Check whether you can contribute your own funds.",
+  "source": "Subačienė 2026, slides 7, 11",
+  "id": "r3"
+ },
+ {
+  "topic": "Project cycle",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "A project moves through identification (initiation), planning, implementation (management), closure and evaluation, with monitoring and control throughout.",
+  "source": "Subačienė 2026, slide 8",
+  "id": "r4"
+ },
+ {
+  "topic": "Application contents",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "An application is the implementation plan born in the initiation phase. It usually covers the problem, the solution (activity plan), schedule, risks, budget, sustainability, benefit and impact, communication, and team.",
+  "source": "Subačienė 2026, slide 9",
+  "id": "r5"
+ },
+ {
+  "topic": "Direct calls",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "In a direct call, the organisation submits its own application to the fund or programme administrator.",
+  "source": "Subačienė 2026, slide 11",
+  "id": "r6"
+ },
+ {
+  "topic": "Timeline, periodic calls",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Many calls repeat every year or several times a year. Check deadlines before planning.",
+  "source": "Subačienė 2026, slide 11",
+  "id": "r7"
+ },
+ {
+  "topic": "Partnership, sub-calls",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Where the main beneficiary is already designated, other organisations join through partnerships, procurement or separate calls.",
+  "source": "Subačienė 2026, slide 11",
+  "id": "r8"
+ },
+ {
+  "topic": "Pre-screening by applicant type, NGOs",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "Check first: NGO Fund, SADM calls, CERV, Erasmus+, ESF+. Then also: Swiss programme, Interreg, private funds.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r9"
+ },
+ {
+  "topic": "Pre-screening by applicant type, culture organisations",
+  "applies_to": [
+   "NGO",
+   "Public body"
+  ],
+  "rule": "Culture organisations check first: LKT, Creative Europe, Nordic Culture Point. Then also: Interreg, CERV, Baltic Culture Fund.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r10"
+ },
+ {
+  "topic": "Pre-screening by applicant type, education institutions",
+  "applies_to": [
+   "Public body",
+   "NGO"
+  ],
+  "rule": "Education institutions check first: Erasmus+, Nordplus, ESF+. Then also: Interreg, Swiss programme, the municipality.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r11"
+ },
+ {
+  "topic": "Pre-screening by applicant type, sports organisations",
+  "applies_to": [
+   "NGO",
+   "Public body"
+  ],
+  "rule": "Sports organisations check first: National Sports Agency, Erasmus+ Sport. Then also: the municipality, Interreg, private sponsors.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r12"
+ },
+ {
+  "topic": "Pre-screening by applicant type, social service institutions",
+  "applies_to": [
+   "Public body",
+   "NGO"
+  ],
+  "rule": "Social service institutions check first: ESF+, SADM calls, CERV. Then also: Erasmus+, Interreg, the municipality.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r13"
+ },
+ {
+  "topic": "Pre-screening by applicant type, municipalities",
+  "applies_to": [
+   "Municipality"
+  ],
+  "rule": "Municipalities check first: EU investments, Interreg, CERV. Then also: Creative Europe, Erasmus+, regional programmes.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r14"
+ },
+ {
+  "topic": "Pre-screening is only a first filter",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "The applicant-type table is a first screen. Always read the conditions of the specific call.",
+  "source": "Subačienė 2026, slide 16",
+  "id": "r15"
+ },
+ {
+  "topic": "Nordic programmes eligibility",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Lithuanian eligibility differs from one Nordic programme to another.",
+  "source": "Subačienė 2026, slide 14",
+  "id": "r16"
+ },
+ {
+  "topic": "Swiss programme access",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "A large share of Swiss-Lithuanian programme funds is implemented through pre-defined projects, so open calls are limited.",
+  "source": "Subačienė 2026, slide 14",
+  "id": "r17"
+ },
+ {
+  "topic": "EEA and Norway Grants timing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Assess Lithuanian conditions for the new period only once official calls are published. Projects can run until 2031.",
+  "source": "Subačienė 2026, slides 14, 36",
+  "id": "r18"
+ },
+ {
+  "topic": "Corporate funds",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Corporate support calls are usually short and thematic. Treat them as a supplementary source, not a base source.",
+  "source": "Subačienė 2026, slide 15",
+  "id": "r19"
+ },
+ {
+  "topic": "1.2% personal income tax",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "To receive 1.2% PIT allocations and use donation platforms, the organisation needs the right support recipient status (paramos gavėjo statusas). Suits continuity and smaller initiatives.",
+  "source": "Subačienė 2026, slide 15",
+  "id": "r20"
+ },
+ {
+  "topic": "Private foundations",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Check each foundation's priorities and application procedure on its website.",
+  "source": "Subačienė 2026, slide 15",
+  "id": "r21"
+ },
+ {
+  "topic": "Local Action Group eligibility",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "LAG calls are often open only to NGOs registered in the LAG territory. Some require community organisations that have operated in the territory for at least one year.",
+  "source": "Subačienė 2026, slide 32",
+  "id": "r22"
+ },
+ {
+  "topic": "Social business support",
+  "applies_to": [
+   "NGO",
+   "SME"
+  ],
+  "rule": "Social business is an EU priority; the Commission presented the Social Economy Action Plan in 2022. Many LAGs support setting up a social business, usually on condition of creating at least 1 job. Advice: LISVA, Inovacijų agentūra, \"Geri norai\", Innovate, business programmes at \"Spiečius\" coworking centres, LAGs.",
+  "source": "Subačienė 2026, slides 33-34",
+  "id": "r23"
+ },
+ {
+  "topic": "ESFA AID2 idea selection",
+  "applies_to": [
+   "NGO",
+   "SME",
+   "Large company",
+   "Public body"
+  ],
+  "rule": "Project ideas must target the group defined in the AID2 financing conditions (point 7.1.3) and cover the activities in points 5.1.1.1 and 5.1.2.1. Submit via the application form from 23 March 2026.",
+  "source": "Subačienė 2026, slide 30",
+  "id": "r24"
+ },
+ {
+  "topic": "Erasmus+ partnership minimums",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "KA210: at least 2 organisations from 2 programme countries. KA220: at least 3 organisations from 3 programme countries. Alliances for Innovation: 8-12 applicants from 4-8 countries with education and labour market partners. CoVE: at least 8 applicants from 4 countries, each with a VET provider and an employer.",
+  "source": "Subačienė 2026, slide 41",
+  "id": "r25"
+ },
+ {
+  "topic": "Erasmus+ 2026 deadlines",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "The main 2026 deadline for KA210 and KA220 was 5 March 2026. Youth-field small-scale and cooperation partnerships were still open in Lithuania until 1 October 2026. For other education fields, prepare for the 2027 call.",
+  "source": "Subačienė 2026, slides 42-43",
+  "id": "r26"
+ },
+ {
+  "topic": "Erasmus+ Programme Guide",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Read the Programme Guide for the year before writing: it sets priorities, eligible activities, requirements for organisations and activities, and funding rules.",
+  "source": "Subačienė 2026, slide 43",
+  "id": "r27"
+ },
+ {
+  "topic": "Finding partners",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Use the EPALE Partner Search and the Erasmus+ Project Results Platform to find partners and past projects.",
+  "source": "Subačienė 2026, slide 44",
+  "id": "r28"
+ },
+ {
+  "topic": "Interreg lead partner",
+  "applies_to": [
+   "NGO",
+   "Municipality",
+   "Public body",
+   "University",
+   "Research institution",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Public bodies (municipalities, schools, universities, research institutes) and NGOs or non-profits can apply. Private entities can only be partners; the lead beneficiary must be public or non-governmental.",
+  "source": "Subačienė 2026, slide 48",
+  "id": "r29"
+ },
+ {
+  "topic": "Interreg territorial eligibility",
+  "applies_to": [
+   "Municipality"
+  ],
+  "rule": "Cross-border programmes cover specific regions: Lithuania-Poland covers border municipalities such as Alytus, Marijampolė and Vilkaviškis; Latvia-Lithuania covers northern Lithuania (Panevėžys, Biržai, Šiauliai) and neighbouring Latvian regions.",
+  "source": "Subačienė 2026, slide 48",
+  "id": "r30"
+ },
+ {
+  "topic": "LIFE submission",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "LIFE applications go to the European Commission through the Funding & Tenders portal. Calls are annual. Strategic integrated projects are prepared in two stages: concept, then full proposal. The LIFE programme document sets objectives, project types and evaluation criteria.",
+  "source": "Subačienė 2026, slide 50",
+  "id": "r31"
+ },
+ {
+  "topic": "Where to find calls",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Useful listings: esinvesticijos.lt (calls plan, calls, projects), the NIPC portal and 3sektorius.lt for NGO funding, the SPPD list of 2026 calls, JRA funding calls, municipal websites, cerv.lt, kurybiskaeuropa.eu, solidarumokorpusas.lt, erasmus-plius.lt, norden.lt, esbendradarbiavimas.lt, lifeprojektai.lt, cpva.lt, norwaygrants.lt.",
+  "source": "Subačienė 2026, slides 18-30, 36-50",
+  "id": "r32"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Start from the call document: guidelines for applicants (Gairės pareiškėjams), the funding conditions description (finansavimo sąlygų aprašas) or the competition regulations (konkurso nuostatai).",
+  "source": "Projektų valdymas 2026, slide 2",
+  "id": "r33"
+ },
+ {
+  "topic": "Evaluation criteria",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Read the selection criteria first and see what earns points. Then check your commitments, the financial conditions, and whether you have the team and partners.",
+  "source": "Projektų valdymas 2026, slide 2",
+  "id": "r34"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Plan the project as a chain: relevance and importance show the problem, objectives and activities show the idea and how it will be done, results show the benefit.",
+  "source": "Projektų valdymas 2026, slide 3",
+  "id": "r35"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "Call priorities can fix minimum budget shares for certain activities, for example at least 50% for rights defence and at least 5% for a priority activity. Check these before you plan the budget.",
+  "source": "Projektų valdymas 2026, slide 4",
+  "id": "r36"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "Municipal NGO calls list the activity areas they fund. The project must fit one of them.",
+  "source": "Projektų valdymas 2026, slide 5",
+  "id": "r37"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "In the SADM institutional strengthening call, the project must pursue one of six listed strengthening directions.",
+  "source": "Projektų valdymas 2026, slide 6, 7",
+  "id": "r38"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Test the idea on a non-expert: would your neighbour understand the project?",
+  "source": "Projektų valdymas 2026, slide 9",
+  "id": "r39"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Back the need with evidence: scientific articles, open data (Registrų centras, State Data Agency), strategic documents and national programmes (e-seimas). AI tools can help with research and planning.",
+  "source": "Projektų valdymas 2026, slide 10",
+  "id": "r40"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Be specific. Replace general claims with numbers and say where they come from (how many members, how many lonely seniors, what services exist, survey results).",
+  "source": "Projektų valdymas 2026, slide 11, 12, 13, 14",
+  "id": "r41"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Keep the logic tight. Every planned activity must answer a problem described in the needs section; unrelated activities weaken the proposal.",
+  "source": "Projektų valdymas 2026, slide 16",
+  "id": "r42"
+ },
+ {
+  "topic": "Project management",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Use a work breakdown structure (WBS): split the work into phases, then parts of phases, then detailed work packages.",
+  "source": "Projektų valdymas 2026, slide 15",
+  "id": "r43"
+ },
+ {
+  "topic": "Project management",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Use a Gantt chart to show each task on a timeline: what must be done, when it starts and ends, how long it lasts, and how tasks depend on each other. Free templates exist (Office, TeamGantt).",
+  "source": "Projektų valdymas 2026, slide 17, 18",
+  "id": "r44"
+ },
+ {
+  "topic": "Project management",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "AI planning tools such as Taskade can draft a WBS for a project.",
+  "source": "Projektų valdymas 2026, slide 10, 19",
+  "id": "r45"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "A cost is eligible if it is directly linked to project activities, incurred during the project period, real and at market price, reasonable and efficient, and recorded in the accounts so it can be identified and checked with documents.",
+  "source": "Žuravliova 2026, slide 2",
+  "id": "r46"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Split activity costs into administration costs (project administrator, accountant, admin communication, premises and utilities, bank fees) and implementation costs (team salaries, external experts, team communication, travel, services, goods). Indirect costs are a separate question.",
+  "source": "Žuravliova 2026, slide 3",
+  "id": "r47"
+ },
+ {
+  "topic": "Ineligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Not eligible: proposal preparation, costs before submission, volunteer work, debts and late fees, fines and legal costs, used goods, luxury items or over-specified equipment, first or business class flights (unless justified), salaries for staff not working on the project, staff entertainment, bonuses, severance, overtime and holiday work, extra pension contributions, credits to third parties, and anything already paid by another project.",
+  "source": "Žuravliova 2026, slide 4",
+  "id": "r48"
+ },
+ {
+  "topic": "Staff costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Justify salary rates with historical data (employment contract, payroll certificate), Ministry of Finance fixed rates, average market pay by position (State Data Agency, manoalga.lt), or the organisation's internal pay rules.",
+  "source": "Žuravliova 2026, slide 5",
+  "id": "r49"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Justify services and goods with past invoices or contracts, Ministry of Finance fixed rates (fuel, events), the ESFA market price analysis (cite the item), supplier websites, supplier surveys or commercial offers. One offer is often enough; some calls ask for two, or only above a set amount.",
+  "source": "Žuravliova 2026, slide 5",
+  "id": "r50"
+ },
+ {
+  "topic": "Staff costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Each salary line should state the position, planned hours (days or months), the average hourly rate including employer taxes and its basis, and a clear calculation.",
+  "source": "Žuravliova 2026, slide 6",
+  "id": "r51"
+ },
+ {
+  "topic": "Staff costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Add annual leave or unused leave compensation using the Ministry of Finance fixed rate: 8.62% for 20 working days of leave (normal 5-day week), 11.01% for 25 days (staff under 18, single parents of a child under 14 or a disabled child under 18, disabled staff).",
+  "source": "Žuravliova 2026, slide 5, 7",
+  "id": "r52"
+ },
+ {
+  "topic": "Staff costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Budget salaries as the full workplace cost including employer taxes, not net or gross pay.",
+  "source": "Žuravliova 2026, slide 6, 15",
+  "id": "r53"
+ },
+ {
+  "topic": "Staff costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "A person with more than one employment contract may work at most 12 hours a day. Sodra contributions have a minimum wage floor: MMA is 1,153 EUR from 1 January 2026 and 1,245 EUR from 1 January 2027 (with exceptions).",
+  "source": "Žuravliova 2026, slide 10",
+  "id": "r54"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Each service or goods line should state the planned quantity, the unit rate and its basis, and a clear calculation. Example: fuel at the Ministry of Finance rate of 0.09 EUR per person per km.",
+  "source": "Žuravliova 2026, slide 8",
+  "id": "r55"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Show unit cost logic, not lump totals. A 5,000 EUR training should be broken into lecturer hours, room rent, catering per participant per day, and materials per participant.",
+  "source": "Žuravliova 2026, slide 9",
+  "id": "r56"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "Where the call allows, an NGO budget can include administration costs, staff capacity training, cooperation and study visits, upgrades of technical equipment, and a financial audit (from direct costs if allowed, otherwise from indirect costs).",
+  "source": "Žuravliova 2026, slide 11",
+  "id": "r57"
+ },
+ {
+  "topic": "Co-financing",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "Co-financing can be cash (earned income from contracts or services, 1.2% personal income tax donations, business support, membership fees, municipal co-financing) or in-kind volunteer work.",
+  "source": "Žuravliova 2026, slide 12",
+  "id": "r58"
+ },
+ {
+  "topic": "Co-financing",
+  "applies_to": [
+   "NGO"
+  ],
+  "rule": "The promoter sets the volunteer hourly rate case by case, based on usual pay for that type of work, between the minimum and average hourly wage or the pay for that position. Ministry of Finance fixed rates also exist for volunteer in-kind contributions.",
+  "source": "Žuravliova 2026, slide 5, 12",
+  "id": "r59"
+ },
+ {
+  "topic": "Reporting",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Keep supporting documents for every cost: service contract and acceptance act, invoice, internal orders (for example travel allowances), payroll records (contract, job description, timesheet, payroll sheet), travel documents (tickets, invoices, car use agreement, fuel receipts with the organisation's details).",
+  "source": "Žuravliova 2026, slide 13",
+  "id": "r60"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Common budget errors: unclear link between costs and activities, no basis for amounts, costs not needed by activities, 12 months budgeted instead of the project period, full-day catering for events under 4 hours, inflated rates, no reason for pricier items, fixed assets not allowed by the guidelines, services and goods mixed up, arithmetic errors, one person as both manager and performer under an individual activity certificate.",
+  "source": "Žuravliova 2026, slide 14",
+  "id": "r61"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "More common errors: budgeting proposal preparation, forgetting leave compensation, no rate justification, services unrelated to the project, vague bases like 'phone survey' or 'per contract' without date and number, offers not matching the budget, broken formulas, exceeding the maximum grant, wrong fixed rates, participant numbers or event length not matching the budget.",
+  "source": "Žuravliova 2026, slide 15",
+  "id": "r62"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Describe and justify every budget line so evaluators have no doubts, link each cost to activities and results, follow the call rules, plan rationally at market prices, and never double-fund costs already covered by state, municipal, EU or other support.",
+  "source": "Žuravliova 2026, slide 16",
+  "id": "r63"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "SME"
+  ],
+  "rule": "SME status depends on staff headcount, annual turnover and annual balance sheet total. The applicant, partner enterprises and linked enterprises are all assessed.",
+  "source": "Priemonės verslui 2026, slide 2",
+  "id": "r64"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "SME"
+  ],
+  "rule": "SME thresholds: medium under 250 staff (annual work units) and turnover up to 50 million EUR or balance sheet up to 43 million EUR; small under 50 staff and up to 10 million EUR turnover or balance sheet; micro under 10 staff and up to 2 million EUR turnover or balance sheet.",
+  "source": "Priemonės verslui 2026, slide 3",
+  "id": "r65"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "SME"
+  ],
+  "rule": "SME status is judged over the reporting year and the two years before. The worked cases show that a one-year change does not alter status; it changes only after two consecutive years above or below the thresholds.",
+  "source": "Priemonės verslui 2026, slide 4",
+  "id": "r66"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Many 2021-2027 measures have separate budgets for the Capital region (Sostinės regionas, SR) and the Central and Western Lithuania region (VVL). Check which envelope your location falls into.",
+  "source": "Priemonės verslui 2026, slide 5, 11, 14, 17, 18, 20",
+  "id": "r67"
+ },
+ {
+  "topic": "Evaluation criteria",
+  "applies_to": [
+   "All"
+  ],
+  "rule": "Innovation Agency calls use either a competition (konkursas) or selection by planning (atranka planavimo būdu).",
+  "source": "Priemonės verslui 2026, slide 10, 12",
+  "id": "r68"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "Individual"
+  ],
+  "rule": "Young farmer loans: an individual must be 18-40 (not yet 41 on the application date), have a farm holding and farm registered in their name, be setting up as holder for the first time, and have farming competence or at least one year of practical experience.",
+  "source": "Priemonės verslui 2026, slide 15",
+  "id": "r69"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "SME",
+   "Large company"
+  ],
+  "rule": "Young farmer loans for legal persons: the holding is registered in the company's name, participants and the management body are no older than 40, the sole manager and at least 50% of board members and of participants have farming competence, and the company is setting up a holding for the first time.",
+  "source": "Priemonės verslui 2026, slide 16",
+  "id": "r70"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "Individual"
+  ],
+  "rule": "Small and medium farm development: at least 1 year of activity, at least 50% of income from agriculture, and economic size (VED) of 16,001-30,000 EUR.",
+  "source": "Priemonės verslui 2026, slide 17",
+  "id": "r71"
+ },
+ {
+  "topic": "Co-financing",
+  "applies_to": [
+   "Individual"
+  ],
+  "rule": "Agricultural investment measures pay a share of eligible costs (40%, 50% or 65% depending on the measure). Young farmers get 15 or 20 percentage points more, capped at 80% in the sustainable investments measure.",
+  "source": "Priemonės verslui 2026, slide 17, 18, 19, 20",
+  "id": "r72"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Before applying, check your data in public registers: agricultural holding, farm, animal and machinery data; legal right to the real estate registered at Registrų centras; company data (financial statements, shareholders, capital increases) at Registrų centras and in the legal entity participants system (JADIS).",
+  "source": "Priemonės verslui 2026, slide 23",
+  "id": "r73"
+ },
+ {
+  "topic": "Eligibility",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "The applicant must have no debts to the state budget or the State Social Insurance Fund (Sodra).",
+  "source": "Priemonės verslui 2026, slide 23",
+  "id": "r74"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Fill every relevant field in the applicant section. In the project section give the location, stages, need, chosen solution and expected result, keep the duration within the measure's maximum, and show fit with priorities and objectives.",
+  "source": "Priemonės verslui 2026, slide 24",
+  "id": "r75"
+ },
+ {
+  "topic": "Eligible costs",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "List only costs eligible under the measure rules. Include VAT in the total project value, stay within set rates, choose the lowest price in the supplier offer, and attach 3 comparable commercial offers for each cost.",
+  "source": "Priemonės verslui 2026, slide 24",
+  "id": "r76"
+ },
+ {
+  "topic": "VAT",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "The total project value must include VAT, and the financing sources must add up to the value with VAT.",
+  "source": "Priemonės verslui 2026, slide 24, 25",
+  "id": "r77"
+ },
+ {
+  "topic": "Co-financing",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Detail own, public and private financing sources. The source 'support funds' (paramos lėšos) can be used only if the project runs in more than one stage.",
+  "source": "Priemonės verslui 2026, slide 25",
+  "id": "r78"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Land areas stated in the application must match declared areas. Justify innovativeness with productivity or quality gains, before and after comparison, and a described analogue or substitute with sources.",
+  "source": "Priemonės verslui 2026, slide 25",
+  "id": "r79"
+ },
+ {
+  "topic": "Risk",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Set monitoring indicators you can reach. Sanctions can apply if committed indicators are not met.",
+  "source": "Priemonės verslui 2026, slide 26",
+  "id": "r80"
+ },
+ {
+  "topic": "Audit",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Applicants commit to insure assets, publicise investments made with support, give auditors and controllers access during and after the project, and provide information.",
+  "source": "Priemonės verslui 2026, slide 26",
+  "id": "r81"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "All persons must sign data processing consents, including every shareholder of the applicant and linked companies.",
+  "source": "Priemonės verslui 2026, slide 27",
+  "id": "r82"
+ },
+ {
+  "topic": "Proposal structure and writing",
+  "applies_to": [
+   "Individual",
+   "SME",
+   "Large company"
+  ],
+  "rule": "Some measures require a business plan justifying the investment technically, financially, economically, socially and environmentally. Back financial forecasts with competitor price analysis, pricing assumptions and the market situation.",
+  "source": "Priemonės verslui 2026, slide 27",
+  "id": "r83"
+ }
+]

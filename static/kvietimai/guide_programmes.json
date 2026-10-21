@@ -1,0 +1,949 @@
+[
+ {
+  "programme": "NGO Fund (NVO fondas)",
+  "family": "National",
+  "managed_by": "Ministry of Social Security and Labour (Socialinės apsaugos ir darbo ministerija, SADM)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Strengthening NGO capacity.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for NGOs. A public consultation presented the NGO Fund action plan for 2027-2029 and the planned directions of NGO strengthening calls.",
+  "source": "Subačienė 2026, slides 12, 16, 19",
+  "id": "p1"
+ },
+ {
+  "programme": "SADM project calls (SADM konkursai)",
+  "family": "National",
+  "managed_by": "Ministry of Social Security and Labour (SADM)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Thematic NGO projects. Examples for 2026: phone-based emotional and psychological support for older people (EPVAŽ); institutional strengthening of associations that unite community organisations.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for NGOs and for social service institutions. The community associations call is run under the NGO activity strengthening action plan 2025-2028. Calls are listed on the SPPD website and the NIPC portal.",
+  "source": "Subačienė 2026, slides 12, 16, 22, 29",
+  "id": "p2"
+ },
+ {
+  "programme": "Project calls listed by the Social Services Supervision Department (Socialinių paslaugų priežiūros departamentas, SPPD)",
+  "family": "National",
+  "managed_by": "SPPD under SADM (lists calls of SADM and the Youth Affairs Agency)",
+  "who_can_apply": [],
+  "what_it_funds": "A single list of project calls announced in 2026 by SADM and the Youth Affairs Agency.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Use it as a finding aid rather than a fund in its own right.",
+  "source": "Subačienė 2026, slide 22",
+  "id": "p3"
+ },
+ {
+  "programme": "Youth Affairs Agency calls (Jaunimo reikalų agentūra, JRA)",
+  "family": "National",
+  "managed_by": "Youth Affairs Agency (JRA)",
+  "who_can_apply": [],
+  "what_it_funds": "Funding calls for national youth organisations, municipal youth organisation councils, open youth centres and spaces, mobile and street youth work, the Eurodesk youth information network, scholarships for young Ukrainian citizens, youth coordination, youth voluntary service and innovation in youth policy. 2026 calls also included the Lithuania-Ukraine youth exchange fund (UMF), projects of diaspora Lithuanian youth organisations (RUM) and youth summer employment and labour market integration (JDSAV).",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "JRA also administers the Erasmus+ youth field in Lithuania.",
+  "source": "Subačienė 2026, slides 22, 23, 43",
+  "id": "p4"
+ },
+ {
+  "programme": "Lithuanian Council for Culture (Lietuvos kultūros taryba, LKT)",
+  "family": "National",
+  "managed_by": "Lithuanian Council for Culture (LKT)",
+  "who_can_apply": [],
+  "what_it_funds": "Culture projects. Calls are filtered by year, status and county. Example open call in 2026: Kaunas county regional priority on regional cultural identity and historical memory, deadline 29 September 2026.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for culture organisations.",
+  "source": "Subačienė 2026, slides 12, 16, 21",
+  "id": "p5"
+ },
+ {
+  "programme": "Media Support Fund (Medijų rėmimo fondas)",
+  "family": "National",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named as a Lithuanian funding source only.",
+  "source": "Subačienė 2026, slide 12",
+  "id": "p6"
+ },
+ {
+  "programme": "Ministry of the Interior calls (VRM konkursai)",
+  "family": "National",
+  "managed_by": "Ministry of the Interior (VRM)",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named as a Lithuanian funding source only.",
+  "source": "Subačienė 2026, slide 12",
+  "id": "p7"
+ },
+ {
+  "programme": "Ministry of Foreign Affairs calls for NGOs (URM konkursai)",
+  "family": "National",
+  "managed_by": "Ministry of Foreign Affairs (Užsienio reikalų ministerija, URM)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "NGO activity projects on 2026 priority themes: state and diaspora ties and partnership; public involvement in the UN Women, Peace and Security agenda; activating regions and involving communities; Lithuanian development cooperation experience and success stories; resilience to disinformation and other hybrid threats; European identity and the spread of European values.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "",
+  "source": "Subačienė 2026, slides 12, 24",
+  "id": "p8"
+ },
+ {
+  "programme": "National Sports Agency physical activity projects (Nacionalinė sporto agentūra)",
+  "family": "National",
+  "managed_by": "National Sports Agency",
+  "who_can_apply": [],
+  "what_it_funds": "National and regional physical activity projects (2026 calls).",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for sports organisations.",
+  "source": "Subačienė 2026, slides 12, 16, 20",
+  "id": "p9"
+ },
+ {
+  "programme": "Public Health Promotion Special Programme (Visuomenės sveikatos rėmimo specialioji programa, VSRSP)",
+  "family": "National",
+  "managed_by": "Each municipality (all municipalities run one)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Public health projects and measures selected through municipal calls.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Example: Klaipėda district municipality invited NGOs and communities to apply (call published 2 March 2026). Vilnius city publishes yearly lists of funded measures and its call rules. Slide 12 also names public health bureaus (visuomenės sveikatos biurai) as a Lithuanian source.",
+  "source": "Subačienė 2026, slides 12, 25-26",
+  "id": "p10"
+ },
+ {
+  "programme": "Municipal project funding (Savivaldybių parama)",
+  "family": "National",
+  "managed_by": "Municipalities",
+  "who_can_apply": [
+   "NGO",
+   "Public body"
+  ],
+  "what_it_funds": "Local projects from the municipal budget. Example: Vilnius district municipality culture project call for 2026, for culture projects, initiatives and events important to the district.",
+  "typical_amount": "Vilnius district example: up to 4,000 EUR per project",
+  "funding_rate": "",
+  "notes": "In the Vilnius district example, district communities, institutions and organisations could apply, deadline 31 March. The municipality is also an extra source to check for education, sports and social service organisations.",
+  "source": "Subačienė 2026, slides 12, 16, 27",
+  "id": "p11"
+ },
+ {
+  "programme": "Local Action Groups (Vietos veiklos grupės, VVG)",
+  "family": "National",
+  "managed_by": "Local Action Groups (rural and urban)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Local calls. Examples: calls for NGOs registered in the LAG territory, community business initiatives, social and community business, public and social services, non-agricultural business start-up, digital skills in agriculture. Many LAGs support setting up a social business.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "A LAG is an association of community and other NGOs, business and municipality representatives. The deck does not state where LAG funds come from. Social business support usually requires creating at least 1 job.",
+  "source": "Subačienė 2026, slides 31-34",
+  "id": "p12"
+ },
+ {
+  "programme": "EU investments (ES investicijos), calls published on esinvesticijos.lt",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [
+   "Municipality"
+  ],
+  "what_it_funds": "EU-funded investment calls. The portal shows a calls plan, open calls, projects, documents and contacts.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for municipalities. Example call on the portal: ELVIS adapted media platform, 3,934,604 EUR.",
+  "source": "Subačienė 2026, slides 16, 18",
+  "id": "p13"
+ },
+ {
+  "programme": "European Social Fund Plus (ESF+)",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Social services, education, employment.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Delivered through national calls. Listed first for NGOs, education institutions and social service institutions.",
+  "source": "Subačienė 2026, slides 12, 13, 16",
+  "id": "p14"
+ },
+ {
+  "programme": "European Regional Development Fund (ERPF)",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "Infrastructure, digitalisation, regions.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Delivered through national calls.",
+  "source": "Subačienė 2026, slides 12, 13",
+  "id": "p15"
+ },
+ {
+  "programme": "Interreg (2021-2027)",
+  "family": "EU funds, national management",
+  "managed_by": "Each Interreg programme runs its own calls",
+  "who_can_apply": [
+   "Municipality",
+   "Public body",
+   "University",
+   "Research institution",
+   "NGO"
+  ],
+  "what_it_funds": "Cross-border public services and regional cooperation.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "The deck lists Interreg among EU programmes with programme-level calls, not national ministry calls. About 10 billion EUR of ERDF goes to Interreg across EU member states. Lithuanian public administration bodies, other public institutions and NGOs can take part in seven Interreg programmes. Private entities can join as partners, but the lead beneficiary must be public or non-governmental. Extra source to check for NGOs, culture, education, sports and social service organisations; first check for municipalities.",
+  "source": "Subačienė 2026, slides 12, 13, 16, 47-48",
+  "id": "p16"
+ },
+ {
+  "programme": "Interreg VI-A Lithuania-Poland",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [
+   "Municipality"
+  ],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Border region municipalities take part, such as Alytus, Marijampolė and Vilkaviškis.",
+  "source": "Subačienė 2026, slides 47-48",
+  "id": "p17"
+ },
+ {
+  "programme": "Interreg VI-A Latvia-Lithuania",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [
+   "Municipality"
+  ],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Covers northern Lithuanian regions (Panevėžys, Biržai, Šiauliai) and neighbouring Latvian regions.",
+  "source": "Subačienė 2026, slides 47-48",
+  "id": "p18"
+ },
+ {
+  "programme": "Interreg VI-A South Baltic",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named in the list of 2021-2027 Interreg programmes.",
+  "source": "Subačienė 2026, slide 47",
+  "id": "p19"
+ },
+ {
+  "programme": "Interreg Baltic Sea Region",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named in the list of 2021-2027 Interreg programmes.",
+  "source": "Subačienė 2026, slide 47",
+  "id": "p20"
+ },
+ {
+  "programme": "Interreg Europe",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named in the list of 2021-2027 Interreg programmes.",
+  "source": "Subačienė 2026, slide 47",
+  "id": "p21"
+ },
+ {
+  "programme": "URBACT IV",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named in the list of 2021-2027 Interreg programmes.",
+  "source": "Subačienė 2026, slide 47",
+  "id": "p22"
+ },
+ {
+  "programme": "INTERACT IV",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Named in the list of 2021-2027 Interreg programmes.",
+  "source": "Subačienė 2026, slide 47",
+  "id": "p23"
+ },
+ {
+  "programme": "Interreg Central Baltic, Small Project Proposals",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [
+   "SME"
+  ],
+  "what_it_funds": "Small projects on digitalisation, sustainability and better social services.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Presented as an Interreg opportunity for small business.",
+  "source": "Subačienė 2026, slide 49",
+  "id": "p24"
+ },
+ {
+  "programme": "Erasmus+",
+  "family": "EU direct management",
+  "managed_by": "European Commission and national agencies; JRA administers the youth field in Lithuania",
+  "who_can_apply": [
+   "NGO",
+   "Municipality"
+  ],
+  "what_it_funds": "Education, youth, sport and culture. Not only mobility: also partnerships, alliances and capacity building.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Both direct and national calls. Listed first for NGOs and education institutions; Erasmus+ Sport first for sports organisations; extra source for social service institutions and municipalities. Read the Programme Guide for the year before applying.",
+  "source": "Subačienė 2026, slides 12, 13, 16, 41-44",
+  "id": "p25"
+ },
+ {
+  "programme": "Erasmus+ Small-scale partnerships (KA210)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "30,000 or 60,000 EUR",
+  "funding_rate": "",
+  "notes": "At least 2 organisations from 2 programme countries. Duration 6-24 months.",
+  "source": "Subačienė 2026, slides 41-42",
+  "id": "p26"
+ },
+ {
+  "programme": "Erasmus+ Cooperation partnerships (KA220)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "120,000, 250,000 or 400,000 EUR",
+  "funding_rate": "",
+  "notes": "At least 3 organisations from 3 programme countries. Duration 12-36 months.",
+  "source": "Subačienė 2026, slides 41-42",
+  "id": "p27"
+ },
+ {
+  "programme": "Erasmus+ Alliances for Innovation (Inovacijų aljansai)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "Up to 1-4 million EUR, depending on the lot",
+  "funding_rate": "",
+  "notes": "8-12 applicants from 4-8 countries. Education and labour market partners are mandatory. Duration 24-48 months.",
+  "source": "Subačienė 2026, slide 41",
+  "id": "p28"
+ },
+ {
+  "programme": "Erasmus+ Capacity building projects (Gebėjimų stiprinimo projektai)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "Depends on the field and region",
+  "funding_rate": "",
+  "notes": "EU organisations together with eligible third-country partners. Duration 12-48 months depending on the field.",
+  "source": "Subačienė 2026, slide 41",
+  "id": "p29"
+ },
+ {
+  "programme": "Erasmus+ Centres of Vocational Excellence (CoVE)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "Up to 4 million EUR",
+  "funding_rate": "",
+  "notes": "At least 8 applicants from 4 countries, with a VET provider and an employer in each country. Duration 48 months.",
+  "source": "Subačienė 2026, slide 41",
+  "id": "p30"
+ },
+ {
+  "programme": "Erasmus+ youth mobility (Key Action 1, youth field)",
+  "family": "EU direct management",
+  "managed_by": "Youth Affairs Agency (JRA) in Lithuania",
+  "who_can_apply": [],
+  "what_it_funds": "Youth exchanges, mobility of youth workers, youth participation projects, DiscoverEU inclusion projects.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "2026 second or third round deadline: 1 October 2026, 13:00 Lithuanian time.",
+  "source": "Subačienė 2026, slide 43",
+  "id": "p31"
+ },
+ {
+  "programme": "Creative Europe (Kūrybiška Europa)",
+  "family": "EU direct management",
+  "managed_by": "European Commission; Creative Europe Desk Lithuania (Kūrybiškos Europos biuras) advises",
+  "who_can_apply": [
+   "Municipality"
+  ],
+  "what_it_funds": "Culture, creative sectors and media. Strands: Culture, MEDIA, Cross-sectoral; the desk also lists other EU calls.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Direct EC calls. Listed first for culture organisations; extra source for municipalities.",
+  "source": "Subačienė 2026, slides 12, 13, 16, 39",
+  "id": "p32"
+ },
+ {
+  "programme": "Citizens, Equality, Rights and Values programme (CERV)",
+  "family": "EU direct management",
+  "managed_by": "European Commission; calls also listed on cerv.lt",
+  "who_can_apply": [
+   "NGO",
+   "Municipality"
+  ],
+  "what_it_funds": "Civil society, rights, equality. 2026 calls shown: prevention of gender-based violence and violence against children (CERV-2026-DAPHNE); town twinning (CERV-2026-CITIZENS-TOWN-TT).",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Direct EC calls. First check for NGOs, social service institutions and municipalities; extra source for culture organisations.",
+  "source": "Subačienė 2026, slides 12, 13, 16, 38",
+  "id": "p33"
+ },
+ {
+  "programme": "European Solidarity Corps, Solidarity Projects (Europos solidarumo korpusas)",
+  "family": "EU direct management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "Solidarity projects.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Calls published yearly (2022-2026 shown) with programme guide, interim report forms and budget documents.",
+  "source": "Subačienė 2026, slides 12, 40",
+  "id": "p34"
+ },
+ {
+  "programme": "LIFE programme",
+  "family": "EU direct management",
+  "managed_by": "European Commission (applications via the Funding & Tenders portal)",
+  "who_can_apply": [],
+  "what_it_funds": "Environment and climate policy. Project types include Standard Action Projects (for example Nature and Biodiversity, Nature Governance), Strategic Integrated Projects and CET coordination and support projects.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Calls are published every year. In the 2025 call, standard and CET proposals were due 23 September 2025; strategic integrated projects had a concept stage (4 September 2025) and a full proposal stage (5 March 2026). The project \"LIFE programa Lietuvai\" builds the capacity of Lithuanian organisations to take part. lifeprojektai.lt also hosts Lithuanian co-financing guidelines.",
+  "source": "Subačienė 2026, slide 50",
+  "id": "p35"
+ },
+ {
+  "programme": "Alternative Investment Detector, project idea selection (Alternatyvių investicijų detektorius, AID2)",
+  "family": "Cascade",
+  "managed_by": "European Social Fund Agency (Europos socialinio fondo agentūra, ESFA)",
+  "who_can_apply": [
+   "NGO",
+   "SME",
+   "Large company",
+   "Public body"
+  ],
+  "what_it_funds": "Initiatives that help socially vulnerable people, people at social risk or excluded people enter the labour market, using innovative solutions and cross-sector cooperation.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "From 23 March 2026, public and private legal entities can submit project ideas through an application form. Ideas must target the group defined in the project financing conditions and cover the listed activities.",
+  "source": "Subačienė 2026, slide 30",
+  "id": "p36"
+ },
+ {
+  "programme": "Nordic Council of Ministers programmes (Šiaurės ministrų taryba)",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers Office in Lithuania (norden.lt)",
+  "who_can_apply": [],
+  "what_it_funds": "Nordplus, culture mobility and networks, arts projects, NGO and public sector cooperation programmes. Lets Nordic and Baltic colleagues meet, share knowledge and learn from good practice.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Lithuanian eligibility differs by programme.",
+  "source": "Subačienė 2026, slides 12, 14, 45",
+  "id": "p37"
+ },
+ {
+  "programme": "Nordplus",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for education institutions.",
+  "source": "Subačienė 2026, slides 12, 14, 16",
+  "id": "p38"
+ },
+ {
+  "programme": "Nordic Culture Point",
+  "family": "Other international",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed first for culture organisations.",
+  "source": "Subačienė 2026, slides 12, 16",
+  "id": "p39"
+ },
+ {
+  "programme": "Children and youth programme Norden 0-30",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers",
+  "who_can_apply": [],
+  "what_it_funds": "Children and youth.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Deadline 2 October 2026.",
+  "source": "Subačienė 2026, slide 46",
+  "id": "p40"
+ },
+ {
+  "programme": "Cooperation programme for organisations of people with disabilities",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Upcoming call, opens 24 September 2026.",
+  "source": "Subačienė 2026, slide 46",
+  "id": "p41"
+ },
+ {
+  "programme": "Nordic LGBTI fund",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Upcoming call, opens 1 October 2026.",
+  "source": "Subačienė 2026, slide 46",
+  "id": "p42"
+ },
+ {
+  "programme": "Baltic Culture Fund (Baltijos kultūros fondas)",
+  "family": "Other international",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Extra source for culture organisations.",
+  "source": "Subačienė 2026, slides 12, 16",
+  "id": "p43"
+ },
+ {
+  "programme": "Swiss-Lithuanian Cooperation Programme 2024-2029 (Swiss-Europe Contribution)",
+  "family": "Other international",
+  "managed_by": "Central Project Management Agency (Centrinė projektų valdymo agentūra, CPVA) publishes calls",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Three areas: mother and child health and well-being; vocational education and training; civic engagement.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "A large share of the money goes through pre-defined projects. Extra source for NGOs and education institutions.",
+  "source": "Subačienė 2026, slides 12, 14, 16, 37",
+  "id": "p44"
+ },
+ {
+  "programme": "EEA and Norway Grants 2021-2028 (EEE ir Norvegijos finansiniai mechanizmai)",
+  "family": "Other international",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "In the earlier period: culture, civil society, social inclusion and other sectors.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "117.85 million EUR allocated to Lithuania; projects can run until 2031. Lithuania chose only two main national programmes. Judge the new-period conditions only once official calls are published.",
+  "source": "Subačienė 2026, slides 12, 14, 36",
+  "id": "p45"
+ },
+ {
+  "programme": "EEA Grants Civil Protection Programme (EEE fondų Civilinės saugos programa)",
+  "family": "Other international",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "Public information and self-protection, crisis management, health system resilience, protection of cultural property in emergencies and war.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Programme envelope 46 million EUR.",
+  "source": "Subačienė 2026, slide 36",
+  "id": "p46"
+ },
+ {
+  "programme": "Norway Grants Justice Programme (Norvegijos fondų Teisingumo programa)",
+  "family": "Other international",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "Execution of sentences, resocialisation of convicts, support for detainees, courts, prosecution, staff competences and technology.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Programme envelope 43.7 million EUR.",
+  "source": "Subačienė 2026, slide 36",
+  "id": "p47"
+ },
+ {
+  "programme": "EEA and Norway Grants Civil Society Fund (Pilietinės visuomenės fondas)",
+  "family": "Other international",
+  "managed_by": "Atviros Lietuvos fondas, \"OSFL Projektai\" and the National Platform of Non-Governmental Development Cooperation Organisations",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "A separate opportunity for NGOs; donors reserve part of the funds for it.",
+  "source": "Subačienė 2026, slide 36",
+  "id": "p48"
+ },
+ {
+  "programme": "Lithuanian Foundation (Lietuvių fondas)",
+  "family": "Private or foundation",
+  "managed_by": "Lietuvių fondas (operates in the USA)",
+  "who_can_apply": [],
+  "what_it_funds": "Lithuanian identity, education, culture, youth and community projects linked to Lithuania.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "",
+  "source": "Subačienė 2026, slide 15",
+  "id": "p49"
+ },
+ {
+  "programme": "Kazickas Family Foundation (Kazickų šeimos fondas)",
+  "family": "Private or foundation",
+  "managed_by": "Kazickas Family Foundation",
+  "who_can_apply": [],
+  "what_it_funds": "Education, culture, social and youth projects. Priority areas: social inclusion, youth empowerment and education, diaspora inclusion, crisis response, and others such as art and culture, medicine and human rights.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Started accepting requests for 2026 activities and projects (announced 1 November 2025). Check priorities and procedure on the foundation website.",
+  "source": "Subačienė 2026, slides 15, 28",
+  "id": "p50"
+ },
+ {
+  "programme": "Good Will Foundation (Geros valios fondas)",
+  "family": "Private or foundation",
+  "managed_by": "Geros valios fondas",
+  "who_can_apply": [],
+  "what_it_funds": "Lithuanian Jewish religious, cultural, educational and heritage projects, in line with the foundation's purpose.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "",
+  "source": "Subačienė 2026, slide 15",
+  "id": "p51"
+ },
+ {
+  "programme": "Community and corporate funds (bendruomeniniai ir įmonių fondai)",
+  "family": "Private or foundation",
+  "managed_by": "Banks, energy, retail and other companies; community funds",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Short, thematic support calls.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "A supplementary source, not a base source. Private funds are an extra source for NGOs; private sponsors for sports organisations.",
+  "source": "Subačienė 2026, slides 12, 15, 16",
+  "id": "p52"
+ },
+ {
+  "programme": "1.2% personal income tax allocation and donation platforms (1,2 proc. GPM ir aukojimo platformos)",
+  "family": "Private or foundation",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "Continuity of activities, mobilising the community, smaller initiatives.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Requires the right support recipient status (paramos gavėjo statusas).",
+  "source": "Subačienė 2026, slide 15",
+  "id": "p53"
+ },
+ {
+  "programme": "Baltic-American Freedom Foundation, Baltic-American Dialogue Program",
+  "family": "Private or foundation",
+  "managed_by": "Baltic-American Freedom Foundation",
+  "who_can_apply": [
+   "NGO",
+   "Public body",
+   "University"
+  ],
+  "what_it_funds": "Projects that bring US speakers to Baltic institutions and build dialogue between the Baltic States and the US.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Eligible: NGOs, public organisations, educational institutions such as universities, government entities, chambers of commerce, social service organisations, trade and business groups. Proposals with learning exchange with US speakers and cross-Baltic cooperation get special consideration. Deadline 15 February 2026.",
+  "source": "Subačienė 2026, slide 51",
+  "id": "p54"
+ },
+ {
+  "programme": "Support for associations representing the rights and interests of persons with disabilities, 2025 competition (Asmenų su negalia teisėms ir interesams atstovaujančių asociacijų veiklos rėmimo projektų finansavimo 2025 m. konkursas)",
+  "family": "National",
+  "managed_by": "",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Activities of disability associations: rights defence, priority activities (violence and hate crime prevention, accessibility, inclusive education), advocacy at municipal level, early help services.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Shown as an example of call priorities. At least 50% of requested funds must go to rights defence, at least 5% to one priority activity, at least 5% to early help services, and at least 5 proposals to municipalities during the project.",
+  "source": "Projektų valdymas 2026, slide 4",
+  "id": "p55"
+ },
+ {
+  "programme": "Šiauliai city municipality NGO funding (Šiaulių miesto savivaldybė)",
+  "family": "National",
+  "managed_by": "Šiaulių miesto savivaldybė",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Services for children and families; employment and civic education for children, youth (14-29) and adults; social support for vulnerable residents; community activity, culture, sport and healthy living; educational sessions; initiatives to improve public spaces and the environment.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Example of a municipal NGO call listing fundable activity areas. Family set to National as the closest option; it is municipal funding.",
+  "source": "Projektų valdymas 2026, slide 5",
+  "id": "p56"
+ },
+ {
+  "programme": "NGO institutional strengthening projects, 2026 competition (Nevyriausybinių organizacijų institucinio stiprinimo projektų atrankos 2026 metų konkursas)",
+  "family": "National",
+  "managed_by": "Ministry of Social Security and Labour (Socialinės apsaugos ir darbo ministerija, SADM)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "One of six strengthening directions: financial sustainability or transparency, growth of NGO public or social business services, strategic NGO development, quality volunteering, NGO efficiency, readiness for crises or mobilisation.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "First applicant consultation held 2025-09-23. The priorities slide is labelled as the 2025 call.",
+  "source": "Projektų valdymas 2026, slide 6, 7",
+  "id": "p57"
+ },
+ {
+  "programme": "Cooperation programme for organisations of persons with disabilities (Žmonių su negalia organizacijų bendradarbiavimo programa)",
+  "family": "Other international",
+  "managed_by": "Nordic Council of Ministers Office in Lithuania (Šiaurės ministrų tarybos biuras Lietuvoje)",
+  "who_can_apply": [
+   "NGO"
+  ],
+  "what_it_funds": "Strategic initiatives on disability rights: conferences, courses and camps for young people with disabilities; information and methodological materials, reports, digital products; empowerment linked to the UN Convention on the Rights of Persons with Disabilities; partnership and Nordic perspective; child, minority, equality and sustainability perspectives; digital cooperation.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Listed as examples of strategic initiatives. Programme page on norden.pastebimas.lt.",
+  "source": "Projektų valdymas 2026, slide 8",
+  "id": "p58"
+ },
+ {
+  "programme": "EU investments 2021-2027 in Lithuania (2021-2027 m. ES investicijos)",
+  "family": "EU funds, national management",
+  "managed_by": "",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "Central and Western Lithuania region (Vidurio ir vakarų Lietuvos regionas, VVL): 896.6 million EUR. Capital region (Sostinės regionas, SR): 235.5 million EUR.",
+  "funding_rate": "",
+  "notes": "Map slide showing the two regional envelopes. Several measures later in the deck have separate SR and VVL budgets.",
+  "source": "Priemonės verslui 2026, slide 5",
+  "id": "p59"
+ },
+ {
+  "programme": "Laser Pro",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [
+   "SME",
+   "Large company"
+  ],
+  "what_it_funds": "Pilot experiments to create and test laser-based innovations.",
+  "typical_amount": "Up to 40,000 EUR per applicant. Call total 200,000 EUR, about 5 projects.",
+  "funding_rate": "Up to 100%",
+  "notes": "Applicants: SMEs and/or innovative small mid-cap companies (vidutinės kapitalizacijos inovatyvios bendrovės); Large company here means mid-caps only. Call open until 30 October 2026, 17:00.",
+  "source": "Priemonės verslui 2026, slide 6, 7",
+  "id": "p60"
+ },
+ {
+  "programme": "Start-up participation in foreign events (Startuolių dalyvavimas užsienio renginiuose)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [
+   "SME"
+  ],
+  "what_it_funds": "Start-up participation in events abroad held 16 July - 31 December 2026.",
+  "typical_amount": "Up to 3,500 EUR per applicant. Call total 87,500 EUR.",
+  "funding_rate": "Up to 100%",
+  "notes": "Eligible: start-ups registered in Lithuania (mapped to SME). Applications until 11 November 2026, 17:00.",
+  "source": "Priemonės verslui 2026, slide 6, 8",
+  "id": "p61"
+ },
+ {
+  "programme": "Green experiment (Žaliasis eksperimentas EH RIV)",
+  "family": "EU funds, national management",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [
+   "SME"
+  ],
+  "what_it_funds": "Development and demonstration of innovative, environmentally friendly technologies that support sustainable production in industrial SMEs.",
+  "typical_amount": "Up to 600,000 EUR per project. Budget 1,000,000 EUR for the VVL region.",
+  "funding_rate": "",
+  "notes": "Applicants: industrial SMEs. Call planned 16 November 2026 - 29 January 2027. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 6, 9",
+  "id": "p62"
+ },
+ {
+  "programme": "Development of defence and security products (Gynybos ir saugumo produktų kūrimas ir vystymas)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [],
+  "what_it_funds": "Development of defence and security products.",
+  "typical_amount": "Not yet published.",
+  "funding_rate": "",
+  "notes": "Call No. 02-138-K, selection by competition (konkursas). Applications 16 November 2026 - 15 February 2027. Call details still being prepared.",
+  "source": "Priemonės verslui 2026, slide 10",
+  "id": "p63"
+ },
+ {
+  "programme": "STEP defence",
+  "family": "EU funds, national management",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [],
+  "what_it_funds": "Development or manufacturing of STEP technologies in defence and security.",
+  "typical_amount": "Up to 4,000,000 EUR per project. Budget 33,200,000 EUR (10,500,000 EUR SR, 22,700,000 EUR VVL).",
+  "funding_rate": "",
+  "notes": "Call planned 31 December 2026 - 31 March 2027. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 6, 11",
+  "id": "p64"
+ },
+ {
+  "programme": "SME internationalisation and international partnerships (MVĮ tarptautiškumas ir tarptautinės partnerystės, BJR)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [],
+  "what_it_funds": "Call for coordinators of mature innovation clusters supported by APV.",
+  "typical_amount": "Up to 312,500 EUR per project. Call total 625,000 EUR.",
+  "funding_rate": "",
+  "notes": "Applicants are cluster coordinators; the deck does not state their legal form. Call 16 November 2026 - 15 February 2027.",
+  "source": "Priemonės verslui 2026, slide 12",
+  "id": "p65"
+ },
+ {
+  "programme": "Defence and security industry testing infrastructure (Gynybos ir saugumo pramonės bandymų infrastruktūra)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [],
+  "what_it_funds": "Testing infrastructure for the defence and security industry.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Selection by planning (atranka planavimo būdu). Call 31 December 2026 - 31 January 2027. Details still being prepared.",
+  "source": "Priemonės verslui 2026, slide 12",
+  "id": "p66"
+ },
+ {
+  "programme": "Defence and security industry innovation partnerships (Gynybos ir saugumo pramonės inovacijų partnerystės)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Innovation Agency (Inovacijų agentūra)",
+  "who_can_apply": [],
+  "what_it_funds": "Innovation partnerships in the defence and security industry.",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "Selection by competition (konkursas). Call 31 December 2026 - 30 April 2027. Details still being prepared.",
+  "source": "Priemonės verslui 2026, slide 12",
+  "id": "p67"
+ },
+ {
+  "programme": "Young farmers' setting up, loans only, 2026 round II (Jaunųjų ūkininkų įsikūrimas, tik paskoloms)",
+  "family": "Financial instrument",
+  "managed_by": "National Paying Agency (Nacionalinė mokėjimo agentūra, NMA)",
+  "who_can_apply": [
+   "Individual"
+  ],
+  "what_it_funds": "Primary agricultural production and processing of products produced or grown on the holding.",
+  "typical_amount": "Preferential loan up to 100,000 EUR per beneficiary. Call total 17,535,209 EUR (3,635,699 EUR SR, 13,899,510 EUR VVL).",
+  "funding_rate": "Up to 100% of eligible costs",
+  "notes": "Individuals aged 18-40 setting up a holding for the first time; legal persons with a registered agricultural holding can also apply (size class not stated). Applications 1 July - 30 December 2026, 17:00, or until the budget runs out.",
+  "source": "Priemonės verslui 2026, slide 13, 14, 15, 16",
+  "id": "p68"
+ },
+ {
+  "programme": "Development of small and medium farms (Smulkių-vidutinių ūkių plėtra)",
+  "family": "EU funds, national management",
+  "managed_by": "National Paying Agency (Nacionalinė mokėjimo agentūra, NMA)",
+  "who_can_apply": [
+   "Individual"
+  ],
+  "what_it_funds": "Development of small and medium farms.",
+  "typical_amount": "Up to 80,000 EUR. Call budget 1,867,247 EUR SR and 1,503,848 EUR VVL.",
+  "funding_rate": "Up to 65%; young farmers +15 percentage points",
+  "notes": "Individuals with a registered agricultural holding and farm, or legal persons with a registered holding. At least 1 year of activity, at least 50% of income from agriculture, economic size (VED) 16,001-30,000 EUR. Applications 1 September - 30 October 2026. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 13, 17",
+  "id": "p69"
+ },
+ {
+  "programme": "Sustainable investments in agricultural holdings (Tvarios investicijos į žemės ūkio valdas)",
+  "family": "EU funds, national management",
+  "managed_by": "National Paying Agency (Nacionalinė mokėjimo agentūra, NMA)",
+  "who_can_apply": [],
+  "what_it_funds": "Technologies to reduce greenhouse gas and/or ammonia emissions, biogas production, animal welfare.",
+  "typical_amount": "Maximum grant 200,000, 800,000, 900,000 or 1,500,000 EUR depending on the combination of activities. Call total 18,259,842 EUR (10,403,827 EUR SR, 7,856,015 EUR VVL).",
+  "funding_rate": "Up to 65%; young farmers +15 percentage points, up to 80% at most",
+  "notes": "Applications 1-28 September 2026. Applicant types not stated on the slide. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 13, 18",
+  "id": "p70"
+ },
+ {
+  "programme": "Investments in agricultural holdings (Investicijos į žemės ūkio valdas)",
+  "family": "EU funds, national management",
+  "managed_by": "National Paying Agency (Nacionalinė mokėjimo agentūra, NMA)",
+  "who_can_apply": [],
+  "what_it_funds": "Production, processing and marketing of agricultural products. Budget split by region and sector (dairy and beef cattle, other livestock, pigs and poultry, fruit, berries, vegetables, flowers, medicinal herbs).",
+  "typical_amount": "Up to 1,000,000 EUR per project, or up to 2,000,000 EUR for a recognised agricultural cooperative.",
+  "funding_rate": "Up to 50%; young farmers +20 percentage points",
+  "notes": "Applications 1 October - 30 November 2026. Applicant types not stated on the slide. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 13, 19",
+  "id": "p71"
+ },
+ {
+  "programme": "Investments in agricultural holdings, simplified procedure (Investicijos į žemės ūkio valdas, supaprastinta tvarka)",
+  "family": "EU funds, national management",
+  "managed_by": "National Paying Agency (Nacionalinė mokėjimo agentūra, NMA)",
+  "who_can_apply": [],
+  "what_it_funds": "Other crop sectors, excluding fruit, vegetables, berries, flowers and medicinal herbs.",
+  "typical_amount": "Up to 80,000 EUR per project. Call budget 728,095 EUR SR and 2,912,380 EUR VVL.",
+  "funding_rate": "Up to 40%; young farmers +20 percentage points",
+  "notes": "Applications 1 October - 30 November 2026. Applicant types not stated on the slide. Family inferred: the deck lists this under its 2021-2027 EU investments overview with a Sostinės regionas / VVL split, but does not name the fund.",
+  "source": "Priemonės verslui 2026, slide 13, 20",
+  "id": "p72"
+ },
+ {
+  "programme": "Local action groups (Vietos veiklos grupės, VVG) and fisheries local action groups (ŽRVVG)",
+  "family": "Source not stated in the deck",
+  "managed_by": "Local action groups; map published by the National Paying Agency (NMA) on paramakaimui.lt",
+  "who_can_apply": [],
+  "what_it_funds": "",
+  "typical_amount": "",
+  "funding_rate": "",
+  "notes": "The deck shows only a section title and the NMA map of local action group territories. No call details given.",
+  "source": "Priemonės verslui 2026, slide 21, 22",
+  "id": "p73"
+ }
+]
