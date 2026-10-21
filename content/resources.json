@@ -13,6 +13,20 @@
   },
   "items": [
     {
+      "type": "tool",
+      "language": "en",
+      "source": "Piliečių mokslo asociacija",
+      "url": "/kvietimai/",
+      "lt": {
+        "title": "Finansavimo kvietimų duomenų bazė",
+        "text": "Finansavimo kvietimai iš ES, tarptautinių, Lietuvos nacionalinių ir savivaldybių šaltinių: atviri, būsimi ir pasibaigę nuo 2024 m., su ankstesniais kiekvieno kvietimo etapais. Galima filtruoti pagal tai, kas gali teikti paraišką, dotacijos dydį ir temą, ir atsisiųsti Excel formatu. Sąsaja anglų kalba."
+      },
+      "en": {
+        "title": "Funding calls database",
+        "text": "Funding calls from EU, international, Lithuanian national and municipal sources: open, upcoming and closed since 2024, with the earlier rounds of each call. Filter by who can apply, grant size and topic, and download it as Excel."
+      }
+    },
+    {
       "type": "publication",
       "language": "lt",
       "source": "KTU / LibOCS, 2026",
@@ -383,7 +397,7 @@
       "url": "/kas-nori-dalyvauti-tyrimuose/",
       "lt": {
         "title": "Kas Lietuvoje nori dalyvauti moksliniuose tyrimuose?",
-        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5\u00a0%), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
+        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5 %), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
       },
       "en": {
         "title": "Who in Lithuania wants to take part in research?",
