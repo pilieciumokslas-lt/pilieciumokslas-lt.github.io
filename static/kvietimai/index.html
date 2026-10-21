@@ -367,7 +367,7 @@ html,body{margin:0;padding:0}
     <div id="guide-main">
     <div class="hm-sec-head">
       <h2 class="hm-h2">How funding works</h2>
-      <p class="hm-sub">Built from the 2026 trainings you attended (fund overview, proposal writing and project management, project finances, measures for business). Pick who is applying to see the routes, programmes and rules that apply to them. Every item cites the deck and slide.</p>
+      <p class="hm-sub">Built from four 2026 training courses (funding sources, proposal writing and project management, project finances, measures for business). Pick who is applying to see the routes, programmes and rules that apply. Every item cites the training deck and slide.</p>
     </div>
     <div class="hm-filters">
       <div class="hm-seg" role="group" aria-label="Who is applying" id="guide-who">
@@ -379,23 +379,31 @@ html,body{margin:0;padding:0}
         <button type="button" data-v="person">Individual</button>
       </div>
     </div>
-    <section class="hm-sec" id="guide-ngos">
-      <div class="hm-sec-head"><h3 class="hm-h3">Who funds Lithuanian NGOs</h3><p class="hm-sub">What 42 Lithuanian NGOs (7 per sector) list on their own websites and reports as funders, grouped by funder and ranked by how many of the NGOs use it. "Not in your calls" means the calls database has no call from that funder yet. Open a funder for the NGOs, projects and source pages.</p></div>
-      <div class="hm-seg" role="group" aria-label="NGO sector" id="ngo-sector"></div>
+    <details class="hm-acc" id="guide-ngos">
+      <summary><span class="hm-acc-h">Who funds Lithuanian NGOs</span><span class="hm-acc-n"></span><span class="hm-acc-sub">What 42 Lithuanian NGOs (7 per sector) list on their own websites and reports as funders, ranked by how many use each funder. Open a funder for the NGOs, projects and source pages.</span></summary>
+      <div class="hm-sec">    
+            <div class="hm-seg" role="group" aria-label="NGO sector" id="ngo-sector"></div>
       <div class="hm-list" id="ngo-funders" data-source="ngo_funder_counts ngo_funders"><div class="hm-empty dash-skeleton"></div></div>
-    </section>
-    <section class="hm-sec" id="guide-flows-sec">
-      <div class="hm-sec-head"><h3 class="hm-h3">How the money flows</h3><p class="hm-sub">From the funder to the organisation doing the work, step by step.</p></div>
-      <div class="hm-grid" id="guide-flows" data-source="guide_flows"><div class="hm-card dash-skeleton" style="min-height:9rem"></div></div>
-    </section>
-    <section class="hm-sec" id="guide-programmes-sec">
-      <div class="hm-sec-head"><h3 class="hm-h3">Programmes and measures</h3><p class="hm-sub">Grouped by who manages the money. Cascade funding is money an EU project passes on to third parties through its own open calls.</p></div>
-      <div id="guide-programmes" class="hm-sec" data-source="guide_programmes"><div class="hm-list"><div class="hm-empty dash-skeleton"></div></div></div>
-    </section>
-    <section class="hm-sec" id="guide-rules-sec">
-      <div class="hm-sec-head"><h3 class="hm-h3">Rules that decide money</h3><p class="hm-sub">Co-financing, eligible costs, lump sums, payments, state aid and reporting.</p></div>
-      <div id="guide-rules" class="hm-grid" data-source="guide_rules"><div class="hm-card dash-skeleton" style="min-height:9rem"></div></div>
-    </section>
+    </div>
+    </details>
+    <details class="hm-acc" id="guide-flows-sec">
+      <summary><span class="hm-acc-h">How the money flows</span><span class="hm-acc-n"></span><span class="hm-acc-sub">From the funder to the organisation doing the work, step by step.</span></summary>
+      <div class="hm-sec">    
+            <div class="hm-grid" id="guide-flows" data-source="guide_flows"><div class="hm-card dash-skeleton" style="min-height:9rem"></div></div>
+    </div>
+    </details>
+    <details class="hm-acc" id="guide-programmes-sec">
+      <summary><span class="hm-acc-h">Programmes and measures</span><span class="hm-acc-n"></span><span class="hm-acc-sub">Grouped by who manages the money. Cascade funding is money an EU project passes on to third parties through its own open calls.</span></summary>
+      <div class="hm-sec">    
+            <div id="guide-programmes" class="hm-sec" data-source="guide_programmes"><div class="hm-list"><div class="hm-empty dash-skeleton"></div></div></div>
+    </div>
+    </details>
+    <details class="hm-acc" id="guide-rules-sec">
+      <summary><span class="hm-acc-h">Rules that decide money</span><span class="hm-acc-n"></span><span class="hm-acc-sub">Co-financing, eligible costs, lump sums, payments, state aid and reporting.</span></summary>
+      <div class="hm-sec">    
+            <div id="guide-rules" class="hm-grid" data-source="guide_rules"><div class="hm-card dash-skeleton" style="min-height:9rem"></div></div>
+    </div>
+    </details>
     </div>
   </div>
 </div>
@@ -1310,7 +1318,7 @@ dash.calc('cycles', {
       const body = el('div', 'hm-body');
       const top = el('div', 'hm-line');
       top.append(el('span', 'hm-name', r.funder_group));
-      top.append(el('span', r.in_calls === 'no' ? 'hm-pill' : 'hm-tag', r.in_calls === 'yes' ? 'In your calls' : r.in_calls === 'no' ? 'Not in your calls' : 'Funder not named precisely'));
+      top.append(el('span', r.in_calls === 'no' ? 'hm-pill' : 'hm-tag', r.in_calls === 'yes' ? 'Has calls in the database' : r.in_calls === 'no' ? 'No calls in the database yet' : 'Funder not named precisely'));
       body.append(top);
       if (raw.status === 'ok') {
         const recs = raw.data.filter((x) => x.funder_group === r.funder_group && (state.sector === 'All sectors' || x.group === state.sector));
