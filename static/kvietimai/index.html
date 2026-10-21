@@ -227,6 +227,7 @@ html,body{margin:0;padding:0}
 .hm-facet button[disabled]{color:var(--hm-mute);opacity:.55;cursor:default}
 .hm-facet button span:last-child{color:var(--hm-mute);font-variant-numeric:tabular-nums}
 .hm-results{min-width:0;display:flex;flex-direction:column;gap:.8rem}
+.hm-dl{display:flex;flex-wrap:wrap;gap:.35rem .9rem;align-items:baseline;margin:.1rem 0 .8rem}
 .hm-clear{font-family:var(--hm-util);font-size:.82rem;background:none;border:0;color:var(--hm-cobalt);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .hm-facet>summary{cursor:pointer;list-style:none;font-family:var(--hm-display);font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;color:var(--hm-cobalt);padding:.35rem 0;display:flex;justify-content:space-between}
 .hm-facet>summary::-webkit-details-marker{display:none}
@@ -319,6 +320,7 @@ html,body{margin:0;padding:0}
         <div class="hm-facets" id="explore-facets" hidden aria-label="Filters"></div>
         <div class="hm-chiprow hm-active" id="calls-active"></div>
         <p class="hm-meta" id="calls-count"></p>
+        <div class="hm-dl" id="calls-dl"><span class="hm-meta">Download as Excel:</span><button type="button" class="hm-clear" id="dl-these">these results</button><button type="button" class="hm-clear" id="dl-all">the full database, every call</button><span class="hm-meta" id="dl-msg" aria-live="polite"></span></div>
         <div class="hm-list" id="calls-list" data-source="calls calls_past calls_past_lt calls_past_local"><div class="hm-empty dash-skeleton"></div></div>
         <div class="hm-wk-more"><button type="button" id="calls-more" hidden>Show 50 more</button></div>
       </div>
@@ -1130,6 +1132,77 @@ dash.calc('cycles', {
   bindSeg('calls-sort', 'sort');
   bindSeg('guide-sub', 'gsub');
 
+  let lastRows = [];
+  const DL_COLS = [
+    ['Call', (c) => c.opportunity], ['Funder or programme', (c) => c.funder], ['Source group', (c) => c.org],
+    ['Status', (c) => c.status], ['Opens', (c) => c.opens], ['Deadline', (c) => c.deadline], ['All deadlines', (c) => c.deadlines],
+    ['Amount as stated', (c) => c.amount], ['Max per project, EUR', (c) => c.max_eur], ['Call budget, EUR', (c) => c.budget_eur],
+    ['Grant size band', (c) => c.size], ['Who can lead', (c) => c.lead], ['Topics', (c) => c.topics], ['Type', (c) => c.kind],
+    ['Scope', (c) => c.scope], ['Source', (c) => FAMILY_LABEL[c.family] || c.family], ['What it funds', (c) => c.what],
+    ['Who can apply', (c) => c.role], ['Notes and eligibility', (c) => [c.rule, c.why].filter(Boolean).join(' | ')],
+    ['Link', (c) => c.link], ['First seen in the database', (c) => c.first_seen],
+  ];
+  function dlMsg(s) { const e = document.getElementById('dl-msg'); if (e) e.textContent = s; }
+  function loadXlsx() {
+    if (window.XLSX) return Promise.resolve(window.XLSX);
+    return new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+      s.onload = () => res(window.XLSX);
+      s.onerror = () => rej(new Error('Excel library did not load'));
+      document.head.append(s);
+    });
+  }
+  function allCallsReady() {
+    return new Promise((res, rej) => {
+      const ids = ['calls', 'calls_past', 'calls_past_lt', 'calls_past_local'];
+      let tries = 0;
+      (function check() {
+        const parts = ids.map((id) => dash.data(id));
+        if (parts.some((p) => p.status === 'error')) { rej(new Error('Data did not load')); return; }
+        if (parts.every((p) => p.status === 'ok')) { res([].concat(...parts.map((p) => p.data))); return; }
+        if (++tries > 300) { rej(new Error('Data took too long')); return; }
+        setTimeout(check, 200);
+      })();
+    });
+  }
+  async function saveFile(name, buf) {
+    const use = window.claude && window.claude.use;
+    if (use) {
+      const downloads = await window.claude.use('downloads');
+      if (downloads) { await downloads.save({ filename: name, data: new Blob([buf]) }); return; }
+    }
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([buf], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' }));
+    a.download = name;
+    document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+  }
+  async function downloadCalls(full) {
+    dlMsg('Preparing the file...');
+    try {
+      const [X, rows] = await Promise.all([loadXlsx(), full ? allCallsReady() : Promise.resolve(lastRows)]);
+      const cell = (v) => (Array.isArray(v) ? v.join('; ') : v == null ? '' : typeof v === 'string' ? v.slice(0, 32000) : v);
+      const aoa = [DL_COLS.map(([h]) => h)].concat(rows.map((c) => DL_COLS.map(([, f]) => cell(f(c)))));
+      const ws = X.utils.aoa_to_sheet(aoa);
+      ws['!cols'] = DL_COLS.map(([h]) => ({ wch: /What|Notes|Who can apply|Call$/.test(h) ? 50 : 18 }));
+      ws['!autofilter'] = { ref: ws['!ref'] };
+      const wb = X.utils.book_new();
+      X.utils.book_append_sheet(wb, ws, 'Calls');
+      const about = [['Calls Machine export'], ['Exported', new Date().toISOString().slice(0, 10)], ['Calls', rows.length],
+        ['Selection', full ? 'Full database: open, upcoming and past calls since January 2024' : 'Calls matching the filters on screen'],
+        ['Note', 'Who can lead, grant size, topics and type are read from each call\'s own text by keyword. Check the call page before applying.']];
+      X.utils.book_append_sheet(wb, X.utils.aoa_to_sheet(about), 'About');
+      const buf = X.write(wb, { type: 'array', bookType: 'xlsx', compression: true });
+      await saveFile((full ? 'calls-full-database-' : 'calls-selection-') + new Date().toISOString().slice(0, 10) + '.xlsx', buf);
+      dlMsg(d3.format(',')(rows.length) + ' calls in the file.');
+    } catch (e) {
+      dlMsg(e && e.code === 'declined' ? 'Download cancelled.' : 'Download failed: ' + ((e && e.message) || e));
+    }
+  }
+  document.getElementById('dl-these')?.addEventListener('click', () => downloadCalls(false));
+  document.getElementById('dl-all')?.addEventListener('click', () => downloadCalls(true));
+
   function drawCalls() {
     const d = callData();
     const list = document.getElementById('calls-list');
@@ -1145,6 +1218,7 @@ dash.calc('cycles', {
       size: (x, y) => (y.max_eur || -1) - (x.max_eur || -1),
     };
     rows.sort(by[state.sort] || by.deadline);
+    lastRows = rows;
     document.getElementById('calls-count').textContent = d3.format(',')(rows.length) + ' calls match. Showing ' + Math.min(callsShown, rows.length) + '.';
     if (!rows.length) list.append(el('div', 'hm-empty', 'No calls match these filters. Remove one to widen the search.'));
     rows.slice(0, callsShown).forEach((c) => list.append(callItem(c)));
