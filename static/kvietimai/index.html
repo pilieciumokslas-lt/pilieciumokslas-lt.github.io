@@ -217,8 +217,8 @@ html,body{margin:0;padding:0}
 .hm-cyc td.hm-cyc-c{background:var(--hm-tint)}
 .hm-cyc td.hm-cyc-now{outline:2px solid var(--hm-ink);outline-offset:-1px}
 .hm-cyc td.hm-cyc-n{text-align:right;color:var(--hm-mute);padding-left:.5rem;width:auto}
-.hm-explore{display:grid;grid-template-columns:minmax(14rem,17rem) 1fr;gap:2rem;align-items:start}
-.hm-facets{display:flex;flex-direction:column;gap:1.1rem;position:sticky;top:3.2rem;max-height:calc(100vh - 4rem);overflow:auto;padding-right:.4rem}
+.hm-explore{display:block}
+.hm-facets{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:.4rem 1.5rem;border:1px solid var(--hm-rule-soft);padding:.8rem 1rem}
 .hm-facet h3{font-family:var(--hm-display);font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--hm-cobalt);margin:0 0 .35rem}
 .hm-facet ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
 .hm-facet button{width:100%;display:flex;justify-content:space-between;gap:.5rem;font-family:var(--hm-util);font-size:.82rem;text-align:left;background:none;border:0;border-left:3px solid transparent;padding:.2rem .4rem;color:var(--hm-ink);cursor:pointer}
@@ -228,7 +228,13 @@ html,body{margin:0;padding:0}
 .hm-facet button span:last-child{color:var(--hm-mute);font-variant-numeric:tabular-nums}
 .hm-results{min-width:0;display:flex;flex-direction:column;gap:.8rem}
 .hm-clear{font-family:var(--hm-util);font-size:.82rem;background:none;border:0;color:var(--hm-cobalt);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
-@media (max-width:52rem){.hm-explore{grid-template-columns:1fr}.hm-facets{position:static;max-height:none}}
+.hm-facet>summary{cursor:pointer;list-style:none;font-family:var(--hm-display);font-size:.75rem;letter-spacing:.09em;text-transform:uppercase;color:var(--hm-cobalt);padding:.35rem 0;display:flex;justify-content:space-between}
+.hm-facet>summary::-webkit-details-marker{display:none}
+.hm-facet>summary::after{content:"+"}
+.hm-facet[open]>summary::after{content:"\2212"}
+.hm-filterbtn{font-family:var(--hm-display);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;background:var(--hm-paper);color:var(--hm-ink);border:2px solid var(--hm-ink);padding:.4rem .8rem;cursor:pointer}
+.hm-filterbtn[aria-expanded="true"],.hm-filterbtn:hover{background:var(--hm-cobalt);border-color:var(--hm-cobalt);color:#FFFFFF}
+.hm-active button{font-family:var(--hm-util);font-size:.78rem;border:1px solid var(--hm-cobalt);color:var(--hm-cobalt);background:none;padding:.1rem .45rem;cursor:pointer}
 .hm-acc{border-top:2px solid var(--hm-rule)}
 .hm-acc>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.2rem 1fr auto;gap:.2rem .6rem;align-items:baseline;padding:.9rem 0;color:var(--hm-ink);text-decoration:none}
 .hm-acc>summary::-webkit-details-marker{display:none}
@@ -298,15 +304,10 @@ html,body{margin:0;padding:0}
       <h2 class="hm-h2">Calls</h2>
       <p class="hm-sub">Every call from every source, open, upcoming and past since January 2024. Combine filters to explore; the numbers show how many calls each choice would give. Who can lead, grant size and topic are read from each call's own text, so check the call page before applying.</p>
     </div>
-    <nav class="hm-subtabs" role="tablist" aria-label="Calls views" id="calls-sub">
-      <button type="button" data-v="all">Explore</button>
-      <button type="button" data-v="cycles">Cycles</button>
-      <button type="button" data-v="sources">Sources</button>
-    </nav>
     <div id="calls-listview" class="hm-explore">
-      <aside class="hm-facets" id="explore-facets" aria-label="Filters"></aside>
       <div class="hm-results">
         <div class="hm-filters">
+          <button type="button" class="hm-filterbtn" id="calls-filterbtn" aria-expanded="false" aria-controls="explore-facets">Filters</button>
           <input type="search" id="calls-q" class="hm-search" placeholder="Search words, e.g. heritage, CERV, savivaldybė, Interreg" aria-label="Search calls">
           <div class="hm-seg" role="group" aria-label="Sort" id="calls-sort">
             <button type="button" data-v="deadline">Nearest deadline</button>
@@ -315,12 +316,23 @@ html,body{margin:0;padding:0}
           </div>
           <button type="button" class="hm-clear" id="calls-clear">Clear filters</button>
         </div>
+        <div class="hm-facets" id="explore-facets" hidden aria-label="Filters"></div>
+        <div class="hm-chiprow hm-active" id="calls-active"></div>
         <p class="hm-meta" id="calls-count"></p>
         <div class="hm-list" id="calls-list" data-source="calls calls_past calls_past_lt calls_past_local"><div class="hm-empty dash-skeleton"></div></div>
         <div class="hm-wk-more"><button type="button" id="calls-more" hidden>Show 50 more</button></div>
       </div>
     </div>
+  </div>
+
+  <div class="hm-page" data-page="guide" id="guide" hidden>
+    <nav class="hm-subtabs" role="tablist" aria-label="Guide views" id="guide-sub">
+      <button type="button" data-v="guide">How funding works</button>
+      <button type="button" data-v="cycles">Cycles</button>
+      <button type="button" data-v="sources">Sources</button>
+    </nav>
     <section class="hm-sec" id="calls-sources" hidden>
+      <h3 class="hm-h3">Sources</h3>
       <p class="hm-sub">Every funder in the database, with how many calls it has open, upcoming, rolling and closed since January 2024. Use it to check coverage: a funder you know of that is missing here has not been read yet.</p>
       <div class="hm-filters">
         <input type="search" id="src-q" class="hm-search" placeholder="Find a funder, e.g. LKT, Interreg, savivaldybė" aria-label="Find a funder">
@@ -335,6 +347,7 @@ html,body{margin:0;padding:0}
       <div class="hm-wk-more"><button type="button" id="src-more" hidden>Show all funders</button></div>
     </section>
     <section class="hm-sec" id="calls-cycles" hidden>
+      <h3 class="hm-h3">Cycles</h3>
       <p class="hm-sub">Each row is a programme or call series; each column a month from January 2024 to December 2027. Darker cells mean more deadlines that month. Past years show the rhythm; the current month is outlined.</p>
       <div class="hm-filters">
         <div class="hm-seg" role="group" aria-label="Source" id="cyc-fam">
@@ -351,9 +364,7 @@ html,body{margin:0;padding:0}
       <div class="hm-cyc-box" id="cyc-grid" data-source="cycles"></div>
       <div class="hm-wk-more"><button type="button" id="cyc-more" hidden>Show all rows</button></div>
     </section>
-  </div>
-
-  <div class="hm-page" data-page="guide" id="guide" hidden>
+    <div id="guide-main">
     <div class="hm-sec-head">
       <h2 class="hm-h2">How funding works</h2>
       <p class="hm-sub">Built from the 2026 trainings you attended (fund overview, proposal writing and project management, project finances, measures for business). Pick who is applying to see the routes, programmes and rules that apply to them. Every item cites the deck and slide.</p>
@@ -385,6 +396,7 @@ html,body{margin:0;padding:0}
       <div class="hm-sec-head"><h3 class="hm-h3">Rules that decide money</h3><p class="hm-sub">Co-financing, eligible costs, lump sums, payments, state aid and reporting.</p></div>
       <div id="guide-rules" class="hm-grid" data-source="guide_rules"><div class="hm-card dash-skeleton" style="min-height:9rem"></div></div>
     </section>
+    </div>
   </div>
 </div>
 
@@ -753,7 +765,7 @@ dash.calc('cycles', {
   // ---- pages ----
   const PAGES = ['week', 'calls', 'guide'];
   let page = 'week';
-  const state = { org: '', fit: 'any', area: '', who: '', sec: '', aud: '', q: '', topic: '', theme: '', pq: '', month: '', nq: '', sub: 'all', time: 'open', sort: 'deadline', cq: '', cfam: '', sq: '', sector: 'All sectors', ngoAll: false };
+  const state = { org: '', fit: 'any', area: '', who: '', sec: '', aud: '', q: '', topic: '', theme: '', pq: '', month: '', nq: '', sub: 'all', gsub: 'guide', time: 'open', sort: 'deadline', cq: '', cfam: '', sq: '', sector: 'All sectors', ngoAll: false };
   const DAY = 86400000;
   const today = () => { const n = new Date(); return Date.UTC(n.getFullYear(), n.getMonth(), n.getDate()); };
   const fmtShort = d3.utcFormat('%-d %b');
@@ -1031,8 +1043,12 @@ dash.calc('cycles', {
     FACETS.forEach((f) => {
       const counts = new Map();
       all.forEach((c) => { if (passes(c, f.key, words)) f.of(c).forEach((v) => counts.set(v, (counts.get(v) || 0) + 1)); });
-      const sec = el('section', 'hm-facet');
-      sec.append(el('h3', null, f.title));
+      const sec = el('details', 'hm-facet');
+      if (sel[f.key].size && !(f.key === 'time' && sel.time.has('Open and upcoming'))) sec.open = true;
+      if (openFacets.has(f.key)) sec.open = true;
+      sec.dataset.key = f.key;
+      sec.addEventListener('toggle', () => { if (sec.open) openFacets.add(f.key); else openFacets.delete(f.key); });
+      sec.append(el('summary', null, f.title));
       const ul = el('ul');
       f.values.forEach((v) => {
         const n = v === 'All' ? [...counts.values()].reduce((a, b) => a + b, 0) : (counts.get(v) || 0);
@@ -1064,6 +1080,35 @@ dash.calc('cycles', {
     resetCalls();
     drawPage();
   });
+  const openFacets = new Set();
+  document.getElementById('calls-filterbtn')?.addEventListener('click', (e) => {
+    const p = document.getElementById('explore-facets');
+    p.hidden = !p.hidden;
+    e.currentTarget.setAttribute('aria-expanded', String(!p.hidden));
+  });
+  document.getElementById('calls-active')?.addEventListener('click', (e) => {
+    const b = e.target.closest('button[data-facet]');
+    if (!b) return;
+    sel[b.dataset.facet].delete(b.dataset.v);
+    if (b.dataset.facet === 'time') { sel.time.add('Open and upcoming'); state.time = 'open'; }
+    resetCalls();
+    drawPage();
+  });
+  function drawActive() {
+    const box = document.getElementById('calls-active');
+    box.replaceChildren();
+    let n = 0;
+    FACETS.forEach((f) => sel[f.key].forEach((v) => {
+      if (f.key === 'time' && v === 'Open and upcoming') return;
+      n += 1;
+      const b = el('button', null, (f.label ? f.label(v) : v) + ' \u00d7');
+      b.type = 'button'; b.dataset.facet = f.key; b.dataset.v = v;
+      b.title = 'Remove filter';
+      box.append(b);
+    }));
+    const fb = document.getElementById('calls-filterbtn');
+    if (fb) fb.textContent = n ? 'Filters (' + n + ')' : 'Filters';
+  }
   document.getElementById('calls-clear')?.addEventListener('click', () => {
     Object.keys(sel).forEach((k) => sel[k].clear());
     sel.time.add('Open and upcoming');
@@ -1075,21 +1120,16 @@ dash.calc('cycles', {
     drawPage();
   });
   bindSeg('calls-sort', 'sort');
+  bindSeg('guide-sub', 'gsub');
 
   function drawCalls() {
-    setSeg('calls-sub', state.sub);
-    const cycles = state.sub === 'cycles', sources = state.sub === 'sources';
-    document.getElementById('calls-listview').hidden = cycles || sources;
-    document.getElementById('calls-cycles').hidden = !cycles;
-    document.getElementById('calls-sources').hidden = !sources;
-    if (cycles) { drawCycles(); return; }
-    if (sources) { drawSources(); return; }
     const d = callData();
     const list = document.getElementById('calls-list');
     const more = document.getElementById('calls-more');
     if (!listState(list, d, 'No calls in the database.')) { more.hidden = true; document.getElementById('explore-facets').replaceChildren(); return; }
     const words = callNorm(state.q).split(/\s+/).filter(Boolean);
     drawFacets(d.data, words);
+    drawActive();
     const rows = d.data.filter((c) => passes(c, null, words));
     const by = {
       deadline: (x, y) => (sel.time.has('Past since 2024') ? ((y.deadline || '').localeCompare(x.deadline || '')) : ((x.deadline ? 0 : 1) - (y.deadline ? 0 : 1) || (x.deadline || '').localeCompare(y.deadline || ''))),
@@ -1300,6 +1340,13 @@ dash.calc('cycles', {
   }
 
   function drawGuide() {
+    setSeg('guide-sub', state.gsub);
+    const cyc = state.gsub === 'cycles', src = state.gsub === 'sources';
+    document.getElementById('guide-main').hidden = cyc || src;
+    document.getElementById('calls-cycles').hidden = !cyc;
+    document.getElementById('calls-sources').hidden = !src;
+    if (cyc) { drawCycles(); return; }
+    if (src) { drawSources(); return; }
     drawNgoFunders();
     const fl = dash.data('guide_flows');
     const fbox = document.getElementById('guide-flows');
@@ -1590,7 +1637,7 @@ dash.calc('cycles', {
       it.append(when, body);
       box.append(it);
     });
-    if (ex.data.length > 40) box.append(el('div', 'hm-wk-more', (ex.data.length - 40) + ' more series: see Calls, then Cycles.'));
+    if (ex.data.length > 40) box.append(el('div', 'hm-wk-more', (ex.data.length - 40) + ' more series: see Funding guide, then Cycles.'));
   }
 
   function drawPage() {
