@@ -63,6 +63,20 @@
       }
     },
     {
+      "name": "CO-WATERS",
+      "logo": "/assets/uploads/logos/co-waters.png",
+      "topic": "nature",
+      "scope": "international",
+      "url": "/naujienos/asociacija-prisijunge-prie-co-waters-koalicijos/",
+      "lt": {
+        "text": "Programos „Europos horizontas“ projektas (2025-2029), padedantis pakrančių miestams, regionams, saloms ir uostams atkurti jūrų ir gėlo vandens ekosistemas pagal ES misiją „Atkurti mūsų vandenynus ir vandenis iki 2030 m.“ Nuo 2026 m. spalio asociacija yra projekto sukurtos koalicijos narė: dalyvauja darbo grupėse ir dalijasi piliečių mokslo bei visuomenės įtraukimo patirtimi."
+      },
+      "en": {
+        "url": "/en/news/asociacija-prisijunge-prie-co-waters-koalicijos/",
+        "text": "A Horizon Europe project (2025-2029) helping waterfront cities, regions, islands and ports restore marine and freshwater systems under the EU Mission \"Restore our Ocean and Waters by 2030\". Since October 2026 the association has been a member of the Coalition created by the project, taking part in its Working Groups and sharing experience in citizen science and public engagement."
+      }
+    },
+    {
       "name": "CLIMAS",
       "logo": "/assets/uploads/logos/climas.png",
       "topic": "society",
