@@ -229,6 +229,15 @@ html,body{margin:0;padding:0}
 .hm-results{min-width:0;display:flex;flex-direction:column;gap:.8rem}
 .hm-clear{font-family:var(--hm-util);font-size:.82rem;background:none;border:0;color:var(--hm-cobalt);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 @media (max-width:52rem){.hm-explore{grid-template-columns:1fr}.hm-facets{position:static;max-height:none}}
+.hm-acc{border-top:2px solid var(--hm-rule)}
+.hm-acc>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.2rem 1fr auto;gap:.2rem .6rem;align-items:baseline;padding:.9rem 0;color:var(--hm-ink);text-decoration:none}
+.hm-acc>summary::-webkit-details-marker{display:none}
+.hm-acc>summary::before{content:"+";font-family:var(--hm-display);color:var(--hm-cobalt);font-size:1.3rem;line-height:1;grid-row:1}
+.hm-acc[open]>summary::before{content:"\2212"}
+.hm-acc-h{font-family:var(--hm-display);font-size:1.35rem;font-weight:500}
+.hm-acc-n{font-family:var(--hm-display);font-size:1.35rem;color:var(--hm-cobalt);font-variant-numeric:tabular-nums}
+.hm-acc-sub{grid-column:2 / span 2;font-family:var(--hm-util);font-size:.85rem;color:var(--hm-mute)}
+.hm-acc>.hm-list{margin-bottom:1.2rem}
 .hm-cloud{display:flex;flex-wrap:wrap;gap:.3rem .9rem;align-items:baseline}
 .hm-cloud button{font-family:var(--hm-display);background:none;border:0;padding:.05rem .3rem;color:var(--hm-ink);cursor:pointer;line-height:1.25}
 .hm-cloud button:hover{color:var(--hm-cobalt)}
@@ -266,26 +275,22 @@ html,body{margin:0;padding:0}
 
   <div class="hm-page" data-page="week" id="week">
     <p class="hm-take">Your weekly review of calls: what was added, what closes soon, what opens soon, and which programmes ran a round at this time last year but have not announced one yet.</p>
-    <section class="hm-wk" id="wk-new">
-      <h2 class="hm-wk-h">New calls to review</h2>
-      <p class="hm-meta">Added to the database in the last 14 days, from every source.</p>
-      <ol class="hm-wk-list" id="wk-new-list" data-source="calls"></ol>
-    </section>
-    <section class="hm-wk" id="wk-closing">
-      <h2 class="hm-wk-h">Closing in the next 30 days</h2>
-      <p class="hm-meta">Every source, nearest first.</p>
-      <ol class="hm-wk-list" id="wk-closing-list" data-source="calls"></ol>
-    </section>
-    <section class="hm-wk" id="wk-opening">
-      <h2 class="hm-wk-h">Opening soon</h2>
-      <p class="hm-meta">Announced calls that open in the next 60 days.</p>
-      <ol class="hm-wk-list" id="wk-opening-list" data-source="calls"></ol>
-    </section>
-    <section class="hm-wk" id="wk-expected">
-      <h2 class="hm-wk-h">Expected from last year's cycle</h2>
-      <p class="hm-meta">Had a deadline in the coming two months last year, and nothing announced for this year yet. Worth watching.</p>
-      <ol class="hm-wk-list" id="wk-expected-list" data-source="expected"></ol>
-    </section>
+    <details class="hm-acc" id="wk-new" open>
+      <summary><span class="hm-acc-h">New calls to review</span><span class="hm-acc-n" id="wk-new-n"></span><span class="hm-acc-sub">Added in the last 14 days, from every source.</span></summary>
+      <div class="hm-list" id="wk-new-list" data-source="calls"></div>
+    </details>
+    <details class="hm-acc" id="wk-closing">
+      <summary><span class="hm-acc-h">Closing in the next 30 days</span><span class="hm-acc-n" id="wk-closing-n"></span><span class="hm-acc-sub">Every source, nearest first.</span></summary>
+      <div class="hm-list" id="wk-closing-list" data-source="calls"></div>
+    </details>
+    <details class="hm-acc" id="wk-opening">
+      <summary><span class="hm-acc-h">Opening soon</span><span class="hm-acc-n" id="wk-opening-n"></span><span class="hm-acc-sub">Announced calls that open in the next 60 days.</span></summary>
+      <div class="hm-list" id="wk-opening-list" data-source="calls"></div>
+    </details>
+    <details class="hm-acc" id="wk-expected">
+      <summary><span class="hm-acc-h">Expected from last year's cycle</span><span class="hm-acc-n" id="wk-expected-n"></span><span class="hm-acc-sub">Had a deadline in the coming two months last year, and nothing announced for this year yet.</span></summary>
+      <div class="hm-list" id="wk-expected-list" data-source="expected"></div>
+    </details>
   </div>
 
   <div class="hm-page" data-page="calls" id="calls" hidden>
@@ -1541,37 +1546,51 @@ dash.calc('cycles', {
   }
 
   function drawWeek() {
-    const MAX = 15;
+    const MAX = 25;
     const o = dash.data('calls');
     const now = today();
-    const lists = ['wk-new-list', 'wk-closing-list', 'wk-opening-list'].map((id) => document.getElementById(id));
+    const ids = ['wk-new', 'wk-closing', 'wk-opening'];
+    const lists = ids.map((id) => document.getElementById(id + '-list'));
     lists.forEach((l) => l.replaceChildren());
-    const fam = (c) => FAMILY_LABEL[c.family] || c.family;
-    const callLine = (c) => [m(link(c.opportunity, c.link, 'hm-name'), 'calls', 'opportunity', c.id), el('span', 'hm-meta', ' · ' + fam(c) + (c.funder ? ' · ' + String(c.funder).split(/[,;]/)[0] : ''))];
-    const fill = (list, rows, tagOf, emptyText, soonOf) => {
-      if (!rows.length) list.append(el('li', 'hm-empty', emptyText));
-      rows.slice(0, MAX).forEach((c) => list.append(wkItem(tagOf(c), callLine(c), soonOf ? soonOf(c) : false)));
-      if (rows.length > MAX) wkMore(list, rows.length - MAX, 'See all in Calls', 'calls');
+    const fill = (i, rows, emptyText) => {
+      const list = lists[i];
+      document.getElementById(ids[i] + '-n').textContent = o.status === 'ok' ? d3.format(',')(rows.length) : '';
+      if (!rows.length) list.append(el('div', 'hm-empty', emptyText));
+      rows.slice(0, MAX).forEach((c) => list.append(callItem(c)));
+      if (rows.length > MAX) {
+        const b = el('button', null, 'See all ' + rows.length + ' in Calls');
+        b.type = 'button';
+        b.addEventListener('click', () => show('calls'));
+        const w = el('div', 'hm-wk-more'); w.append(b); list.append(w);
+      }
     };
-    if (o.status !== 'ok') { lists.forEach((l) => l.append(el('li', 'hm-empty dash-skeleton'))); }
+    if (o.status !== 'ok') lists.forEach((l) => l.append(el('div', 'hm-empty dash-skeleton')));
     else {
       const days = (d) => Math.round((Date.parse(d) - now) / DAY);
-      const fresh = o.data.filter((c) => c.is_new === 'yes').sort((x, y) => (y.first_seen || '').localeCompare(x.first_seen || ''));
-      fill(lists[0], fresh, (c) => 'Added ' + fmtShort(new Date(c.first_seen)), 'No new calls in the last 14 days.');
-      const closing = o.data.filter((c) => c.deadline && days(c.deadline) >= 0 && days(c.deadline) <= 30).sort((x, y) => x.deadline.localeCompare(y.deadline));
-      fill(lists[1], closing, (c) => { const n = days(c.deadline); return n === 0 ? 'Today' : n === 1 ? 'Tomorrow' : 'In ' + n + ' days'; }, 'Nothing closes in the next 30 days.', (c) => days(c.deadline) <= 7);
-      const opening = o.data.filter((c) => c.opens && days(c.opens) >= 0 && days(c.opens) <= 60).sort((x, y) => x.opens.localeCompare(y.opens));
-      fill(lists[2], opening, (c) => 'Opens ' + fmtShort(new Date(c.opens)), 'Nothing announced to open in the next 60 days.');
+      fill(0, o.data.filter((c) => c.is_new === 'yes').sort((x, y) => (y.first_seen || '').localeCompare(x.first_seen || '')), 'No new calls in the last 14 days.');
+      fill(1, o.data.filter((c) => c.deadline && days(c.deadline) >= 0 && days(c.deadline) <= 30).sort((x, y) => x.deadline.localeCompare(y.deadline)), 'Nothing closes in the next 30 days.');
+      fill(2, o.data.filter((c) => c.opens && days(c.opens) >= 0 && days(c.opens) <= 60).sort((x, y) => x.opens.localeCompare(y.opens)), 'Nothing announced to open in the next 60 days.');
     }
     const ex = dash.data('expected');
-    const el4 = document.getElementById('wk-expected-list');
-    el4.replaceChildren();
-    if (ex.status !== 'ok') { el4.append(el('li', 'hm-empty dash-skeleton')); return; }
-    if (!ex.data.length) el4.append(el('li', 'hm-empty', 'Nothing from last year without a new round.'));
-    ex.data.slice(0, 25).forEach((r) => {
-      el4.append(wkItem('Last year ' + fmtShort(new Date(r.last_deadline)), [m(link(r.title, r.link, 'hm-name'), 'expected', 'title', r.id), el('span', 'hm-meta', ' · ' + (FAMILY_LABEL[r.family] || r.family) + (r.funder ? ' · ' + r.funder.split(',')[0] : ''))]));
+    const box = document.getElementById('wk-expected-list');
+    box.replaceChildren();
+    document.getElementById('wk-expected-n').textContent = ex.status === 'ok' ? d3.format(',')(ex.data.length) : '';
+    if (ex.status !== 'ok') { box.append(el('div', 'hm-empty dash-skeleton')); return; }
+    if (!ex.data.length) box.append(el('div', 'hm-empty', 'Nothing from last year without a new round.'));
+    ex.data.slice(0, 40).forEach((r) => {
+      const it = el('article', 'hm-item');
+      const when = el('div', 'hm-when');
+      when.append(m(el('span', 'hm-when-d', fmtShort(new Date(r.last_deadline)) + ' ' + r.last_deadline.slice(0, 4)), 'expected', 'last_deadline', r.id), el('span', 'hm-when-n', 'Last deadline'));
+      const body = el('div', 'hm-body');
+      const top = el('div', 'hm-line');
+      top.append(m(link(r.title, r.link, 'hm-name'), 'expected', 'title', r.id), el('span', 'hm-tag', FAMILY_LABEL[r.family] || r.family));
+      body.append(top);
+      if (r.funder) body.append(m(el('div', 'hm-meta', r.funder), 'expected', 'funder', r.id));
+      body.append(el('div', 'hm-meta', 'Expected around ' + fmtShort(new Date(Date.parse(r.last_deadline) + 365 * DAY)) + ' if the cycle repeats.'));
+      it.append(when, body);
+      box.append(it);
     });
-    if (ex.data.length > 25) { const li = el('li', 'hm-wk-more', ex.data.length - 25 + ' more series, see the Cycles subtab under Calls.'); li.style.display = 'block'; el4.append(li); }
+    if (ex.data.length > 40) box.append(el('div', 'hm-wk-more', (ex.data.length - 40) + ' more series: see Calls, then Cycles.'));
   }
 
   function drawPage() {
