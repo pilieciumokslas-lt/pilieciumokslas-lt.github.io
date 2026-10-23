@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -9,6 +9,29 @@
 html,body{margin:0;padding:0}
 .dash-skeleton{color:transparent!important;background:linear-gradient(90deg,rgba(0,71,171,.06),rgba(0,71,171,.14),rgba(0,71,171,.06));border-radius:2px;min-height:1em;display:block}
 [hidden]{display:none!important}
+</style>
+<link rel="stylesheet" href="/css/site.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+html body #dash-root .hm{
+  --hm-paper:#fff; --hm-ink:#0d0d1c; --hm-cobalt:#1f1fff; --hm-cobalt-deep:#0c0cba;
+  --hm-mute:#5a5d72; --hm-rule:#0d0d1c; --hm-rule-soft:#dfe1ee; --hm-tint:#f4f5fc;
+  --hm-c1:#1f1fff; --hm-c2:#8f92ff; --hm-c3:#c9cbff;
+  --hm-display:"Space Grotesk",system-ui,sans-serif; --hm-body:"Inter",system-ui,sans-serif; --hm-util:"Inter",system-ui,sans-serif;
+  color-scheme:light; font-size:1rem; padding-top:2.5rem}
+html body #dash-root .hm h1,html body #dash-root .hm h2,html body #dash-root .hm h3{font-weight:600;letter-spacing:-.02em}
+html body #dash-root .hm-head{border-top:0;padding-top:0;flex-direction:column;align-items:flex-start;gap:.8rem}
+html body #dash-root .hm-title{text-transform:none;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.05}
+html body #dash-root .hm-lede{font-size:1.1rem;color:#5a5d72;max-width:62ch;margin:0}
+html body #dash-root .hm-tabs{top:69px;border-bottom:1px solid #dfe1ee}
+html body #dash-root .hm-tag{font-family:"Inter",system-ui,sans-serif;letter-spacing:0;text-transform:none;font-size:.78rem;border-radius:4px;background:#f4f5fc;border-color:#f4f5fc;color:#0d0d1c}
+html body #dash-root .hm-pill{border-radius:4px}
+html body #dash-root .hm-tab{font-family:"Space Grotesk",system-ui,sans-serif;font-size:1.05rem;font-weight:600;letter-spacing:0;text-transform:none;padding:.7rem 0}
+html body #dash-root .hm-acc{border-top:1px solid #dfe1ee}
+.cm-back{color:#0d0d1c;text-decoration:none;font-weight:500;font-size:.95rem}
+.cm-back:hover{color:#1f1fff}
+.cm-foot{background:#f4f5fc;padding:40px 0;font-size:.95rem;color:#5a5d72}
+.cm-foot p{margin:0 0 4px}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
 <script>
@@ -51,6 +74,12 @@ html,body{margin:0;padding:0}
 
 </head>
 <body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="/"><span class="dot"></span>pilieciumokslas.lt</a>
+    <a class="cm-back" href="/istekliai/">Ištekliai</a>
+  </div>
+</header>
 <div id="dash-root">
 <style>
 /* Layout: full-bleed white sheet, content column 1180px, sections divided by black rules; no rounded cards. */
@@ -239,7 +268,7 @@ html,body{margin:0;padding:0}
 .hm-filterbtn{font-family:var(--hm-display);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;background:var(--hm-paper);color:var(--hm-ink);border:2px solid var(--hm-ink);padding:.4rem .8rem;cursor:pointer}
 .hm-filterbtn[aria-expanded="true"],.hm-filterbtn:hover{background:var(--hm-cobalt);border-color:var(--hm-cobalt);color:#FFFFFF}
 .hm-active button{font-family:var(--hm-util);font-size:.78rem;border:1px solid var(--hm-cobalt);color:var(--hm-cobalt);background:none;padding:.1rem .45rem;cursor:pointer}
-.hm-acc{border-top:2px solid var(--hm-rule)}
+.hm .hm-acc{border-top:2px solid var(--hm-rule);max-width:none;font-family:var(--hm-body);font-size:1rem;line-height:1.5;color:var(--hm-ink)}
 .hm-acc>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.2rem 1fr auto;gap:.2rem .6rem;align-items:baseline;padding:.9rem 0;color:var(--hm-ink);text-decoration:none}
 .hm-acc>summary::-webkit-details-marker{display:none}
 .hm-acc>summary::before{content:"+";font-family:var(--hm-display);color:var(--hm-cobalt);font-size:1.3rem;line-height:1;grid-row:1}
@@ -274,19 +303,20 @@ html,body{margin:0;padding:0}
 
 <div class="hm">
   <header class="hm-head" id="top">
-    <h1 class="hm-title">Calls Machine</h1>
+    <h1 class="hm-title">Funding calls database</h1>
+    <p class="hm-lede">Open, upcoming and past funding calls since 2024 from EU, international, Lithuanian national and municipal sources, with the earlier rounds of each call. Filter, search, or download it all as Excel.</p>
   </header>
 
   <nav class="hm-tabs" role="tablist" aria-label="Pages">
-    <button class="hm-tab" role="tab" data-tab="week" id="tab-week">This week</button>
+    <button class="hm-tab" role="tab" data-tab="week" id="tab-week">Overview</button>
     <button class="hm-tab" role="tab" data-tab="calls" id="tab-calls">Calls</button>
     <button class="hm-tab" role="tab" data-tab="guide" id="tab-guide">Funding guide</button>
   </nav>
 
   <div class="hm-page" data-page="week" id="week">
-    <p class="hm-take">Your weekly review of calls: what was added, what closes soon, what opens soon, and which programmes ran a round at this time last year but have not announced one yet.</p>
+    <p class="hm-take">What was added in the last two weeks, what closes or opens soon, and which programmes ran a round at this time last year but have not announced one yet.</p>
     <details class="hm-acc" id="wk-new" open>
-      <summary><span class="hm-acc-h">New calls to review</span><span class="hm-acc-n" id="wk-new-n"></span><span class="hm-acc-sub">Added in the last 14 days, from every source.</span></summary>
+      <summary><span class="hm-acc-h">Newly added</span><span class="hm-acc-n" id="wk-new-n"></span><span class="hm-acc-sub">Added in the last 14 days, from every source.</span></summary>
       <div class="hm-list" id="wk-new-list" data-source="calls"></div>
     </details>
     <details class="hm-acc" id="wk-closing">
@@ -1811,5 +1841,11 @@ dash.calc('cycles', {
 </script>
 
 </div>
+<footer class="cm-foot">
+  <div class="wrap">
+    <p class="brand"><span class="dot"></span>pilieciumokslas.lt</p>
+    <p>Kept by Piliečių mokslo asociacija. Who can apply, grant size and topics are read from each call's own text; always check the call page before applying.</p>
+  </div>
+</footer>
 </body>
 </html>
