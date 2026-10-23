@@ -266,7 +266,7 @@ html body #dash-root .hm-acc{border-top:1px solid #dfe1ee}
 .hm-facet>summary::after{content:"+"}
 .hm-facet[open]>summary::after{content:"\2212"}
 .hm-filterbtn{font-family:var(--hm-display);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;background:var(--hm-paper);color:var(--hm-ink);border:2px solid var(--hm-ink);padding:.4rem .8rem;cursor:pointer}
-.hm-filterbtn[aria-expanded="true"],.hm-filterbtn:hover{background:var(--hm-cobalt);border-color:var(--hm-cobalt);color:#FFFFFF}
+.hm-filterbtn[aria-expanded="true"],.hm-filterbtn[aria-pressed="true"],.hm-filterbtn:hover{background:var(--hm-cobalt);border-color:var(--hm-cobalt);color:#FFFFFF}
 .hm-active button{font-family:var(--hm-util);font-size:.78rem;border:1px solid var(--hm-cobalt);color:var(--hm-cobalt);background:none;padding:.1rem .45rem;cursor:pointer}
 .hm .hm-acc{border-top:2px solid var(--hm-rule);max-width:none;font-family:var(--hm-body);font-size:1rem;line-height:1.5;color:var(--hm-ink)}
 .hm-acc>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:1.2rem 1fr auto;gap:.2rem .6rem;align-items:baseline;padding:.9rem 0;color:var(--hm-ink);text-decoration:none}
@@ -348,6 +348,7 @@ html body #dash-root .hm-acc{border-top:1px solid #dfe1ee}
             <button type="button" data-v="added">Newest added</button>
             <button type="button" data-v="size">Largest grant</button>
           </div>
+          <button type="button" class="hm-filterbtn" id="calls-preset" aria-pressed="false" title="A saved set of filters">Compass</button>
           <button type="button" class="hm-clear" id="calls-clear">Clear filters</button>
         </div>
         <div class="hm-seg hm-when-seg" role="group" aria-label="Which calls" id="calls-when">
@@ -1179,6 +1180,21 @@ dash.calc('cycles', {
     resetCalls();
     drawPage();
   });
+  // "Compass": a saved filter set. Lead open to NGOs, grants and cascade or prize funding only,
+  // topics around participation, citizen science, democracy, heritage, media and education.
+  const PRESET = {
+    lead: ['NGO', 'Any organisation'],
+    kind: ['Grant', 'Cascade or sub-grant', 'Prize or fellowship'],
+    topics: ['Citizen science and participation', 'Democracy, civil society and rights', 'Heritage and memory', 'Media and disinformation', 'Education, youth and skills'],
+  };
+  const presetOn = () => Object.keys(PRESET).every((k) => sel[k].size === PRESET[k].length && PRESET[k].every((v) => sel[k].has(v)));
+  document.getElementById('calls-preset')?.addEventListener('click', () => {
+    const on = presetOn();
+    ['lead', 'size', 'topics', 'kind', 'family'].forEach((k) => sel[k].clear());
+    if (!on) Object.keys(PRESET).forEach((k) => PRESET[k].forEach((v) => sel[k].add(v)));
+    resetCalls();
+    drawPage();
+  });
   document.getElementById('calls-when')?.addEventListener('click', (e) => {
     const b = e.target.closest('button[data-v]');
     if (!b) return;
@@ -1307,6 +1323,7 @@ dash.calc('cycles', {
     const more = document.getElementById('calls-more');
     if (!listState(list, d, 'No calls in the database.')) { more.hidden = true; document.getElementById('explore-facets').replaceChildren(); return; }
     document.querySelectorAll('#calls-when button').forEach((b) => b.setAttribute('aria-pressed', String(sel.time.has(b.dataset.v))));
+    document.getElementById('calls-preset')?.setAttribute('aria-pressed', String(presetOn()));
     const words = callNorm(state.q).split(/\s+/).filter(Boolean);
     drawFacets(d.data, words);
     drawActive();
