@@ -253,6 +253,13 @@ html body #dash-root .hm-acc{border-top:1px solid #dfe1ee}
 .hm-facet button{width:100%;display:flex;justify-content:space-between;gap:.5rem;font-family:var(--hm-util);font-size:.82rem;text-align:left;background:none;border:0;border-left:3px solid transparent;padding:.2rem .4rem;color:var(--hm-ink);cursor:pointer}
 .hm-facet button:hover{background:var(--hm-tint)}
 .hm-facet button[aria-pressed="true"]{border-left-color:var(--hm-cobalt);background:var(--hm-tint);font-weight:600}
+.hm-facet li{display:flex;align-items:stretch}
+.hm-facet li>button[data-facet]{flex:1}
+.hm .hm-facet button.hm-excl{width:auto;flex:none;justify-content:center;padding:.2rem .45rem;border-left:0;color:var(--hm-mute);opacity:.45}
+.hm .hm-facet li:hover button.hm-excl,.hm .hm-facet button.hm-excl:focus-visible{opacity:1}
+.hm .hm-facet button.hm-excl:hover{color:var(--hm-ink);background:var(--hm-tint)}
+.hm .hm-facet button.hm-excl[aria-pressed="true"]{opacity:1;color:#FFFFFF;background:var(--hm-ink)}
+.hm-facet li.hm-excluded>button[data-facet] span:first-child{text-decoration:line-through}
 .hm-facet button[disabled]{color:var(--hm-mute);opacity:.55;cursor:default}
 .hm-facet button span:last-child{color:var(--hm-mute);font-variant-numeric:tabular-nums}
 .hm-results{min-width:0;display:flex;flex-direction:column;gap:.8rem}
@@ -336,7 +343,7 @@ html body #dash-root .hm-acc{border-top:1px solid #dfe1ee}
   <div class="hm-page" data-page="calls" id="calls" hidden>
     <div class="hm-sec-head">
       <h2 class="hm-h2">Calls</h2>
-      <p class="hm-sub">Every call from every source, open, upcoming and past since January 2024. Combine filters to explore; the numbers show how many calls each choice would give. Who can lead, grant size and topic are read from each call's own text, so check the call page before applying.</p>
+      <p class="hm-sub">Every call from every source, open, upcoming and past since January 2024. Combine filters to explore; the numbers show how many calls each choice would give. The × next to a choice hides those calls instead, for example Horizon Europe under EU programme. Who can lead, grant size and topic are read from each call's own text, so check the call page before applying.</p>
     </div>
     <div id="calls-listview" class="hm-explore">
       <div class="hm-results">
@@ -1111,15 +1118,34 @@ dash.calc('cycles', {
     });
   }
 
+  // EU programme of a Portal call, from its programme code: the one in brackets, e.g. "Horizon Europe (HORIZON)",
+  // or the code the funder text starts with, e.g. "HORIZON, HORIZON-IA, ...".
+  const PROGRAMMES = [
+    ['Horizon Europe', ['HORIZON', 'EURATOM', 'EURATOM2027']], ['Erasmus+', ['ERASMUS+', 'ERASMUS']], ['Creative Europe', ['CREA']], ['CERV', ['CERV']],
+    ['LIFE', ['LIFE']], ['Digital Europe', ['DIGITAL']], ['EU4Health', ['EU4H']], ['European Solidarity Corps', ['ESC']],
+    ['Single Market Programme', ['SMP']], ['European Defence Fund', ['EDF']], ['Connecting Europe Facility', ['CEF']], ['Innovation Fund', ['INNOVFUND']],
+    ['Agricultural promotion', ['AGRIP']], ['EU tenders', []],
+  ];
+  function programmeOf(c) {
+    if (c.family !== 'portal') return 'Not an EU Portal call';
+    if (c.org === 'EU tenders (procurement)') return 'EU tenders';
+    const f = String(c.funder || '');
+    const code = ((f.match(/\(([A-Z0-9+]+)\)/) || f.match(/^([A-Z][A-Z0-9+]+)\b/) || [])[1] || '').toUpperCase();
+    const hit = PROGRAMMES.find(([, codes]) => codes.includes(code));
+    return hit ? hit[0] : 'Other EU programme';
+  }
   const FACETS = [
     { key: 'time', title: 'When', single: true, values: ['Open and upcoming', 'Past since 2024', 'All'], of: (c) => [c.status === 'Closed' ? 'Past since 2024' : 'Open and upcoming'] },
     { key: 'lead', title: 'Who can lead', values: ['NGO', 'Business or SME', 'Research or university', 'Public body or municipality', 'School or education body', 'Cultural organisation', 'Individual', 'Any organisation', 'Not stated'], of: (c) => c.lead || ['Not stated'] },
     { key: 'size', title: 'Grant size per project', values: ['Under EUR 10,000', 'EUR 10,000 to 60,000', 'EUR 60,000 to 250,000', 'EUR 250,000 to 1 million', 'EUR 1 to 5 million', 'Over EUR 5 million', 'Not stated'], of: (c) => [c.size || 'Not stated'] },
     { key: 'topics', title: 'Topic', values: ['Heritage and memory', 'Democracy, civil society and rights', 'Media and disinformation', 'Citizen science and participation', 'Climate, environment and nature', 'Energy, transport and infrastructure', 'Digital and AI', 'Culture and creative sectors', 'Education, youth and skills', 'Health and social inclusion', 'Business, innovation and research', 'Security, defence and preparedness', 'Agriculture, food and rural', 'Other'], of: (c) => c.topics || ['Other'] },
     { key: 'kind', title: 'Type of funding', values: ['Grant', 'Cascade or sub-grant', 'Prize or fellowship', 'Loan or guarantee', 'Tender'], of: (c) => [c.kind || 'Grant'] },
+    { key: 'prog', title: 'EU programme', values: PROGRAMMES.map((p) => p[0]).concat(['Other EU programme', 'Not an EU Portal call']), of: (c) => [programmeOf(c)] },
     { key: 'family', title: 'Source', values: ['portal', 'regional', 'lt_eu', 'lt_national', 'lt_local', 'register'], label: (v) => FAMILY_LABEL[v] || v, of: (c) => [c.family] },
   ];
-  const sel = { time: new Set(['Open and upcoming']), lead: new Set(), size: new Set(), topics: new Set(), kind: new Set(), family: new Set() };
+  const sel = { time: new Set(['Open and upcoming']), lead: new Set(), size: new Set(), topics: new Set(), kind: new Set(), prog: new Set(), family: new Set() };
+  // Excluded values: a call that has any of them is hidden, whatever else is selected.
+  const excl = { lead: new Set(), size: new Set(), topics: new Set(), kind: new Set(), prog: new Set(), family: new Set() };
   state.sort = state.sort || 'deadline';
   setSeg('calls-sort', state.sort);
 
@@ -1127,6 +1153,8 @@ dash.calc('cycles', {
     for (const f of FACETS) {
       if (f.key === except) continue;
       const s = sel[f.key];
+      const x = excl[f.key];
+      if (x && x.size && f.of(c).some((v) => x.has(v))) return false;
       if (!s.size || s.has('All')) continue;
       if (!f.of(c).some((v) => s.has(v))) return false;
     }
@@ -1161,6 +1189,16 @@ dash.calc('cycles', {
         b.append(el('span', null, f.label ? f.label(v) : v), el('span', null, d3.format(',')(n)));
         const li = el('li');
         li.append(b);
+        if (excl[f.key] && v !== 'All') {
+          const x = el('button', 'hm-excl', '\u00d7');
+          x.type = 'button'; x.dataset.exclFacet = f.key; x.dataset.v = v;
+          const on = excl[f.key].has(v);
+          x.setAttribute('aria-pressed', String(on));
+          x.title = on ? 'Show these again' : 'Hide calls with ' + (f.label ? f.label(v) : v);
+          x.setAttribute('aria-label', x.title);
+          if (on) li.classList.add('hm-excluded');
+          li.append(x);
+        }
         ul.append(li);
       });
       sec.append(ul);
@@ -1169,6 +1207,15 @@ dash.calc('cycles', {
   }
 
   document.getElementById('explore-facets')?.addEventListener('click', (e) => {
+    const xb = e.target.closest('button[data-excl-facet]');
+    if (xb) {
+      const xs = excl[xb.dataset.exclFacet];
+      if (xs.has(xb.dataset.v)) xs.delete(xb.dataset.v);
+      else { xs.add(xb.dataset.v); sel[xb.dataset.exclFacet].delete(xb.dataset.v); }
+      resetCalls();
+      drawPage();
+      return;
+    }
     const b = e.target.closest('button[data-facet]');
     if (!b || b.disabled) return;
     const f = FACETS.find((x) => x.key === b.dataset.facet);
@@ -1190,7 +1237,7 @@ dash.calc('cycles', {
   const presetOn = () => Object.keys(PRESET).every((k) => sel[k].size === PRESET[k].length && PRESET[k].every((v) => sel[k].has(v)));
   document.getElementById('calls-preset')?.addEventListener('click', () => {
     const on = presetOn();
-    ['lead', 'size', 'topics', 'kind', 'family'].forEach((k) => sel[k].clear());
+    ['lead', 'size', 'topics', 'kind', 'prog', 'family'].forEach((k) => sel[k].clear());
     if (!on) Object.keys(PRESET).forEach((k) => PRESET[k].forEach((v) => sel[k].add(v)));
     resetCalls();
     drawPage();
@@ -1211,6 +1258,8 @@ dash.calc('cycles', {
     e.currentTarget.setAttribute('aria-expanded', String(!p.hidden));
   });
   document.getElementById('calls-active')?.addEventListener('click', (e) => {
+    const xc = e.target.closest('button[data-excl-chip]');
+    if (xc) { excl[xc.dataset.exclChip].delete(xc.dataset.v); resetCalls(); drawPage(); return; }
     const b = e.target.closest('button[data-facet]');
     if (!b) return;
     sel[b.dataset.facet].delete(b.dataset.v);
@@ -1230,11 +1279,19 @@ dash.calc('cycles', {
       b.title = 'Remove filter';
       box.append(b);
     }));
+    FACETS.forEach((f) => (excl[f.key] || []).forEach((v) => {
+      n += 1;
+      const b = el('button', 'hm-chip-excl', 'Not: ' + (f.label ? f.label(v) : v) + ' \u00d7');
+      b.type = 'button'; b.dataset.exclChip = f.key; b.dataset.v = v;
+      b.title = 'Show these again';
+      box.append(b);
+    }));
     const fb = document.getElementById('calls-filterbtn');
     if (fb) fb.textContent = n ? 'Filters (' + n + ')' : 'Filters';
   }
   document.getElementById('calls-clear')?.addEventListener('click', () => {
     Object.keys(sel).forEach((k) => sel[k].clear());
+    Object.keys(excl).forEach((k) => excl[k].clear());
     sel.time.add('Open and upcoming');
     state.time = 'open';
     state.q = '';
