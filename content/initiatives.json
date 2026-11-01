@@ -137,6 +137,66 @@
       "en": {
         "text": "\"University libraries strengthening the academia-society connection through citizen science in the Baltics\", an EU funded project (2022-2024)."
       }
+    },
+    {
+      "name": "Dieninių drugių stebėsena",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://butterfly-monitoring.net/lithuania-bms",
+      "lt": {
+        "text": "Nuo 2009 m. veikiantis Lietuvos drugių stebėsenos tinklas, kurį remia Aplinkos ministerija ir Lietuvos entomologų draugija. Stebėtojai skaičiuoja drugius pasirinktuose maršrutuose arba per 15 minučių apskaitas, o duomenis teikia per Europos drugių stebėsenos svetainę ir programėlę „ButterflyCount“."
+      },
+      "en": {
+        "text": "Lithuania's butterfly monitoring network, running since 2009 with the support of the Ministry of Environment and the Lithuanian Entomological Society. Observers count butterflies along chosen transects or in 15-minute counts and submit data through the European Butterfly Monitoring website and the ButterflyCount app."
+      }
+    },
+    {
+      "name": "Geografijos naktis",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://biblioteka.vu.lt/apie/naujienos/2886-paskelbti-2026-m-vilniaus-universiteto-reiksmingo-indelio-i-atviraji-moksla-konkurso-nugaletojai",
+      "lt": {
+        "text": "Nemokami atviri geografijos renginiai ir piliečių mokslo veiklos visoje Lietuvoje. Dalyje jų žmonės padeda rinkti, analizuoti ir interpretuoti geografinius duomenis. Nuo 2019 m. surengta 189 renginiai. 2026 m. iniciatyva laimėjo VU atvirojo mokslo konkurso visuomenės įtraukimo kategoriją."
+      },
+      "en": {
+        "text": "Free, open geography events and citizen science activities across Lithuania. In some of them people help collect, analyse and interpret geographical data. 189 events have been held since 2019. In 2026 the initiative won the public engagement category of the VU open science competition."
+      }
+    },
+    {
+      "name": "Saugomų rūšių informacinė sistema (SRIS)",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://sris.biip.lt",
+      "lt": {
+        "text": "Valstybinė sistema, kurioje gyventojai, prisijungę per elektroninius valdžios vartus, gali pateikti duomenis apie pastebėtas saugomas rūšis. Pateiktus duomenis prieš paskelbimą patikrina ekspertai."
+      },
+      "en": {
+        "text": "A state information system where residents, logging in through the national e-government gateway, can submit data on protected species they have observed. Experts check the data before it is published."
+      }
+    },
+    {
+      "name": "Lietuvos ornitologų draugijos paukščių apskaitos",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://birdlife.lt/lod-kviecia-prisijungti-stebetojus-vykdyti-iprastu/",
+      "lt": {
+        "text": "Savanoriai stebėtojai jau tris dešimtmečius vykdo įprastų paukščių apskaitas, iš kurių skaičiuojamas oficialus biologinės įvairovės žemės ūkio kraštovaizdyje rodiklis. 2024 m. su Gamtos tyrimų centru kviesta į tarptautinę baltųjų gandrų apskaitą. LOD svetainėje renkami reti stebėjimai, rudenį vyksta paukščių stebėtojų ralis „Kuršių marios“."
+      },
+      "en": {
+        "text": "For three decades volunteer observers have carried out common bird counts, which feed an official indicator of biodiversity in farmland. In 2024 the society and the Nature Research Centre invited people to join the international white stork census. The society's website collects rare sightings, and each autumn it holds the Curonian Lagoon birdwatching rally."
+      }
+    },
+    {
+      "name": "GreenInCities",
+      "scope": "international",
+      "topic": "nature",
+      "url": "https://saf.ktu.edu/projects/greenincities/",
+      "lt": {
+        "text": "Programos „Europos horizontas“ projektas (2024-2027) apie miestų žalinimą ir gamta grįstus sprendimus, kuriame dalyvauja KTU ir Birštono savivaldybė. Birštone moksleiviai, senjorai, studentai ir ekspertai dirbtuvėse fiksuoja bioįvairovę ir kartu ieško sprendimų Nemuno pakrantei."
+      },
+      "en": {
+        "text": "A Horizon Europe project (2024-2027) on urban greening and nature-based solutions, with Kaunas University of Technology and Birštonas municipality among the partners. In Birštonas, school pupils, seniors, students and experts record biodiversity in workshops and look for solutions for the Nemunas riverside together."
+      }
     }
   ]
 }
