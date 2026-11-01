@@ -22,6 +22,7 @@ content:
     fields:
       - { name: date, label: Data, type: date, required: true }
       - { name: time, label: "Laikas (nebūtina, pvz. 14:30; tos pačios dienos naujienoms rikiuoti)", type: string }
+      - { name: pinned, label: "Rodyti pirmą sąraše (nuimkite varnelę, kai nebereikia)", type: boolean }
       - name: category
         label: Kategorija
         type: select
