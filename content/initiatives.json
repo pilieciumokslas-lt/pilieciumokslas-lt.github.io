@@ -7,6 +7,18 @@
   },
   "items": [
     {
+      "name": "Praviršulio tyrelio gyvoji laboratorija",
+      "scope": "national",
+      "topic": "nature",
+      "url": "https://www.pelkiufondas.lt/lifeforesthabitatlt",
+      "lt": {
+        "text": "Pirmoji Lietuvoje pelkių gyvoji laboratorija, kurią Pelkių fondas kuria projekte LIFE ForestHabitatLT. Vietos bendruomenės ir moksleiviai mokosi stebėti pelkę: savanoriai matuoja vandens lygį, stebi augaliją, nustato durpės gylį, registruoja gyvūnus ir jų pėdsakus."
+      },
+      "en": {
+        "text": "The first peatland living lab in Lithuania, set up by the NGO Pelkių fondas within the LIFE ForestHabitatLT project. Local communities and school pupils learn to monitor the bog: volunteers measure the water level, observe vegetation, determine peat depth and record animals and their tracks."
+      }
+    },
+    {
       "name": "Rūšių ralis",
       "scope": "national",
       "topic": "nature",
