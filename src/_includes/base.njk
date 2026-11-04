@@ -57,6 +57,18 @@
         <p>{{ t.site }}</p>
         <p><a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
       </div>
+      {#- Signup: posts straight to the association's Google Form; responses land in its linked Google Sheet. -#}
+      <form class="signup" id="signup" action="https://docs.google.com/forms/d/e/1FAIpQLScDC9pZaRwSJUQuC9LzlNiOdYAjMD9oez__xlpR-jWS-iQHeg/formResponse" method="post">
+        <p class="signup-title">{{ t.signup.title }}</p>
+        <p>{{ t.signup.text }}</p>
+        <div class="signup-row">
+          <label class="sr" for="signup-email">{{ t.signup.email }}</label>
+          <input id="signup-email" type="email" name="emailAddress" required autocomplete="email" placeholder="{{ t.signup.email }}">
+          <button class="btn" type="submit">{{ t.signup.button }}</button>
+        </div>
+        <label class="signup-consent"><input type="checkbox" name="entry.1277141041" value="Sutinku, kad Piliečių mokslo asociacija saugotų mano el. pašto adresą ir siųstų naujienas apie piliečių mokslą. Galiu bet kada atsisakyti. / I agree that the Lithuanian Citizen Science Association may store my email address and send news about citizen science. I can unsubscribe at any time." required> {{ t.signup.consent }}</label>
+        <p class="signup-msg" role="status" hidden data-ok="{{ t.signup.thanks }}" data-err="{{ t.signup.error }}"></p>
+      </form>
       <nav>
         {%- for k in ["explainer", "participation", "news", "projects", "initiatives", "resources", "services", "about"] %}
         <a href="{{ routes[k][lang] }}">{{ t.nav[k] }}</a>
@@ -64,5 +76,18 @@
       </nav>
     </div>
   </footer>
+  <script>
+    // Send the footer signup to Google Forms without leaving the page.
+    const su = document.getElementById("signup");
+    if (su) su.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const msg = su.querySelector(".signup-msg");
+      try {
+        await fetch(su.action, { method: "POST", mode: "no-cors", body: new FormData(su) });
+        su.reset(); msg.textContent = msg.dataset.ok;
+      } catch { msg.textContent = msg.dataset.err; }
+      msg.hidden = false;
+    });
+  </script>
 </body>
 </html>

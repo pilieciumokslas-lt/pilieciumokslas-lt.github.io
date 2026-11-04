@@ -442,3 +442,16 @@ p { margin: 0 0 1em; }
   .dot-axis > span:first-child { display: none; }
   .ch-bars li { grid-template-columns: minmax(0, 7.5rem) minmax(0, 1fr) 3.6rem; }
 }
+
+/* Footer email signup (Google Form) */
+.signup { max-width: 420px; }
+.signup-title { font: 600 1.05rem var(--display); color: var(--ink); margin: 0 0 6px !important; }
+.signup-row { display: flex; gap: 8px; margin: 12px 0 10px; }
+.signup-row input { flex: 1; min-width: 0; font: inherit; padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 999px; background: var(--paper); color: var(--ink); }
+.signup-row input:focus { outline: 2px solid var(--blue); outline-offset: 1px; border-color: var(--blue); }
+.signup-row .btn { padding: 11px 20px; white-space: nowrap; }
+.signup-consent { display: flex; gap: 8px; align-items: flex-start; font-size: 0.82rem; line-height: 1.45; }
+.signup-consent input { margin-top: 3px; accent-color: var(--blue); flex: none; }
+.signup-msg { margin-top: 10px !important; font-weight: 600; color: var(--blue); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+@media (max-width: 480px) { .signup-row { flex-direction: column; } }

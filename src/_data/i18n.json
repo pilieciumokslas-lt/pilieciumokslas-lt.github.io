@@ -90,7 +90,8 @@
       "media": "Populiarūs tekstai ir pokalbiai apie piliečių mokslą."
     },
     "onlyLt": "Tik lietuvių kalba",
-    "contactUs": "Parašykite mums"
+    "contactUs": "Parašykite mums",
+    "signup": { "title": "Gaukite naujienas el. paštu", "text": "Retkarčiais pranešime apie piliečių mokslo naujienas, renginius ir galimybes dalyvauti.", "email": "El. pašto adresas", "consent": "Sutinku, kad Piliečių mokslo asociacija saugotų mano el. pašto adresą ir siųstų naujienas apie piliečių mokslą. Galiu bet kada atsisakyti.", "button": "Užsiprenumeruoti", "thanks": "Ačiū! Jūsų adresas užregistruotas.", "error": "Nepavyko išsiųsti. Bandykite dar kartą arba parašykite mums." }
   },
   "en": {
     "site": "Lithuanian Citizen Science Association",
@@ -184,6 +185,7 @@
       "media": "Accessible texts and conversations about citizen science."
     },
     "onlyLt": "In Lithuanian only",
-    "contactUs": "Write to us"
+    "contactUs": "Write to us",
+    "signup": { "title": "Get news by email", "text": "We will occasionally let you know about citizen science news, events and ways to take part.", "email": "Email address", "consent": "I agree that the Lithuanian Citizen Science Association may store my email address and send news about citizen science. I can unsubscribe at any time.", "button": "Subscribe", "thanks": "Thank you! Your address has been registered.", "error": "Something went wrong. Please try again or write to us." }
   }
 }
