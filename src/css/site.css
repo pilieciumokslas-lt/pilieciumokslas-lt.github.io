@@ -455,3 +455,8 @@ p { margin: 0 0 1em; }
 .signup-msg { margin-top: 10px !important; font-weight: 600; color: var(--blue); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 @media (max-width: 480px) { .signup-row { flex-direction: column; } }
+
+/* Hero cubes: a few float gently up and down (set in cubes() in eleventy.config.js) */
+.cubes .bob { animation: bob var(--t, 6s) ease-in-out var(--d, 0s) infinite alternate; }
+@keyframes bob { from { transform: translateY(0); } to { transform: translateY(-16px); } }
+@media (prefers-reduced-motion: reduce) { .cubes .bob { animation: none; } }

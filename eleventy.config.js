@@ -28,11 +28,14 @@ function cubes() {
       const z = r < 0.42 ? 0 : r < 0.74 ? 1 : r < 0.92 ? 2 : 3;
       const [t, l, rgt] = pal[c < 0.07 ? "k" : c < 0.13 ? "w" : c < 0.2 ? "p" : "b"];
       const x = (i - j) * w, y = (i + j) * h, H = z * lift;
-      out += `<path fill="${t}" d="M${x},${y - H - h}L${x + w},${y - H}L${x},${y - H + h}L${x - w},${y - H}Z"/>`;
+      let cell = `<path fill="${t}" d="M${x},${y - H - h}L${x + w},${y - H}L${x},${y - H + h}L${x - w},${y - H}Z"/>`;
       if (z) {
-        out += `<path fill="${l}" d="M${x - w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x - w},${y}Z"/>`;
-        out += `<path fill="${rgt}" d="M${x + w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x + w},${y}Z"/>`;
+        cell += `<path fill="${l}" d="M${x - w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x - w},${y}Z"/>`;
+        cell += `<path fill="${rgt}" d="M${x + w},${y - H}L${x},${y - H + h}L${x},${y + h}L${x + w},${y}Z"/>`;
       }
+      // About one raised cube in four floats gently; the pick and timing come from the grid position, so the layout stays the same.
+      const k = i * 7 + j * 3;
+      out += z && k % 4 === 0 ? `<g class="bob" style="--t:${5 + (k % 3)}s;--d:-${(k * 0.7) % 6}s">${cell}</g>` : cell;
     }
   }
   const W = N * w;
