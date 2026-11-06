@@ -460,3 +460,76 @@ p { margin: 0 0 1em; }
 .cubes .bob { animation: bob var(--t, 6s) ease-in-out var(--d, 0s) infinite alternate; }
 @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-16px); } }
 @media (prefers-reduced-motion: reduce) { .cubes .bob { animation: none; } }
+
+/* Guide components for long-form posts (e.g. the CERV proposal guide) */
+.g h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); margin: 0 0 0.5em; }
+.g section { margin: 3.2em 0 0; scroll-margin-top: 90px; }
+.g-lead { font-size: 1.22rem; line-height: 1.6; }
+.g-toc { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 1.6em 0 0; }
+.g-toc li { margin: 0; }
+.g-toc a { display: inline-block; font: 600 0.88rem var(--display); padding: 7px 14px; border-radius: 999px; background: var(--mist); color: var(--ink); text-decoration: none; border: 1px solid var(--line); }
+.g-toc a:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
+.g-kick { font: 600 0.78rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--pink); margin: 0 0 8px; }
+.g-cards, .g-grid, .g-qs, .g-facts { list-style: none; padding: 0; margin: 1.2em 0; display: grid; gap: 14px; }
+.g-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); counter-reset: c; }
+.g-cards li { margin: 0; background: var(--mist); border-radius: 10px; padding: 22px; font-size: 0.98rem; line-height: 1.5; counter-increment: c; }
+.g-cards li::before { content: counter(c); display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--blue); color: #fff; font: 700 1rem var(--display); margin-bottom: 14px; }
+.g-cards strong, .g-grid strong { display: block; font: 600 1.05rem/1.3 var(--display); margin-bottom: 6px; }
+.g-score { background: var(--ink); color: #fff; border-radius: 12px; padding: 26px; margin: 1.2em 0; }
+.g-bar { display: flex; gap: 4px; height: 92px; }
+.g-bar span { flex: var(--w); border-radius: 6px; padding: 12px 14px; display: flex; flex-direction: column; justify-content: space-between; font: 600 0.85rem var(--display); min-width: 0; overflow: hidden; }
+.g-bar b { font-size: 2rem; line-height: 1; }
+.g-bar .r { background: var(--blue); }
+.g-bar .q { background: #3b3bff; }
+.g-bar .i { background: var(--pink); }
+.g-notes { list-style: none; padding: 0; margin: 22px 0 0; display: grid; gap: 12px; }
+.g-notes li { display: flex; gap: 16px; align-items: baseline; margin: 0; font-size: 0.98rem; color: #d9dbea; }
+.g-notes b { font: 700 1.6rem/1 var(--display); color: #fff; min-width: 2.4rem; }
+.g-check { list-style: none; padding: 0; margin: 1em 0; }
+.g-check li { position: relative; padding-left: 38px; margin: 0 0 0.7em; }
+.g-check li::before { content: "\2713"; position: absolute; left: 0; top: 2px; width: 24px; height: 24px; border-radius: 50%; background: var(--blue); color: #fff; font-size: 0.8rem; display: grid; place-items: center; font-weight: 700; }
+.g-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.g-facts li { margin: 0; border: 1.5px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+.g-facts b { display: block; font: 600 1.35rem/1.15 var(--display); color: var(--blue); margin-bottom: 4px; }
+.g-facts span { display: block; font-size: 0.88rem; line-height: 1.4; color: var(--muted); }
+.g-facts .hot { background: var(--pink); border-color: var(--pink); }
+.g-facts .hot b, .g-facts .hot span { color: #fff; }
+.g-crit { display: flex; gap: 20px; align-items: flex-start; padding-top: 28px; border-top: 3px solid var(--ink); }
+.g-crit .n { flex: none; width: 64px; height: 64px; border-radius: 14px; background: var(--blue); color: #fff; font: 700 2rem var(--display); display: grid; place-items: center; }
+.g-crit h2 { margin: 0; }
+.g-qs { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; counter-reset: q; }
+.g-qs li { margin: 0; background: #fff; border: 1.5px solid var(--line); border-left: 4px solid var(--blue); border-radius: 8px; padding: 14px 16px; font-size: 0.92rem; line-height: 1.45; color: var(--muted); counter-increment: q; }
+.g-qs strong { display: block; color: var(--ink); font: 600 1rem/1.3 var(--display); margin-bottom: 4px; }
+.g-qs strong::before { content: counter(q) ". "; color: var(--blue); }
+.g-tips { list-style: none; padding: 0; margin: 1em 0; }
+.g-tips li { position: relative; padding-left: 30px; margin: 0 0 0.7em; }
+.g-tips li::before { content: "\2192"; position: absolute; left: 0; color: var(--pink); font-weight: 700; }
+.g-vs { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 1.4em 0; }
+.g-vs div { border-radius: 10px; padding: 18px 20px; font-size: 0.98rem; line-height: 1.5; }
+.g-vs .weak { background: #fff0f6; }
+.g-vs .strong { background: #ececff; }
+.g-vs p { margin: 0; }
+.g-vs .tag { font: 700 0.75rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 8px; }
+.g-vs .weak .tag { color: #c0136a; }
+.g-vs .strong .tag { color: var(--blue); }
+.g-alert { background: #fff6d6; border-left: 5px solid #f2b800; border-radius: 8px; padding: 18px 22px; margin: 1.2em 0; }
+.g-alert p { margin: 0; }
+.g-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.g-grid li { margin: 0; background: var(--mist); border-radius: 10px; padding: 20px 22px; font-size: 0.97rem; line-height: 1.5; border-top: 4px solid var(--blue); }
+.g-grid li:nth-child(2n) { border-top-color: var(--pink); }
+.g-grid li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.g-links { display: flex; flex-wrap: wrap; gap: 10px; margin: 2.4em 0 0; padding: 0; list-style: none; }
+.g-links li { margin: 0; }
+.g-links a { display: inline-block; padding: 10px 16px; border-radius: 8px; border: 1.5px solid var(--blue); font: 600 0.92rem var(--display); text-decoration: none; }
+.g-links a:hover { background: var(--blue); color: #fff; }
+.g-cta { background: var(--blue); color: #fff; border-radius: 14px; padding: clamp(24px, 4vw, 40px); margin: 2.4em 0 0; }
+.g-cta h2 { color: #fff; }
+.g-cta p { color: #e4e5ff; }
+.g-cta .btn { margin-top: 6px; }
+@media (max-width: 700px) {
+  .g-cards, .g-qs, .g-grid, .g-vs { grid-template-columns: minmax(0, 1fr); }
+  .g-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .g-bar span { padding: 10px; font-size: 0.75rem; }
+  .g-bar b { font-size: 1.5rem; }
+  .g-crit .n { width: 48px; height: 48px; font-size: 1.5rem; border-radius: 10px; }
+}
