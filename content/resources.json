@@ -14,6 +14,21 @@
   "items": [
     {
       "type": "tool",
+      "language": "lt",
+      "source": "Piliečių mokslo asociacija, 2026",
+      "url": "/naujienos/kaip-parengti-stipria-cerv-paraiska/",
+      "lt": {
+        "title": "Kaip parengti stiprią CERV paraišką",
+        "text": "Gidas pagal CERV vertinimo kriterijus ir paraiškos B dalies šabloną: kaip vertintojai skaito paraiškas, kur prarandami balai, silpnų ir stiprių formuluočių pavyzdžiai ir galutinis patikrinimas. Parengta remiantis asociacijos vadovės patirtimi vertinant CERV paraiškas."
+      },
+      "en": {
+        "title": "How to write a strong CERV proposal",
+        "text": "A guide that follows the CERV award criteria and the Part B template: how evaluators read proposals, where points are lost, weak and strong examples and a final check. Based on the experience of the association's head as a CERV evaluator.",
+        "url": "/en/news/kaip-parengti-stipria-cerv-paraiska/"
+      }
+    },
+    {
+      "type": "tool",
       "language": "en",
       "source": "Piliečių mokslo asociacija",
       "url": "/kvietimai/",
@@ -397,7 +412,7 @@
       "url": "/kas-nori-dalyvauti-tyrimuose/",
       "lt": {
         "title": "Kas Lietuvoje nori dalyvauti moksliniuose tyrimuose?",
-        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5 %), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
+        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5\u00a0%), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
       },
       "en": {
         "title": "Who in Lithuania wants to take part in research?",
