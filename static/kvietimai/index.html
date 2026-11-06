@@ -1097,7 +1097,7 @@ dash.calc('cycles', {
     box.append(tbl);
   }
 
-  const FAMILY_LABEL = { register: 'Funding register', portal: 'EU Portal', lt_eu: 'Lithuanian EU funds', lt_national: 'Lithuanian national and municipal', lt_local: 'Municipalities and LAGs', regional: 'EU, regional and donors' };
+  const FAMILY_LABEL = { register: 'Funding register', portal: 'EU Portal', lt_eu: 'Lithuanian EU funds', lt_national: 'Lithuanian national and municipal', lt_local: 'Municipalities and LAGs', regional: 'EU, regional and donors', cascade: 'EU cascade calls' };
   let srcAll = false;
   function drawSources() {
     const s = dash.data('sources');
@@ -1127,10 +1127,10 @@ dash.calc('cycles', {
     ['Horizon Europe', ['HORIZON', 'EURATOM', 'EURATOM2027']], ['Erasmus+', ['ERASMUS+', 'ERASMUS']], ['Creative Europe', ['CREA']], ['CERV', ['CERV']],
     ['LIFE', ['LIFE']], ['Digital Europe', ['DIGITAL']], ['EU4Health', ['EU4H']], ['European Solidarity Corps', ['ESC']],
     ['Single Market Programme', ['SMP']], ['European Defence Fund', ['EDF']], ['Connecting Europe Facility', ['CEF']], ['Innovation Fund', ['INNOVFUND']],
-    ['Agricultural promotion', ['AGRIP']], ['EU tenders', []],
+    ['Agricultural promotion', ['AGRIP']], ['Horizon 2020', ['H2020']], ['EU tenders', []],
   ];
   function programmeOf(c) {
-    if (c.family !== 'portal') return 'Not an EU Portal call';
+    if (c.family !== 'portal' && c.family !== 'cascade') return 'Not an EU Portal call';
     if (c.org === 'EU tenders (procurement)') return 'EU tenders';
     const f = String(c.funder || '');
     const code = ((f.match(/\(([A-Z0-9+]+)\)/) || f.match(/^([A-Z][A-Z0-9+]+)\b/) || [])[1] || '').toUpperCase();
@@ -1144,7 +1144,7 @@ dash.calc('cycles', {
     { key: 'topics', title: 'Topic', values: ['Heritage and memory', 'Democracy, civil society and rights', 'Media and disinformation', 'Citizen science and participation', 'Climate, environment and nature', 'Energy, transport and infrastructure', 'Digital and AI', 'Culture and creative sectors', 'Education, youth and skills', 'Health and social inclusion', 'Business, innovation and research', 'Security, defence and preparedness', 'Agriculture, food and rural', 'Other'], of: (c) => c.topics || ['Other'] },
     { key: 'kind', title: 'Type of funding', values: ['Grant', 'Cascade or sub-grant', 'Prize or fellowship', 'Loan or guarantee', 'Tender'], of: (c) => [c.kind || 'Grant'] },
     { key: 'prog', title: 'EU programme', values: PROGRAMMES.map((p) => p[0]).concat(['Other EU programme', 'Not an EU Portal call']), of: (c) => [programmeOf(c)] },
-    { key: 'family', title: 'Source', values: ['portal', 'regional', 'lt_eu', 'lt_national', 'lt_local', 'register'], label: (v) => FAMILY_LABEL[v] || v, of: (c) => [c.family] },
+    { key: 'family', title: 'Source', values: ['portal', 'cascade', 'regional', 'lt_eu', 'lt_national', 'lt_local', 'register'], label: (v) => FAMILY_LABEL[v] || v, of: (c) => [c.family] },
   ];
   const sel = { time: new Set(['Open and upcoming']), lead: new Set(), size: new Set(), topics: new Set(), kind: new Set(), prog: new Set(), family: new Set() };
   // Excluded values: a call that has any of them is hidden, whatever else is selected.
