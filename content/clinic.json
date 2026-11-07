@@ -1,0 +1,57 @@
+{
+  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeWV2FuGAM-A17jyIdG-sOi63g02NGj1zeD6k7SKfotq63rww/viewform",
+  "lt": {
+    "title": "Paraiškų rengimo klinika",
+    "intro": "Rengiate projekto paraišką ir turite klausimų? NVO ir tyrėjams siūlome nemokamą 30 minučių konsultaciją internetu. Konsultuoja asociacijos ekspertai, turintys Horizon Europe, LMT ir kitų programų paraiškų rengimo patirties.",
+    "button": "Registruotis konsultacijai",
+    "facts": [
+      { "fig": "30 min", "text": "pokalbis internetu" },
+      { "fig": "13:00-15:00", "text": "penktadieniais" },
+      { "fig": "0 €", "text": "konsultacija nemokama" },
+      { "fig": "NVO", "text": "ir tyrėjams, rengiantiems paraiškas" }
+    ],
+    "stepsTitle": "Kaip tai vyksta",
+    "steps": [
+      { "title": "Užsiregistruokite", "text": "Užpildykite trumpą formą: aprašykite savo klausimą ir, jei turite, pridėkite nuorodą į paraiškos juodraštį." },
+      { "title": "Suderiname laiką", "text": "Susisieksime el. paštu ir pasiūlysime penktadienio laiką tarp 13:00 ir 15:00." },
+      { "title": "Konsultacija", "text": "30 minučių pokalbis internetu. Jūsų klausimą ir juodraštį perskaitome iš anksto, todėl visas laikas skiriamas atsakymams." }
+    ],
+    "helpTitle": "Kuo galime padėti",
+    "help": [
+      "Ar projekto idėja atitinka programos ar kvietimo tikslus",
+      "Paraiškos struktūra, tikslai ir logika",
+      "Metodika ir darbo planas",
+      "Poveikis, rezultatų sklaida ir visuomenės įtraukimas",
+      "Pastabos dėl vienos paraiškos dalies juodraščio"
+    ],
+    "note": "Jei reikia išsamesnės visos paraiškos peržiūros ar pagalbos ją rengiant, galime susitarti dėl atskiros mokamos paslaugos.",
+    "ctaTitle": "Turite klausimą apie savo paraišką?"
+  },
+  "en": {
+    "title": "Application clinic",
+    "intro": "Preparing a project application and have questions? We offer NGOs and researchers a free 30-minute online consultation. Consultations are given by the association's experts, who have experience of preparing applications to Horizon Europe, the Research Council of Lithuania (LMT) and other programmes.",
+    "button": "Register for a consultation",
+    "facts": [
+      { "fig": "30 min", "text": "online call" },
+      { "fig": "13:00-15:00", "text": "on Fridays" },
+      { "fig": "€0", "text": "the consultation is free" },
+      { "fig": "NGOs", "text": "and researchers preparing applications" }
+    ],
+    "stepsTitle": "How it works",
+    "steps": [
+      { "title": "Register", "text": "Fill in a short form: describe your question and, if you have one, add a link to your draft application." },
+      { "title": "We agree on a time", "text": "We will contact you by email and suggest a Friday time between 13:00 and 15:00." },
+      { "title": "Consultation", "text": "A 30-minute online call. We read your question and draft in advance, so the whole time goes to answers." }
+    ],
+    "helpTitle": "What we can help with",
+    "help": [
+      "Whether the project idea fits the aims of the programme or call",
+      "The structure, objectives and logic of the application",
+      "Methodology and work plan",
+      "Impact, dissemination of results and public engagement",
+      "Comments on a draft of one section of the application"
+    ],
+    "note": "If you need a more thorough review of the whole application or help with writing it, we can agree on a separate paid service.",
+    "ctaTitle": "Have a question about your application?"
+  }
+}

@@ -70,7 +70,7 @@
         <p class="signup-msg" role="status" hidden data-ok="{{ t.signup.thanks }}" data-err="{{ t.signup.error }}"></p>
       </form>
       <nav>
-        {%- for k in ["explainer", "participation", "news", "projects", "initiatives", "resources", "services", "about"] %}
+        {%- for k in ["explainer", "participation", "clinic", "news", "projects", "initiatives", "resources", "services", "about"] %}
         <a href="{{ routes[k][lang] }}">{{ t.nav[k] }}</a>
         {%- endfor %}
       </nav>

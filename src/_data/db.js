@@ -81,6 +81,7 @@ export default function () {
     researchers: read("researchers"),
     explainer: read("explainer"),
     participation: read("participation"),
+    clinic: read("clinic"),
     participationData: read("participation-data"),
     home: read("home"),
     about: read("about"),

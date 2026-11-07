@@ -533,3 +533,12 @@ p { margin: 0 0 1em; }
   .g-bar b { font-size: 1.5rem; }
   .g-crit .n { width: 48px; height: 48px; font-size: 1.5rem; border-radius: 10px; }
 }
+
+/* Application clinic */
+.clinic-go { margin: 0 0 32px; }
+.steps li { background: #fff; }
+.clinic-teaser { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
+.clinic-teaser h2 { margin: 0 0 10px; }
+.clinic-teaser p { margin: 0; color: var(--muted); max-width: 60ch; }
+.cta-text a { color: #fff; }
+.clinic-facts .tip-fig { white-space: nowrap; font-size: clamp(1.8rem, 3.2vw, 2.4rem); }

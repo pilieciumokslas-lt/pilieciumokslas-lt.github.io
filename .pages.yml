@@ -268,6 +268,44 @@ content:
         type: object
         fields: *participation
 
+  - name: clinic
+    label: Paraiškų rengimo klinika / Application clinic
+    type: file
+    path: content/clinic.json
+    format: json
+    fields:
+      - { name: formUrl, label: Registracijos formos nuoroda / Registration form link, type: string }
+      - name: lt
+        label: Lietuviškai
+        type: object
+        fields: &clinic
+          - { name: title, label: Pavadinimas / Title, type: string }
+          - { name: intro, label: Įžanga / Intro, type: text }
+          - { name: button, label: Mygtuko tekstas / Button text, type: string }
+          - name: facts
+            label: Faktų kortelės / Fact cards
+            type: object
+            list: true
+            fields:
+              - { name: fig, label: Didelis tekstas / Big text, type: string }
+              - { name: text, label: Tekstas po juo / Text below, type: string }
+          - { name: stepsTitle, label: Žingsnių antraštė / Steps heading, type: string }
+          - name: steps
+            label: Žingsniai / Steps
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Pavadinimas / Title, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
+          - { name: helpTitle, label: Antraštė "Kuo galime padėti" / Heading "What we can help with", type: string }
+          - { name: help, label: Temos / Topics, type: string, list: true }
+          - { name: note, label: Pastaba / Note, type: text }
+          - { name: ctaTitle, label: Apatinės juostos antraštė / Bottom band heading, type: string }
+      - name: en
+        label: English
+        type: object
+        fields: *clinic
+
   - name: explainer
     label: Kas yra piliečių mokslas? / What is citizen science?
     type: file

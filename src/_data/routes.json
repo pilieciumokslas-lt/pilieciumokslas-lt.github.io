@@ -34,5 +34,9 @@
   "participation": {
     "lt": "/kas-nori-dalyvauti-tyrimuose/",
     "en": "/en/who-wants-to-take-part-in-research/"
+  },
+  "clinic": {
+    "lt": "/paraisku-rengimo-klinika/",
+    "en": "/en/application-clinic/"
   }
 }

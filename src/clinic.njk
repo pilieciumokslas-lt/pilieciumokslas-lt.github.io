@@ -1,0 +1,55 @@
+---
+layout: base.njk
+key: clinic
+pagination:
+  data: langs
+  size: 1
+  alias: lang
+permalink: "{{ routes.clinic[lang] }}"
+eleventyComputed:
+  description: "{{ db.clinic[lang].intro }}"
+---
+{%- from "macros.njk" import pageHead -%}
+{%- set t = i18n[lang] -%}
+{%- set c = db.clinic[lang] -%}
+{{ pageHead(c.title, c.intro) }}
+<section class="band">
+  <div class="wrap">
+    <p class="clinic-go"><a class="btn" href="{{ db.clinic.formUrl }}">{{ c.button }}</a></p>
+    <ul class="grid tips clinic-facts">
+      {%- for f in c.facts %}
+      <li><span class="tip-fig">{{ f.fig }}</span><p>{{ f.text }}</p></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+<section class="band tint">
+  <div class="wrap">
+    <h2>{{ c.stepsTitle }}</h2>
+    <ol class="grid g3 services steps">
+      {%- for s in c.steps %}
+      <li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap narrow prose">
+    <h2>{{ c.helpTitle }}</h2>
+    <ul>
+      {%- for h in c.help %}
+      <li>{{ h }}</li>
+      {%- endfor %}
+    </ul>
+    <p>{{ c.note }}</p>
+  </div>
+</section>
+<section class="cta">
+  <div class="wrap">
+    <div>
+      <h2>{{ c.ctaTitle }}</h2>
+      <p class="cta-text">{{ t.contactUs }}: <a href="mailto:{{ db.about.email }}">{{ db.about.email }}</a></p>
+    </div>
+    <a class="btn btn-white" href="{{ db.clinic.formUrl }}">{{ c.button }}</a>
+  </div>
+</section>
