@@ -15,7 +15,11 @@
             "text": "Fotografuokite augalus, gyvūnus ar grybus. Programėlė pasiūlys rūšį, o kiti naudotojai ją patvirtins arba patikslins. Lietuvoje jau užregistruota daugiau kaip 670 000 stebėjimų. Patvirtinti stebėjimai kas savaitę perduodami tarptautinei biologinės įvairovės duomenų bazei GBIF.",
             "how": "atsisiųskite nemokamą programėlę (yra ir lietuvių kalba), susikurkite paskyrą ir įkelkite pirmą nuotrauką su data ir vieta. Klausimų galite užduoti „Facebook“ grupėje „iNaturalist Lietuva“.",
             "url": "https://www.inaturalist.org/places/lithuania",
-            "link": "iNaturalist Lietuvoje"
+            "link": "iNaturalist Lietuvoje",
+            "img": "/assets/uploads/kaip-prisideti/inaturalist.jpg",
+            "alt": "Miškinė miegapelė, užfiksuota iNaturalist Kaišiadorių rajone",
+            "credit": "Nuotrauka: Kazimieras Martinaitis / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/39794346"
           },
           {
             "when": "Drugių sezonu",
@@ -23,7 +27,11 @@
             "text": "15 minučių skaičiuokite drugius bet kur: sode, pievoje ar net balkone. Svarbu ir tai, kad drugių nepamatėte: nuliai irgi skaičiuojami. Duomenys patenka į Europos drugių stebėsenos duomenų bazę ir yra atviri tyrimams.",
             "how": "atsisiųskite nemokamą programėlę „ButterflyCount“ (iOS ir Android) ir susikurkite eBMS paskyrą.",
             "url": "https://butterfly-monitoring.net/node/161",
-            "link": "Apie 15 minučių apskaitą"
+            "link": "Apie 15 minučių apskaitą",
+            "img": "/assets/uploads/kaip-prisideti/drugiai-15min.jpg",
+            "alt": "Drugys ant žiedų",
+            "credit": "Nuotrauka: Aurelijus Narbutas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/119574114"
           },
           {
             "when": "Bet kada",
@@ -31,7 +39,11 @@
             "text": "Pastebėjote užtvanką, slenkstį ar kitą kliūtį upėje? Nufotografuokite ją, pažymėkite vietą ir aukštį. Duomenys papildo Europos upių užtvarų atlasą, kuris padeda atkurti upių vientisumą.",
             "how": "atsisiųskite programėlę „Barrier Tracker“ (šiuo metu Android).",
             "url": "https://amber.international/citizen-science/",
-            "link": "Apie programėlę"
+            "link": "Apie programėlę",
+            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
+            "alt": "Išardyta užtvanka Ventoje ties Krakiais",
+            "credit": "Nuotrauka: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
           },
           {
             "when": "Bet kada",
@@ -39,7 +51,11 @@
             "text": "Pastebėjote saugomą augalą ar gyvūną? Valstybinėje sistemoje pateiktą stebėjimą patikrina tos rūšies ekspertas, o patvirtinti duomenys naudojami rūšims saugoti.",
             "how": "prisijunkite per elektroninius valdžios vartus, pasirinkite „Teikti duomenis“ ir užpildykite anketą: rūšis, vieta žemėlapyje, nuotraukos.",
             "url": "https://sris.biip.lt",
-            "link": "sris.biip.lt"
+            "link": "sris.biip.lt",
+            "img": "/assets/uploads/kaip-prisideti/sris.jpg",
+            "alt": "Juodasis gandras Kauno apylinkėse",
+            "credit": "Nuotrauka: Sigitas Juzėnas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/47865573"
           },
           {
             "when": "Bet kada",
@@ -63,7 +79,11 @@
             "text": "Lietuvos ornitologų draugijos kasmetinė akcija: vieną valandą skaičiuokite paukščius prie savo namų. 2026 m. dalyvavo apie 150 stebėtojų, jie suskaičiavo daugiau kaip 6 700 paukščių.",
             "how": "dalyvauti gali visi, lesyklos nereikia. Rezultatus pateikite internetinėje formoje. 2026 m. akcija buvo paskelbta sausio pabaigoje, sekite LOD naujienas.",
             "url": "https://birdlife.lt/kvieciame-dalyvauti-akcijoje-pauksciai-prie-mano-namu-2026/",
-            "link": "2026 m. akcija"
+            "link": "2026 m. akcija",
+            "img": "/assets/uploads/kaip-prisideti/pauksciai-prie-namu.jpg",
+            "alt": "Genys žiemą",
+            "credit": "Nuotrauka: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/334336771"
           },
           {
             "when": "Balandį",
@@ -79,7 +99,11 @@
             "text": "Biologinės įvairovės varžybos nuo 2013 m.: 2-5 žmonių komandos per savaitgalį saugomoje teritorijoje ieško kuo daugiau rūšių ir registruoja jas iNaturalist. 2026 m. ralis vyko Aukštadvario regioniniame parke, surinkti duomenys perduodami parkui.",
             "how": "komandos registruojasi el. paštu (2026 m. iki birželio 1 d.). Kiekvienam dalyviui reikia iNaturalist paskyros.",
             "url": "https://rusiuralis.lt",
-            "link": "rusiuralis.lt"
+            "link": "rusiuralis.lt",
+            "img": "/assets/uploads/kaip-prisideti/rusiu-ralis.jpg",
+            "alt": "Drugys, užfiksuotas Rūšių ralyje 2026",
+            "credit": "Nuotrauka: Kristupas / iNaturalist, Rūšių ralis 2026, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/372706230"
           },
           {
             "when": "Spalį",
@@ -87,7 +111,11 @@
             "text": "Lietuvos ornitologų draugijos ralis Kintuose, kviečiami ir patyrę, ir pradedantieji paukščių stebėtojai. 2026 m. dalyvavo 33 komandos, jos užregistravo 161 rūšį.",
             "how": "registracija LOD svetainėje rudenį. 2026 m. dalyvavimas LOD nariams buvo nemokamas, kitiems 15 Eur.",
             "url": "https://birdlife.lt/registracija-i-27-aji-pauksciu-stebetoju-rali-kursiu-marios-2026-2/",
-            "link": "2026 m. ralis"
+            "link": "2026 m. ralis",
+            "img": "/assets/uploads/kaip-prisideti/kursiu-marios.jpg",
+            "alt": "Kintų apylinkės prie Kuršių marių",
+            "credit": "Nuotrauka: Žiedas / Wikimedia Commons, CC BY 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Kintai._Apylink%C4%97s.jpg"
           }
         ]
       },
@@ -103,7 +131,11 @@
             "text": "Pasirenkate apie 1 km maršrutą ir gero oro dienomis einate juo, geriausia kas savaitę (bent 10 kartų per metus). Lietuvos drugių stebėsena vyksta nuo 2009 m., ją remia Aplinkos ministerija ir Lietuvos entomologų draugija.",
             "how": "prieš pradėdami susisiekite su stebėsenos koordinatoriais per drugių stebėsenos puslapį arba „Facebook“ grupę.",
             "url": "https://butterfly-monitoring.net/lithuania-bms",
-            "link": "Lietuvos drugių stebėsena"
+            "link": "Lietuvos drugių stebėsena",
+            "img": "/assets/uploads/kaip-prisideti/drugiu-marsrutai.jpg",
+            "alt": "Drugys ant medžio žievės",
+            "credit": "Nuotrauka: Kazimieras Martinaitis / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/106491816"
           },
           {
             "when": "Balandį-birželį",
@@ -111,7 +143,11 @@
             "text": "Du kartus per pavasarį tuo pačiu apie 7 km maršrutu su 20 taškų skaičiuojate paukščius. Iš šių apskaitų skaičiuojamas oficialus žemės ūkio kraštovaizdžio paukščių rodiklis.",
             "how": "reikia atpažinti įprastas rūšis iš išvaizdos ir balso. Susisiekite su Lietuvos ornitologų draugija, kontaktai nurodyti kvietime.",
             "url": "https://birdlife.lt/lod-kviecia-prisijungti-stebetojus-vykdyti-iprastu/",
-            "link": "LOD kvietimas"
+            "link": "LOD kvietimas",
+            "img": "/assets/uploads/kaip-prisideti/iprastu-pauksciu-apskaitos.jpg",
+            "alt": "Paprastoji starta",
+            "credit": "Nuotrauka: Donatas Pocius / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/373670609"
           },
           {
             "when": "Projekto metu",
@@ -119,7 +155,11 @@
             "text": "Pelkių fondo projekte LIFE ForestHabitatLT veikia keturios gyvosios laboratorijos, tarp jų Praviršulio tyrelyje. Jose kartu dirba vietos bendruomenių nariai, ūkininkai, saugomų teritorijų specialistai ir gamtosaugininkai, o mokiniai mokosi stebėti pelkę.",
             "how": "apie artimiausias veiklas teiraukitės Pelkių fondo.",
             "url": "https://www.pelkiufondas.lt/prisidek",
-            "link": "Prisidėkite prie Pelkių fondo"
+            "link": "Prisidėkite prie Pelkių fondo",
+            "img": "/assets/uploads/kaip-prisideti/pelkiu-laboratorijos.jpg",
+            "alt": "Praviršulio ežeras",
+            "credit": "Nuotrauka: B. Gliwa / Wikimedia Commons, CC BY-SA 2.5",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Pravirsulis.jpg"
           }
         ]
       },
@@ -211,7 +251,11 @@
             "text": "Photograph plants, animals or fungi. The app suggests a species, and other users confirm or correct it. More than 670,000 observations have already been recorded in Lithuania. Confirmed observations are shared every week with GBIF, the global biodiversity database.",
             "how": "download the free app (also available in Lithuanian), create an account and upload your first photo with a date and location. You can ask questions in the \"iNaturalist Lietuva\" Facebook group.",
             "url": "https://www.inaturalist.org/places/lithuania",
-            "link": "iNaturalist in Lithuania"
+            "link": "iNaturalist in Lithuania",
+            "img": "/assets/uploads/kaip-prisideti/inaturalist.jpg",
+            "alt": "Forest dormouse recorded on iNaturalist in Kaišiadorys district",
+            "credit": "Photo: Kazimieras Martinaitis / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/39794346"
           },
           {
             "when": "Butterfly season",
@@ -219,7 +263,11 @@
             "text": "Count butterflies for 15 minutes anywhere: in a garden, a meadow or even on a balcony. Seeing no butterflies also matters: zeros count too. The data go into the European Butterfly Monitoring database and are open for research.",
             "how": "download the free ButterflyCount app (iOS and Android) and create an eBMS account.",
             "url": "https://butterfly-monitoring.net/node/161",
-            "link": "About the 15-minute count"
+            "link": "About the 15-minute count",
+            "img": "/assets/uploads/kaip-prisideti/drugiai-15min.jpg",
+            "alt": "Green hairstreak on flowers",
+            "credit": "Photo: Aurelijus Narbutas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/119574114"
           },
           {
             "when": "Any time",
@@ -227,7 +275,11 @@
             "text": "Spotted a dam, weir or other barrier in a river? Photograph it and record its location and height. The data feed a European atlas of river barriers that helps restore free-flowing rivers.",
             "how": "download the Barrier Tracker app (Android for now).",
             "url": "https://amber.international/citizen-science/",
-            "link": "About the app"
+            "link": "About the app",
+            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
+            "alt": "A dismantled dam on the Venta near Krakiai",
+            "credit": "Photo: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
           },
           {
             "when": "Any time",
@@ -235,7 +287,11 @@
             "text": "Seen a protected plant or animal? In this state system, an expert on that species checks each observation, and confirmed data are used to protect the species.",
             "how": "log in through the Lithuanian e-government gateway, choose \"Teikti duomenis\" (submit data) and fill in the form: species, location on the map, photos.",
             "url": "https://sris.biip.lt",
-            "link": "sris.biip.lt"
+            "link": "sris.biip.lt",
+            "img": "/assets/uploads/kaip-prisideti/sris.jpg",
+            "alt": "Black stork near Kaunas",
+            "credit": "Photo: Sigitas Juzėnas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/47865573"
           },
           {
             "when": "Any time",
@@ -259,7 +315,11 @@
             "text": "An annual count by the Lithuanian Ornithological Society: spend one hour counting the birds around your home. In 2026 about 150 observers took part and counted more than 6,700 birds.",
             "how": "anyone can join, no feeder needed. Submit your results through the online form. In 2026 the count was announced at the end of January, so follow the society's news.",
             "url": "https://birdlife.lt/kvieciame-dalyvauti-akcijoje-pauksciai-prie-mano-namu-2026/",
-            "link": "The 2026 count"
+            "link": "The 2026 count",
+            "img": "/assets/uploads/kaip-prisideti/pauksciai-prie-namu.jpg",
+            "alt": "Middle spotted woodpecker in winter",
+            "credit": "Photo: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/334336771"
           },
           {
             "when": "April",
@@ -275,7 +335,11 @@
             "text": "A biodiversity competition held since 2013: teams of 2-5 people spend a weekend in a protected area finding as many species as they can and recording them on iNaturalist. In 2026 the rally took place in Aukštadvaris Regional Park, and the data are handed over to the park.",
             "how": "teams register by email (in 2026, by 1 June). Every participant needs an iNaturalist account.",
             "url": "https://rusiuralis.lt",
-            "link": "rusiuralis.lt"
+            "link": "rusiuralis.lt",
+            "img": "/assets/uploads/kaip-prisideti/rusiu-ralis.jpg",
+            "alt": "A moth recorded during the 2026 Species Rally",
+            "credit": "Photo: Kristupas / iNaturalist, Rūšių ralis 2026, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/372706230"
           },
           {
             "when": "October",
@@ -283,7 +347,11 @@
             "text": "A rally by the Lithuanian Ornithological Society in Kintai, open to experienced and beginner birdwatchers. In 2026, 33 teams took part and recorded 161 species.",
             "how": "register on the society's website in autumn. In 2026 it was free for members and 15 EUR for others.",
             "url": "https://birdlife.lt/registracija-i-27-aji-pauksciu-stebetoju-rali-kursiu-marios-2026-2/",
-            "link": "The 2026 rally"
+            "link": "The 2026 rally",
+            "img": "/assets/uploads/kaip-prisideti/kursiu-marios.jpg",
+            "alt": "The surroundings of Kintai by the Curonian Lagoon",
+            "credit": "Photo: Žiedas / Wikimedia Commons, CC BY 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Kintai._Apylink%C4%97s.jpg"
           }
         ]
       },
@@ -299,7 +367,11 @@
             "text": "You choose a route of about 1 km and walk it on days with good weather, ideally every week (at least 10 times a year). Butterfly monitoring in Lithuania has run since 2009 with the support of the Ministry of Environment and the Lithuanian Entomological Society.",
             "how": "contact the monitoring coordinators before you start, through the butterfly monitoring page or the Facebook group.",
             "url": "https://butterfly-monitoring.net/lithuania-bms",
-            "link": "Lithuanian butterfly monitoring"
+            "link": "Lithuanian butterfly monitoring",
+            "img": "/assets/uploads/kaip-prisideti/drugiu-marsrutai.jpg",
+            "alt": "Poplar admiral on tree bark",
+            "credit": "Photo: Kazimieras Martinaitis / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/106491816"
           },
           {
             "when": "April-June",
@@ -307,7 +379,11 @@
             "text": "Twice each spring you count birds along the same route of about 7 km with 20 points. These counts feed the official indicator of birds in farmland.",
             "how": "you need to recognise common species by sight and song. Contact the Lithuanian Ornithological Society; details are in the call.",
             "url": "https://birdlife.lt/lod-kviecia-prisijungti-stebetojus-vykdyti-iprastu/",
-            "link": "The society's call"
+            "link": "The society's call",
+            "img": "/assets/uploads/kaip-prisideti/iprastu-pauksciu-apskaitos.jpg",
+            "alt": "Yellowhammer",
+            "credit": "Photo: Donatas Pocius / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/373670609"
           },
           {
             "when": "During the project",
@@ -315,7 +391,11 @@
             "text": "The NGO Pelkių fondas runs four living labs in the LIFE ForestHabitatLT project, including one at the Praviršulis bog. Local community members, farmers, protected-area staff and conservationists work together there, and school pupils learn to monitor the bog.",
             "how": "ask Pelkių fondas about upcoming activities.",
             "url": "https://www.pelkiufondas.lt/prisidek",
-            "link": "Get involved with Pelkių fondas"
+            "link": "Get involved with Pelkių fondas",
+            "img": "/assets/uploads/kaip-prisideti/pelkiu-laboratorijos.jpg",
+            "alt": "Lake Praviršulis",
+            "credit": "Photo: B. Gliwa / Wikimedia Commons, CC BY-SA 2.5",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Pravirsulis.jpg"
           }
         ]
       },

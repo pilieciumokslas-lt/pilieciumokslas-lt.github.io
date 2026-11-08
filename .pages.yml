@@ -340,6 +340,10 @@ content:
                   - { name: how, label: Kaip pradėti / How to start, type: text }
                   - { name: url, label: Nuoroda / Link, type: string }
                   - { name: link, label: Nuorodos tekstas / Link text, type: string }
+                  - { name: img, label: Nuotrauka (3:2) / Photo (3:2), type: image }
+                  - { name: alt, label: Ką rodo nuotrauka / What the photo shows, type: string }
+                  - { name: credit, label: Nuotraukos autorius ir licencija / Photo credit and licence, type: string }
+                  - { name: creditUrl, label: Nuotraukos šaltinis / Photo source link, type: string }
           - { name: tipsTitle, label: Patarimų antraštė / Tips heading, type: string }
           - { name: tipsShort, label: Trumpas pavadinimas mygtukui / Short name for the button, type: string }
           - name: tips
