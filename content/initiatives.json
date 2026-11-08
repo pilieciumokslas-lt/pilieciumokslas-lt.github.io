@@ -197,6 +197,30 @@
       "en": {
         "text": "A Horizon Europe project (2024-2027) on urban greening and nature-based solutions, with Kaunas University of Technology and Birštonas municipality among the partners. In Birštonas, school pupils, seniors, students and experts record biodiversity in workshops and look for solutions for the Nemunas riverside together."
       }
+    },
+    {
+      "name": "Genius Loci: Šančių žemėlapiai",
+      "scope": "national",
+      "topic": "culture",
+      "url": "https://sanciubendruomene.lt/lt/zemelapiai/",
+      "lt": {
+        "text": "Žemųjų Šančių bendruomenės ir KTU projektas (2020-2023). Gyventojai interaktyviuose žemėlapiuose pasidalijo daugiau kaip 1 000 prisiminimų, nuotraukų ir pastebėjimų apie Šančių praeitį, dabartį ir gamtą, o vėliau pateikė per 240 pasiūlymų. Duomenis analizavo KTU mokslininkai, jais remiantis parengta Šančių urbanistinė vizija. 2022 m. žemėlapių įrankis tapo Naujojo europinio bauhauzo premijų prizininku."
+      },
+      "en": {
+        "text": "A project by the Lower Šančiai community and KTU (2020-2023). On interactive maps, residents shared more than 1,000 memories, photographs and observations about the district's past, present and nature, and later made more than 240 proposals. KTU researchers analysed the data to develop an urban vision for Šančiai. In 2022 the mapping tool was a runner-up in the New European Bauhaus Prizes."
+      }
+    },
+    {
+      "name": "Gyvas archyvas",
+      "scope": "national",
+      "topic": "culture",
+      "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
+      "lt": {
+        "text": "Kauno viešosios įstaigos „Kultūros dirbtuvė“ metodika, kuria gyventojai įtraukiami į savo mikrorajono paveldo dokumentavimą. Gyventojai dalijasi asmeninėmis nuotraukomis ir garso pasakojimais, dalyvauja ekspedicijose ir fotografijos dirbtuvėse, o surinkta medžiaga perduodama vietos muziejams ir bibliotekoms archyvuoti. Metodika taikyta Kauno Šilainiuose (2024), Tauragės Žalgiriuose (2025) ir Naujojoje Akmenėje (2026)."
+      },
+      "en": {
+        "text": "A method developed by the Kaunas non-profit Kultūros dirbtuvė to involve residents in documenting the heritage of their neighbourhood. Residents share personal photographs and audio stories and take part in expeditions and photography workshops, and the material is handed over to local museums and libraries for archiving. It has been used in Šilainiai, Kaunas (2024), Žalgiriai, Tauragė (2025) and Naujoji Akmenė (2026)."
+      }
     }
   ]
 }
