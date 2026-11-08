@@ -234,6 +234,78 @@
             "link": "Apie metodiką"
           }
         ]
+      },
+      {
+        "id": "pasaulyje",
+        "short": "Pasaulyje",
+        "title": "Tarptautiniai projektai: prisijungti galima ir iš Lietuvos",
+        "text": "Dideli, šiuo metu veikiantys projektai, kuriuose dalyvauja tūkstančiai ar milijonai žmonių visame pasaulyje. Dauguma jų veikia anglų kalba.",
+        "items": [
+          {
+            "when": "Bet kada · kompiuteriu",
+            "name": "Zooniverse",
+            "text": "Didžiausia piliečių mokslo platforma internete: savanoriai peržiūri nuotraukas, garsus ar senus dokumentus ir atsako į paprastus klausimus. Pavyzdžiui, „Galaxy Zoo“ projekte klasifikuojamos galaktikos, „Planet Hunters TESS“ ieškoma naujų planetų, o „European Camera Trap Project“ skaičiuojami gyvūnai Europos fotospąstų nuotraukose. Platformoje daugiau kaip 3 milijonai savanorių iš 160 šalių.",
+            "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Projektai anglų kalba.",
+            "url": "https://www.zooniverse.org/projects",
+            "link": "Zooniverse projektai"
+          },
+          {
+            "when": "Kas mėnesį · naktį",
+            "name": "Globe at Night: kiek žvaigždžių matote?",
+            "text": "Tarptautinė šviesos taršos stebėsena: giedrą naktį be mėnulio išeikite į lauką, palyginkite dangų su žvaigždžių žemėlapiais ir pažymėkite, kiek žvaigždžių matote. Taip matuojama, kiek dirbtinė šviesa šviesina naktinį dangų. Vien 2026 m. pateikta daugiau kaip 11 000 stebėjimų.",
+            "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Užtenka 10-15 minučių ir telefono ar kompiuterio.",
+            "url": "https://globeatnight.org",
+            "link": "Globe at Night"
+          },
+          {
+            "when": "Bet kada · su telefonu",
+            "name": "GLOBE Observer",
+            "text": "NASA ir GLOBE programos programėlė: fotografuojate debesis, žemės dangą, medžius ar uodų veisimosi vietas, o mokslininkai jūsų stebėjimus lygina su palydovų duomenimis. Lietuva GLOBE programoje dalyvauja nuo 2002 m., todėl programėle galima naudotis ir čia.",
+            "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus. Programėlė anglų kalba.",
+            "url": "https://observer.globe.gov",
+            "link": "GLOBE Observer"
+          },
+          {
+            "when": "Bet kada",
+            "name": "eBird ir Merlin",
+            "text": "Kornelio universiteto Ornitologijos laboratorijos programėlės. Merlin padeda atpažinti paukščius pagal balsą ar nuotrauką, o eBird skirta pažymėti, kokius paukščius matėte ar girdėjote. Į eBird kasmet pateikiama daugiau kaip 100 milijonų stebėjimų, jais naudojasi mokslininkai. Kasmet gegužę vyksta pasaulinė paukščių stebėjimo diena „Global Big Day“.",
+            "how": "atsisiųskite nemokamas programėles. Norint pateikti stebėjimus į eBird, reikia nemokamos paskyros.",
+            "url": "https://ebird.org",
+            "link": "eBird"
+          },
+          {
+            "when": "Bet kada · su telefonu",
+            "name": "Pl@ntNet",
+            "text": "Prancūzijos mokslo institutų sukurta programėlė augalams atpažinti: nufotografuokite augalą, programėlė pasiūlys rūšį, o jūsų stebėjimas papildys tyrėjų duomenis. Pl@ntNet turi beveik 10 milijonų naudotojų paskyrų.",
+            "how": "augalus atpažinti galima ir be paskyros, o stebėjimams išsaugoti reikia susikurti paskyrą. Svetainė iš dalies išversta į lietuvių kalbą.",
+            "url": "https://plantnet.org",
+            "link": "Pl@ntNet"
+          },
+          {
+            "when": "Bet kada · kompiuteriu",
+            "name": "OpenStreetMap",
+            "text": "Laisvas pasaulio žemėlapis, kurį kuria daugiau kaip 11 milijonų naudotojų: galite įrašyti kelius, takus, pastatus ir kitas vietas savo apylinkėse. Humanitarinė OpenStreetMap komanda (HOT) skelbia žemėlapių kūrimo užduotis, kurios padeda nelaimių ištiktoms vietovėms. Lietuvos bendruomenė turi svetainę openstreetmap.lt.",
+            "how": "susikurkite nemokamą paskyrą ir redaguokite žemėlapį naršyklėje. Sąsaja yra lietuvių kalba.",
+            "url": "https://www.openstreetmap.org",
+            "link": "OpenStreetMap"
+          },
+          {
+            "when": "Reguliariai · namuose",
+            "name": "Sensor.Community: oro taršos jutikliai",
+            "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau 2026 m. lapkritį Lietuvoje duomenis siuntė tik du.",
+            "how": "jutiklį sukonstruoti užtrunka maždaug popietę, vėliau jis veikia savaime. Instrukcijos ir registracija svetainėje.",
+            "url": "https://sensor.community",
+            "link": "Sensor.Community"
+          },
+          {
+            "when": "Kai pamatote",
+            "name": "Bolidų stebėjimai",
+            "text": "Pamatėte labai ryškų meteorą, vadinamąjį bolidą? Tarptautinė meteorų organizacija (IMO) kartu su Amerikos meteorų draugija renka liudininkų pranešimus ir pagal juos apskaičiuoja, kaip bolidas skriejo. Vien 2026 m. sausio-kovo mėn. visame pasaulyje užfiksuota daugiau kaip 2 300 bolidų.",
+            "how": "užpildykite formą internete. Paskyros nereikia, forma yra lietuvių kalba.",
+            "url": "https://fireball.imo.net",
+            "link": "Pranešti apie bolidą"
+          }
+        ]
       }
     ],
     "researchers": {
@@ -360,6 +432,14 @@
               "how": "mokytojas užregistruoja komandą ir tampa jos vadovu. Dalyvavimas nemokamas, 2026-2027 m. vaikų etapas vyksta iki 2027 m. rugpjūčio 6 d.",
               "url": "https://climatedetectives.esa.int/lt/",
               "link": "Klimato detektyvai"
+            },
+            {
+              "when": "Gamta, fizika · visų amžių",
+              "name": "Globe at Night: žvaigždžių skaičiavimas",
+              "text": "Tarptautinė šviesos taršos stebėsena: mokiniai su tėvais giedrą naktį palygina dangų su žvaigždžių žemėlapiais ir pažymi, kiek žvaigždžių mato. Klasėje galima aptarti, kodėl vienur žvaigždžių matyti daugiau nei kitur.",
+              "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Dalyvavimas nemokamas, užtenka telefono ar kompiuterio.",
+              "url": "https://globeatnight.org",
+              "link": "Globe at Night"
             }
           ]
         },
@@ -396,6 +476,14 @@
               "caseText": "Metodikos aprašymas mokslo žurnale (anglų k.).",
               "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
               "caseLink": "Straipsnis"
+            },
+            {
+              "when": "Biologija, fizika, istorija · 9-12 m.",
+              "name": "Zooniverse klasėje",
+              "text": "Mokiniai internete klasifikuoja tikrus tyrimų duomenis: galaktikas, gyvūnus fotospąstų nuotraukose ar senus dokumentus. Zooniverse turi skiltį mokytojams: klasės paskyras, klasės pažangos statistiką ir pamokų planus.",
+              "how": "susikurkite nemokamą paskyrą ir pasirinkite projektą. Projektai anglų kalba, todėl tinka ir anglų kalbos pamokai.",
+              "url": "https://www.zooniverse.org/get-involved/educate",
+              "link": "Zooniverse mokytojams"
             }
           ]
         },
@@ -429,6 +517,33 @@
               "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
               "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
               "link": "Pasiūlyti žodį"
+            },
+            {
+              "when": "Informatika, fizika, geografija · iki 19 m.",
+              "name": "Astro Pi: Mission Space Lab",
+              "text": "Europos kosmoso agentūros (ESA) ir Raspberry Pi fondo konkursas: 2-6 mokinių komanda parašo Python programą, kuri Tarptautinėje kosminėje stotyje renka jutiklių ar kameros duomenis, o komanda gauna juos atgal ir analizuoja. Lietuvos mokiniai gali dalyvauti visose ESA švietimo programose. Vien lengvesnėje užduotyje „Mission Zero“ 2024-2025 m. dalyvavo daugiau kaip 25 000 jaunuolių.",
+              "how": "mokytojas užregistruoja komandą kaip jos vadovas. Dalyvavimas nemokamas, Raspberry Pi kompiuterio nereikia. 2026-2027 m. programas reikia pateikti iki 2027 m. vasario 22 d. Jaunesniems mokiniams (9-16 m.) skirta „Mission Zero“, iki 2027 m. kovo 22 d.",
+              "url": "https://astro-pi.org",
+              "link": "Astro Pi"
+            },
+            {
+              "when": "Fizika, astronomija · gimnazija",
+              "name": "Asteroidų paieška (IASC)",
+              "text": "Tarptautinė asteroidų paieškos kampanija mokykloms: mokiniai tikrose teleskopų nuotraukose ieško dar nežinomų asteroidų, o radiniai užregistruojami kaip preliminarūs atradimai. Iki 2018 m. programoje dalyvavo daugiau kaip 500 mokyklų iš 60 šalių.",
+              "how": "kampanijos trunka apie mėnesį ir 2026-2027 m. vyksta beveik kas mėnesį iki 2027 m. gegužės. Europoje registruojamasi per Erasmus+ projektą StAnD, vietos dažnai užpildomos likus mėnesiui. Dalyvavimas nemokamas. Programa „Astrometrica“ veikia tik su „Windows“, medžiaga anglų kalba.",
+              "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
+              "link": "Kampanijų datos ir registracija"
+            },
+            {
+              "when": "Fizika · gimnazija",
+              "name": "Dalelių fizikos meistriškumo klasės",
+              "text": "Mokiniai dieną praleidžia universitete: analizuoja tikrus CERN Didžiojo hadronų greitintuvo duomenis ir vaizdo ryšiu palygina rezultatus su kitų šalių mokiniais. Kasmet dalyvauja apie 60 šalių. Tai ne naujų duomenų rinkimas, o darbas su tikrais mokslo duomenimis.",
+              "how": "renginiai vyksta kasmet vasario-balandžio mėn. Dėl 2027 m. datos teiraukitės Vilniaus universiteto Fizikos fakultete.",
+              "url": "https://indico.cern.ch/event/1648092/overview",
+              "link": "2026 m. renginys Vilniuje",
+              "caseText": "2026 m. vasario 26 d. meistriškumo klasė vyko Vilniaus universitete, o 2024 m. Vilniuje ir Kaune ją rengė VU, KTU ir VILNIUS TECH.",
+              "caseUrl": "https://fmns.ktu.edu/events/international-particle-physics-masterclass-2024/",
+              "caseLink": "2024 m. renginys"
             }
           ]
         }
@@ -672,6 +787,78 @@
             "link": "About the method"
           }
         ]
+      },
+      {
+        "id": "pasaulyje",
+        "short": "Worldwide",
+        "title": "International projects you can join from Lithuania",
+        "text": "Large projects that are running now, with thousands or millions of participants around the world. Most of them are in English.",
+        "items": [
+          {
+            "when": "Any time · on a computer",
+            "name": "Zooniverse",
+            "text": "The largest online citizen science platform: volunteers look at images, sounds or old documents and answer simple questions. In Galaxy Zoo you classify galaxies, in Planet Hunters TESS you look for new planets, and in the European Camera Trap Project you count animals in camera-trap photos from across Europe. The platform has more than 3 million volunteers in 160 countries.",
+            "how": "choose a project and start. An account is optional.",
+            "url": "https://www.zooniverse.org/projects",
+            "link": "Zooniverse projects"
+          },
+          {
+            "when": "Every month · at night",
+            "name": "Globe at Night: how many stars can you see?",
+            "text": "International light pollution monitoring: on a clear, moonless night, go outside, compare the sky with star charts and record how many stars you can see. This measures how much artificial light brightens the night sky. More than 11,000 observations were submitted in 2026 alone.",
+            "how": "observing windows last about 10 days each month, and the dates are on the website. You need 10-15 minutes and a phone or computer.",
+            "url": "https://globeatnight.org",
+            "link": "Globe at Night"
+          },
+          {
+            "when": "Any time · with a phone",
+            "name": "GLOBE Observer",
+            "text": "An app from NASA and the GLOBE programme: you photograph clouds, land cover, trees or mosquito breeding sites, and researchers compare your observations with satellite data. Lithuania has been a GLOBE country since 2002, so the app can be used here.",
+            "how": "download the free GLOBE Observer app and follow its instructions.",
+            "url": "https://observer.globe.gov",
+            "link": "GLOBE Observer"
+          },
+          {
+            "when": "Any time",
+            "name": "eBird and Merlin",
+            "text": "Apps from the Cornell Lab of Ornithology. Merlin helps you identify birds by sound or photo, and eBird lets you record which birds you saw or heard. More than 100 million sightings are submitted to eBird each year, and researchers use them. Every May there is a worldwide birding day, Global Big Day.",
+            "how": "download the free apps. You need a free account to submit sightings to eBird.",
+            "url": "https://ebird.org",
+            "link": "eBird"
+          },
+          {
+            "when": "Any time · with a phone",
+            "name": "Pl@ntNet",
+            "text": "A plant identification app made by French research institutes: photograph a plant, the app suggests the species, and your observation adds to the researchers' data. Pl@ntNet has almost 10 million user accounts.",
+            "how": "you can identify plants without an account; to save observations you need one. The website is partly translated into Lithuanian.",
+            "url": "https://plantnet.org",
+            "link": "Pl@ntNet"
+          },
+          {
+            "when": "Any time · on a computer",
+            "name": "OpenStreetMap",
+            "text": "The free map of the world, built by more than 11 million users: you can add roads, paths, buildings and other places around where you live. The Humanitarian OpenStreetMap Team (HOT) posts mapping tasks that help areas hit by disasters. The Lithuanian community has a website, openstreetmap.lt.",
+            "how": "create a free account and edit the map in your browser. The interface is available in Lithuanian.",
+            "url": "https://www.openstreetmap.org",
+            "link": "OpenStreetMap"
+          },
+          {
+            "when": "Regularly · at home",
+            "name": "Sensor.Community: air quality sensors",
+            "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but in November 2026 only two were sending data from Lithuania.",
+            "how": "building the sensor takes about an afternoon, then it runs on its own. Instructions and registration are on the website.",
+            "url": "https://sensor.community",
+            "link": "Sensor.Community"
+          },
+          {
+            "when": "When you see one",
+            "name": "Fireball reports",
+            "text": "Did you see a very bright meteor, a fireball? The International Meteor Organization (IMO) and the American Meteor Society collect witness reports and use them to work out the fireball's path. More than 2,300 fireballs were recorded worldwide in January-March 2026 alone.",
+            "how": "fill in the online form. No account is needed, and the form is available in Lithuanian.",
+            "url": "https://fireball.imo.net",
+            "link": "Report a fireball"
+          }
+        ]
       }
     ],
     "researchers": {
@@ -799,6 +986,14 @@
               "how": "a teacher registers a team as its leader. It is free; the 2026-2027 kids' stage runs until 6 August 2027.",
               "url": "https://climatedetectives.esa.int/lt/",
               "link": "Climate Detectives"
+            },
+            {
+              "when": "Nature, physics · all ages",
+              "name": "Globe at Night: counting stars",
+              "text": "International light pollution monitoring: on a clear night, pupils and their parents compare the sky with star charts and record how many stars they can see. In class you can discuss why more stars are visible in some places than in others.",
+              "how": "observing windows last about 10 days each month, and the dates are on the website. It is free; a phone or computer is enough.",
+              "url": "https://globeatnight.org",
+              "link": "Globe at Night"
             }
           ]
         },
@@ -835,6 +1030,14 @@
               "caseText": "The method described in a research journal.",
               "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
               "caseLink": "Article"
+            },
+            {
+              "when": "Biology, physics, history · ages 9-12",
+              "name": "Zooniverse in class",
+              "text": "Pupils classify real research data online: galaxies, animals in camera-trap photos or old documents. Zooniverse has a section for teachers with classroom accounts, class progress statistics and lesson plans.",
+              "how": "create a free account and choose a project. Projects are in English, so they also suit an English lesson.",
+              "url": "https://www.zooniverse.org/get-involved/educate",
+              "link": "Zooniverse for educators"
             }
           ]
         },
@@ -868,6 +1071,33 @@
               "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
               "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
               "link": "Suggest a word"
+            },
+            {
+              "when": "IT, physics, geography · up to age 19",
+              "name": "Astro Pi: Mission Space Lab",
+              "text": "A competition by the European Space Agency (ESA) and the Raspberry Pi Foundation: a team of 2-6 pupils writes a Python program that collects sensor or camera data on the International Space Station, and the team gets the data back to analyse. Pupils in Lithuania can take part in all ESA education programmes. The easier Mission Zero alone had more than 25,000 young participants in 2024-2025.",
+              "how": "a teacher registers the team as its mentor. It is free and no Raspberry Pi computer is needed. In 2026-2027, programs must be submitted by 22 February 2027. Younger pupils (ages 9-16) can do Mission Zero, by 22 March 2027.",
+              "url": "https://astro-pi.org",
+              "link": "Astro Pi"
+            },
+            {
+              "when": "Physics, astronomy · upper secondary",
+              "name": "Asteroid search (IASC)",
+              "text": "An international asteroid search campaign for schools: pupils look for unknown asteroids in real telescope images, and their finds are recorded as preliminary discoveries. By 2018 more than 500 schools in 60 countries had taken part.",
+              "how": "campaigns last about a month and in 2026-2027 run almost every month until May 2027. In Europe you register through the Erasmus+ project StAnD, and places often fill up a month ahead. It is free. The Astrometrica software runs on Windows only, and materials are in English.",
+              "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
+              "link": "Campaign dates and registration"
+            },
+            {
+              "when": "Physics · upper secondary",
+              "name": "Particle physics masterclasses",
+              "text": "Pupils spend a day at a university, analyse real data from CERN's Large Hadron Collider and compare their results with pupils in other countries by video link. About 60 countries take part each year. This is not new data collection but work with real research data.",
+              "how": "events take place every year in February-April. Ask the Faculty of Physics at Vilnius University about the 2027 date.",
+              "url": "https://indico.cern.ch/event/1648092/overview",
+              "link": "The 2026 event in Vilnius",
+              "caseText": "On 26 February 2026 a masterclass took place at Vilnius University; in 2024 VU, KTU and VILNIUS TECH ran it in Vilnius and Kaunas.",
+              "caseUrl": "https://fmns.ktu.edu/events/international-particle-physics-masterclass-2024/",
+              "caseLink": "The 2024 event"
             }
           ]
         }
