@@ -1,57 +1,93 @@
 {
-  "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeWV2FuGAM-A17jyIdG-sOi63g02NGj1zeD6k7SKfotq63rww/viewform",
+  "formUrl": "",
   "lt": {
-    "title": "Paraiškų rengimo klinika",
-    "intro": "Rengiate projekto paraišką ir turite klausimų? NVO ir tyrėjams siūlome nemokamą 30 minučių konsultaciją internetu. Konsultuoja asociacijos ekspertai, turintys Horizon Europe, LMT ir kitų programų paraiškų rengimo patirties.",
-    "button": "Registruotis konsultacijai",
+    "title": "Paraiškų penktadieniai",
+    "intro": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį. Nemokama 30 minučių konsultacija internetu penktadieniais. Konsultuoja asociacijos ekspertai, turintys „Europos horizonto“, CERV ir kitų programų paraiškų rengimo patirties.",
+    "button": "Užsiregistruoti konsultacijai",
     "facts": [
-      { "fig": "30 min", "text": "pokalbis internetu" },
-      { "fig": "13:00-15:00", "text": "penktadieniais" },
-      { "fig": "0 €", "text": "konsultacija nemokama" },
-      { "fig": "NVO", "text": "ir tyrėjams, rengiantiems paraiškas" }
+      {
+        "fig": "30 min",
+        "text": "pokalbis internetu"
+      },
+      {
+        "fig": "Penktadieniais",
+        "text": "laiką pasirinkite kalendoriuje"
+      },
+      {
+        "fig": "0 €",
+        "text": "konsultacija nemokama"
+      }
     ],
     "stepsTitle": "Kaip tai vyksta",
     "steps": [
-      { "title": "Užsiregistruokite", "text": "Užpildykite trumpą formą: aprašykite savo klausimą ir, jei turite, pridėkite nuorodą į paraiškos juodraštį." },
-      { "title": "Suderiname laiką", "text": "Susisieksime el. paštu ir pasiūlysime penktadienio laiką tarp 13:00 ir 15:00." },
-      { "title": "Konsultacija", "text": "30 minučių pokalbis internetu. Jūsų klausimą ir juodraštį perskaitome iš anksto, todėl visas laikas skiriamas atsakymams." }
+      {
+        "title": "Pasirinkite laiką",
+        "text": "Kalendoriuje pasirinkite jums patogų penktadienio laiką ir trumpai parašykite, kokiam kvietimui rengiate paraišką."
+      },
+      {
+        "title": "Gaukite patvirtinimą",
+        "text": "Patvirtinimas ir nuoroda į pokalbį atkeliaus el. paštu."
+      },
+      {
+        "title": "Pasikalbame",
+        "text": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį."
+      }
     ],
-    "helpTitle": "Kuo galime padėti",
+    "helpTitle": "Kam labiausiai tinka",
+    "helpText": "Labiausiai galime padėti, jei rengiate mokslinių tyrimų ar visuomeninio projekto paraišką, kurioje svarbūs žmonės: piliečių mokslas, bendrakūra, bendruomenių ar tikslinių grupių įtraukimas. Pavyzdžiui:",
     "help": [
-      "Ar projekto idėja atitinka programos ar kvietimo tikslus",
-      "Paraiškos struktūra, tikslai ir logika",
-      "Metodika ir darbo planas",
-      "Poveikis, rezultatų sklaida ir visuomenės įtraukimas",
-      "Pastabos dėl vienos paraiškos dalies juodraščio"
+      "„Europos horizontas“",
+      "kaskadinis finansavimas (ES projektų atviri kvietimai)",
+      "CERV",
+      "mažesni fondai ir programos"
     ],
+    "helpAfter": "Verslo investicijų ir paramos MVĮ paraiškų nekonsultuojame. Nesate tikri, ar jūsų idėja tinka? Parašykite info@pilieciumokslas.lt.",
     "note": "Jei reikia išsamesnės visos paraiškos peržiūros ar pagalbos ją rengiant, galime susitarti dėl atskiros mokamos paslaugos.",
     "ctaTitle": "Turite klausimą apie savo paraišką?"
   },
   "en": {
-    "title": "Application clinic",
-    "intro": "Preparing a project application and have questions? We offer NGOs and researchers a free 30-minute online consultation. Consultations are given by the association's experts, who have experience of preparing applications to Horizon Europe, the Research Council of Lithuania (LMT) and other programmes.",
-    "button": "Register for a consultation",
+    "title": "Proposal Fridays",
+    "intro": "Half an hour for your proposal: we discuss your idea, the call or your draft. A free 30-minute online consultation on Fridays. Consultations are given by the association's experts, who have experience of preparing proposals to Horizon Europe, CERV and other programmes.",
+    "button": "Book a consultation",
     "facts": [
-      { "fig": "30 min", "text": "online call" },
-      { "fig": "13:00-15:00", "text": "on Fridays" },
-      { "fig": "€0", "text": "the consultation is free" },
-      { "fig": "NGOs", "text": "and researchers preparing applications" }
+      {
+        "fig": "30 min",
+        "text": "online call"
+      },
+      {
+        "fig": "Fridays",
+        "text": "pick a time in the calendar"
+      },
+      {
+        "fig": "€0",
+        "text": "the consultation is free"
+      }
     ],
     "stepsTitle": "How it works",
     "steps": [
-      { "title": "Register", "text": "Fill in a short form: describe your question and, if you have one, add a link to your draft application." },
-      { "title": "We agree on a time", "text": "We will contact you by email and suggest a Friday time between 13:00 and 15:00." },
-      { "title": "Consultation", "text": "A 30-minute online call. We read your question and draft in advance, so the whole time goes to answers." }
+      {
+        "title": "Pick a time",
+        "text": "Choose a Friday time that suits you in the calendar and tell us briefly which call you are preparing for."
+      },
+      {
+        "title": "Get a confirmation",
+        "text": "The confirmation and the link to the call arrive by email."
+      },
+      {
+        "title": "We talk",
+        "text": "Half an hour for your proposal: we discuss your idea, the call or your draft."
+      }
     ],
-    "helpTitle": "What we can help with",
+    "helpTitle": "Who it suits best",
+    "helpText": "We can help most if you are preparing a research or civil society proposal where people matter: citizen science, co-creation, involving communities or target groups. For example:",
     "help": [
-      "Whether the project idea fits the aims of the programme or call",
-      "The structure, objectives and logic of the application",
-      "Methodology and work plan",
-      "Impact, dissemination of results and public engagement",
-      "Comments on a draft of one section of the application"
+      "Horizon Europe",
+      "cascade funding (open calls by EU projects)",
+      "CERV",
+      "smaller funds and programmes"
     ],
-    "note": "If you need a more thorough review of the whole application or help with writing it, we can agree on a separate paid service.",
-    "ctaTitle": "Have a question about your application?"
+    "helpAfter": "We do not advise on business investment or SME support applications. Not sure if your idea fits? Write to info@pilieciumokslas.lt.",
+    "note": "If you need a more thorough review of the whole proposal or help with writing it, we can agree on a separate paid service.",
+    "ctaTitle": "Have a question about your proposal?"
   }
 }

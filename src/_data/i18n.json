@@ -11,7 +11,7 @@
       "initiatives": "Piliečių mokslo iniciatyvos Lietuvoje",
       "explainer": "Kas yra piliečių mokslas?",
       "participation": "Kas nori dalyvauti tyrimuose?",
-      "clinic": "Paraiškų rengimo klinika"
+      "clinic": "Paraiškų penktadieniai"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -92,7 +92,7 @@
     },
     "onlyLt": "Tik lietuvių kalba",
     "contactUs": "Parašykite mums",
-    "clinicTeaser": { "title": "Paraiškų rengimo klinika", "text": "Nemokama 30 minučių konsultacija internetu NVO ir tyrėjams, rengiantiems paraiškas. Penktadieniais 13:00-15:00." },
+    "clinicTeaser": { "title": "Paraiškų penktadieniai", "text": "Pusvalandis jūsų paraiškai: nemokama 30 minučių konsultacija internetu penktadieniais." },
     "signup": { "title": "Gaukite naujienas el. paštu", "text": "Retkarčiais pranešime apie piliečių mokslo naujienas, renginius ir galimybes dalyvauti.", "email": "El. pašto adresas", "consent": "Sutinku, kad Piliečių mokslo asociacija saugotų mano el. pašto adresą ir siųstų naujienas apie piliečių mokslą. Galiu bet kada atsisakyti.", "button": "Užsiprenumeruoti", "thanks": "Ačiū! Jūsų adresas užregistruotas.", "error": "Nepavyko išsiųsti. Bandykite dar kartą arba parašykite mums." }
   },
   "en": {
@@ -107,7 +107,7 @@
       "initiatives": "Citizen science initiatives in Lithuania",
       "explainer": "What is citizen science?",
       "participation": "Who wants to take part in research?",
-      "clinic": "Application clinic"
+      "clinic": "Proposal Fridays"
     },
     "skip": "Skip to content",
     "menu": "Menu",
@@ -189,7 +189,7 @@
     },
     "onlyLt": "In Lithuanian only",
     "contactUs": "Write to us",
-    "clinicTeaser": { "title": "Application clinic", "text": "A free 30-minute online consultation for NGOs and researchers preparing applications. Fridays 13:00-15:00." },
+    "clinicTeaser": { "title": "Proposal Fridays", "text": "Half an hour for your proposal: a free 30-minute online consultation on Fridays." },
     "signup": { "title": "Get news by email", "text": "We will occasionally let you know about citizen science news, events and ways to take part.", "email": "Email address", "consent": "I agree that the Lithuanian Citizen Science Association may store my email address and send news about citizen science. I can unsubscribe at any time.", "button": "Subscribe", "thanks": "Thank you! Your address has been registered.", "error": "Something went wrong. Please try again or write to us." }
   }
 }

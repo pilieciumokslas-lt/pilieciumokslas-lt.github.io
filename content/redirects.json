@@ -158,5 +158,21 @@
   {
     "from": "/en/institutions/",
     "to": "/en/resources/#institucijos"
+  },
+  {
+    "from": "/paraisku-rengimo-klinika/",
+    "to": "/paraisku-penktadieniai/"
+  },
+  {
+    "from": "/en/application-clinic/",
+    "to": "/en/proposal-fridays/"
+  },
+  {
+    "from": "/naujienos/paraisku-rengimo-klinika/",
+    "to": "/naujienos/paraisku-penktadieniai/"
+  },
+  {
+    "from": "/en/news/paraisku-rengimo-klinika/",
+    "to": "/en/news/paraisku-penktadieniai/"
   }
 ]

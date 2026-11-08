@@ -269,12 +269,12 @@ content:
         fields: *participation
 
   - name: clinic
-    label: Paraiškų rengimo klinika / Application clinic
+    label: Paraiškų penktadieniai / Proposal Fridays
     type: file
     path: content/clinic.json
     format: json
     fields:
-      - { name: formUrl, label: Registracijos formos nuoroda / Registration form link, type: string }
+      - { name: formUrl, label: Calendly nuoroda / Calendly link, type: string }
       - name: lt
         label: Lietuviškai
         type: object
@@ -297,8 +297,10 @@ content:
             fields:
               - { name: title, label: Pavadinimas / Title, type: string }
               - { name: text, label: Tekstas / Text, type: text }
-          - { name: helpTitle, label: Antraštė "Kuo galime padėti" / Heading "What we can help with", type: string }
-          - { name: help, label: Temos / Topics, type: string, list: true }
+          - { name: helpTitle, label: Antraštė "Kam labiausiai tinka" / Heading "Who it suits best", type: string }
+          - { name: helpText, label: Tekstas prieš sąrašą / Text before the list, type: text }
+          - { name: help, label: Sąrašas / List, type: string, list: true }
+          - { name: helpAfter, label: Tekstas po sąrašo / Text after the list, type: text }
           - { name: note, label: Pastaba / Note, type: text }
           - { name: ctaTitle, label: Apatinės juostos antraštė / Bottom band heading, type: string }
       - name: en

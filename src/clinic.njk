@@ -36,11 +36,13 @@ eleventyComputed:
 <section class="band">
   <div class="wrap narrow prose">
     <h2>{{ c.helpTitle }}</h2>
+    {% if c.helpText %}<p>{{ c.helpText }}</p>{% endif %}
     <ul>
       {%- for h in c.help %}
       <li>{{ h }}</li>
       {%- endfor %}
     </ul>
+    {% if c.helpAfter %}<p>{{ c.helpAfter }}</p>{% endif %}
     <p>{{ c.note }}</p>
   </div>
 </section>
