@@ -1,7 +1,33 @@
 {
   "lt": {
     "title": "Kaip prisidėti prie piliečių mokslo?",
-    "intro": "Piliečių mokslui nereikia mokslinio laipsnio. Užtenka smalsumo, telefono ar kelių valandų per metus. Čia surinkome būdus prisidėti prie tyrimų Lietuvoje: nuo kelių minučių iki ilgalaikės stebėsenos.",
+    "intro": "Piliečių mokslui nereikia mokslinio laipsnio. Čia rasite, kaip prisidėti prie tyrimų gyventojams, kaip pradėti projektą tyrėjams ir kaip įtraukti klasę mokytojams.",
+    "paths": [
+      {
+        "id": "gyventojams",
+        "kicker": "Gyventojams",
+        "title": "Noriu prisidėti prie tyrimų",
+        "text": "Programėlės, kasmetinės akcijos ir ilgalaikė stebėsena: nuo kelių minučių iki kelių valandų per metus.",
+        "heading": "Gyventojams: kaip prisidėti prie tyrimų",
+        "intro": "Pasirinkite pagal tai, kiek turite laiko ir kas jums įdomu."
+      },
+      {
+        "id": "tyrejams",
+        "kicker": "Tyrėjams",
+        "title": "Noriu pradėti projektą",
+        "text": "Žingsniai ir ištekliai piliečių mokslo projektui suplanuoti: nuo principų iki dalyvių ir finansavimo.",
+        "heading": "Tyrėjams: kaip pradėti piliečių mokslo projektą",
+        "intro": "Piliečių mokslo projektas prasideda nuo klausimo, kuris svarbus ir mokslui, ir žmonėms. Šie ištekliai padės kiekviename žingsnyje."
+      },
+      {
+        "id": "mokytojams",
+        "kicker": "Mokytojams",
+        "title": "Noriu įtraukti klasę",
+        "text": "Lietuvos mokyklų patirtis ir veiklos pagal dalykus ir klases.",
+        "heading": "Mokytojams: piliečių mokslas klasėje",
+        "intro": "Projektai, kuriuos Lietuvos mokyklos jau išbandė, ir veiklos, prie kurių klasė gali prisijungti."
+      }
+    ],
     "groups": [
       {
         "id": "bet-kada",
@@ -210,12 +236,141 @@
         ]
       }
     ],
+    "researchers": {
+      "steps": [
+        {
+          "title": "Susipažinkite su principais",
+          "text": "Europos piliečių mokslo asociacijos (ECSA) dešimt principų padės suplanuoti projektą, kuriame dalyviai yra tikri partneriai.",
+          "links": [
+            {
+              "text": "10 piliečių mokslo principų (PDF)",
+              "url": "https://biblioteka.ktu.edu/wp-content/uploads/sites/38/2025/08/10-pilieciu-mokslo-principu.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Kreipkitės pagalbos savo institucijoje",
+          "text": "Vilniaus universitete, VILNIUS TECH ir KTU veikia piliečių mokslo centrai ar konsultantai, kurie padeda inicijuoti ir įgyvendinti projektus.",
+          "links": [
+            {
+              "text": "Kur kreiptis savo institucijoje",
+              "url": "/istekliai/#institucijos"
+            }
+          ]
+        },
+        {
+          "title": "Raskite dalyvius",
+          "text": "Sužinokite, kas Lietuvoje nori dalyvauti tyrimuose ir kaip juos pasiekti, ir suplanuokite dalyvių paiešką.",
+          "links": [
+            {
+              "text": "Kas nori dalyvauti tyrimuose?",
+              "url": "/kas-nori-dalyvauti-tyrimuose/"
+            },
+            {
+              "text": "Dalyvių paieškos planas: darbo lapas",
+              "url": "/assets/uploads/docs/dalyviu-paieskos-planas.docx",
+              "note": "„Word“"
+            },
+            {
+              "text": "INFODEMIJA: mokslo auditorijų segmentai Lietuvoje",
+              "url": "https://www.infodemija.lt/"
+            }
+          ]
+        },
+        {
+          "title": "Pasirinkite platformą duomenims rinkti",
+          "text": "Nebūtina kurti savo programėlės: duomenims rinkti ir dalyviams rasti galima naudoti esamas platformas, tokias kaip Zooniverse, iNaturalist, SciStarter ar CitSci.",
+          "links": [
+            {
+              "text": "Platformos ir tinklai",
+              "url": "/istekliai/#platformos"
+            }
+          ]
+        },
+        {
+          "title": "Pasimokykite iš kitų projektų",
+          "text": "Lietuvos tyrėjų straipsniai, įrankių rinkiniai ir mokymai apie tai, kaip planuoti ir vykdyti piliečių mokslo veiklas.",
+          "links": [
+            {
+              "text": "Įrankiai ir mokymai",
+              "url": "/istekliai/#irankiai"
+            },
+            {
+              "text": "Publikacijos apie piliečių mokslą Lietuvoje",
+              "url": "/istekliai/#publikacijos"
+            },
+            {
+              "text": "Piliečių mokslas bibliotekininkams: atviras kursas",
+              "url": "https://open.ktu.edu/course/view.php?id=161"
+            }
+          ]
+        },
+        {
+          "title": "Įsivertinkite savo organizaciją",
+          "text": "Įsivertinimo įrankis parodys, kiek piliečių mokslas jau yra jūsų institucijos veiklos dalis ir ką būtų galima stiprinti.",
+          "links": [
+            {
+              "text": "Įsivertinimo įrankis",
+              "url": "https://doi.org/10.5281/zenodo.15148118",
+              "note": "„Excel“, anglų k."
+            }
+          ]
+        },
+        {
+          "title": "Raskite finansavimą",
+          "text": "Peržiūrėkite atvirus kvietimus ir pasitarkite su mumis dėl paraiškos.",
+          "links": [
+            {
+              "text": "Finansavimo kvietimų duomenų bazė",
+              "url": "/kvietimai/"
+            },
+            {
+              "text": "Kaip parengti stiprią CERV paraišką",
+              "url": "/naujienos/kaip-parengti-stipria-cerv-paraiska/"
+            },
+            {
+              "text": "Paraiškų penktadieniai: nemokama 30 min. konsultacija",
+              "url": "/paraisku-penktadieniai/"
+            }
+          ]
+        }
+      ]
+    },
+    "teachers": {
+      "bands": []
+    },
     "ownTitle": "Turite savo idėją?",
     "ownText": "Planuojate piliečių mokslo projektą su bendruomene, mokykla ar organizacija? Padėsime jį suplanuoti ir rasti finansavimą."
   },
   "en": {
     "title": "How can I take part in citizen science?",
-    "intro": "You do not need a science degree to take part in citizen science. Curiosity, a phone or a few hours a year are enough. Here are ways to contribute to research in Lithuania, from a few minutes to long-term monitoring.",
+    "intro": "You do not need a science degree to take part in citizen science. Here you will find how residents can contribute to research, how researchers can start a project, and how teachers can involve their class.",
+    "paths": [
+      {
+        "id": "gyventojams",
+        "kicker": "For residents",
+        "title": "I want to contribute to research",
+        "text": "Apps, annual counts and long-term monitoring: from a few minutes to a few hours a year.",
+        "heading": "For residents: how to contribute to research",
+        "intro": "Choose by how much time you have and what interests you."
+      },
+      {
+        "id": "tyrejams",
+        "kicker": "For researchers",
+        "title": "I want to start a project",
+        "text": "Steps and resources for planning a citizen science project: from principles to participants and funding.",
+        "heading": "For researchers: how to start a citizen science project",
+        "intro": "A citizen science project starts with a question that matters both to science and to people. These resources help at every step."
+      },
+      {
+        "id": "mokytojams",
+        "kicker": "For teachers",
+        "title": "I want to involve my class",
+        "text": "Experience from Lithuanian schools and activities by subject and grade.",
+        "heading": "For teachers: citizen science in the classroom",
+        "intro": "Projects Lithuanian schools have already tried, and activities a class can join."
+      }
+    ],
     "groups": [
       {
         "id": "bet-kada",
@@ -424,6 +579,110 @@
         ]
       }
     ],
+    "researchers": {
+      "steps": [
+        {
+          "title": "Get to know the principles",
+          "text": "The ten principles of the European Citizen Science Association (ECSA) help you plan a project in which participants are real partners.",
+          "links": [
+            {
+              "text": "Ten principles of citizen science",
+              "url": "https://www.ecsa.ngo/10-principles-of-citizen-science/"
+            }
+          ]
+        },
+        {
+          "title": "Get support at your institution",
+          "text": "Vilnius University, VILNIUS TECH and KTU have citizen science centres or advisers who help researchers start and run projects.",
+          "links": [
+            {
+              "text": "Who to contact at your institution",
+              "url": "/en/resources/#institucijos"
+            }
+          ]
+        },
+        {
+          "title": "Find participants",
+          "text": "Find out who in Lithuania wants to take part in research and how to reach them, and plan your recruitment.",
+          "links": [
+            {
+              "text": "Who wants to take part in research?",
+              "url": "/en/who-wants-to-take-part-in-research/"
+            },
+            {
+              "text": "Participant recruitment plan: worksheet",
+              "url": "/assets/uploads/docs/dalyviu-paieskos-planas.docx",
+              "note": "Word, in Lithuanian"
+            },
+            {
+              "text": "INFODEMIJA: science audience segments in Lithuania",
+              "url": "https://www.infodemija.lt/",
+              "note": "in Lithuanian"
+            }
+          ]
+        },
+        {
+          "title": "Choose a platform for collecting data",
+          "text": "You do not need to build your own app: existing platforms such as Zooniverse, iNaturalist, SciStarter or CitSci help you collect data and find participants.",
+          "links": [
+            {
+              "text": "Platforms and networks",
+              "url": "/en/resources/#platformos"
+            }
+          ]
+        },
+        {
+          "title": "Learn from other projects",
+          "text": "Articles by Lithuanian researchers, toolkits and training on how to plan and run citizen science activities.",
+          "links": [
+            {
+              "text": "Tools and training",
+              "url": "/en/resources/#irankiai"
+            },
+            {
+              "text": "Publications on citizen science in Lithuania",
+              "url": "/en/resources/#publikacijos"
+            },
+            {
+              "text": "Citizen science for librarians: open course",
+              "url": "https://open.ktu.edu/course/view.php?id=161"
+            }
+          ]
+        },
+        {
+          "title": "Assess your organisation",
+          "text": "The self-assessment tool shows how far citizen science is already part of your institution's work and what could be strengthened.",
+          "links": [
+            {
+              "text": "Self-assessment tool",
+              "url": "https://doi.org/10.5281/zenodo.15148118",
+              "note": "Excel"
+            }
+          ]
+        },
+        {
+          "title": "Find funding",
+          "text": "Browse open calls and talk to us about your proposal.",
+          "links": [
+            {
+              "text": "Funding calls database",
+              "url": "/kvietimai/"
+            },
+            {
+              "text": "How to write a strong CERV proposal",
+              "url": "/en/news/kaip-parengti-stipria-cerv-paraiska/"
+            },
+            {
+              "text": "Proposal Fridays: a free 30-minute consultation",
+              "url": "/en/proposal-fridays/"
+            }
+          ]
+        }
+      ]
+    },
+    "teachers": {
+      "bands": []
+    },
     "ownTitle": "Have your own idea?",
     "ownText": "Planning a citizen science project with a community, school or organisation? We can help you plan it and find funding."
   }

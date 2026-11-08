@@ -320,8 +320,19 @@ content:
         fields: &takepart
           - { name: title, label: Pavadinimas / Title, type: string }
           - { name: intro, label: Įžanga / Intro, type: text }
+          - name: paths
+            label: Trys keliai (gyventojams, tyrėjams, mokytojams; tvarkos nekeisti) / Three paths (residents, researchers, teachers; keep the order)
+            type: object
+            list: true
+            fields:
+              - { name: id, label: Nuorodos žymė (nekeisti) / Anchor (do not change), type: string }
+              - { name: kicker, label: Kam / For whom, type: string }
+              - { name: title, label: Kortelės antraštė / Card heading, type: string }
+              - { name: text, label: Kortelės tekstas / Card text, type: text }
+              - { name: heading, label: Skyriaus antraštė / Section heading, type: string }
+              - { name: intro, label: Skyriaus įžanga / Section intro, type: text }
           - name: groups
-            label: Grupės / Groups
+            label: Gyventojams, grupės / For residents, groups
             type: object
             list: true
             fields:
@@ -333,7 +344,7 @@ content:
                 label: Kortelės / Cards
                 type: object
                 list: true
-                fields:
+                fields: &tpcard
                   - { name: when, label: Kada / When, type: string }
                   - { name: name, label: Pavadinimas / Name, type: string }
                   - { name: text, label: Aprašymas / Description, type: text }
@@ -345,6 +356,41 @@ content:
                   - { name: alt, label: Ką rodo nuotrauka / What the photo shows, type: string }
                   - { name: credit, label: Nuotraukos autorius ir licencija / Photo credit and licence, type: string }
                   - { name: creditUrl, label: Nuotraukos šaltinis / Photo source link, type: string }
+          - name: researchers
+            label: Tyrėjams / For researchers
+            type: object
+            fields:
+              - name: steps
+                label: Žingsniai / Steps
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Pavadinimas / Title, type: string }
+                  - { name: text, label: Tekstas / Text, type: text }
+                  - name: links
+                    label: Nuorodos / Links
+                    type: object
+                    list: true
+                    fields:
+                      - { name: text, label: Tekstas / Text, type: string }
+                      - { name: url, label: Nuoroda / Link, type: string }
+                      - { name: note, label: "Pastaba (pvz. formatas) / Note (e.g. format)", type: string }
+          - name: teachers
+            label: Mokytojams / For teachers
+            type: object
+            fields:
+              - name: bands
+                label: Klasių grupės / Grade bands
+                type: object
+                list: true
+                fields:
+                  - { name: title, label: Antraštė / Heading, type: string }
+                  - { name: text, label: Tekstas / Text, type: text }
+                  - name: items
+                    label: Kortelės / Cards
+                    type: object
+                    list: true
+                    fields: *tpcard
           - { name: ownTitle, label: Apatinės juostos antraštė / Bottom band heading, type: string }
           - { name: ownText, label: Apatinės juostos tekstas / Bottom band text, type: text }
       - name: en

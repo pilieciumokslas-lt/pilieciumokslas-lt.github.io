@@ -12,8 +12,38 @@ eleventyComputed:
 {%- from "macros.njk" import pageHead -%}
 {%- set t = i18n[lang] -%}
 {%- set p = db.takepart[lang] -%}
+{%- macro card(i) %}
+      <li class="tp-card{% if i.img %} has-img{% endif %}">
+        {% if i.img %}<figure class="tp-img"><img src="{{ i.img }}" alt="{{ i.alt }}" loading="lazy"><figcaption>{% if i.creditUrl %}<a href="{{ i.creditUrl }}">{{ i.credit }}</a>{% else %}{{ i.credit }}{% endif %}</figcaption></figure>{% endif %}
+        {% if i.when %}<p class="label">{{ i.when }}</p>{% endif %}
+        <h3 class="tp-title">{% if i.logo and not i.img %}<img class="tp-logo" src="{{ i.logo }}" alt="">{% endif %}<span>{{ i.name }}</span></h3>
+        <p>{{ i.text }}</p>
+        {% if i.how %}<p class="tp-how"><strong>{{ t.howStart }}:</strong> {{ i.how }}</p>{% endif %}
+        {% if i.url %}<a class="more" href="{{ i.url }}">{{ i.link or t.open }}</a>{% endif %}
+      </li>
+{%- endmacro %}
+{%- macro audience(a) %}
+<section class="tp-audience" id="{{ a.id }}">
+  <div class="wrap">
+    <p class="label">{{ a.kicker }}</p>
+    <h2>{{ a.heading or a.title }}</h2>
+    {% if a.intro %}<p>{{ a.intro }}</p>{% endif %}
+  </div>
+</section>
+{%- endmacro %}
 {{ pageHead(p.title, p.intro) }}
 <section class="band tp-top">
+  <div class="wrap">
+    <ul class="grid g3 tp-paths">
+      {%- for a in p.paths %}
+      <li><a class="tp-path" href="#{{ a.id }}"><span class="label">{{ a.kicker }}</span><strong>{{ a.title }}</strong><span class="tp-path-text">{{ a.text }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+{{ audience(p.paths[0]) }}
+<section class="band tp-chips">
   <div class="wrap">
     <ul class="g-toc">
       {%- for g in p.groups %}
@@ -30,20 +60,46 @@ eleventyComputed:
       <div><h2>{{ g.title }}</h2>{% if g.text %}<p>{{ g.text }}</p>{% endif %}</div>
     </div>
     <ul class="grid g3 tp-cards">
-      {%- for i in g.items %}
-      <li class="tp-card{% if i.img %} has-img{% endif %}">
-        {% if i.img %}<figure class="tp-img"><img src="{{ i.img }}" alt="{{ i.alt }}" loading="lazy"><figcaption>{% if i.creditUrl %}<a href="{{ i.creditUrl }}">{{ i.credit }}</a>{% else %}{{ i.credit }}{% endif %}</figcaption></figure>{% endif %}
-        {% if i.when %}<p class="label">{{ i.when }}</p>{% endif %}
-        <h3 class="tp-title">{% if i.logo and not i.img %}<img class="tp-logo" src="{{ i.logo }}" alt="">{% endif %}<span>{{ i.name }}</span></h3>
-        <p>{{ i.text }}</p>
-        {% if i.how %}<p class="tp-how"><strong>{{ t.howStart }}:</strong> {{ i.how }}</p>{% endif %}
-        {% if i.url %}<a class="more" href="{{ i.url }}">{{ i.link or t.open }}</a>{% endif %}
-      </li>
-      {%- endfor %}
+      {%- for i in g.items %}{{ card(i) }}{%- endfor %}
     </ul>
   </div>
 </section>
 {%- endfor %}
+
+{%- if p.researchers %}
+{{ audience(p.paths[1]) }}
+<section class="band">
+  <div class="wrap">
+    <ol class="tp-steps">
+      {%- for s in p.researchers.steps %}
+      <li>
+        <span class="tp-n">{{ "0" + loop.index if loop.index < 10 else loop.index }}</span>
+        <div>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.text }}</p>
+          {% if s.links %}<ul class="tp-links">{% for l in s.links %}<li><a href="{{ l.url }}">{{ l.text }}</a>{% if l.note %} <span>{{ l.note }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+{%- endif %}
+
+{%- if p.teachers and p.teachers.bands.length %}
+{{ audience(p.paths[2]) }}
+{%- for b in p.teachers.bands %}
+<section class="band tp-group{% if loop.index is even %} tint{% endif %}">
+  <div class="wrap">
+    <div class="tp-head"><div><h2>{{ b.title }}</h2>{% if b.text %}<p>{{ b.text }}</p>{% endif %}</div></div>
+    <ul class="grid g3 tp-cards">
+      {%- for i in b.items %}{{ card(i) }}{%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endfor %}
+{%- endif %}
+
 <section class="cta">
   <div class="wrap">
     <div>
