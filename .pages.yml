@@ -340,6 +340,7 @@ content:
                   - { name: how, label: Kaip pradėti / How to start, type: text }
                   - { name: url, label: Nuoroda / Link, type: string }
                   - { name: link, label: Nuorodos tekstas / Link text, type: string }
+                  - { name: logo, label: "Logotipas (rodomas, jei nėra nuotraukos) / Logo (shown if there is no photo)", type: image }
                   - { name: img, label: "Nuotrauka (3:2) / Photo (3:2)", type: image }
                   - { name: alt, label: Ką rodo nuotrauka / What the photo shows, type: string }
                   - { name: credit, label: Nuotraukos autorius ir licencija / Photo credit and licence, type: string }

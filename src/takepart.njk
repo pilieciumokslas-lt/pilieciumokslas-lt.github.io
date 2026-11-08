@@ -34,7 +34,7 @@ eleventyComputed:
       <li class="tp-card{% if i.img %} has-img{% endif %}">
         {% if i.img %}<figure class="tp-img"><img src="{{ i.img }}" alt="{{ i.alt }}" loading="lazy"><figcaption>{% if i.creditUrl %}<a href="{{ i.creditUrl }}">{{ i.credit }}</a>{% else %}{{ i.credit }}{% endif %}</figcaption></figure>{% endif %}
         {% if i.when %}<p class="label">{{ i.when }}</p>{% endif %}
-        <h3>{{ i.name }}</h3>
+        <h3 class="tp-title">{% if i.logo and not i.img %}<img class="tp-logo" src="{{ i.logo }}" alt="">{% endif %}<span>{{ i.name }}</span></h3>
         <p>{{ i.text }}</p>
         {% if i.how %}<p class="tp-how"><strong>{{ t.howStart }}:</strong> {{ i.how }}</p>{% endif %}
         {% if i.url %}<a class="more" href="{{ i.url }}">{{ i.link or t.open }}</a>{% endif %}

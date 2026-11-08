@@ -60,6 +60,7 @@
           {
             "when": "Bet kada",
             "name": "Reti paukščiai",
+            "logo": "/assets/uploads/logos/lod.png",
             "text": "Pamatėte retą paukščių rūšį? Lietuvos ornitologų draugija renka retų rūšių stebėjimus, kuriuos įvertina retųjų paukščių komisija.",
             "how": "užpildykite formą LOD svetainėje: vardas, el. paštas, data, rūšis, jei turite, nuotrauka ar garso įrašas.",
             "url": "https://birdlife.lt/sris/",
@@ -88,6 +89,7 @@
           {
             "when": "Balandį",
             "name": "Geografijos naktis",
+            "logo": "/assets/uploads/logos/lgd.png",
             "text": "Nemokami geografijos renginiai visoje Lietuvoje vieną vakarą. 2026 m. vyko 46 renginiai, juose dalyvavo daugiau kaip 3 100 žmonių. Renginius rengia mokyklos, universitetai, saugomų teritorijų direkcijos ir mokslo centrai.",
             "how": "pasirinkite renginį tarptautiniame Geografijos nakties žemėlapyje. Mokyklos ir organizacijos gali surengti savo renginį.",
             "url": "https://lgd.lt/veiklos/geografijos-naktis/",
@@ -172,6 +174,7 @@
           {
             "when": "Bet kada",
             "name": "Naujažodžių duomenynas",
+            "logo": "/assets/uploads/logos/lki.png",
             "text": "Lietuvių kalbos instituto duomenynas renka naujus lietuvių kalbos žodžius. Pastebėjote naują žodį, pavartotą viešai? Pasiūlykite jį, o redaktoriai patikrins.",
             "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
             "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
@@ -180,6 +183,7 @@
           {
             "when": "Bet kada",
             "name": "Common Voice lietuviškai",
+            "logo": "/assets/uploads/logos/common-voice.png",
             "text": "Garsiai perskaitykite lietuviškus sakinius arba patikrinkite kitų įrašus. Iš įrašų kuriamas atviras lietuvių kalbos duomenų rinkinys kalbos atpažinimo technologijoms. Kol kas lietuviškai įrašų yra palyginti nedaug, todėl kiekvienas balsas svarbus.",
             "how": "atsidarykite puslapį ir pradėkite skaityti. Dalis sąsajos dar angliškai.",
             "url": "https://commonvoice.mozilla.org/lt/speak",
@@ -188,6 +192,7 @@
           {
             "when": "Bet kada",
             "name": "Vikipedija",
+            "logo": "/assets/uploads/logos/wikipedia.svg",
             "text": "Rašykite ar papildykite straipsnius apie Lietuvos vietas, žmones ir istoriją, pridėkite šaltinius. Lietuviškoje Vikipedijoje jau daugiau kaip 227 000 straipsnių.",
             "how": "perskaitykite redagavimo pagalbos puslapį ir susikurkite nemokamą paskyrą.",
             "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
@@ -196,6 +201,7 @@
           {
             "when": "Projektų metu",
             "name": "Gyvas archyvas",
+            "logo": "/assets/uploads/logos/kulturos-dirbtuve.jpg",
             "text": "Kauno viešosios įstaigos „Kultūros dirbtuvė“ metodika: gyventojai dalijasi asmeninėmis nuotraukomis ir pasakojimais apie savo mikrorajoną, o medžiaga perduodama muziejams ir bibliotekoms archyvuoti. Taikyta Kauno Šilainiuose, Tauragės Žalgiriuose ir Naujojoje Akmenėje.",
             "how": "sekite „Kultūros dirbtuvės“ naujienas. Savivaldybės ir institucijos tokį projektą gali užsisakyti.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
@@ -268,6 +274,7 @@
           {
             "when": "Any time",
             "name": "Rare birds",
+            "logo": "/assets/uploads/logos/lod.png",
             "text": "Seen a rare bird species? The Lithuanian Ornithological Society collects sightings of rare species, which are assessed by its rarities committee.",
             "how": "fill in the form on the society's website: name, email, date, species and, if you have them, a photo or sound recording. The description may be in English.",
             "url": "https://birdlife.lt/sris/",
@@ -296,6 +303,7 @@
           {
             "when": "April",
             "name": "Geography Night",
+            "logo": "/assets/uploads/logos/lgd.png",
             "text": "Free geography events across Lithuania on one evening. In 2026 there were 46 events with more than 3,100 participants, hosted by schools, universities, protected-area directorates and science centres.",
             "how": "pick an event on the international Geography Night map. Schools and organisations can host their own event.",
             "url": "https://lgd.lt/veiklos/geografijos-naktis/",
@@ -380,6 +388,7 @@
           {
             "when": "Any time",
             "name": "Lithuanian neologisms database",
+            "logo": "/assets/uploads/logos/lki.png",
             "text": "The Institute of the Lithuanian Language collects new Lithuanian words. Seen a new word used in public? Suggest it, and the editors will check it.",
             "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
             "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
@@ -388,6 +397,7 @@
           {
             "when": "Any time",
             "name": "Common Voice in Lithuanian",
+            "logo": "/assets/uploads/logos/common-voice.png",
             "text": "Read Lithuanian sentences aloud or check other people's recordings. The recordings become an open Lithuanian speech dataset for speech recognition technology. There are still relatively few Lithuanian recordings, so every voice counts.",
             "how": "open the page and start reading. Part of the interface is still in English.",
             "url": "https://commonvoice.mozilla.org/lt/speak",
@@ -396,6 +406,7 @@
           {
             "when": "Any time",
             "name": "Lithuanian Wikipedia",
+            "logo": "/assets/uploads/logos/wikipedia.svg",
             "text": "Write or improve articles about places, people and history in Lithuania, and add sources. Lithuanian Wikipedia already has more than 227,000 articles.",
             "how": "read the help page on editing (in Lithuanian) and create a free account.",
             "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
@@ -404,6 +415,7 @@
           {
             "when": "During projects",
             "name": "Living Archive (Gyvas archyvas)",
+            "logo": "/assets/uploads/logos/kulturos-dirbtuve.jpg",
             "text": "A method by the Kaunas non-profit Kultūros dirbtuvė: residents share personal photographs and stories about their neighbourhood, and the material is handed over to museums and libraries for archiving. It has been used in Šilainiai (Kaunas), Žalgiriai (Tauragė) and Naujoji Akmenė.",
             "how": "follow Kultūros dirbtuvė for new projects. Municipalities and institutions can commission one.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",

@@ -581,3 +581,5 @@ p { margin: 0 0 1em; }
 .tp-img figcaption { font-size: 0.72rem; line-height: 1.35; color: var(--muted); padding: 6px 26px 0; }
 .tp-img figcaption a { color: inherit; }
 .tp-card.has-img { overflow: hidden; }
+.tp-title { display: flex; align-items: center; gap: 12px; }
+.tp-logo { height: 40px; width: auto; max-width: 64px; object-fit: contain; flex: none; }
