@@ -573,3 +573,6 @@ p { margin: 0 0 1em; }
 .services-lead { margin: -12px 0 32px; color: var(--muted); }
 .about-clinic { margin-top: 28px; background: #fff; border-radius: 6px; padding: 28px 32px; border-left: 4px solid var(--pink); }
 .about-clinic h3 { margin: 0 0 8px; }
+/* Homepage: less empty space around the hero */
+.hero-in { padding: clamp(56px, 9vw, 110px) 0 clamp(56px, 8vw, 100px); }
+.hero + .band { padding-top: clamp(32px, 4vw, 48px); }
