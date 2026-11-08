@@ -607,3 +607,4 @@ p { margin: 0 0 1em; }
 .tp-links a::after { content: " \2192"; }
 .tp-links span { color: var(--muted); font-size: 0.9rem; }
 @media (max-width: 700px) { .tp-steps > li { gap: 14px; padding: 18px; } }
+.tp-card .tp-case { color: var(--ink); font-size: 0.93rem; border-left: 3px solid var(--pink); padding-left: 12px; }

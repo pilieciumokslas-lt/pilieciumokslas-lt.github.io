@@ -337,7 +337,102 @@
       ]
     },
     "teachers": {
-      "bands": []
+      "bands": [
+        {
+          "title": "1-4 klasės",
+          "text": "Trumpi stebėjimai lauke ir užduotys, kurias galima atlikti per kelias pamokas.",
+          "items": [
+            {
+              "when": "Gamtos mokslai · 1-12 kl.",
+              "name": "GLOBE programa",
+              "text": "Tarptautinė mokyklų programa: mokiniai pagal vienodus protokolus stebi orą, vandenį, dirvožemį ir augaliją, o duomenis įkelia į pasaulinę duomenų bazę. Lietuva dalyvauja nuo 2002 m., programą koordinuoja Lietuvos neformaliojo švietimo agentūra (LINEŠA).",
+              "how": "mokytojai baigia LINEŠA rengiamus GLOBE mokymus. Prisijungimo instrukcijas rasite LINEŠA puslapyje.",
+              "url": "https://www.linesa.lt/globe-programa/",
+              "link": "GLOBE Lietuvoje",
+              "caseText": "Panevėžio STEAM centro mokinių komanda 2025 m. pristatė savo darbą tarptautinėje GLOBE pradinių klasių mokinių konferencijoje.",
+              "caseUrl": "https://globe.gov/web/italy/news/-/newsdetail/14028/celebrating-student-achievements-at-the-best-of-globe-europe-and-eurasia-2025-virtual-student-conference",
+              "caseLink": "Apie konferenciją"
+            },
+            {
+              "when": "Gamta, geografija · 5-13 m.",
+              "name": "Klimato detektyvai vaikams",
+              "text": "Europos kosmoso agentūros programa: vaikų komandos atlieka užduotis apie klimatą savo aplinkoje ir renka ženklelius. Medžiaga yra lietuvių kalba.",
+              "how": "mokytojas užregistruoja komandą ir tampa jos vadovu. Dalyvavimas nemokamas, 2026-2027 m. vaikų etapas vyksta iki 2027 m. rugpjūčio 6 d.",
+              "url": "https://climatedetectives.esa.int/lt/",
+              "link": "Klimato detektyvai"
+            }
+          ]
+        },
+        {
+          "title": "5-8 klasės",
+          "text": "Tyrimai prie upės, savo krašto istorija ir geografija.",
+          "items": [
+            {
+              "when": "Biologija, chemija, geografija · 10-16 m.",
+              "name": "Plastiko piratai",
+              "text": "Europos projektas: mokiniai prie upių renka ir skaičiuoja šiukšles, ima mikroplastiko mėginius ir rezultatus perduoda mokslininkams. Lietuvoje projektą koordinuoja LINEŠA. Mokinių 2022-2023 m. surinktus duomenis Fizinių ir technologijos mokslų centro (FTMC) mokslininkai panaudojo tyrime apie šiukšles Lietuvos upių pakrantėse.",
+              "how": "mėginiai renkami pavasarį (gegužės 1 d.-birželio 30 d.) ir rudenį (rugsėjo 15 d.-lapkričio 15 d.). Registruotis nereikia. Dėl mokymo medžiagos ir mikroplastiko tinklelio kreipkitės į LINEŠA.",
+              "url": "https://www.plastic-pirates.eu/lt/start",
+              "link": "Plastiko piratai",
+              "caseText": "Visagino „Verdenės“ gimnazijos mokiniai su tėvais tyrė Šventosios pakrantę: 290 m atkarpoje surado 37 šiukšles, o mokslininkai mėginyje aptiko mikroplastiko.",
+              "caseUrl": "https://www.lituanistika.lt/content/110124",
+              "caseLink": "Mokytojos straipsnis"
+            },
+            {
+              "when": "Geografija · 5-12 kl.",
+              "name": "Geografijos naktis",
+              "text": "Kasmet balandį mokyklos, universitetai ir kitos organizacijos rengia nemokamus geografijos renginius. Dalyje jų dalyviai padeda rinkti ar interpretuoti geografinius duomenis. 2026 m. renginius rengė ir mokyklos, pavyzdžiui, Vilniaus Aleksandro Puškino gimnazija.",
+              "how": "jūsų mokykla gali surengti savo renginį. Dėl dalyvavimo kreipkitės į Lietuvos geografų draugiją.",
+              "url": "https://lgd.lt/veiklos/geografijos-naktis/",
+              "link": "Lietuvos geografų draugija"
+            },
+            {
+              "when": "Istorija, pilietiškumas · progimnazija",
+              "name": "Atminties žemėlapis Šančiuose",
+              "text": "2021 m. pavasarį Šančių progimnazijos mokiniai KTU mokslininkų dirbtuvėse rinko bendruomenės pasakojimus internetiniam Šančių atminties žemėlapiui. Metodika aprašyta mokslo straipsnyje, ją galima pritaikyti savo mokyklos apylinkėms.",
+              "how": "projektas baigėsi, bet Šančių žemėlapiai tebėra internete. Panašų žemėlapį galite kurti su savo klase.",
+              "url": "https://sanciubendruomene.lt/lt/zemelapiai/",
+              "link": "Šančių žemėlapiai",
+              "caseText": "Metodikos aprašymas mokslo žurnale (anglų k.).",
+              "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
+              "caseLink": "Straipsnis"
+            }
+          ]
+        },
+        {
+          "title": "9-12 klasės",
+          "text": "Savarankiški tyrimai, tikri duomenys ir kalbos stebėjimai.",
+          "items": [
+            {
+              "when": "Geografija, fizika, informatika · 14-19 m.",
+              "name": "Klimato detektyvai",
+              "text": "Europos kosmoso agentūros programa: mokinių komandos tiria vietos klimato problemą, pavyzdžiui, oro kokybę, karštį mieste ar biologinę įvairovę, naudodamos savo matavimus ir palydovinius duomenis.",
+              "how": "mokytojas užregistruoja komandą. Dalyvavimas nemokamas, 2026-2027 m. projektų etapas vyksta iki 2027 m. balandžio 2 d.",
+              "url": "https://climatedetectives.esa.int/lt/",
+              "link": "Klimato detektyvai"
+            },
+            {
+              "when": "Matematika, informatika",
+              "name": "Tikri duomenys pamokoje",
+              "text": "Plastiko piratų duomenų rinkinys, kuriame yra ir Lietuvos mokinių surinkti duomenys, viešai prieinamas pagal CC BY 4.0 licenciją. Mokiniai gali patys juos analizuoti ir palyginti išvadas su FTMC mokslininkų straipsniu.",
+              "how": "atsisiųskite duomenų rinkinį iš „Zenodo“.",
+              "url": "https://zenodo.org/records/15535538",
+              "link": "Duomenų rinkinys",
+              "caseText": "FTMC mokslininkų straipsnis apie šiukšles Lietuvos upių pakrantėse (anglų k.).",
+              "caseUrl": "https://doi.org/10.1007/s10661-024-12503-7",
+              "caseLink": "Straipsnis"
+            },
+            {
+              "when": "Lietuvių kalba",
+              "name": "Naujų žodžių paieška",
+              "text": "Mokiniai ieško naujų lietuvių kalbos žodžių žiniasklaidoje ar socialiniuose tinkluose ir siūlo juos Lietuvių kalbos instituto naujažodžių duomenynui. Redaktoriai kiekvieną pasiūlymą patikrina.",
+              "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
+              "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
+              "link": "Pasiūlyti žodį"
+            }
+          ]
+        }
+      ]
     },
     "ownTitle": "Turite savo idėją?",
     "ownText": "Planuojate piliečių mokslo projektą su bendruomene, mokykla ar organizacija? Padėsime jį suplanuoti ir rasti finansavimą."
@@ -681,7 +776,102 @@
       ]
     },
     "teachers": {
-      "bands": []
+      "bands": [
+        {
+          "title": "Grades 1-4",
+          "text": "Short outdoor observations and tasks that fit into a few lessons.",
+          "items": [
+            {
+              "when": "Natural sciences · grades 1-12",
+              "name": "GLOBE programme",
+              "text": "An international school programme: pupils observe weather, water, soil and vegetation using shared protocols and upload the data to a global database. Lithuania has taken part since 2002, coordinated by the Lithuanian Agency for Non-formal Education (LINEŠA).",
+              "how": "teachers complete GLOBE training run by LINEŠA. Joining instructions are on the LINEŠA page.",
+              "url": "https://www.linesa.lt/globe-programa/",
+              "link": "GLOBE in Lithuania",
+              "caseText": "A pupil team from the Panevėžys STEAM centre presented its work at the international GLOBE conference for primary pupils in 2025.",
+              "caseUrl": "https://globe.gov/web/italy/news/-/newsdetail/14028/celebrating-student-achievements-at-the-best-of-globe-europe-and-eurasia-2025-virtual-student-conference",
+              "caseLink": "About the conference"
+            },
+            {
+              "when": "Nature, geography · ages 5-13",
+              "name": "Climate Detectives for kids",
+              "text": "A European Space Agency programme: children's teams complete climate tasks in their own surroundings and collect badges. Materials are available in Lithuanian.",
+              "how": "a teacher registers a team as its leader. It is free; the 2026-2027 kids' stage runs until 6 August 2027.",
+              "url": "https://climatedetectives.esa.int/lt/",
+              "link": "Climate Detectives"
+            }
+          ]
+        },
+        {
+          "title": "Grades 5-8",
+          "text": "River studies, local history and geography.",
+          "items": [
+            {
+              "when": "Biology, chemistry, geography · ages 10-16",
+              "name": "Plastic Pirates",
+              "text": "A European project: pupils collect and count litter by rivers, take microplastic samples and send the results to researchers. In Lithuania it is coordinated by LINEŠA. Data collected by pupils in 2022-2023 were used by researchers at the Center for Physical Sciences and Technology (FTMC) in a study of litter on Lithuanian riversides.",
+              "how": "samples are collected in spring (1 May-30 June) and autumn (15 September-15 November). No registration is needed. Ask LINEŠA for the teaching materials and the microplastic net.",
+              "url": "https://www.plastic-pirates.eu/lt/start",
+              "link": "Plastic Pirates (in Lithuanian)",
+              "caseText": "Pupils of Verdenės gymnasium in Visaginas and their parents surveyed the bank of the Šventoji: they found 37 litter items along 290 m, and researchers found microplastics in their sample.",
+              "caseUrl": "https://www.lituanistika.lt/content/110124",
+              "caseLink": "The teacher's article"
+            },
+            {
+              "when": "Geography · grades 5-12",
+              "name": "Geography Night",
+              "text": "Every April schools, universities and other organisations host free geography events. In some of them participants help collect or interpret geographical data. In 2026 schools hosted events too, for example Aleksandras Puškinas gymnasium in Vilnius.",
+              "how": "your school can host its own event. Contact the Lithuanian Geographical Society about taking part.",
+              "url": "https://lgd.lt/veiklos/geografijos-naktis/",
+              "link": "Lithuanian Geographical Society"
+            },
+            {
+              "when": "History, civic education · lower secondary",
+              "name": "A memory map in Šančiai",
+              "text": "In spring 2021, pupils of a Šančiai lower-secondary school collected community stories for the online Šančiai memory map in workshops run by KTU researchers. The method is described in a research article and can be adapted to your school's neighbourhood.",
+              "how": "the project has ended, but the Šančiai maps are still online. You can build a similar map with your class.",
+              "url": "https://sanciubendruomene.lt/lt/zemelapiai/",
+              "link": "The Šančiai maps",
+              "caseText": "The method described in a research journal.",
+              "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
+              "caseLink": "Article"
+            }
+          ]
+        },
+        {
+          "title": "Grades 9-12",
+          "text": "Independent research, real data and language observation.",
+          "items": [
+            {
+              "when": "Geography, physics, IT · ages 14-19",
+              "name": "Climate Detectives",
+              "text": "A European Space Agency programme: pupil teams investigate a local climate issue, such as air quality, urban heat or biodiversity, using their own measurements and satellite data.",
+              "how": "a teacher registers the team. It is free; the 2026-2027 project stage runs until 2 April 2027.",
+              "url": "https://climatedetectives.esa.int/lt/",
+              "link": "Climate Detectives"
+            },
+            {
+              "when": "Mathematics, IT",
+              "name": "Real data in class",
+              "text": "The Plastic Pirates dataset, which includes data collected by Lithuanian pupils, is openly available under a CC BY 4.0 licence. Pupils can analyse it themselves and compare their conclusions with the FTMC researchers' article.",
+              "how": "download the dataset from Zenodo.",
+              "url": "https://zenodo.org/records/15535538",
+              "link": "The dataset",
+              "caseText": "The FTMC article on litter on Lithuanian riversides.",
+              "caseUrl": "https://doi.org/10.1007/s10661-024-12503-7",
+              "caseLink": "Article"
+            },
+            {
+              "when": "Lithuanian language",
+              "name": "Hunting for new words",
+              "text": "Pupils look for new Lithuanian words in the media or on social networks and suggest them to the neologisms database of the Institute of the Lithuanian Language. Editors check every suggestion.",
+              "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
+              "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
+              "link": "Suggest a word"
+            }
+          ]
+        }
+      ]
     },
     "ownTitle": "Have your own idea?",
     "ownText": "Planning a citizen science project with a community, school or organisation? We can help you plan it and find funding."

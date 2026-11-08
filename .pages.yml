@@ -356,6 +356,9 @@ content:
                   - { name: alt, label: Ką rodo nuotrauka / What the photo shows, type: string }
                   - { name: credit, label: Nuotraukos autorius ir licencija / Photo credit and licence, type: string }
                   - { name: creditUrl, label: Nuotraukos šaltinis / Photo source link, type: string }
+                  - { name: caseText, label: Pavyzdys / Example, type: text }
+                  - { name: caseUrl, label: Pavyzdžio nuoroda / Example link, type: string }
+                  - { name: caseLink, label: Pavyzdžio nuorodos tekstas / Example link text, type: string }
           - name: researchers
             label: Tyrėjams / For researchers
             type: object

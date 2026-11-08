@@ -19,6 +19,7 @@ eleventyComputed:
         <h3 class="tp-title">{% if i.logo and not i.img %}<img class="tp-logo" src="{{ i.logo }}" alt="">{% endif %}<span>{{ i.name }}</span></h3>
         <p>{{ i.text }}</p>
         {% if i.how %}<p class="tp-how"><strong>{{ t.howStart }}:</strong> {{ i.how }}</p>{% endif %}
+        {% if i.caseText %}<p class="tp-case"><strong>{{ t.example }}:</strong> {{ i.caseText }}{% if i.caseUrl %} <a href="{{ i.caseUrl }}">{{ i.caseLink or t.more }}</a>{% endif %}</p>{% endif %}
         {% if i.url %}<a class="more" href="{{ i.url }}">{{ i.link or t.open }}</a>{% endif %}
       </li>
 {%- endmacro %}
