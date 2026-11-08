@@ -24,7 +24,23 @@ permalink: "{{ routes.about[lang] }}"
     </div>
   </div>
 </section>
-<section class="band tint">
+<section class="band tint" id="paslaugos">
+  <div class="wrap">
+    <h2>{{ t.nav.services }}</h2>
+    <p class="lead services-lead">{{ db.services[lang].intro }}</p>
+    <ol class="grid g2 services full">
+      {% for s in db.services.items %}<li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s[lang].title }}</h3><p>{{ s[lang].text | safe }}</p>{% if s[lang].example %}<p class="example"><strong>{{ t.example }}:</strong> {{ s[lang].example }}{% if s.example_url %} <a href="{{ s.example_url }}">{{ t.more }}</a>{% endif %}</p>{% endif %}</li>{% endfor %}
+    </ol>
+    <div class="clinic-teaser about-clinic">
+      <div>
+        <h3>{{ t.clinicTeaser.title }}</h3>
+        <p>{{ t.clinicTeaser.text }}</p>
+      </div>
+      <a class="btn" href="{{ routes.clinic[lang] }}">{{ t.more }}</a>
+    </div>
+  </div>
+</section>
+<section class="band">
   <div class="wrap">
     <h2>{{ t.people }}</h2>
     <div class="grid g3">
@@ -40,7 +56,7 @@ permalink: "{{ routes.about[lang] }}"
     </div>
   </div>
 </section>
-<section class="band">
+<section class="band tint">
   <div class="wrap about">
     <div>
       <h2>{{ t.membership }}</h2>

@@ -137,7 +137,7 @@
   },
   {
     "from": "/bendruomene/",
-    "to": "/paslaugos/"
+    "to": "/apie/#paslaugos"
   },
   {
     "from": "/about/",
@@ -174,5 +174,13 @@
   {
     "from": "/en/news/paraisku-rengimo-klinika/",
     "to": "/en/news/paraisku-penktadieniai/"
+  },
+  {
+    "from": "/paslaugos/",
+    "to": "/apie/#paslaugos"
+  },
+  {
+    "from": "/en/services/",
+    "to": "/en/about/#paslaugos"
   }
 ]

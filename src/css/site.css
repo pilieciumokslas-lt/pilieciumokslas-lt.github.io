@@ -570,3 +570,6 @@ p { margin: 0 0 1em; }
 @media (min-width: 901px) { .nav a { white-space: nowrap; } }
 @media (min-width: 901px) and (max-width: 1100px) { .nav { gap: 12px; font-size: 0.84rem; } .brand { font-size: 1rem; } }
 @media (min-width: 901px) and (max-width: 1000px) { .nav { gap: 9px; font-size: 0.8rem; } .brand { font-size: 0.95rem; } }
+.services-lead { margin: -12px 0 32px; color: var(--muted); }
+.about-clinic { margin-top: 28px; background: #fff; border-radius: 6px; padding: 28px 32px; border-left: 4px solid var(--pink); }
+.about-clinic h3 { margin: 0 0 8px; }
