@@ -1,0 +1,394 @@
+{
+  "lt": {
+    "title": "Kaip prisidėti prie piliečių mokslo?",
+    "intro": "Piliečių mokslui nereikia mokslinio laipsnio. Užtenka smalsumo, telefono ar kelių valandų per metus. Čia surinkome būdus prisidėti prie tyrimų Lietuvoje: nuo kelių minučių iki ilgalaikės stebėsenos.",
+    "groups": [
+      {
+        "id": "bet-kada",
+        "short": "Bet kada",
+        "title": "Bet kada, su telefonu ar kompiuteriu",
+        "text": "Užtenka kelių minučių: pastebėjote, nufotografavote, įkėlėte. Kiekvienas stebėjimas papildo duomenis, kuriais naudojasi mokslininkai.",
+        "items": [
+          {
+            "when": "Bet kada",
+            "name": "iNaturalist",
+            "text": "Fotografuokite augalus, gyvūnus ar grybus. Programėlė pasiūlys rūšį, o kiti naudotojai ją patvirtins arba patikslins. Lietuvoje jau užregistruota daugiau kaip 670 000 stebėjimų. Patvirtinti stebėjimai kas savaitę perduodami tarptautinei biologinės įvairovės duomenų bazei GBIF.",
+            "how": "atsisiųskite nemokamą programėlę (yra ir lietuvių kalba), susikurkite paskyrą ir įkelkite pirmą nuotrauką su data ir vieta. Klausimų galite užduoti „Facebook“ grupėje „iNaturalist Lietuva“.",
+            "url": "https://www.inaturalist.org/places/lithuania",
+            "link": "iNaturalist Lietuvoje"
+          },
+          {
+            "when": "Drugių sezonu",
+            "name": "15 minučių drugių apskaita",
+            "text": "15 minučių skaičiuokite drugius bet kur: sode, pievoje ar net balkone. Svarbu ir tai, kad drugių nepamatėte: nuliai irgi skaičiuojami. Duomenys patenka į Europos drugių stebėsenos duomenų bazę ir yra atviri tyrimams.",
+            "how": "atsisiųskite nemokamą programėlę „ButterflyCount“ (iOS ir Android) ir susikurkite eBMS paskyrą.",
+            "url": "https://butterfly-monitoring.net/node/161",
+            "link": "Apie 15 minučių apskaitą"
+          },
+          {
+            "when": "Bet kada",
+            "name": "Barrier Tracker: upių užtvaros",
+            "text": "Pastebėjote užtvanką, slenkstį ar kitą kliūtį upėje? Nufotografuokite ją, pažymėkite vietą ir aukštį. Duomenys papildo Europos upių užtvarų atlasą, kuris padeda atkurti upių vientisumą.",
+            "how": "atsisiųskite programėlę „Barrier Tracker“ (šiuo metu Android).",
+            "url": "https://amber.international/citizen-science/",
+            "link": "Apie programėlę"
+          },
+          {
+            "when": "Bet kada",
+            "name": "Saugomų rūšių informacinė sistema (SRIS)",
+            "text": "Pastebėjote saugomą augalą ar gyvūną? Valstybinėje sistemoje pateiktą stebėjimą patikrina tos rūšies ekspertas, o patvirtinti duomenys naudojami rūšims saugoti.",
+            "how": "prisijunkite per elektroninius valdžios vartus, pasirinkite „Teikti duomenis“ ir užpildykite anketą: rūšis, vieta žemėlapyje, nuotraukos.",
+            "url": "https://sris.biip.lt",
+            "link": "sris.biip.lt"
+          },
+          {
+            "when": "Bet kada",
+            "name": "Reti paukščiai",
+            "text": "Pamatėte retą paukščių rūšį? Lietuvos ornitologų draugija renka retų rūšių stebėjimus, kuriuos įvertina retųjų paukščių komisija.",
+            "how": "užpildykite formą LOD svetainėje: vardas, el. paštas, data, rūšis, jei turite, nuotrauka ar garso įrašas.",
+            "url": "https://birdlife.lt/sris/",
+            "link": "LOD forma"
+          }
+        ]
+      },
+      {
+        "id": "akcijos",
+        "short": "Kartą per metus",
+        "title": "Kartą per metus: akcijos ir varžybos",
+        "text": "Vienkartiniai renginiai, į kuriuos lengva įsitraukti ir pirmą kartą.",
+        "items": [
+          {
+            "when": "Vasario viduryje",
+            "name": "Paukščiai prie mano namų",
+            "text": "Lietuvos ornitologų draugijos kasmetinė akcija: vieną valandą skaičiuokite paukščius prie savo namų. 2026 m. dalyvavo apie 150 stebėtojų, jie suskaičiavo daugiau kaip 6 700 paukščių.",
+            "how": "dalyvauti gali visi, lesyklos nereikia. Rezultatus pateikite internetinėje formoje. 2026 m. akcija buvo paskelbta sausio pabaigoje, sekite LOD naujienas.",
+            "url": "https://birdlife.lt/kvieciame-dalyvauti-akcijoje-pauksciai-prie-mano-namu-2026/",
+            "link": "2026 m. akcija"
+          },
+          {
+            "when": "Balandį",
+            "name": "Geografijos naktis",
+            "text": "Nemokami geografijos renginiai visoje Lietuvoje vieną vakarą. 2026 m. vyko 46 renginiai, juose dalyvavo daugiau kaip 3 100 žmonių. Renginius rengia mokyklos, universitetai, saugomų teritorijų direkcijos ir mokslo centrai.",
+            "how": "pasirinkite renginį tarptautiniame Geografijos nakties žemėlapyje. Mokyklos ir organizacijos gali surengti savo renginį.",
+            "url": "https://lgd.lt/veiklos/geografijos-naktis/",
+            "link": "Lietuvos geografų draugija"
+          },
+          {
+            "when": "Birželį",
+            "name": "Rūšių ralis",
+            "text": "Biologinės įvairovės varžybos nuo 2013 m.: 2-5 žmonių komandos per savaitgalį saugomoje teritorijoje ieško kuo daugiau rūšių ir registruoja jas iNaturalist. 2026 m. ralis vyko Aukštadvario regioniniame parke, surinkti duomenys perduodami parkui.",
+            "how": "komandos registruojasi el. paštu (2026 m. iki birželio 1 d.). Kiekvienam dalyviui reikia iNaturalist paskyros.",
+            "url": "https://rusiuralis.lt",
+            "link": "rusiuralis.lt"
+          },
+          {
+            "when": "Spalį",
+            "name": "Paukščių stebėtojų ralis „Kuršių marios“",
+            "text": "Lietuvos ornitologų draugijos ralis Kintuose, kviečiami ir patyrę, ir pradedantieji paukščių stebėtojai. 2026 m. dalyvavo 33 komandos, jos užregistravo 161 rūšį.",
+            "how": "registracija LOD svetainėje rudenį. 2026 m. dalyvavimas LOD nariams buvo nemokamas, kitiems 15 Eur.",
+            "url": "https://birdlife.lt/registracija-i-27-aji-pauksciu-stebetoju-rali-kursiu-marios-2026-2/",
+            "link": "2026 m. ralis"
+          }
+        ]
+      },
+      {
+        "id": "reguliariai",
+        "short": "Reguliariai",
+        "title": "Reguliariai: ilgalaikė stebėsena",
+        "text": "Jei norite įsipareigoti ilgesniam laikui. Tokie duomenys rodo, kaip gamta keičiasi per metus ir dešimtmečius.",
+        "items": [
+          {
+            "when": "Drugių sezonu",
+            "name": "Dieninių drugių stebėsenos maršrutai",
+            "text": "Pasirenkate apie 1 km maršrutą ir gero oro dienomis einate juo, geriausia kas savaitę (bent 10 kartų per metus). Lietuvos drugių stebėsena vyksta nuo 2009 m., ją remia Aplinkos ministerija ir Lietuvos entomologų draugija.",
+            "how": "prieš pradėdami susisiekite su stebėsenos koordinatoriais per drugių stebėsenos puslapį arba „Facebook“ grupę.",
+            "url": "https://butterfly-monitoring.net/lithuania-bms",
+            "link": "Lietuvos drugių stebėsena"
+          },
+          {
+            "when": "Balandį-birželį",
+            "name": "Įprastų paukščių apskaitos",
+            "text": "Du kartus per pavasarį tuo pačiu apie 7 km maršrutu su 20 taškų skaičiuojate paukščius. Iš šių apskaitų skaičiuojamas oficialus žemės ūkio kraštovaizdžio paukščių rodiklis.",
+            "how": "reikia atpažinti įprastas rūšis iš išvaizdos ir balso. Susisiekite su Lietuvos ornitologų draugija, kontaktai nurodyti kvietime.",
+            "url": "https://birdlife.lt/lod-kviecia-prisijungti-stebetojus-vykdyti-iprastu/",
+            "link": "LOD kvietimas"
+          },
+          {
+            "when": "Projekto metu",
+            "name": "Pelkių gyvosios laboratorijos",
+            "text": "Pelkių fondo projekte LIFE ForestHabitatLT veikia keturios gyvosios laboratorijos, tarp jų Praviršulio tyrelyje. Jose kartu dirba vietos bendruomenių nariai, ūkininkai, saugomų teritorijų specialistai ir gamtosaugininkai, o mokiniai mokosi stebėti pelkę.",
+            "how": "apie artimiausias veiklas teiraukitės Pelkių fondo.",
+            "url": "https://www.pelkiufondas.lt/prisidek",
+            "link": "Prisidėkite prie Pelkių fondo"
+          }
+        ]
+      },
+      {
+        "id": "kultura",
+        "short": "Kalba ir paveldas",
+        "title": "Ne tik gamta: kalba, kultūra ir paveldas",
+        "text": "Piliečių mokslas apima ir humanitarinius bei socialinius mokslus: kalbą, istoriją, bendruomenių atmintį.",
+        "items": [
+          {
+            "when": "Bet kada",
+            "name": "Naujažodžių duomenynas",
+            "text": "Lietuvių kalbos instituto duomenynas renka naujus lietuvių kalbos žodžius. Pastebėjote naują žodį, pavartotą viešai? Pasiūlykite jį, o redaktoriai patikrins.",
+            "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
+            "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
+            "link": "Pasiūlyti žodį"
+          },
+          {
+            "when": "Bet kada",
+            "name": "Common Voice lietuviškai",
+            "text": "Garsiai perskaitykite lietuviškus sakinius arba patikrinkite kitų įrašus. Iš įrašų kuriamas atviras lietuvių kalbos duomenų rinkinys kalbos atpažinimo technologijoms. Kol kas lietuviškai įrašų yra palyginti nedaug, todėl kiekvienas balsas svarbus.",
+            "how": "atsidarykite puslapį ir pradėkite skaityti. Dalis sąsajos dar angliškai.",
+            "url": "https://commonvoice.mozilla.org/lt/speak",
+            "link": "Common Voice"
+          },
+          {
+            "when": "Bet kada",
+            "name": "Vikipedija",
+            "text": "Rašykite ar papildykite straipsnius apie Lietuvos vietas, žmones ir istoriją, pridėkite šaltinius. Lietuviškoje Vikipedijoje jau daugiau kaip 227 000 straipsnių.",
+            "how": "perskaitykite redagavimo pagalbos puslapį ir susikurkite nemokamą paskyrą.",
+            "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
+            "link": "Kaip redaguoti"
+          },
+          {
+            "when": "Projektų metu",
+            "name": "Gyvas archyvas",
+            "text": "Kauno viešosios įstaigos „Kultūros dirbtuvė“ metodika: gyventojai dalijasi asmeninėmis nuotraukomis ir pasakojimais apie savo mikrorajoną, o medžiaga perduodama muziejams ir bibliotekoms archyvuoti. Taikyta Kauno Šilainiuose, Tauragės Žalgiriuose ir Naujojoje Akmenėje.",
+            "how": "sekite „Kultūros dirbtuvės“ naujienas. Savivaldybės ir institucijos tokį projektą gali užsisakyti.",
+            "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
+            "link": "Apie metodiką"
+          }
+        ]
+      }
+    ],
+    "tipsTitle": "Patarimai pradedantiems",
+    "tipsShort": "Patarimai",
+    "tips": [
+      {
+        "title": "Visada vieta ir laikas",
+        "text": "Stebėjimas be datos ir vietos mokslui beveik nenaudingas. Leiskite programėlei naudoti vietos duomenis arba pažymėkite vietą žemėlapyje."
+      },
+      {
+        "title": "Kelios aiškios nuotraukos",
+        "text": "Fotografuokite iš kelių pusių ir iš arti. Kuo aiškesnė nuotrauka, tuo lengviau kitiems patvirtinti rūšį."
+      },
+      {
+        "title": "Nežinoti yra normalu",
+        "text": "Nežinote rūšies? Pažymėkite tai, ką žinote, pavyzdžiui, „vabalas“. Kiti naudotojai ir ekspertai patikslins."
+      },
+      {
+        "title": "Nuliai irgi duomenys",
+        "text": "Jei skaičiuodami nieko neradote, praneškite ir apie tai. Mokslininkams svarbu žinoti, kur rūšies nėra."
+      },
+      {
+        "title": "Netrikdykite gamtos",
+        "text": "Laikykitės saugomų teritorijų taisyklių ir netrikdykite gyvūnų, ypač perėjimo metu. Saugomų rūšių radavietes teikite SRIS, o ne socialiniuose tinkluose."
+      },
+      {
+        "title": "Saugokite privatumą",
+        "text": "Prieš įkeldami nuotrauką patikrinkite, ar joje nesimato žmonių veidų, automobilių numerių ar jūsų namų."
+      }
+    ],
+    "ownTitle": "Turite savo idėją?",
+    "ownText": "Planuojate piliečių mokslo projektą su bendruomene, mokykla ar organizacija? Padėsime jį suplanuoti ir rasti finansavimą."
+  },
+  "en": {
+    "title": "How can I take part in citizen science?",
+    "intro": "You do not need a science degree to take part in citizen science. Curiosity, a phone or a few hours a year are enough. Here are ways to contribute to research in Lithuania, from a few minutes to long-term monitoring.",
+    "groups": [
+      {
+        "id": "bet-kada",
+        "short": "Any time",
+        "title": "Any time, with a phone or computer",
+        "text": "A few minutes are enough: spot it, photograph it, upload it. Every observation adds to data that researchers use.",
+        "items": [
+          {
+            "when": "Any time",
+            "name": "iNaturalist",
+            "text": "Photograph plants, animals or fungi. The app suggests a species, and other users confirm or correct it. More than 670,000 observations have already been recorded in Lithuania. Confirmed observations are shared every week with GBIF, the global biodiversity database.",
+            "how": "download the free app (also available in Lithuanian), create an account and upload your first photo with a date and location. You can ask questions in the \"iNaturalist Lietuva\" Facebook group.",
+            "url": "https://www.inaturalist.org/places/lithuania",
+            "link": "iNaturalist in Lithuania"
+          },
+          {
+            "when": "Butterfly season",
+            "name": "15-minute butterfly count",
+            "text": "Count butterflies for 15 minutes anywhere: in a garden, a meadow or even on a balcony. Seeing no butterflies also matters: zeros count too. The data go into the European Butterfly Monitoring database and are open for research.",
+            "how": "download the free ButterflyCount app (iOS and Android) and create an eBMS account.",
+            "url": "https://butterfly-monitoring.net/node/161",
+            "link": "About the 15-minute count"
+          },
+          {
+            "when": "Any time",
+            "name": "Barrier Tracker: river barriers",
+            "text": "Spotted a dam, weir or other barrier in a river? Photograph it and record its location and height. The data feed a European atlas of river barriers that helps restore free-flowing rivers.",
+            "how": "download the Barrier Tracker app (Android for now).",
+            "url": "https://amber.international/citizen-science/",
+            "link": "About the app"
+          },
+          {
+            "when": "Any time",
+            "name": "Protected Species Information System (SRIS)",
+            "text": "Seen a protected plant or animal? In this state system, an expert on that species checks each observation, and confirmed data are used to protect the species.",
+            "how": "log in through the Lithuanian e-government gateway, choose \"Teikti duomenis\" (submit data) and fill in the form: species, location on the map, photos.",
+            "url": "https://sris.biip.lt",
+            "link": "sris.biip.lt"
+          },
+          {
+            "when": "Any time",
+            "name": "Rare birds",
+            "text": "Seen a rare bird species? The Lithuanian Ornithological Society collects sightings of rare species, which are assessed by its rarities committee.",
+            "how": "fill in the form on the society's website: name, email, date, species and, if you have them, a photo or sound recording. The description may be in English.",
+            "url": "https://birdlife.lt/sris/",
+            "link": "The society's form"
+          }
+        ]
+      },
+      {
+        "id": "akcijos",
+        "short": "Once a year",
+        "title": "Once a year: counts and competitions",
+        "text": "One-off events that are easy to join, even for the first time.",
+        "items": [
+          {
+            "when": "Mid-February",
+            "name": "Birds at my home (Paukščiai prie mano namų)",
+            "text": "An annual count by the Lithuanian Ornithological Society: spend one hour counting the birds around your home. In 2026 about 150 observers took part and counted more than 6,700 birds.",
+            "how": "anyone can join, no feeder needed. Submit your results through the online form. In 2026 the count was announced at the end of January, so follow the society's news.",
+            "url": "https://birdlife.lt/kvieciame-dalyvauti-akcijoje-pauksciai-prie-mano-namu-2026/",
+            "link": "The 2026 count"
+          },
+          {
+            "when": "April",
+            "name": "Geography Night",
+            "text": "Free geography events across Lithuania on one evening. In 2026 there were 46 events with more than 3,100 participants, hosted by schools, universities, protected-area directorates and science centres.",
+            "how": "pick an event on the international Geography Night map. Schools and organisations can host their own event.",
+            "url": "https://lgd.lt/veiklos/geografijos-naktis/",
+            "link": "Lithuanian Geographical Society"
+          },
+          {
+            "when": "June",
+            "name": "Species Rally (Rūšių ralis)",
+            "text": "A biodiversity competition held since 2013: teams of 2-5 people spend a weekend in a protected area finding as many species as they can and recording them on iNaturalist. In 2026 the rally took place in Aukštadvaris Regional Park, and the data are handed over to the park.",
+            "how": "teams register by email (in 2026, by 1 June). Every participant needs an iNaturalist account.",
+            "url": "https://rusiuralis.lt",
+            "link": "rusiuralis.lt"
+          },
+          {
+            "when": "October",
+            "name": "Curonian Lagoon birdwatching rally",
+            "text": "A rally by the Lithuanian Ornithological Society in Kintai, open to experienced and beginner birdwatchers. In 2026, 33 teams took part and recorded 161 species.",
+            "how": "register on the society's website in autumn. In 2026 it was free for members and 15 EUR for others.",
+            "url": "https://birdlife.lt/registracija-i-27-aji-pauksciu-stebetoju-rali-kursiu-marios-2026-2/",
+            "link": "The 2026 rally"
+          }
+        ]
+      },
+      {
+        "id": "reguliariai",
+        "short": "Regularly",
+        "title": "Regularly: long-term monitoring",
+        "text": "If you want to commit for longer. Data like these show how nature changes over years and decades.",
+        "items": [
+          {
+            "when": "Butterfly season",
+            "name": "Butterfly monitoring transects",
+            "text": "You choose a route of about 1 km and walk it on days with good weather, ideally every week (at least 10 times a year). Butterfly monitoring in Lithuania has run since 2009 with the support of the Ministry of Environment and the Lithuanian Entomological Society.",
+            "how": "contact the monitoring coordinators before you start, through the butterfly monitoring page or the Facebook group.",
+            "url": "https://butterfly-monitoring.net/lithuania-bms",
+            "link": "Lithuanian butterfly monitoring"
+          },
+          {
+            "when": "April-June",
+            "name": "Common bird counts",
+            "text": "Twice each spring you count birds along the same route of about 7 km with 20 points. These counts feed the official indicator of birds in farmland.",
+            "how": "you need to recognise common species by sight and song. Contact the Lithuanian Ornithological Society; details are in the call.",
+            "url": "https://birdlife.lt/lod-kviecia-prisijungti-stebetojus-vykdyti-iprastu/",
+            "link": "The society's call"
+          },
+          {
+            "when": "During the project",
+            "name": "Peatland living labs",
+            "text": "The NGO Pelkių fondas runs four living labs in the LIFE ForestHabitatLT project, including one at the Praviršulis bog. Local community members, farmers, protected-area staff and conservationists work together there, and school pupils learn to monitor the bog.",
+            "how": "ask Pelkių fondas about upcoming activities.",
+            "url": "https://www.pelkiufondas.lt/prisidek",
+            "link": "Get involved with Pelkių fondas"
+          }
+        ]
+      },
+      {
+        "id": "kultura",
+        "short": "Language and heritage",
+        "title": "Not just nature: language, culture and heritage",
+        "text": "Citizen science also reaches into the humanities and social sciences: language, history and community memory.",
+        "items": [
+          {
+            "when": "Any time",
+            "name": "Lithuanian neologisms database",
+            "text": "The Institute of the Lithuanian Language collects new Lithuanian words. Seen a new word used in public? Suggest it, and the editors will check it.",
+            "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
+            "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
+            "link": "Suggest a word"
+          },
+          {
+            "when": "Any time",
+            "name": "Common Voice in Lithuanian",
+            "text": "Read Lithuanian sentences aloud or check other people's recordings. The recordings become an open Lithuanian speech dataset for speech recognition technology. There are still relatively few Lithuanian recordings, so every voice counts.",
+            "how": "open the page and start reading. Part of the interface is still in English.",
+            "url": "https://commonvoice.mozilla.org/lt/speak",
+            "link": "Common Voice"
+          },
+          {
+            "when": "Any time",
+            "name": "Lithuanian Wikipedia",
+            "text": "Write or improve articles about places, people and history in Lithuania, and add sources. Lithuanian Wikipedia already has more than 227,000 articles.",
+            "how": "read the help page on editing (in Lithuanian) and create a free account.",
+            "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
+            "link": "How to edit"
+          },
+          {
+            "when": "During projects",
+            "name": "Living Archive (Gyvas archyvas)",
+            "text": "A method by the Kaunas non-profit Kultūros dirbtuvė: residents share personal photographs and stories about their neighbourhood, and the material is handed over to museums and libraries for archiving. It has been used in Šilainiai (Kaunas), Žalgiriai (Tauragė) and Naujoji Akmenė.",
+            "how": "follow Kultūros dirbtuvė for new projects. Municipalities and institutions can commission one.",
+            "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
+            "link": "About the method"
+          }
+        ]
+      }
+    ],
+    "tipsTitle": "Tips for beginners",
+    "tipsShort": "Tips",
+    "tips": [
+      {
+        "title": "Always place and time",
+        "text": "An observation without a date and location is of little use to science. Let the app use your location, or mark the place on the map."
+      },
+      {
+        "title": "Several clear photos",
+        "text": "Photograph from several sides and up close. The clearer the photo, the easier it is for others to confirm the species."
+      },
+      {
+        "title": "Not knowing is fine",
+        "text": "Not sure of the species? Record what you know, for example \"beetle\". Other users and experts will refine it."
+      },
+      {
+        "title": "Zeros are data too",
+        "text": "If you counted and found nothing, report that too. Researchers need to know where a species is absent."
+      },
+      {
+        "title": "Do not disturb nature",
+        "text": "Follow the rules of protected areas and do not disturb animals, especially during the breeding season. Report locations of protected species to SRIS, not on social media."
+      },
+      {
+        "title": "Protect privacy",
+        "text": "Before uploading a photo, check that it does not show people's faces, number plates or your home."
+      }
+    ],
+    "ownTitle": "Have your own idea?",
+    "ownText": "Planning a citizen science project with a community, school or organisation? We can help you plan it and find funding."
+  }
+}

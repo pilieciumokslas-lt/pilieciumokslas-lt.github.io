@@ -11,7 +11,8 @@
       "initiatives": "Piliečių mokslo iniciatyvos Lietuvoje",
       "explainer": "Kas yra piliečių mokslas?",
       "participation": "Kas nori dalyvauti tyrimuose?",
-      "clinic": "Paraiškų penktadieniai"
+      "clinic": "Paraiškų penktadieniai",
+      "takepart": "Kaip prisidėti prie piliečių mokslo?"
     },
     "skip": "Pereiti prie turinio",
     "menu": "Meniu",
@@ -62,6 +63,8 @@
     },
     "allInitiatives": "Visos iniciatyvos",
     "initiativesTeaser": "Norite prisijungti prie piliečių mokslo? Peržiūrėkite iniciatyvas Lietuvoje.",
+    "startHere": "Nežinote, nuo ko pradėti?",
+    "howStart": "Kaip pradėti",
     "allTopics": "Visos iniciatyvos",
     "ours": "Asociacijos projektas",
     "resGroups": {
@@ -107,7 +110,8 @@
       "initiatives": "Citizen science initiatives in Lithuania",
       "explainer": "What is citizen science?",
       "participation": "Who wants to take part in research?",
-      "clinic": "Proposal Fridays"
+      "clinic": "Proposal Fridays",
+      "takepart": "How can I take part?"
     },
     "skip": "Skip to content",
     "menu": "Menu",
@@ -158,6 +162,8 @@
     },
     "allInitiatives": "All initiatives",
     "initiativesTeaser": "Want to take part in citizen science? Browse the initiatives in Lithuania.",
+    "startHere": "Not sure where to start?",
+    "howStart": "How to start",
     "allTopics": "All initiatives",
     "ours": "Association project",
     "resGroups": {

@@ -11,6 +11,7 @@ permalink: "{{ routes.initiatives[lang] }}"
 {%- set t = i18n[lang] -%}
 {%- set all = db.allInitiatives -%}
 {{ pageHead(t.nav.initiatives, db.initiatives[lang].intro) }}
+<div class="wrap"><p class="start-here">{{ t.startHere }} <a class="more" href="{{ routes.takepart[lang] }}">{{ t.nav.takepart }}</a></p></div>
 <section class="band">
   <div class="wrap">
     <div class="topics">

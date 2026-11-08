@@ -308,6 +308,54 @@ content:
         type: object
         fields: *clinic
 
+  - name: takepart
+    label: Kaip prisidėti? / How to take part?
+    type: file
+    path: content/takepart.json
+    format: json
+    fields:
+      - name: lt
+        label: Lietuviškai
+        type: object
+        fields: &takepart
+          - { name: title, label: Pavadinimas / Title, type: string }
+          - { name: intro, label: Įžanga / Intro, type: text }
+          - name: groups
+            label: Grupės / Groups
+            type: object
+            list: true
+            fields:
+              - { name: id, label: Nuorodos žymė (nekeisti) / Anchor (do not change), type: string }
+              - { name: short, label: Trumpas pavadinimas mygtukui / Short name for the button, type: string }
+              - { name: title, label: Antraštė / Heading, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
+              - name: items
+                label: Kortelės / Cards
+                type: object
+                list: true
+                fields:
+                  - { name: when, label: Kada / When, type: string }
+                  - { name: name, label: Pavadinimas / Name, type: string }
+                  - { name: text, label: Aprašymas / Description, type: text }
+                  - { name: how, label: Kaip pradėti / How to start, type: text }
+                  - { name: url, label: Nuoroda / Link, type: string }
+                  - { name: link, label: Nuorodos tekstas / Link text, type: string }
+          - { name: tipsTitle, label: Patarimų antraštė / Tips heading, type: string }
+          - { name: tipsShort, label: Trumpas pavadinimas mygtukui / Short name for the button, type: string }
+          - name: tips
+            label: Patarimai / Tips
+            type: object
+            list: true
+            fields:
+              - { name: title, label: Pavadinimas / Title, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
+          - { name: ownTitle, label: Apatinės juostos antraštė / Bottom band heading, type: string }
+          - { name: ownText, label: Apatinės juostos tekstas / Bottom band text, type: text }
+      - name: en
+        label: English
+        type: object
+        fields: *takepart
+
   - name: explainer
     label: Kas yra piliečių mokslas? / What is citizen science?
     type: file

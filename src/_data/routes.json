@@ -35,6 +35,10 @@
     "lt": "/kas-nori-dalyvauti-tyrimuose/",
     "en": "/en/who-wants-to-take-part-in-research/"
   },
+  "takepart": {
+    "lt": "/kaip-prisideti/",
+    "en": "/en/how-to-take-part/"
+  },
   "clinic": {
     "lt": "/paraisku-penktadieniai/",
     "en": "/en/proposal-fridays/"
