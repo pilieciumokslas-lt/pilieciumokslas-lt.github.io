@@ -19,7 +19,6 @@ eleventyComputed:
       {%- for g in p.groups %}
       <li><a href="#{{ g.id }}">{{ g.short or g.title }}</a></li>
       {%- endfor %}
-      <li><a href="#patarimai">{{ p.tipsShort or p.tipsTitle }}</a></li>
     </ul>
   </div>
 </section>
@@ -45,16 +44,6 @@ eleventyComputed:
   </div>
 </section>
 {%- endfor %}
-<section class="band{% if p.groups.length is odd %} tint{% endif %}" id="patarimai">
-  <div class="wrap">
-    <h2>{{ p.tipsTitle }}</h2>
-    <ol class="grid g3 services steps">
-      {%- for s in p.tips %}
-      <li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
-      {%- endfor %}
-    </ol>
-  </div>
-</section>
 <section class="cta">
   <div class="wrap">
     <div>

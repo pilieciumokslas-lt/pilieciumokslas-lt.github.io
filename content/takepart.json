@@ -204,34 +204,6 @@
         ]
       }
     ],
-    "tipsTitle": "Patarimai pradedantiems",
-    "tipsShort": "Patarimai",
-    "tips": [
-      {
-        "title": "Visada vieta ir laikas",
-        "text": "Stebėjimas be datos ir vietos mokslui beveik nenaudingas. Leiskite programėlei naudoti vietos duomenis arba pažymėkite vietą žemėlapyje."
-      },
-      {
-        "title": "Kelios aiškios nuotraukos",
-        "text": "Fotografuokite iš kelių pusių ir iš arti. Kuo aiškesnė nuotrauka, tuo lengviau kitiems patvirtinti rūšį."
-      },
-      {
-        "title": "Nežinoti yra normalu",
-        "text": "Nežinote rūšies? Pažymėkite tai, ką žinote, pavyzdžiui, „vabalas“. Kiti naudotojai ir ekspertai patikslins."
-      },
-      {
-        "title": "Nuliai irgi duomenys",
-        "text": "Jei skaičiuodami nieko neradote, praneškite ir apie tai. Mokslininkams svarbu žinoti, kur rūšies nėra."
-      },
-      {
-        "title": "Netrikdykite gamtos",
-        "text": "Laikykitės saugomų teritorijų taisyklių ir netrikdykite gyvūnų, ypač perėjimo metu. Saugomų rūšių radavietes teikite SRIS, o ne socialiniuose tinkluose."
-      },
-      {
-        "title": "Saugokite privatumą",
-        "text": "Prieš įkeldami nuotrauką patikrinkite, ar joje nesimato žmonių veidų, automobilių numerių ar jūsų namų."
-      }
-    ],
     "ownTitle": "Turite savo idėją?",
     "ownText": "Planuojate piliečių mokslo projektą su bendruomene, mokykla ar organizacija? Padėsime jį suplanuoti ir rasti finansavimą."
   },
@@ -438,34 +410,6 @@
             "link": "About the method"
           }
         ]
-      }
-    ],
-    "tipsTitle": "Tips for beginners",
-    "tipsShort": "Tips",
-    "tips": [
-      {
-        "title": "Always place and time",
-        "text": "An observation without a date and location is of little use to science. Let the app use your location, or mark the place on the map."
-      },
-      {
-        "title": "Several clear photos",
-        "text": "Photograph from several sides and up close. The clearer the photo, the easier it is for others to confirm the species."
-      },
-      {
-        "title": "Not knowing is fine",
-        "text": "Not sure of the species? Record what you know, for example \"beetle\". Other users and experts will refine it."
-      },
-      {
-        "title": "Zeros are data too",
-        "text": "If you counted and found nothing, report that too. Researchers need to know where a species is absent."
-      },
-      {
-        "title": "Do not disturb nature",
-        "text": "Follow the rules of protected areas and do not disturb animals, especially during the breeding season. Report locations of protected species to SRIS, not on social media."
-      },
-      {
-        "title": "Protect privacy",
-        "text": "Before uploading a photo, check that it does not show people's faces, number plates or your home."
       }
     ],
     "ownTitle": "Have your own idea?",
