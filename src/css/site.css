@@ -770,3 +770,6 @@ p { margin: 0 0 1em; }
   .ch-sticky { display: block; position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; text-align: center; box-shadow: 0 12px 30px rgba(0, 0, 40, 0.3); transform: translateY(140%); transition: transform 0.25s ease; }
   .ch-sticky.on { transform: none; }
 }
+/* Programme chips: one colour, no hidden meaning */
+.ch-chips li, .ch-chips li:first-child, .ch-chips li:nth-child(3n) { background: #fff; border-color: #fff; color: var(--ink); }
+.ch-help .ch-progs li:first-child { background: #fff; border-color: var(--line); color: var(--ink); }
