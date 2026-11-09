@@ -724,3 +724,17 @@ p { margin: 0 0 1em; }
 .ex-start p { margin: 0; }
 .ex-start a { font-weight: 600; }
 @media (max-width: 900px) { .ex-def, .ex-why { grid-template-columns: minmax(0, 1fr); } }
+/* Researcher steps: a grid of cards instead of one long column */
+.tp-steps { max-width: none; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 22px; }
+.tp-steps > li { flex-direction: column; gap: 14px; border-top: 4px solid var(--blue); }
+.tp-steps > li:nth-child(3n + 2) { border-top-color: var(--pink); }
+.tp-steps > li:nth-child(3n) { border-top-color: var(--ink); }
+.tp-steps .tp-n { width: 48px; height: 48px; font-size: 1.2rem; border-radius: 12px; }
+/* About the data: a quiet boxed note in two columns instead of a long text strip */
+.m5-method { max-width: none; background: var(--mist); border-radius: 14px; padding: 28px 32px; margin-top: 40px; }
+.m5-method h2 { font-size: 1.1rem; margin: 0 0 14px; }
+.m5-method p { font-size: 0.92rem; color: var(--muted); margin: 0 0 12px; break-inside: avoid; }
+@media (min-width: 900px) { .m5-method { column-count: 2; column-gap: 40px; } .m5-method h2 { column-span: all; } }
+/* About page: membership and contact as two cards */
+.band.tint .about > div { background: #fff; border-radius: 14px; padding: 30px 32px; border-top: 4px solid var(--blue); }
+.band.tint .about > div + div { border-top-color: var(--pink); }
