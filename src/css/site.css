@@ -669,3 +669,9 @@ p { margin: 0 0 1em; }
 .ch-slot { white-space: nowrap; }
 .ch-calls { background: var(--mist); border-left: 4px solid var(--blue); border-radius: 6px; padding: 14px 18px; font-weight: 500; }
 .ch-calls a { font-weight: 700; }
+.ch-visual { width: min(480px, 100%); }
+.ch-visual img { aspect-ratio: 872 / 700; object-position: center top; border-radius: 240px 240px 22px 22px; }
+.ch-chips { bottom: 14%; }
+.ch-slot { top: 40%; }
+.ch-slot { top: 64%; }
+@media (max-width: 600px) { .ch-visual { width: 92%; } .ch-bubble { left: -4%; top: -6%; min-width: 0; max-width: 78%; } .ch-tag { right: -4%; max-width: 84%; } }

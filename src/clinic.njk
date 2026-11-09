@@ -23,7 +23,7 @@ eleventyComputed:
       <p class="ch-actions"><a class="btn btn-white" href="{{ db.clinic.formUrl }}">{{ c.button }}</a><span class="ch-meta">{{ c.meta }}</span></p>
     </div>
     <figure class="ch-visual">
-      <img src="{{ db.clinic.photo }}" alt="{{ c.personName }}" width="872" height="1288">
+      <img src="{{ db.clinic.photo }}" alt="{{ c.personName }}" width="872" height="700">
       <span class="ch-bubble" style="--n:{{ c.bubbles.length }}">{% for q in c.bubbles %}<span style="--i:{{ loop.index0 }}">{{ q }}</span>{% endfor %}</span>
       <span class="ch-slot"><i></i>{{ c.slot }}</span>
       <ul class="ch-chips">{% for x in c.chips %}<li>{{ x }}</li>{% endfor %}</ul>
