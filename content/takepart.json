@@ -33,10 +33,9 @@
         "id": "bet-kada",
         "short": "Bet kada",
         "title": "Bet kada, su telefonu ar kompiuteriu",
-        "text": "Užtenka kelių minučių: pastebėjote, nufotografavote, įkėlėte. Kiekvienas stebėjimas papildo duomenis, kuriais naudojasi mokslininkai.",
+        "text": "Užtenka kelių minučių: pastebėjote, nufotografavote, įkėlėte. Kiekvienas stebėjimas papildo duomenis, kuriais naudojasi mokslininkai. Dalis projektų tarptautiniai, jų programėlės dažniausiai anglų kalba.",
         "items": [
           {
-            "when": "Bet kada",
             "name": "iNaturalist",
             "text": "Fotografuokite augalus, gyvūnus ar grybus. Programėlė pasiūlys rūšį, o kiti naudotojai ją patvirtins arba patikslins. Lietuvoje jau užregistruota daugiau kaip 670 000 stebėjimų. Patvirtinti stebėjimai kas savaitę perduodami tarptautinei biologinės įvairovės duomenų bazei GBIF.",
             "how": "atsisiųskite nemokamą programėlę (yra ir lietuvių kalba), susikurkite paskyrą ir įkelkite pirmą nuotrauką su data ir vieta. Klausimų galite užduoti „Facebook“ grupėje „iNaturalist Lietuva“.",
@@ -48,7 +47,32 @@
             "creditUrl": "https://www.inaturalist.org/observations/39794346"
           },
           {
-            "when": "Drugių sezonu",
+            "name": "Pl@ntNet",
+            "text": "Prancūzijos mokslo institutų sukurta programėlė augalams atpažinti: nufotografuokite augalą, programėlė pasiūlys rūšį, o jūsų stebėjimas papildys tyrėjų duomenis. Pl@ntNet turi beveik 10 milijonų naudotojų paskyrų.",
+            "how": "augalus atpažinti galima ir be paskyros, o stebėjimams išsaugoti reikia susikurti paskyrą. Svetainė iš dalies išversta į lietuvių kalbą.",
+            "url": "https://plantnet.org",
+            "link": "Pl@ntNet"
+          },
+          {
+            "name": "eBird ir Merlin",
+            "text": "Kornelio universiteto Ornitologijos laboratorijos programėlės. Merlin padeda atpažinti paukščius pagal balsą ar nuotrauką, o eBird skirta pažymėti, kokius paukščius matėte ar girdėjote. Į eBird kasmet pateikiama daugiau kaip 100 milijonų stebėjimų, jais naudojasi mokslininkai. Kasmet gegužę vyksta pasaulinė paukščių stebėjimo diena „Global Big Day“.",
+            "how": "atsisiųskite nemokamas programėles. Norint pateikti stebėjimus į eBird, reikia nemokamos paskyros.",
+            "url": "https://ebird.org",
+            "link": "eBird"
+          },
+          {
+            "name": "Reti paukščiai",
+            "logo": "/assets/uploads/logos/lod.png",
+            "text": "Pamatėte retą paukščių rūšį? Lietuvos ornitologų draugija renka retų rūšių stebėjimus, kuriuos įvertina retųjų paukščių komisija.",
+            "how": "užpildykite formą LOD svetainėje: vardas, el. paštas, data, rūšis, jei turite, nuotrauka ar garso įrašas.",
+            "url": "https://birdlife.lt/sris/",
+            "link": "LOD forma",
+            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
+            "alt": "Žalvarnis, viena rečiausių Lietuvos paukščių rūšių, tupintis ant pušies šakos",
+            "credit": "Nuotrauka: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/231900191"
+          },
+          {
             "name": "15 minučių drugių apskaita",
             "text": "15 minučių skaičiuokite drugius bet kur: sode, pievoje ar net balkone. Svarbu ir tai, kad drugių nepamatėte: nuliai irgi skaičiuojami. Duomenys patenka į Europos drugių stebėsenos duomenų bazę ir yra atviri tyrimams.",
             "how": "atsisiųskite nemokamą programėlę „ButterflyCount“ (iOS ir Android) ir susikurkite eBMS paskyrą.",
@@ -60,19 +84,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/119574114"
           },
           {
-            "when": "Bet kada",
-            "name": "Barrier Tracker: upių užtvaros",
-            "text": "Pastebėjote užtvanką, slenkstį ar kitą kliūtį upėje? Nufotografuokite ją, pažymėkite vietą ir aukštį. Duomenys papildo Europos upių užtvarų atlasą, kuris padeda atkurti upių vientisumą.",
-            "how": "atsisiųskite programėlę „Barrier Tracker“ (šiuo metu Android).",
-            "url": "https://amber.international/citizen-science/",
-            "link": "Apie programėlę",
-            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
-            "alt": "Išardyta užtvanka Ventoje ties Krakiais",
-            "credit": "Nuotrauka: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
-            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
-          },
-          {
-            "when": "Bet kada",
             "name": "Saugomų rūšių informacinė sistema (SRIS)",
             "text": "Pastebėjote saugomą augalą ar gyvūną? Valstybinėje sistemoje pateiktą stebėjimą patikrina tos rūšies ekspertas, o patvirtinti duomenys naudojami rūšims saugoti.",
             "how": "prisijunkite per elektroninius valdžios vartus, pasirinkite „Teikti duomenis“ ir užpildykite anketą: rūšis, vieta žemėlapyje, nuotraukos.",
@@ -84,28 +95,53 @@
             "creditUrl": "https://www.inaturalist.org/observations/47865573"
           },
           {
-            "when": "Bet kada",
-            "name": "Reti paukščiai",
-            "logo": "/assets/uploads/logos/lod.png",
-            "text": "Pamatėte retą paukščių rūšį? Lietuvos ornitologų draugija renka retų rūšių stebėjimus, kuriuos įvertina retųjų paukščių komisija.",
-            "how": "užpildykite formą LOD svetainėje: vardas, el. paštas, data, rūšis, jei turite, nuotrauka ar garso įrašas.",
-            "url": "https://birdlife.lt/sris/",
-            "link": "LOD forma",
-            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
-            "alt": "Žalvarnis, viena rečiausių Lietuvos paukščių rūšių, tupintis ant pušies šakos",
-            "credit": "Nuotrauka: Edmundas Greimas / iNaturalist, CC BY 4.0",
-            "creditUrl": "https://www.inaturalist.org/observations/231900191"
+            "name": "Barrier Tracker: upių užtvaros",
+            "text": "Pastebėjote užtvanką, slenkstį ar kitą kliūtį upėje? Nufotografuokite ją, pažymėkite vietą ir aukštį. Duomenys papildo Europos upių užtvarų atlasą, kuris padeda atkurti upių vientisumą.",
+            "how": "atsisiųskite programėlę „Barrier Tracker“ (šiuo metu Android).",
+            "url": "https://amber.international/citizen-science/",
+            "link": "Apie programėlę",
+            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
+            "alt": "Išardyta užtvanka Ventoje ties Krakiais",
+            "credit": "Nuotrauka: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
+          },
+          {
+            "name": "GLOBE Observer",
+            "text": "NASA ir GLOBE programos programėlė: fotografuojate debesis, žemės dangą, medžius ar uodų veisimosi vietas, o mokslininkai jūsų stebėjimus lygina su palydovų duomenimis. Lietuva GLOBE programoje dalyvauja nuo 2002 m., todėl programėle galima naudotis ir čia.",
+            "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus.",
+            "url": "https://observer.globe.gov",
+            "link": "GLOBE Observer"
+          },
+          {
+            "name": "Bolidų stebėjimai",
+            "text": "Pamatėte labai ryškų meteorą, vadinamąjį bolidą? Tarptautinė meteorų organizacija (IMO) kartu su Amerikos meteorų draugija renka liudininkų pranešimus ir pagal juos apskaičiuoja, kaip bolidas skriejo. Vien 2026 m. sausio-kovo mėn. visame pasaulyje užfiksuota daugiau kaip 2 300 bolidų.",
+            "how": "užpildykite formą internete. Paskyros nereikia, forma yra lietuvių kalba.",
+            "url": "https://fireball.imo.net",
+            "link": "Pranešti apie bolidą"
+          },
+          {
+            "name": "Zooniverse",
+            "text": "Didžiausia piliečių mokslo platforma internete: savanoriai peržiūri nuotraukas, garsus ar senus dokumentus ir atsako į paprastus klausimus. Pavyzdžiui, „Galaxy Zoo“ projekte klasifikuojamos galaktikos, „Planet Hunters TESS“ ieškoma naujų planetų, o „European Camera Trap Project“ skaičiuojami gyvūnai Europos fotospąstų nuotraukose. Platformoje daugiau kaip 3 milijonai savanorių iš 160 šalių.",
+            "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Dauguma projektų anglų kalba.",
+            "url": "https://www.zooniverse.org/projects",
+            "link": "Zooniverse projektai"
+          },
+          {
+            "name": "OpenStreetMap",
+            "text": "Laisvas pasaulio žemėlapis, kurį kuria daugiau kaip 11 milijonų naudotojų: galite įrašyti kelius, takus, pastatus ir kitas vietas savo apylinkėse. Humanitarinė OpenStreetMap komanda (HOT) skelbia žemėlapių kūrimo užduotis, kurios padeda nelaimių ištiktoms vietovėms. Lietuvos bendruomenė turi svetainę openstreetmap.lt.",
+            "how": "susikurkite nemokamą paskyrą ir redaguokite žemėlapį naršyklėje. Sąsaja yra lietuvių kalba.",
+            "url": "https://www.openstreetmap.org",
+            "link": "OpenStreetMap"
           }
         ]
       },
       {
         "id": "akcijos",
-        "short": "Kartą per metus",
-        "title": "Kartą per metus: akcijos ir varžybos",
-        "text": "Vienkartiniai renginiai, į kuriuos lengva įsitraukti ir pirmą kartą.",
+        "short": "Akcijos",
+        "title": "Tam tikru metu: akcijos ir kampanijos",
+        "text": "Akcijos ir kampanijos tam tikromis dienomis, į kurias lengva įsitraukti ir pirmą kartą.",
         "items": [
           {
-            "when": "Vasario viduryje",
             "name": "Paukščiai prie mano namų",
             "text": "Lietuvos ornitologų draugijos kasmetinė akcija: vieną valandą skaičiuokite paukščius prie savo namų. 2026 m. dalyvavo apie 150 stebėtojų, jie suskaičiavo daugiau kaip 6 700 paukščių.",
             "how": "dalyvauti gali visi, lesyklos nereikia. Rezultatus pateikite internetinėje formoje. 2026 m. akcija buvo paskelbta sausio pabaigoje, sekite LOD naujienas.",
@@ -117,7 +153,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/334336771"
           },
           {
-            "when": "Balandį",
             "name": "Geografijos naktis",
             "logo": "/assets/uploads/logos/lgd.png",
             "text": "Nemokami geografijos renginiai visoje Lietuvoje vieną vakarą. 2026 m. vyko 46 renginiai, juose dalyvavo daugiau kaip 3 100 žmonių. Renginius rengia mokyklos, universitetai, saugomų teritorijų direkcijos ir mokslo centrai.",
@@ -130,7 +165,6 @@
             "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
           },
           {
-            "when": "Birželį",
             "name": "Rūšių ralis",
             "text": "Biologinės įvairovės varžybos nuo 2013 m.: 2-5 žmonių komandos per savaitgalį saugomoje teritorijoje ieško kuo daugiau rūšių ir registruoja jas iNaturalist. 2026 m. ralis vyko Aukštadvario regioniniame parke, surinkti duomenys perduodami parkui.",
             "how": "komandos registruojasi el. paštu (2026 m. iki birželio 1 d.). Kiekvienam dalyviui reikia iNaturalist paskyros.",
@@ -142,7 +176,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/372706230"
           },
           {
-            "when": "Spalį",
             "name": "Paukščių stebėtojų ralis „Kuršių marios“",
             "text": "Lietuvos ornitologų draugijos ralis Kintuose, kviečiami ir patyrę, ir pradedantieji paukščių stebėtojai. 2026 m. dalyvavo 33 komandos, jos užregistravo 161 rūšį.",
             "how": "registracija LOD svetainėje rudenį. 2026 m. dalyvavimas LOD nariams buvo nemokamas, kitiems 15 Eur.",
@@ -152,6 +185,13 @@
             "alt": "Kintų apylinkės prie Kuršių marių",
             "credit": "Nuotrauka: Žiedas / Wikimedia Commons, CC BY 3.0",
             "creditUrl": "https://commons.wikimedia.org/wiki/File:Kintai._Apylink%C4%97s.jpg"
+          },
+          {
+            "name": "Globe at Night: kiek žvaigždžių matote?",
+            "text": "Tarptautinė šviesos taršos stebėsena: giedrą naktį be mėnulio išeikite į lauką, palyginkite dangų su žvaigždžių žemėlapiais ir pažymėkite, kiek žvaigždžių matote. Taip matuojama, kiek dirbtinė šviesa šviesina naktinį dangų. Vien 2026 m. pateikta daugiau kaip 11 000 stebėjimų.",
+            "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Užtenka 10-15 minučių ir telefono ar kompiuterio.",
+            "url": "https://globeatnight.org",
+            "link": "Globe at Night"
           }
         ]
       },
@@ -162,7 +202,6 @@
         "text": "Jei norite įsipareigoti ilgesniam laikui. Tokie duomenys rodo, kaip gamta keičiasi per metus ir dešimtmečius.",
         "items": [
           {
-            "when": "Drugių sezonu",
             "name": "Dieninių drugių stebėsenos maršrutai",
             "text": "Pasirenkate apie 1 km maršrutą ir gero oro dienomis einate juo, geriausia kas savaitę (bent 10 kartų per metus). Lietuvos drugių stebėsena vyksta nuo 2009 m., ją remia Aplinkos ministerija ir Lietuvos entomologų draugija.",
             "how": "prieš pradėdami susisiekite su stebėsenos koordinatoriais per drugių stebėsenos puslapį arba „Facebook“ grupę.",
@@ -174,7 +213,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/106491816"
           },
           {
-            "when": "Balandį-birželį",
             "name": "Įprastų paukščių apskaitos",
             "text": "Du kartus per pavasarį tuo pačiu apie 7 km maršrutu su 20 taškų skaičiuojate paukščius. Iš šių apskaitų skaičiuojamas oficialus žemės ūkio kraštovaizdžio paukščių rodiklis.",
             "how": "reikia atpažinti įprastas rūšis iš išvaizdos ir balso. Susisiekite su Lietuvos ornitologų draugija, kontaktai nurodyti kvietime.",
@@ -186,7 +224,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/373670609"
           },
           {
-            "when": "Projekto metu",
             "name": "Pelkių gyvosios laboratorijos",
             "text": "Pelkių fondo projekte LIFE ForestHabitatLT veikia keturios gyvosios laboratorijos, tarp jų Praviršulio tyrelyje. Jose kartu dirba vietos bendruomenių nariai, ūkininkai, saugomų teritorijų specialistai ir gamtosaugininkai, o mokiniai mokosi stebėti pelkę.",
             "how": "apie artimiausias veiklas teiraukitės Pelkių fondo.",
@@ -196,6 +233,13 @@
             "alt": "Praviršulio ežeras",
             "credit": "Nuotrauka: B. Gliwa / Wikimedia Commons, CC BY-SA 2.5",
             "creditUrl": "https://commons.wikimedia.org/wiki/File:Pravirsulis.jpg"
+          },
+          {
+            "name": "Sensor.Community: oro taršos jutikliai",
+            "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau Lietuvoje jų kol kas vos keli.",
+            "how": "jutiklį sukonstruoti užtrunka maždaug popietę, vėliau jis veikia savaime. Instrukcijos ir registracija svetainėje.",
+            "url": "https://sensor.community",
+            "link": "Sensor.Community"
           }
         ]
       },
@@ -206,7 +250,6 @@
         "text": "Piliečių mokslas apima ir humanitarinius bei socialinius mokslus: kalbą, istoriją, bendruomenių atmintį.",
         "items": [
           {
-            "when": "Bet kada",
             "name": "Naujažodžių duomenynas",
             "logo": "/assets/uploads/logos/lki.png",
             "text": "Lietuvių kalbos instituto duomenynas renka naujus lietuvių kalbos žodžius. Pastebėjote naują žodį, pavartotą viešai? Pasiūlykite jį, o redaktoriai patikrins.",
@@ -215,7 +258,6 @@
             "link": "Pasiūlyti žodį"
           },
           {
-            "when": "Bet kada",
             "name": "Common Voice lietuviškai",
             "logo": "/assets/uploads/logos/common-voice.png",
             "text": "Garsiai perskaitykite lietuviškus sakinius arba patikrinkite kitų įrašus. Iš įrašų kuriamas atviras lietuvių kalbos duomenų rinkinys kalbos atpažinimo technologijoms. Kol kas lietuviškai įrašų yra palyginti nedaug, todėl kiekvienas balsas svarbus.",
@@ -224,7 +266,6 @@
             "link": "Common Voice"
           },
           {
-            "when": "Bet kada",
             "name": "Vikipedija",
             "logo": "/assets/uploads/logos/wikipedia.svg",
             "text": "Rašykite ar papildykite straipsnius apie Lietuvos vietas, žmones ir istoriją, pridėkite šaltinius. Lietuviškoje Vikipedijoje jau daugiau kaip 227 000 straipsnių.",
@@ -233,85 +274,12 @@
             "link": "Kaip redaguoti"
           },
           {
-            "when": "Projektų metu",
             "name": "Gyvas archyvas",
             "logo": "/assets/uploads/logos/kulturos-dirbtuve.jpg",
             "text": "Kauno viešosios įstaigos „Kultūros dirbtuvė“ metodika: gyventojai dalijasi asmeninėmis nuotraukomis ir pasakojimais apie savo mikrorajoną, o medžiaga perduodama muziejams ir bibliotekoms archyvuoti. Taikyta Kauno Šilainiuose, Tauragės Žalgiriuose ir Naujojoje Akmenėje.",
             "how": "sekite „Kultūros dirbtuvės“ naujienas. Savivaldybės ir institucijos tokį projektą gali užsisakyti.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
             "link": "Apie metodiką"
-          }
-        ]
-      },
-      {
-        "id": "pasaulyje",
-        "short": "Pasaulyje",
-        "title": "Tarptautiniai projektai: prisijungti galima ir iš Lietuvos",
-        "text": "Dideli, šiuo metu veikiantys projektai, kuriuose dalyvauja tūkstančiai ar milijonai žmonių visame pasaulyje. Dauguma jų veikia anglų kalba.",
-        "items": [
-          {
-            "when": "Bet kada · kompiuteriu",
-            "name": "Zooniverse",
-            "text": "Didžiausia piliečių mokslo platforma internete: savanoriai peržiūri nuotraukas, garsus ar senus dokumentus ir atsako į paprastus klausimus. Pavyzdžiui, „Galaxy Zoo“ projekte klasifikuojamos galaktikos, „Planet Hunters TESS“ ieškoma naujų planetų, o „European Camera Trap Project“ skaičiuojami gyvūnai Europos fotospąstų nuotraukose. Platformoje daugiau kaip 3 milijonai savanorių iš 160 šalių.",
-            "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Dauguma projektų anglų kalba.",
-            "url": "https://www.zooniverse.org/projects",
-            "link": "Zooniverse projektai"
-          },
-          {
-            "when": "Kas mėnesį · naktį",
-            "name": "Globe at Night: kiek žvaigždžių matote?",
-            "text": "Tarptautinė šviesos taršos stebėsena: giedrą naktį be mėnulio išeikite į lauką, palyginkite dangų su žvaigždžių žemėlapiais ir pažymėkite, kiek žvaigždžių matote. Taip matuojama, kiek dirbtinė šviesa šviesina naktinį dangų. Vien 2026 m. pateikta daugiau kaip 11 000 stebėjimų.",
-            "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Užtenka 10-15 minučių ir telefono ar kompiuterio.",
-            "url": "https://globeatnight.org",
-            "link": "Globe at Night"
-          },
-          {
-            "when": "Bet kada · su telefonu",
-            "name": "GLOBE Observer",
-            "text": "NASA ir GLOBE programos programėlė: fotografuojate debesis, žemės dangą, medžius ar uodų veisimosi vietas, o mokslininkai jūsų stebėjimus lygina su palydovų duomenimis. Lietuva GLOBE programoje dalyvauja nuo 2002 m., todėl programėle galima naudotis ir čia.",
-            "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus.",
-            "url": "https://observer.globe.gov",
-            "link": "GLOBE Observer"
-          },
-          {
-            "when": "Bet kada",
-            "name": "eBird ir Merlin",
-            "text": "Kornelio universiteto Ornitologijos laboratorijos programėlės. Merlin padeda atpažinti paukščius pagal balsą ar nuotrauką, o eBird skirta pažymėti, kokius paukščius matėte ar girdėjote. Į eBird kasmet pateikiama daugiau kaip 100 milijonų stebėjimų, jais naudojasi mokslininkai. Kasmet gegužę vyksta pasaulinė paukščių stebėjimo diena „Global Big Day“.",
-            "how": "atsisiųskite nemokamas programėles. Norint pateikti stebėjimus į eBird, reikia nemokamos paskyros.",
-            "url": "https://ebird.org",
-            "link": "eBird"
-          },
-          {
-            "when": "Bet kada · su telefonu",
-            "name": "Pl@ntNet",
-            "text": "Prancūzijos mokslo institutų sukurta programėlė augalams atpažinti: nufotografuokite augalą, programėlė pasiūlys rūšį, o jūsų stebėjimas papildys tyrėjų duomenis. Pl@ntNet turi beveik 10 milijonų naudotojų paskyrų.",
-            "how": "augalus atpažinti galima ir be paskyros, o stebėjimams išsaugoti reikia susikurti paskyrą. Svetainė iš dalies išversta į lietuvių kalbą.",
-            "url": "https://plantnet.org",
-            "link": "Pl@ntNet"
-          },
-          {
-            "when": "Bet kada · kompiuteriu",
-            "name": "OpenStreetMap",
-            "text": "Laisvas pasaulio žemėlapis, kurį kuria daugiau kaip 11 milijonų naudotojų: galite įrašyti kelius, takus, pastatus ir kitas vietas savo apylinkėse. Humanitarinė OpenStreetMap komanda (HOT) skelbia žemėlapių kūrimo užduotis, kurios padeda nelaimių ištiktoms vietovėms. Lietuvos bendruomenė turi svetainę openstreetmap.lt.",
-            "how": "susikurkite nemokamą paskyrą ir redaguokite žemėlapį naršyklėje. Sąsaja yra lietuvių kalba.",
-            "url": "https://www.openstreetmap.org",
-            "link": "OpenStreetMap"
-          },
-          {
-            "when": "Reguliariai · namuose",
-            "name": "Sensor.Community: oro taršos jutikliai",
-            "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau Lietuvoje jų kol kas vos keli.",
-            "how": "jutiklį sukonstruoti užtrunka maždaug popietę, vėliau jis veikia savaime. Instrukcijos ir registracija svetainėje.",
-            "url": "https://sensor.community",
-            "link": "Sensor.Community"
-          },
-          {
-            "when": "Kai pamatote",
-            "name": "Bolidų stebėjimai",
-            "text": "Pamatėte labai ryškų meteorą, vadinamąjį bolidą? Tarptautinė meteorų organizacija (IMO) kartu su Amerikos meteorų draugija renka liudininkų pranešimus ir pagal juos apskaičiuoja, kaip bolidas skriejo. Vien 2026 m. sausio-kovo mėn. visame pasaulyje užfiksuota daugiau kaip 2 300 bolidų.",
-            "how": "užpildykite formą internete. Paskyros nereikia, forma yra lietuvių kalba.",
-            "url": "https://fireball.imo.net",
-            "link": "Pranešti apie bolidą"
           }
         ]
       }
@@ -582,10 +550,9 @@
         "id": "bet-kada",
         "short": "Any time",
         "title": "Any time, with a phone or computer",
-        "text": "A few minutes are enough: spot it, photograph it, upload it. Every observation adds to data that researchers use.",
+        "text": "A few minutes are enough: spot it, photograph it, upload it. Every observation adds to data that researchers use. Some projects are international, and their apps are mostly in English.",
         "items": [
           {
-            "when": "Any time",
             "name": "iNaturalist",
             "text": "Photograph plants, animals or fungi. The app suggests a species, and other users confirm or correct it. More than 670,000 observations have already been recorded in Lithuania. Confirmed observations are shared every week with GBIF, the global biodiversity database.",
             "how": "download the free app (also available in Lithuanian), create an account and upload your first photo with a date and location. You can ask questions in the \"iNaturalist Lietuva\" Facebook group.",
@@ -597,7 +564,32 @@
             "creditUrl": "https://www.inaturalist.org/observations/39794346"
           },
           {
-            "when": "Butterfly season",
+            "name": "Pl@ntNet",
+            "text": "A plant identification app made by French research institutes: photograph a plant, the app suggests the species, and your observation adds to the researchers' data. Pl@ntNet has almost 10 million user accounts.",
+            "how": "you can identify plants without an account; to save observations you need one. The website is partly translated into Lithuanian.",
+            "url": "https://plantnet.org",
+            "link": "Pl@ntNet"
+          },
+          {
+            "name": "eBird and Merlin",
+            "text": "Apps from the Cornell Lab of Ornithology. Merlin helps you identify birds by sound or photo, and eBird lets you record which birds you saw or heard. More than 100 million sightings are submitted to eBird each year, and researchers use them. Every May there is a worldwide birding day, Global Big Day.",
+            "how": "download the free apps. You need a free account to submit sightings to eBird.",
+            "url": "https://ebird.org",
+            "link": "eBird"
+          },
+          {
+            "name": "Rare birds",
+            "logo": "/assets/uploads/logos/lod.png",
+            "text": "Seen a rare bird species? The Lithuanian Ornithological Society collects sightings of rare species, which are assessed by its rarities committee.",
+            "how": "fill in the form on the society's website: name, email, date, species and, if you have them, a photo or sound recording. The description may be in English.",
+            "url": "https://birdlife.lt/sris/",
+            "link": "The society's form",
+            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
+            "alt": "A European roller, one of the rarest birds in Lithuania, perched on a pine branch",
+            "credit": "Photo: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/231900191"
+          },
+          {
             "name": "15-minute butterfly count",
             "text": "Count butterflies for 15 minutes anywhere: in a garden, a meadow or even on a balcony. Seeing no butterflies also matters: zeros count too. The data go into the European Butterfly Monitoring database and are open for research.",
             "how": "download the free ButterflyCount app (iOS and Android) and create an eBMS account.",
@@ -609,19 +601,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/119574114"
           },
           {
-            "when": "Any time",
-            "name": "Barrier Tracker: river barriers",
-            "text": "Spotted a dam, weir or other barrier in a river? Photograph it and record its location and height. The data feed a European atlas of river barriers that helps restore free-flowing rivers.",
-            "how": "download the Barrier Tracker app (Android for now).",
-            "url": "https://amber.international/citizen-science/",
-            "link": "About the app",
-            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
-            "alt": "A dismantled dam on the Venta near Krakiai",
-            "credit": "Photo: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
-            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
-          },
-          {
-            "when": "Any time",
             "name": "Protected Species Information System (SRIS)",
             "text": "Seen a protected plant or animal? In this state system, an expert on that species checks each observation, and confirmed data are used to protect the species.",
             "how": "log in through the Lithuanian e-government gateway, choose \"Teikti duomenis\" (submit data) and fill in the form: species, location on the map, photos.",
@@ -633,28 +612,53 @@
             "creditUrl": "https://www.inaturalist.org/observations/47865573"
           },
           {
-            "when": "Any time",
-            "name": "Rare birds",
-            "logo": "/assets/uploads/logos/lod.png",
-            "text": "Seen a rare bird species? The Lithuanian Ornithological Society collects sightings of rare species, which are assessed by its rarities committee.",
-            "how": "fill in the form on the society's website: name, email, date, species and, if you have them, a photo or sound recording. The description may be in English.",
-            "url": "https://birdlife.lt/sris/",
-            "link": "The society's form",
-            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
-            "alt": "A European roller, one of the rarest birds in Lithuania, perched on a pine branch",
-            "credit": "Photo: Edmundas Greimas / iNaturalist, CC BY 4.0",
-            "creditUrl": "https://www.inaturalist.org/observations/231900191"
+            "name": "Barrier Tracker: river barriers",
+            "text": "Spotted a dam, weir or other barrier in a river? Photograph it and record its location and height. The data feed a European atlas of river barriers that helps restore free-flowing rivers.",
+            "how": "download the Barrier Tracker app (Android for now).",
+            "url": "https://amber.international/citizen-science/",
+            "link": "About the app",
+            "img": "/assets/uploads/kaip-prisideti/upiu-uztvaros.jpg",
+            "alt": "A dismantled dam on the Venta near Krakiai",
+            "credit": "Photo: Algirdas / Wikimedia Commons, CC BY-SA 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Venta1a.JPG"
+          },
+          {
+            "name": "GLOBE Observer",
+            "text": "An app from NASA and the GLOBE programme: you photograph clouds, land cover, trees or mosquito breeding sites, and researchers compare your observations with satellite data. Lithuania has been a GLOBE country since 2002, so the app can be used here.",
+            "how": "download the free GLOBE Observer app and follow its instructions.",
+            "url": "https://observer.globe.gov",
+            "link": "GLOBE Observer"
+          },
+          {
+            "name": "Fireball reports",
+            "text": "Did you see a very bright meteor, a fireball? The International Meteor Organization (IMO) and the American Meteor Society collect witness reports and use them to work out the fireball's path. More than 2,300 fireballs were recorded worldwide in January-March 2026 alone.",
+            "how": "fill in the online form. No account is needed, and the form is available in Lithuanian.",
+            "url": "https://fireball.imo.net",
+            "link": "Report a fireball"
+          },
+          {
+            "name": "Zooniverse",
+            "text": "The largest online citizen science platform: volunteers look at images, sounds or old documents and answer simple questions. In Galaxy Zoo you classify galaxies, in Planet Hunters TESS you look for new planets, and in the European Camera Trap Project you count animals in camera-trap photos from across Europe. The platform has more than 3 million volunteers in 160 countries.",
+            "how": "choose a project and start. An account is optional.",
+            "url": "https://www.zooniverse.org/projects",
+            "link": "Zooniverse projects"
+          },
+          {
+            "name": "OpenStreetMap",
+            "text": "The free map of the world, built by more than 11 million users: you can add roads, paths, buildings and other places around where you live. The Humanitarian OpenStreetMap Team (HOT) posts mapping tasks that help areas hit by disasters. The Lithuanian community has a website, openstreetmap.lt.",
+            "how": "create a free account and edit the map in your browser. The interface is available in Lithuanian.",
+            "url": "https://www.openstreetmap.org",
+            "link": "OpenStreetMap"
           }
         ]
       },
       {
         "id": "akcijos",
-        "short": "Once a year",
-        "title": "Once a year: counts and competitions",
-        "text": "One-off events that are easy to join, even for the first time.",
+        "short": "Campaigns",
+        "title": "At set times: counts and campaigns",
+        "text": "Counts and campaigns on set dates that are easy to join, even for the first time.",
         "items": [
           {
-            "when": "Mid-February",
             "name": "Birds at my home (Paukščiai prie mano namų)",
             "text": "An annual count by the Lithuanian Ornithological Society: spend one hour counting the birds around your home. In 2026 about 150 observers took part and counted more than 6,700 birds.",
             "how": "anyone can join, no feeder needed. Submit your results through the online form. In 2026 the count was announced at the end of January, so follow the society's news.",
@@ -666,7 +670,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/334336771"
           },
           {
-            "when": "April",
             "name": "Geography Night",
             "logo": "/assets/uploads/logos/lgd.png",
             "text": "Free geography events across Lithuania on one evening. In 2026 there were 46 events with more than 3,100 participants, hosted by schools, universities, protected-area directorates and science centres.",
@@ -679,7 +682,6 @@
             "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
           },
           {
-            "when": "June",
             "name": "Species Rally (Rūšių ralis)",
             "text": "A biodiversity competition held since 2013: teams of 2-5 people spend a weekend in a protected area finding as many species as they can and recording them on iNaturalist. In 2026 the rally took place in Aukštadvaris Regional Park, and the data are handed over to the park.",
             "how": "teams register by email (in 2026, by 1 June). Every participant needs an iNaturalist account.",
@@ -691,7 +693,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/372706230"
           },
           {
-            "when": "October",
             "name": "Curonian Lagoon birdwatching rally",
             "text": "A rally by the Lithuanian Ornithological Society in Kintai, open to experienced and beginner birdwatchers. In 2026, 33 teams took part and recorded 161 species.",
             "how": "register on the society's website in autumn. In 2026 it was free for members and 15 EUR for others.",
@@ -701,6 +702,13 @@
             "alt": "The surroundings of Kintai by the Curonian Lagoon",
             "credit": "Photo: Žiedas / Wikimedia Commons, CC BY 3.0",
             "creditUrl": "https://commons.wikimedia.org/wiki/File:Kintai._Apylink%C4%97s.jpg"
+          },
+          {
+            "name": "Globe at Night: how many stars can you see?",
+            "text": "International light pollution monitoring: on a clear, moonless night, go outside, compare the sky with star charts and record how many stars you can see. This measures how much artificial light brightens the night sky. More than 11,000 observations were submitted in 2026 alone.",
+            "how": "observing windows last about 10 days each month, and the dates are on the website. You need 10-15 minutes and a phone or computer.",
+            "url": "https://globeatnight.org",
+            "link": "Globe at Night"
           }
         ]
       },
@@ -711,7 +719,6 @@
         "text": "If you want to commit for longer. Data like these show how nature changes over years and decades.",
         "items": [
           {
-            "when": "Butterfly season",
             "name": "Butterfly monitoring transects",
             "text": "You choose a route of about 1 km and walk it on days with good weather, ideally every week (at least 10 times a year). Butterfly monitoring in Lithuania has run since 2009 with the support of the Ministry of Environment and the Lithuanian Entomological Society.",
             "how": "contact the monitoring coordinators before you start, through the butterfly monitoring page or the Facebook group.",
@@ -723,7 +730,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/106491816"
           },
           {
-            "when": "April-June",
             "name": "Common bird counts",
             "text": "Twice each spring you count birds along the same route of about 7 km with 20 points. These counts feed the official indicator of birds in farmland.",
             "how": "you need to recognise common species by sight and song. Contact the Lithuanian Ornithological Society; details are in the call.",
@@ -735,7 +741,6 @@
             "creditUrl": "https://www.inaturalist.org/observations/373670609"
           },
           {
-            "when": "During the project",
             "name": "Peatland living labs",
             "text": "The NGO Pelkių fondas runs four living labs in the LIFE ForestHabitatLT project, including one at the Praviršulis bog. Local community members, farmers, protected-area staff and conservationists work together there, and school pupils learn to monitor the bog.",
             "how": "ask Pelkių fondas about upcoming activities.",
@@ -745,6 +750,13 @@
             "alt": "Lake Praviršulis",
             "credit": "Photo: B. Gliwa / Wikimedia Commons, CC BY-SA 2.5",
             "creditUrl": "https://commons.wikimedia.org/wiki/File:Pravirsulis.jpg"
+          },
+          {
+            "name": "Sensor.Community: air quality sensors",
+            "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but only a handful in Lithuania so far.",
+            "how": "building the sensor takes about an afternoon, then it runs on its own. Instructions and registration are on the website.",
+            "url": "https://sensor.community",
+            "link": "Sensor.Community"
           }
         ]
       },
@@ -755,7 +767,6 @@
         "text": "Citizen science also reaches into the humanities and social sciences: language, history and community memory.",
         "items": [
           {
-            "when": "Any time",
             "name": "Lithuanian neologisms database",
             "logo": "/assets/uploads/logos/lki.png",
             "text": "The Institute of the Lithuanian Language collects new Lithuanian words. Seen a new word used in public? Suggest it, and the editors will check it.",
@@ -764,7 +775,6 @@
             "link": "Suggest a word"
           },
           {
-            "when": "Any time",
             "name": "Common Voice in Lithuanian",
             "logo": "/assets/uploads/logos/common-voice.png",
             "text": "Read Lithuanian sentences aloud or check other people's recordings. The recordings become an open Lithuanian speech dataset for speech recognition technology. There are still relatively few Lithuanian recordings, so every voice counts.",
@@ -773,7 +783,6 @@
             "link": "Common Voice"
           },
           {
-            "when": "Any time",
             "name": "Lithuanian Wikipedia",
             "logo": "/assets/uploads/logos/wikipedia.svg",
             "text": "Write or improve articles about places, people and history in Lithuania, and add sources. Lithuanian Wikipedia already has more than 227,000 articles.",
@@ -782,85 +791,12 @@
             "link": "How to edit"
           },
           {
-            "when": "During projects",
             "name": "Living Archive (Gyvas archyvas)",
             "logo": "/assets/uploads/logos/kulturos-dirbtuve.jpg",
             "text": "A method by the Kaunas non-profit Kultūros dirbtuvė: residents share personal photographs and stories about their neighbourhood, and the material is handed over to museums and libraries for archiving. It has been used in Šilainiai (Kaunas), Žalgiriai (Tauragė) and Naujoji Akmenė.",
             "how": "follow Kultūros dirbtuvė for new projects. Municipalities and institutions can commission one.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
             "link": "About the method"
-          }
-        ]
-      },
-      {
-        "id": "pasaulyje",
-        "short": "Worldwide",
-        "title": "International projects you can join from Lithuania",
-        "text": "Large projects that are running now, with thousands or millions of participants around the world. Most of them are in English.",
-        "items": [
-          {
-            "when": "Any time · on a computer",
-            "name": "Zooniverse",
-            "text": "The largest online citizen science platform: volunteers look at images, sounds or old documents and answer simple questions. In Galaxy Zoo you classify galaxies, in Planet Hunters TESS you look for new planets, and in the European Camera Trap Project you count animals in camera-trap photos from across Europe. The platform has more than 3 million volunteers in 160 countries.",
-            "how": "choose a project and start. An account is optional.",
-            "url": "https://www.zooniverse.org/projects",
-            "link": "Zooniverse projects"
-          },
-          {
-            "when": "Every month · at night",
-            "name": "Globe at Night: how many stars can you see?",
-            "text": "International light pollution monitoring: on a clear, moonless night, go outside, compare the sky with star charts and record how many stars you can see. This measures how much artificial light brightens the night sky. More than 11,000 observations were submitted in 2026 alone.",
-            "how": "observing windows last about 10 days each month, and the dates are on the website. You need 10-15 minutes and a phone or computer.",
-            "url": "https://globeatnight.org",
-            "link": "Globe at Night"
-          },
-          {
-            "when": "Any time · with a phone",
-            "name": "GLOBE Observer",
-            "text": "An app from NASA and the GLOBE programme: you photograph clouds, land cover, trees or mosquito breeding sites, and researchers compare your observations with satellite data. Lithuania has been a GLOBE country since 2002, so the app can be used here.",
-            "how": "download the free GLOBE Observer app and follow its instructions.",
-            "url": "https://observer.globe.gov",
-            "link": "GLOBE Observer"
-          },
-          {
-            "when": "Any time",
-            "name": "eBird and Merlin",
-            "text": "Apps from the Cornell Lab of Ornithology. Merlin helps you identify birds by sound or photo, and eBird lets you record which birds you saw or heard. More than 100 million sightings are submitted to eBird each year, and researchers use them. Every May there is a worldwide birding day, Global Big Day.",
-            "how": "download the free apps. You need a free account to submit sightings to eBird.",
-            "url": "https://ebird.org",
-            "link": "eBird"
-          },
-          {
-            "when": "Any time · with a phone",
-            "name": "Pl@ntNet",
-            "text": "A plant identification app made by French research institutes: photograph a plant, the app suggests the species, and your observation adds to the researchers' data. Pl@ntNet has almost 10 million user accounts.",
-            "how": "you can identify plants without an account; to save observations you need one. The website is partly translated into Lithuanian.",
-            "url": "https://plantnet.org",
-            "link": "Pl@ntNet"
-          },
-          {
-            "when": "Any time · on a computer",
-            "name": "OpenStreetMap",
-            "text": "The free map of the world, built by more than 11 million users: you can add roads, paths, buildings and other places around where you live. The Humanitarian OpenStreetMap Team (HOT) posts mapping tasks that help areas hit by disasters. The Lithuanian community has a website, openstreetmap.lt.",
-            "how": "create a free account and edit the map in your browser. The interface is available in Lithuanian.",
-            "url": "https://www.openstreetmap.org",
-            "link": "OpenStreetMap"
-          },
-          {
-            "when": "Regularly · at home",
-            "name": "Sensor.Community: air quality sensors",
-            "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but only a handful in Lithuania so far.",
-            "how": "building the sensor takes about an afternoon, then it runs on its own. Instructions and registration are on the website.",
-            "url": "https://sensor.community",
-            "link": "Sensor.Community"
-          },
-          {
-            "when": "When you see one",
-            "name": "Fireball reports",
-            "text": "Did you see a very bright meteor, a fireball? The International Meteor Organization (IMO) and the American Meteor Society collect witness reports and use them to work out the fireball's path. More than 2,300 fireballs were recorded worldwide in January-March 2026 alone.",
-            "how": "fill in the online form. No account is needed, and the form is available in Lithuanian.",
-            "url": "https://fireball.imo.net",
-            "link": "Report a fireball"
           }
         ]
       }
