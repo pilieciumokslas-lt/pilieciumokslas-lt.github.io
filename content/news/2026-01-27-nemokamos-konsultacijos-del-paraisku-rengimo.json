@@ -1,0 +1,15 @@
+{
+  "date": "2026-01-27",
+  "time": "12:00",
+  "category": "news",
+  "lt": {
+    "title": "Kviečiame į nemokamas konsultacijas dėl paraiškų rengimo penktadieniais",
+    "summary": "Piliečių mokslo asociacija kviečia registruotis į nemokamas konsultacijas dėl paraiškų rengimo. Konsultacijos vyksta penktadieniais.",
+    "body": "<p>Piliečių mokslo asociacija kviečia registruotis į nemokamas konsultacijas dėl paraiškų rengimo. Konsultacijos vyksta penktadieniais.</p>\n<p>Norėdami užsiregistruoti, parašykite mums el. paštu <a href=\"mailto:info@pilieciumokslas.lt\">info@pilieciumokslas.lt</a>.</p>"
+  },
+  "en": {
+    "title": "Free consultations on preparing proposals, on Fridays",
+    "summary": "The Lithuanian Citizen Science Association invites you to sign up for free consultations on preparing proposals. Consultations take place on Fridays.",
+    "body": "<p>The Lithuanian Citizen Science Association invites you to sign up for free consultations on preparing proposals. Consultations take place on Fridays.</p>\n<p>To sign up, write to us at <a href=\"mailto:info@pilieciumokslas.lt\">info@pilieciumokslas.lt</a>.</p>"
+  }
+}
