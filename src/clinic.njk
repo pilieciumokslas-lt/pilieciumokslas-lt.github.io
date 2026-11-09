@@ -36,7 +36,7 @@ eleventyComputed:
     <h2>{{ c.stepsTitle }}</h2>
     <ol class="grid g3 services steps">
       {%- for s in c.steps %}
-      <li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p></li>
+      <li><span class="num">{{ "0" + loop.index }}</span><h3>{{ s.title }}</h3><p>{{ s.text }}</p>{% if loop.first %}<p class="step-go"><a class="btn" href="{{ db.clinic.formUrl }}">{{ c.button }} →</a></p>{% endif %}</li>
       {%- endfor %}
     </ol>
   </div>

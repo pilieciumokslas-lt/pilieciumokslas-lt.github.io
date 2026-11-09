@@ -752,3 +752,4 @@ p { margin: 0 0 1em; }
 /* About page: membership and contact as two cards */
 .band.tint .about > div { background: #fff; border-radius: 14px; padding: 30px 32px; border-top: 4px solid var(--blue); }
 .band.tint .about > div + div { border-top-color: var(--pink); }
+.steps .step-go { margin-top: 18px; }
