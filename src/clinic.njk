@@ -10,18 +10,25 @@ ogImage: /assets/uploads/news/paraisku-penktadieniai.jpg
 eleventyComputed:
   description: "{{ db.clinic[lang].intro }}"
 ---
-{%- from "macros.njk" import pageHead -%}
 {%- set t = i18n[lang] -%}
 {%- set c = db.clinic[lang] -%}
-{{ pageHead(c.title, c.intro) }}
-<section class="band">
-  <div class="wrap">
-    <p class="clinic-go"><a class="btn" href="{{ db.clinic.formUrl }}">{{ c.button }}</a></p>
-    <ul class="grid tips clinic-facts">
-      {%- for f in c.facts %}
-      <li><span class="tip-fig">{{ f.fig }}</span><p>{{ f.text }}</p></li>
-      {%- endfor %}
-    </ul>
+{%- set pageTitle = c.title -%}
+<section class="ch-hero">
+  {% cubes %}
+  <div class="wrap ch-in">
+    <div class="ch-text">
+      <span class="ch-pill">{{ c.eyebrow }}</span>
+      <h1>{{ c.title }}</h1>
+      <p class="lead">{{ c.intro }}</p>
+      <p class="ch-actions"><a class="btn btn-white" href="{{ db.clinic.formUrl }}">{{ c.button }}</a><span class="ch-meta">{{ c.meta }}</span></p>
+    </div>
+    <figure class="ch-visual">
+      <img src="{{ db.clinic.photo }}" alt="{{ c.personName }}" width="872" height="1288">
+      <span class="ch-bubble">{{ c.bubble }}</span>
+      <span class="ch-slot"><i></i>{{ c.slot }}</span>
+      <ul class="ch-chips">{% for x in c.chips %}<li>{{ x }}</li>{% endfor %}</ul>
+      <figcaption class="ch-tag"><b>{{ c.personName }}</b><span>{{ c.personRole }}</span></figcaption>
+    </figure>
   </div>
 </section>
 <section class="band tint">
@@ -45,6 +52,16 @@ eleventyComputed:
     </ul>
     {% if c.helpAfter %}<p>{{ c.helpAfter }}</p>{% endif %}
     <p>{{ c.note }}</p>
+  </div>
+</section>
+<section class="ch-stats">
+  <div class="wrap">
+    <h2>{{ c.statsTitle }}</h2>
+    <ul class="ch-tickets">
+      {%- for s in c.stats %}
+      <li><span class="ch-fig">{{ s.fig }}</span><span class="ch-cap">{{ s.text }}</span></li>
+      {%- endfor %}
+    </ul>
   </div>
 </section>
 <section class="cta">

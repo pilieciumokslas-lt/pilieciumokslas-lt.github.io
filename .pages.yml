@@ -275,6 +275,7 @@ content:
     format: json
     fields:
       - { name: formUrl, label: Calendly nuoroda / Calendly link, type: string }
+      - { name: photo, label: Nuotrauka / Photo, type: image }
       - name: lt
         label: Lietuviškai
         type: object
@@ -282,13 +283,13 @@ content:
           - { name: title, label: Pavadinimas / Title, type: string }
           - { name: intro, label: Įžanga / Intro, type: text }
           - { name: button, label: Mygtuko tekstas / Button text, type: string }
-          - name: facts
-            label: Faktų kortelės / Fact cards
-            type: object
-            list: true
-            fields:
-              - { name: fig, label: Didelis tekstas / Big text, type: string }
-              - { name: text, label: Tekstas po juo / Text below, type: string }
+          - { name: eyebrow, label: Žyma virš pavadinimo / Label above the title, type: string }
+          - { name: meta, label: Tekstas šalia mygtuko / Text next to the button, type: string }
+          - { name: personName, label: Konsultantės vardas / Consultant name, type: string }
+          - { name: personRole, label: Pareigos / Role, type: string }
+          - { name: bubble, label: Klausimo burbulas / Question bubble, type: string }
+          - { name: chips, label: Programų žymos / Programme chips, type: string, list: true }
+          - { name: slot, label: Laiko žyma / Time chip, type: string }
           - { name: stepsTitle, label: Žingsnių antraštė / Steps heading, type: string }
           - name: steps
             label: Žingsniai / Steps
@@ -302,6 +303,14 @@ content:
           - { name: help, label: Sąrašas / List, type: string, list: true }
           - { name: helpAfter, label: Tekstas po sąrašo / Text after the list, type: text }
           - { name: note, label: Pastaba / Note, type: text }
+          - { name: statsTitle, label: Skaičių antraštė / Numbers heading, type: string }
+          - name: stats
+            label: Skaičiai / Numbers
+            type: object
+            list: true
+            fields:
+              - { name: fig, label: Skaičius / Number, type: string }
+              - { name: text, label: Tekstas / Text, type: string }
           - { name: ctaTitle, label: Apatinės juostos antraštė / Bottom band heading, type: string }
       - name: en
         label: English

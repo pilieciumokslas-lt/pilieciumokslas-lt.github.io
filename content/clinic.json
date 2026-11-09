@@ -2,22 +2,8 @@
   "formUrl": "https://calendly.com/pilieciumokslas-info/paraisku-penktadieniai",
   "lt": {
     "title": "Paraiškų penktadieniai",
-    "intro": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį. Nemokama 30 minučių konsultacija internetu penktadieniais. Konsultuoja asociacijos ekspertai, turintys „Europos horizonto“, CERV ir kitų programų paraiškų rengimo patirties.",
+    "intro": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį. Nemokama 30 minučių konsultacija internetu su dr. Monika Mačiuliene, Piliečių mokslo asociacijos steigėja ir vadove.",
     "button": "Užsiregistruoti konsultacijai",
-    "facts": [
-      {
-        "fig": "30 min",
-        "text": "pokalbis internetu"
-      },
-      {
-        "fig": "Penktadieniais",
-        "text": "laiką pasirinkite kalendoriuje"
-      },
-      {
-        "fig": "0 €",
-        "text": "konsultacija nemokama"
-      }
-    ],
     "stepsTitle": "Kaip tai vyksta",
     "steps": [
       {
@@ -43,26 +29,34 @@
     ],
     "helpAfter": "Verslo investicijų ir paramos MVĮ paraiškų nekonsultuojame. Nesate tikri, ar jūsų idėja tinka? Parašykite info@pilieciumokslas.lt.",
     "note": "Jei reikia išsamesnės visos paraiškos peržiūros ar pagalbos ją rengiant, galime susitarti dėl atskiros mokamos paslaugos.",
-    "ctaTitle": "Turite klausimą apie savo paraišką?"
+    "ctaTitle": "Turite klausimą apie savo paraišką?",
+    "eyebrow": "Nemokama konsultacija",
+    "meta": "30 min. · internetu · nemokamai",
+    "personName": "Dr. Monika Mačiulienė",
+    "personRole": "Piliečių mokslo asociacijos steigėja ir vadovė",
+    "bubble": "Ar mano idėja tinka šiam kvietimui?",
+    "chips": [
+      "„Europos horizontas“",
+      "CERV",
+      "Kaskadinis finansavimas"
+    ],
+    "slot": "Penktadienis · 13:00",
+    "statsTitle": "Paraiškų penktadieniai skaičiais",
+    "stats": [
+      {
+        "fig": "100+",
+        "text": "paraiškų, kurias Monika rengė ar konsultavo"
+      },
+      {
+        "fig": "20",
+        "text": "konsultacijų NVO ir tyrėjams 2026 m."
+      }
+    ]
   },
   "en": {
     "title": "Proposal Fridays",
-    "intro": "Half an hour for your proposal: we discuss your idea, the call or your draft. A free 30-minute online consultation on Fridays. Consultations are given by the association's experts, who have experience of preparing proposals to Horizon Europe, CERV and other programmes.",
+    "intro": "Half an hour for your proposal: we discuss your idea, the call or your draft. A free 30-minute online consultation with Dr Monika Mačiulienė, founder and director of the Lithuanian Citizen Science Association.",
     "button": "Book a consultation",
-    "facts": [
-      {
-        "fig": "30 min",
-        "text": "online call"
-      },
-      {
-        "fig": "Fridays",
-        "text": "pick a time in the calendar"
-      },
-      {
-        "fig": "€0",
-        "text": "the consultation is free"
-      }
-    ],
     "stepsTitle": "How it works",
     "steps": [
       {
@@ -88,6 +82,29 @@
     ],
     "helpAfter": "We do not advise on business investment or SME support applications. Not sure if your idea fits? Write to info@pilieciumokslas.lt.",
     "note": "If you need a more thorough review of the whole proposal or help with writing it, we can agree on a separate paid service.",
-    "ctaTitle": "Have a question about your proposal?"
-  }
+    "ctaTitle": "Have a question about your proposal?",
+    "eyebrow": "Free consultation",
+    "meta": "30 min · online · free",
+    "personName": "Dr Monika Mačiulienė",
+    "personRole": "Founder and Director, Lithuanian Citizen Science Association",
+    "bubble": "Does my idea fit this call?",
+    "chips": [
+      "Horizon Europe",
+      "CERV",
+      "Cascade funding"
+    ],
+    "slot": "Friday · 13:00",
+    "statsTitle": "Proposal Fridays in numbers",
+    "stats": [
+      {
+        "fig": "100+",
+        "text": "proposals Monika has written or advised on"
+      },
+      {
+        "fig": "20",
+        "text": "consultations with NGOs and researchers in 2026"
+      }
+    ]
+  },
+  "photo": "/assets/uploads/people/monika-penktadieniai.jpg"
 }
