@@ -545,7 +545,7 @@ p { margin: 0 0 1em; }
 @media (min-width: 1100px) { .clinic-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 
 /* How to take part page */
-.tp-top { padding-bottom: 0; }
+.tp-top { padding-bottom: clamp(40px, 6vw, 72px); }
 .tp-top .g-toc { margin: 0; }
 .tp-head { display: flex; gap: 22px; align-items: flex-start; margin-bottom: 32px; max-width: 820px; }
 .tp-head h2 { margin-bottom: 10px; }

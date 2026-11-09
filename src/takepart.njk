@@ -26,7 +26,6 @@ eleventyComputed:
 {%- macro audience(a) %}
 <section class="tp-audience" id="{{ a.id }}">
   <div class="wrap">
-    <p class="label">{{ a.kicker }}</p>
     <h2>{{ a.heading or a.title }}</h2>
     {% if a.intro %}<p>{{ a.intro }}</p>{% endif %}
   </div>
