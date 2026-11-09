@@ -419,14 +419,42 @@ content:
       - name: lt
         label: Lietuviškai
         type: object
-        fields:
-          - { name: title, label: Pavadinimas, type: string }
-          - { name: intro, label: Įžanga, type: text }
-          - { name: body, label: Tekstas, type: rich-text }
+        fields: &explainer
+          - { name: title, label: Pavadinimas / Title, type: string }
+          - { name: intro, label: Įžanga / Intro, type: text }
+          - { name: shortTitle, label: Žyma virš apibrėžimo / Label above the definition, type: string }
+          - { name: definition, label: Apibrėžimas / Definition, type: text }
+          - { name: definitionSource, label: Apibrėžimo šaltinis / Definition source, type: string }
+          - { name: simpleBig, label: Didelis sakinys / Big sentence, type: string }
+          - { name: simple, label: Tekstas po juo / Text below, type: text }
+          - { name: examplesTitle, label: Pavyzdžių antraštė / Examples heading, type: string }
+          - name: examples
+            label: Pavyzdžiai / Examples
+            type: object
+            list: true
+            fields:
+              - { name: tag, label: Žyma / Tag, type: string }
+              - { name: title, label: Pavadinimas / Title, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
+          - { name: whyTitle, label: Antraštė "Kodėl tai svarbu" / Heading "Why it matters", type: string }
+          - name: why
+            label: Kam svarbu / Who it matters for
+            type: object
+            list: true
+            fields:
+              - { name: who, label: Kam / For whom, type: string }
+              - { name: text, label: Tekstas / Text, type: text }
+          - { name: beyondTitle, label: Tamsios juostos antraštė / Dark band heading, type: string }
+          - { name: beyondText, label: Tamsios juostos tekstas / Dark band text, type: text }
+          - { name: startTitle, label: Antraštė "Nuo ko pradėti" / Heading "Where to start", type: string }
+          - name: start
+            label: Pradžios kortelės / Start cards
+            type: object
+            list: true
+            fields:
+              - { name: q, label: Klausimas / Question, type: string }
+              - { name: text, label: Tekstas su nuorodomis / Text with links, type: rich-text }
       - name: en
         label: English
         type: object
-        fields:
-          - { name: title, label: Title, type: string }
-          - { name: intro, label: Intro, type: text }
-          - { name: body, label: Text, type: rich-text }
+        fields: *explainer

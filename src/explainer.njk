@@ -10,9 +10,55 @@ permalink: "{{ routes.explainer[lang] }}"
 {%- from "macros.njk" import pageHead -%}
 {%- set t = i18n[lang] -%}
 {%- set e = db.explainer[lang] -%}
-{{ pageHead(e.title, e.intro, true) }}
+{{ pageHead(e.title, e.intro) }}
+<section class="band ex-top">
+  <div class="wrap ex-def">
+    <blockquote class="ex-quote">
+      <p class="ex-label">{{ e.shortTitle }}</p>
+      <p>{{ e.definition }}</p>
+      <cite>{{ e.definitionSource }}</cite>
+    </blockquote>
+    <div class="ex-simple">
+      <p class="ex-big">{{ e.simpleBig }}</p>
+      <p>{{ e.simple }}</p>
+    </div>
+  </div>
+</section>
+<section class="band tint">
+  <div class="wrap">
+    <h2>{{ e.examplesTitle }}</h2>
+    <ol class="grid g2 ex-cards">
+      {%- for x in e.examples %}
+      <li><span class="ex-tag">{{ x.tag }}</span><h3>{{ x.title }}</h3><p>{{ x.text }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
 <section class="band">
-  <div class="wrap narrow prose explainer">{{ e.body | richText | safe }}</div>
+  <div class="wrap">
+    <h2>{{ e.whyTitle }}</h2>
+    <ul class="ex-why">
+      {%- for w in e.why %}
+      <li><span class="ex-num">{{ "0" + loop.index }}</span><h3>{{ w.who }}</h3><p>{{ w.text }}</p></li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+<section class="ex-beyond">
+  <div class="wrap">
+    <h2>{{ e.beyondTitle }}</h2>
+    <p>{{ e.beyondText }}</p>
+  </div>
+</section>
+<section class="band">
+  <div class="wrap">
+    <h2>{{ e.startTitle }}</h2>
+    <ul class="grid g2 ex-start">
+      {%- for s in e.start %}
+      <li><h3>{{ s.q }}</h3><p>{{ s.text | safe }}</p></li>
+      {%- endfor %}
+    </ul>
+  </div>
 </section>
 <section class="cta">
   <div class="wrap">
