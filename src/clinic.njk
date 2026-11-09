@@ -62,11 +62,17 @@ eleventyComputed:
 <section class="ch-stats">
   <div class="wrap">
     <h2>{{ c.statsTitle }}</h2>
-    <ul class="ch-tickets">
-      {%- for s in c.stats %}
-      <li><span class="ch-fig">{{ s.fig }}</span><span class="ch-cap">{{ s.text }}</span></li>
+  </div>
+  <div class="ch-marquee">
+    <div class="ch-runline">
+      {%- for copy in [1, 2] %}
+      <ul class="ch-tickets"{% if copy == 2 %} aria-hidden="true"{% endif %}>
+        {%- for s in c.stats %}
+        <li><span class="ch-fig">{{ s.fig }}</span><span class="ch-cap">{{ s.text }}</span></li>
+        {%- endfor %}
+      </ul>
       {%- endfor %}
-    </ul>
+    </div>
   </div>
 </section>
 <section class="cta">

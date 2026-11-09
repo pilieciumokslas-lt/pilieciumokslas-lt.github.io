@@ -638,6 +638,20 @@ p { margin: 0 0 1em; }
 .ch-fig { font: 700 clamp(3rem, 7vw, 4.6rem)/1 var(--display); letter-spacing: -0.03em; color: var(--blue); }
 .ch-tickets li:nth-child(2) .ch-fig { color: var(--pink); }
 .ch-cap { font: 600 1.05rem/1.35 var(--display); color: var(--ink); }
+/* Running line: two copies of the tickets scroll left; pauses on hover; with reduced motion one static row that wraps */
+.ch-marquee { overflow: hidden; padding: 16px 0; }
+.ch-runline { display: flex; align-items: flex-start; width: max-content; animation: ch-run 40s linear infinite; }
+.ch-marquee:hover .ch-runline { animation-play-state: paused; }
+.ch-runline .ch-tickets { display: flex; align-items: stretch; flex: none; gap: 24px; padding-right: 24px; }
+.ch-runline .ch-tickets li { flex: none; width: clamp(360px, 46vw, 560px); }
+@media (max-width: 600px) { .ch-runline .ch-tickets li { width: 280px; flex-direction: column; align-items: flex-start; gap: 10px; } }
+.ch-tickets li:nth-child(3) .ch-fig { color: var(--ink); }
+@keyframes ch-run { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) {
+  .ch-runline { animation: none; width: min(1180px, 100% - 40px); margin-inline: auto; }
+  .ch-runline .ch-tickets { flex-wrap: wrap; padding-right: 0; }
+  .ch-runline .ch-tickets[aria-hidden] { display: none; }
+}
 @media (max-width: 900px) {
   .ch-in { grid-template-columns: minmax(0, 1fr); }
   .ch-visual { width: min(300px, 70%); margin-bottom: 24px; }
