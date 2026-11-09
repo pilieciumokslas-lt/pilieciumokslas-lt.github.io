@@ -245,7 +245,7 @@
             "when": "Bet kada · kompiuteriu",
             "name": "Zooniverse",
             "text": "Didžiausia piliečių mokslo platforma internete: savanoriai peržiūri nuotraukas, garsus ar senus dokumentus ir atsako į paprastus klausimus. Pavyzdžiui, „Galaxy Zoo“ projekte klasifikuojamos galaktikos, „Planet Hunters TESS“ ieškoma naujų planetų, o „European Camera Trap Project“ skaičiuojami gyvūnai Europos fotospąstų nuotraukose. Platformoje daugiau kaip 3 milijonai savanorių iš 160 šalių.",
-            "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Projektai anglų kalba.",
+            "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Dauguma projektų anglų kalba.",
             "url": "https://www.zooniverse.org/projects",
             "link": "Zooniverse projektai"
           },
@@ -261,7 +261,7 @@
             "when": "Bet kada · su telefonu",
             "name": "GLOBE Observer",
             "text": "NASA ir GLOBE programos programėlė: fotografuojate debesis, žemės dangą, medžius ar uodų veisimosi vietas, o mokslininkai jūsų stebėjimus lygina su palydovų duomenimis. Lietuva GLOBE programoje dalyvauja nuo 2002 m., todėl programėle galima naudotis ir čia.",
-            "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus. Programėlė anglų kalba.",
+            "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus.",
             "url": "https://observer.globe.gov",
             "link": "GLOBE Observer"
           },
@@ -292,7 +292,7 @@
           {
             "when": "Reguliariai · namuose",
             "name": "Sensor.Community: oro taršos jutikliai",
-            "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau 2026 m. lapkritį Lietuvoje duomenis siuntė tik du.",
+            "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau Lietuvoje jų kol kas vos keli.",
             "how": "jutiklį sukonstruoti užtrunka maždaug popietę, vėliau jis veikia savaime. Instrukcijos ir registracija svetainėje.",
             "url": "https://sensor.community",
             "link": "Sensor.Community"
@@ -450,8 +450,7 @@
             {
               "when": "Biologija, chemija, geografija · 10-16 m.",
               "name": "Plastiko piratai",
-              "text": "Europos projektas: mokiniai prie upių renka ir skaičiuoja šiukšles, ima mikroplastiko mėginius ir rezultatus perduoda mokslininkams. Lietuvoje projektą koordinuoja LINEŠA. Mokinių 2022-2023 m. surinktus duomenis Fizinių ir technologijos mokslų centro (FTMC) mokslininkai panaudojo tyrime apie šiukšles Lietuvos upių pakrantėse.",
-              "how": "mėginiai renkami pavasarį (gegužės 1 d.-birželio 30 d.) ir rudenį (rugsėjo 15 d.-lapkričio 15 d.). Registruotis nereikia. Dėl mokymo medžiagos ir mikroplastiko tinklelio kreipkitės į LINEŠA.",
+              "text": "Europos projektas, kuriame 2022-2024 m. dalyvavo ir Lietuvos mokyklos: mokiniai prie upių rinko ir skaičiavo šiukšles, ėmė mikroplastiko mėginius ir rezultatus perdavė mokslininkams. Visoje Europoje dalyvavo daugiau kaip 25 000 mokinių, ištirta daugiau kaip 360 upių. Lietuvoje projektą koordinavo dabartinė LINEŠA, o mokinių 2022-2023 m. surinktus duomenis FTMC mokslininkai panaudojo tyrime apie šiukšles Lietuvos upių pakrantėse. Europos kampanija baigėsi, naujų mėginių ėmimo laikotarpių kol kas nepaskelbta, bet surinktus duomenis klasė gali analizuoti pati (žr. „Tikri duomenys pamokoje“).",
               "url": "https://www.plastic-pirates.eu/lt/start",
               "link": "Plastiko piratai",
               "caseText": "Visagino „Verdenės“ gimnazijos mokiniai su tėvais tyrė Šventosios pakrantę: 290 m atkarpoje surado 37 šiukšles, o mokslininkai mėginyje aptiko mikroplastiko.",
@@ -522,7 +521,7 @@
               "when": "Informatika, fizika, geografija · iki 19 m.",
               "name": "Astro Pi: Mission Space Lab",
               "text": "Europos kosmoso agentūros (ESA) ir Raspberry Pi fondo konkursas: 2-6 mokinių komanda parašo Python programą, kuri Tarptautinėje kosminėje stotyje renka jutiklių ar kameros duomenis, o komanda gauna juos atgal ir analizuoja. Lietuvos mokiniai gali dalyvauti visose ESA švietimo programose. Vien lengvesnėje užduotyje „Mission Zero“ 2024-2025 m. dalyvavo daugiau kaip 25 000 jaunuolių.",
-              "how": "mokytojas užregistruoja komandą kaip jos vadovas. Dalyvavimas nemokamas, Raspberry Pi kompiuterio nereikia. 2026-2027 m. programas reikia pateikti iki 2027 m. vasario 22 d. Jaunesniems mokiniams (9-16 m.) skirta „Mission Zero“, iki 2027 m. kovo 22 d.",
+              "how": "mokytojas užregistruoja komandą kaip jos vadovas. Dalyvavimas nemokamas, Raspberry Pi kompiuterio nereikia. 2026-2027 m. programas reikia pateikti iki 2027 m. vasario 22 d. Pradedantiesiems skirta lengvesnė užduotis „Mission Zero“ (apie valandą darbo), iki 2027 m. kovo 22 d.",
               "url": "https://astro-pi.org",
               "link": "Astro Pi"
             },
@@ -533,17 +532,6 @@
               "how": "kampanijos trunka apie mėnesį ir 2026-2027 m. vyksta beveik kas mėnesį iki 2027 m. gegužės. Europoje registruojamasi per Erasmus+ projektą StAnD, vietos dažnai užpildomos likus mėnesiui. Dalyvavimas nemokamas. Programa „Astrometrica“ veikia tik su „Windows“, medžiaga anglų kalba.",
               "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
               "link": "Kampanijų datos ir registracija"
-            },
-            {
-              "when": "Fizika · gimnazija",
-              "name": "Dalelių fizikos meistriškumo klasės",
-              "text": "Mokiniai dieną praleidžia universitete: analizuoja tikrus CERN Didžiojo hadronų greitintuvo duomenis ir vaizdo ryšiu palygina rezultatus su kitų šalių mokiniais. Kasmet dalyvauja apie 60 šalių. Tai ne naujų duomenų rinkimas, o darbas su tikrais mokslo duomenimis.",
-              "how": "renginiai vyksta kasmet vasario-balandžio mėn. Dėl 2027 m. datos teiraukitės Vilniaus universiteto Fizikos fakultete.",
-              "url": "https://indico.cern.ch/event/1648092/overview",
-              "link": "2026 m. renginys Vilniuje",
-              "caseText": "2026 m. vasario 26 d. meistriškumo klasė vyko Vilniaus universitete, o 2024 m. Vilniuje ir Kaune ją rengė VU, KTU ir VILNIUS TECH.",
-              "caseUrl": "https://fmns.ktu.edu/events/international-particle-physics-masterclass-2024/",
-              "caseLink": "2024 m. renginys"
             }
           ]
         }
@@ -845,7 +833,7 @@
           {
             "when": "Regularly · at home",
             "name": "Sensor.Community: air quality sensors",
-            "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but in November 2026 only two were sending data from Lithuania.",
+            "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but only a handful in Lithuania so far.",
             "how": "building the sensor takes about an afternoon, then it runs on its own. Instructions and registration are on the website.",
             "url": "https://sensor.community",
             "link": "Sensor.Community"
@@ -1004,8 +992,7 @@
             {
               "when": "Biology, chemistry, geography · ages 10-16",
               "name": "Plastic Pirates",
-              "text": "A European project: pupils collect and count litter by rivers, take microplastic samples and send the results to researchers. In Lithuania it is coordinated by LINEŠA. Data collected by pupils in 2022-2023 were used by researchers at the Center for Physical Sciences and Technology (FTMC) in a study of litter on Lithuanian riversides.",
-              "how": "samples are collected in spring (1 May-30 June) and autumn (15 September-15 November). No registration is needed. Ask LINEŠA for the teaching materials and the microplastic net.",
+              "text": "A European project in which Lithuanian schools took part in 2022-2024: pupils collected and counted litter by rivers, took microplastic samples and sent the results to researchers. Across Europe more than 25,000 pupils took part and more than 360 rivers were studied. In Lithuania it was coordinated by what is now LINEŠA, and researchers at FTMC used the data Lithuanian pupils collected in 2022-2023 in a study of litter on Lithuanian riversides. The European campaign has ended and no new sampling periods have been announced, but a class can analyse the collected data itself (see \"Real data in class\").",
               "url": "https://www.plastic-pirates.eu/lt/start",
               "link": "Plastic Pirates (in Lithuanian)",
               "caseText": "Pupils of Verdenės gymnasium in Visaginas and their parents surveyed the bank of the Šventoji: they found 37 litter items along 290 m, and researchers found microplastics in their sample.",
@@ -1076,7 +1063,7 @@
               "when": "IT, physics, geography · up to age 19",
               "name": "Astro Pi: Mission Space Lab",
               "text": "A competition by the European Space Agency (ESA) and the Raspberry Pi Foundation: a team of 2-6 pupils writes a Python program that collects sensor or camera data on the International Space Station, and the team gets the data back to analyse. Pupils in Lithuania can take part in all ESA education programmes. The easier Mission Zero alone had more than 25,000 young participants in 2024-2025.",
-              "how": "a teacher registers the team as its mentor. It is free and no Raspberry Pi computer is needed. In 2026-2027, programs must be submitted by 22 February 2027. Younger pupils (ages 9-16) can do Mission Zero, by 22 March 2027.",
+              "how": "a teacher registers the team as its mentor. It is free and no Raspberry Pi computer is needed. In 2026-2027, programs must be submitted by 22 February 2027. Beginners can do the easier Mission Zero (about an hour), by 22 March 2027.",
               "url": "https://astro-pi.org",
               "link": "Astro Pi"
             },
@@ -1087,17 +1074,6 @@
               "how": "campaigns last about a month and in 2026-2027 run almost every month until May 2027. In Europe you register through the Erasmus+ project StAnD, and places often fill up a month ahead. It is free. The Astrometrica software runs on Windows only, and materials are in English.",
               "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
               "link": "Campaign dates and registration"
-            },
-            {
-              "when": "Physics · upper secondary",
-              "name": "Particle physics masterclasses",
-              "text": "Pupils spend a day at a university, analyse real data from CERN's Large Hadron Collider and compare their results with pupils in other countries by video link. About 60 countries take part each year. This is not new data collection but work with real research data.",
-              "how": "events take place every year in February-April. Ask the Faculty of Physics at Vilnius University about the 2027 date.",
-              "url": "https://indico.cern.ch/event/1648092/overview",
-              "link": "The 2026 event in Vilnius",
-              "caseText": "On 26 February 2026 a masterclass took place at Vilnius University; in 2024 VU, KTU and VILNIUS TECH ran it in Vilnius and Kaunas.",
-              "caseUrl": "https://fmns.ktu.edu/events/international-particle-physics-masterclass-2024/",
-              "caseLink": "The 2024 event"
             }
           ]
         }
