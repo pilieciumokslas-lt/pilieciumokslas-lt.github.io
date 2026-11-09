@@ -676,3 +676,6 @@ p { margin: 0 0 1em; }
 .ch-slot { top: 64%; }
 @media (max-width: 600px) { .ch-visual { width: 92%; } .ch-bubble { left: -4%; top: -6%; min-width: 0; max-width: 78%; } .ch-tag { right: -4%; max-width: 84%; } }
 .ch-bubble > span { align-self: center; }
+/* Narrow text columns line up with the page's left edge instead of being centred */
+.wrap.narrow { max-width: none; }
+.wrap.narrow > * { max-width: 760px; }
