@@ -412,7 +412,7 @@
       "url": "/kas-nori-dalyvauti-tyrimuose/",
       "lt": {
         "title": "Kas Lietuvoje nori dalyvauti moksliniuose tyrimuose?",
-        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5\u00a0%), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
+        "text": "Duomenys tyrėjams, planuojantiems piliečių mokslo projektą: kiek gyventojų norėtų dalyvauti tyrimuose (18,5 %), kas jie ir per kokius kanalus juos pasiekti. Pagal INFODEMIJA reprezentatyvią apklausą (N = 1 005)."
       },
       "en": {
         "title": "Who in Lithuania wants to take part in research?",
@@ -488,6 +488,20 @@
       "en": {
         "title": "Ten principles of citizen science (in Lithuanian)",
         "text": "The ten principles of citizen science by the European Citizen Science Association (ECSA), in Lithuanian. The English original is on the ECSA website."
+      }
+    },
+    {
+      "type": "tool",
+      "language": "lt",
+      "source": "Mačiulienė, Butkevičienė / CS4Welfare, KTU",
+      "url": "/assets/uploads/docs/pilieciu-mokslas-taikymas-ir-geroji-praktika.pdf",
+      "lt": {
+        "title": "Piliečių mokslas: taikymas ir geroji praktika",
+        "text": "Metodinės gairės bendruomenėms ir mokslininkams, siekiantiems vykdyti piliečių mokslo projektus: projektų pavyzdžiai Lietuvoje ir pasaulyje, pridėtinė vertė, planavimo žingsniai, komunikacija, tyrimų etika, finansavimo galimybės ir kontrolinis klausimų sąrašas dalyviams."
+      },
+      "en": {
+        "title": "Piliečių mokslas: taikymas ir geroji praktika",
+        "text": "Methodological guidelines in Lithuanian for communities and researchers planning a citizen science project: examples from Lithuania and abroad, added value, planning steps, communication, research ethics, funding options and a checklist for participants."
       }
     },
     {
