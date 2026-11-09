@@ -20,7 +20,7 @@
       }
     ],
     "helpTitle": "Kuo galime padėti",
-    "helpText": "Padedame mokslininkams, mokslo institucijoms ir NVO parengti gerą paraišką. Patariame, kaip idėją susieti su kvietimo tikslais, aiškiai aprašyti tikslus, metodiką ir darbo planą, įtikinamai parodyti poveikį ir prasmingai įtraukti piliečius bei bendruomenes. Labiausiai galime padėti projektams, kuriuose svarbūs žmonės: piliečių mokslui, bendrakūrai, bendruomenių ar tikslinių grupių įtraukimui. Dažniausiai konsultuojame dėl šių programų:",
+    "helpText": "Padedame mokslininkams, mokslo institucijoms ir NVO parengti gerą paraišką. Patariame, kaip:",
     "help": [
       "„Europos horizontas“",
       "kaskadinis finansavimas (ES projektų atviri kvietimai)",
@@ -65,7 +65,16 @@
       "Kaip parašyti stiprų poveikio skyrių?",
       "Kokių partnerių man reikia?"
     ],
-    "helpCalls": "Ieškote tinkamo kvietimo? Peržiūrėkite mūsų <a href=\"/kvietimai/\">finansavimo kvietimų duomenų bazę</a>."
+    "helpCalls": "Ieškote tinkamo kvietimo? Peržiūrėkite mūsų <a href=\"/kvietimai/\">finansavimo kvietimų duomenų bazę</a>.",
+    "audience": "NVO, mokslininkams ir mokslo institucijoms · registracija iki 2027 m. vasario 12 d.",
+    "helpPoints": [
+      "idėją susieti su kvietimo tikslais",
+      "aiškiai aprašyti tikslus, metodiką ir darbo planą",
+      "įtikinamai parodyti poveikį",
+      "prasmingai įtraukti piliečius ir bendruomenes"
+    ],
+    "helpFocus": "Labiausiai galime padėti projektams, kuriuose svarbūs žmonės: piliečių mokslui, bendrakūrai, bendruomenių ar tikslinių grupių įtraukimui.",
+    "helpProgLabel": "Dažniausiai konsultuojame dėl šių programų"
   },
   "en": {
     "title": "Proposal Fridays",
@@ -87,7 +96,7 @@
       }
     ],
     "helpTitle": "How we can help",
-    "helpText": "We help researchers, research organisations and NGOs prepare a strong proposal. We advise on linking your idea to the aims of the call, describing objectives, methodology and work plan clearly, showing impact convincingly and involving citizens and communities in a meaningful way. We can help most with projects where people matter: citizen science, co-creation, involving communities or target groups. We most often advise on:",
+    "helpText": "We help researchers, research organisations and NGOs prepare a strong proposal. We advise on how to:",
     "help": [
       "Horizon Europe",
       "cascade funding (open calls by EU projects)",
@@ -132,7 +141,16 @@
       "How do I write a strong impact section?",
       "What partners do I need?"
     ],
-    "helpCalls": "Looking for a call? Browse our <a href=\"/kvietimai/\">funding calls database</a>."
+    "helpCalls": "Looking for a call? Browse our <a href=\"/kvietimai/\">funding calls database</a>.",
+    "audience": "For NGOs, researchers and research organisations · book by 12 February 2027",
+    "helpPoints": [
+      "link your idea to the aims of the call",
+      "describe objectives, methodology and work plan clearly",
+      "show impact convincingly",
+      "involve citizens and communities in a meaningful way"
+    ],
+    "helpFocus": "We can help most with projects where people matter: citizen science, co-creation, involving communities or target groups.",
+    "helpProgLabel": "We most often advise on"
   },
   "photo": "/assets/uploads/people/monika-penktadieniai.jpg"
 }

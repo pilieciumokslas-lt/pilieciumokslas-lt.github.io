@@ -284,6 +284,7 @@ content:
           - { name: intro, label: Įžanga / Intro, type: text }
           - { name: button, label: Mygtuko tekstas / Button text, type: string }
           - { name: eyebrow, label: Žyma virš pavadinimo / Label above the title, type: string }
+          - { name: audience, label: Kam ir iki kada (po mygtuku) / For whom and until when (below the button), type: string }
           - { name: personName, label: Konsultantės vardas / Consultant name, type: string }
           - { name: personRole, label: Pareigos / Role, type: string }
           - { name: bubbles, label: Klausimai burbule (keičiasi vienas po kito) / Questions in the bubble (rotate), type: string, list: true }
@@ -298,8 +299,11 @@ content:
               - { name: title, label: Pavadinimas / Title, type: string }
               - { name: text, label: Tekstas / Text, type: text }
           - { name: helpTitle, label: Antraštė "Kam labiausiai tinka" / Heading "Who it suits best", type: string }
-          - { name: helpText, label: Tekstas prieš sąrašą / Text before the list, type: text }
-          - { name: help, label: Sąrašas / List, type: string, list: true }
+          - { name: helpText, label: Įžanga / Lead, type: text }
+          - { name: helpPoints, label: Kuo padedame (punktai) / What we help with (points), type: string, list: true }
+          - { name: helpFocus, label: Kam labiausiai tinka / Who it suits best, type: text }
+          - { name: helpProgLabel, label: Programų antraštė / Programmes label, type: string }
+          - { name: help, label: Programos / Programmes, type: string, list: true }
           - { name: helpCalls, label: Nuoroda į kvietimų paiešką / Link to the calls database, type: rich-text }
           - { name: helpAfter, label: Tekstas po sąrašo / Text after the list, type: text }
           - { name: note, label: Pastaba / Note, type: text }

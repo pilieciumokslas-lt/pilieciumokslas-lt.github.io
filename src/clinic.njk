@@ -21,6 +21,7 @@ eleventyComputed:
       <h1>{{ c.title }}</h1>
       <p class="lead">{{ c.intro }}</p>
       <p class="ch-actions"><a class="btn btn-white" href="{{ db.clinic.formUrl }}">{{ c.button }}</a></p>
+      {% if c.audience %}<p class="ch-audience">{{ c.audience }}</p>{% endif %}
     </div>
     <figure class="ch-visual">
       <img src="{{ db.clinic.photo }}" alt="{{ c.personName }}" width="872" height="700">
@@ -45,8 +46,11 @@ eleventyComputed:
   <div class="wrap ch-help">
     <div class="prose">
       <h2>{{ c.helpTitle }}</h2>
-      {% if c.helpText %}<p>{{ c.helpText }}</p>{% endif %}
-      <ul>
+      {% if c.helpText %}<p class="ch-lead">{{ c.helpText }}</p>{% endif %}
+      {% if c.helpPoints %}<ul class="ch-points">{% for h in c.helpPoints %}<li>{{ h }}</li>{% endfor %}</ul>{% endif %}
+      {% if c.helpFocus %}<p>{{ c.helpFocus }}</p>{% endif %}
+      {% if c.helpProgLabel %}<p class="ch-prog-label">{{ c.helpProgLabel }}</p>{% endif %}
+      <ul class="ch-progs">
         {%- for h in c.help %}
         <li>{{ h }}</li>
         {%- endfor %}
@@ -75,6 +79,24 @@ eleventyComputed:
     </div>
   </div>
 </section>
+<a class="btn ch-sticky" href="{{ db.clinic.formUrl }}">{{ c.button }}</a>
+<script>
+  // On phones, show a booking button once the top section has scrolled away; hide it again from the closing band down.
+  (function () {
+    var b = document.querySelector(".ch-sticky"), hero = document.querySelector(".ch-hero");
+    if (!b || !hero) return;
+    var set = function () {
+      var h = window.innerHeight;
+      var past = hero.getBoundingClientRect().bottom < 0;
+      var end = document.querySelector(".cta");
+      var atEnd = end && end.getBoundingClientRect().top < h;
+      b.classList.toggle("on", past && !atEnd);
+    };
+    window.addEventListener("scroll", set, { passive: true });
+    window.addEventListener("resize", set);
+    set();
+  })();
+</script>
 <section class="cta">
   <div class="wrap">
     <div>

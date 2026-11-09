@@ -753,3 +753,20 @@ p { margin: 0 0 1em; }
 .band.tint .about > div { background: #fff; border-radius: 14px; padding: 30px 32px; border-top: 4px solid var(--blue); }
 .band.tint .about > div + div { border-top-color: var(--pink); }
 .steps .step-go { margin-top: 18px; }
+
+/* Paraiškų penktadieniai UX pass */
+.ch-audience { margin: 16px 0 0; font: 600 0.95rem var(--display); opacity: 0.9; }
+.ch-help .ch-lead { font-size: 1.1rem; color: var(--ink); margin-bottom: 14px; }
+.ch-help .ch-points { list-style: none; padding: 0; margin: 0 0 24px; display: grid; gap: 10px; }
+.ch-help .ch-points li { position: relative; padding: 12px 16px 12px 44px; background: var(--mist); border-radius: 10px; font-weight: 500; margin: 0; }
+.ch-help .ch-points li::before { content: "✓"; position: absolute; left: 16px; top: 11px; color: var(--blue); font-weight: 700; }
+.ch-prog-label { font: 700 0.78rem var(--display); letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); margin: 24px 0 10px; }
+.ch-help .ch-progs { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.ch-help .ch-progs li { margin: 0; padding: 7px 14px; border-radius: 999px; background: #fff; border: 1.5px solid var(--line); font: 600 0.88rem var(--display); }
+.ch-help .ch-progs li:first-child { background: var(--pink); border-color: var(--pink); color: #fff; }
+.ch-marquee { overflow: hidden; -webkit-mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); mask-image: linear-gradient(to right, transparent, #000 7%, #000 93%, transparent); }
+.ch-sticky { display: none; }
+@media (max-width: 700px) {
+  .ch-sticky { display: block; position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; text-align: center; box-shadow: 0 12px 30px rgba(0, 0, 40, 0.3); transform: translateY(140%); transition: transform 0.25s ease; }
+  .ch-sticky.on { transform: none; }
+}
