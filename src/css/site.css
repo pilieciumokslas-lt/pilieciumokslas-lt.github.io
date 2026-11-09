@@ -659,3 +659,13 @@ p { margin: 0 0 1em; }
 .ch-chips { left: -14%; bottom: 26%; }
 .ch-slot { right: -12%; top: 52%; }
 @media (max-width: 600px) { .ch-bubble { left: -10%; top: -4%; } .ch-visual { width: min(300px, 82%); } }
+/* Rotating questions in the bubble; with reduced motion only the first shows */
+.ch-bubble { display: grid; min-width: 15em; }
+.ch-bubble > span { grid-area: 1 / 1; opacity: 0; animation: ch-q calc(var(--n) * 3.5s) infinite; animation-delay: calc(var(--i) * 3.5s); }
+@keyframes ch-q { 0% { opacity: 0; transform: translateY(6px); } 4%, 21% { opacity: 1; transform: none; } 25%, 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .ch-bubble > span { animation: none; } .ch-bubble > span:first-child { opacity: 1; } }
+/* More programme chips: wrap in rows instead of one tall column */
+.ch-chips { flex-direction: row; flex-wrap: wrap; width: 70%; bottom: 20%; left: -14%; }
+.ch-slot { white-space: nowrap; }
+.ch-calls { background: var(--mist); border-left: 4px solid var(--blue); border-radius: 6px; padding: 14px 18px; font-weight: 500; }
+.ch-calls a { font-weight: 700; }

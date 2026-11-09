@@ -287,7 +287,7 @@ content:
           - { name: meta, label: Tekstas šalia mygtuko / Text next to the button, type: string }
           - { name: personName, label: Konsultantės vardas / Consultant name, type: string }
           - { name: personRole, label: Pareigos / Role, type: string }
-          - { name: bubble, label: Klausimo burbulas / Question bubble, type: string }
+          - { name: bubbles, label: Klausimai burbule (keičiasi vienas po kito) / Questions in the bubble (rotate), type: string, list: true }
           - { name: chips, label: Programų žymos / Programme chips, type: string, list: true }
           - { name: slot, label: Laiko žyma / Time chip, type: string }
           - { name: stepsTitle, label: Žingsnių antraštė / Steps heading, type: string }
@@ -301,6 +301,7 @@ content:
           - { name: helpTitle, label: Antraštė "Kam labiausiai tinka" / Heading "Who it suits best", type: string }
           - { name: helpText, label: Tekstas prieš sąrašą / Text before the list, type: text }
           - { name: help, label: Sąrašas / List, type: string, list: true }
+          - { name: helpCalls, label: Nuoroda į kvietimų paiešką / Link to the calls database, type: rich-text }
           - { name: helpAfter, label: Tekstas po sąrašo / Text after the list, type: text }
           - { name: note, label: Pastaba / Note, type: text }
           - { name: statsTitle, label: Skaičių antraštė / Numbers heading, type: string }

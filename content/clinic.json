@@ -34,13 +34,15 @@
     "meta": "30 min. · internetu · nemokamai",
     "personName": "Dr. Monika Mačiulienė",
     "personRole": "Piliečių mokslo asociacijos steigėja ir vadovė",
-    "bubble": "Ar mano idėja tinka šiam kvietimui?",
     "chips": [
       "„Europos horizontas“",
       "CERV",
-      "Kaskadinis finansavimas"
+      "Kaskadinis finansavimas",
+      "LMT",
+      "Erasmus+",
+      "Mažesni fondai"
     ],
-    "slot": "Penktadienis · 13:00",
+    "slot": "Penktadieniais 13:00 ir 13:30",
     "statsTitle": "Paraiškų penktadieniai skaičiais",
     "stats": [
       {
@@ -51,7 +53,14 @@
         "fig": "20",
         "text": "konsultacijų NVO ir tyrėjams 2026 m."
       }
-    ]
+    ],
+    "bubbles": [
+      "Ar mano idėja tinka šiam kvietimui?",
+      "Kaip įtraukti piliečius ir bendruomenes?",
+      "Kaip parašyti stiprų poveikio skyrių?",
+      "Kokių partnerių man reikia?"
+    ],
+    "helpCalls": "Ieškote tinkamo kvietimo? Peržiūrėkite mūsų <a href=\"/kvietimai/\">finansavimo kvietimų duomenų bazę</a>."
   },
   "en": {
     "title": "Proposal Fridays",
@@ -87,13 +96,15 @@
     "meta": "30 min · online · free",
     "personName": "Dr Monika Mačiulienė",
     "personRole": "Founder and Director, Lithuanian Citizen Science Association",
-    "bubble": "Does my idea fit this call?",
     "chips": [
       "Horizon Europe",
       "CERV",
-      "Cascade funding"
+      "Cascade funding",
+      "Research Council of Lithuania",
+      "Erasmus+",
+      "Smaller funds"
     ],
-    "slot": "Friday · 13:00",
+    "slot": "Fridays 13:00 and 13:30",
     "statsTitle": "Proposal Fridays in numbers",
     "stats": [
       {
@@ -104,7 +115,14 @@
         "fig": "20",
         "text": "consultations with NGOs and researchers in 2026"
       }
-    ]
+    ],
+    "bubbles": [
+      "Does my idea fit this call?",
+      "How do I involve citizens and communities?",
+      "How do I write a strong impact section?",
+      "What partners do I need?"
+    ],
+    "helpCalls": "Looking for a call? Browse our <a href=\"/kvietimai/\">funding calls database</a>."
   },
   "photo": "/assets/uploads/people/monika-penktadieniai.jpg"
 }
