@@ -44,15 +44,15 @@
       "Mažesni fondai"
     ],
     "slot": "Penktadieniais 13:00 ir 13:30",
-    "statsTitle": "Paraiškų penktadieniai skaičiais",
+    "statsTitle": "Mūsų patirtis skaičiais",
     "stats": [
       {
         "fig": "100+",
-        "text": "paraiškų, kurias Monika rengė ar konsultavo"
+        "text": "konsultacijų, kurias asociacijos ekspertai per pastaruosius metus suteikė projektams, konsorciumams ir organizacijoms"
       },
       {
-        "fig": "20",
-        "text": "konsultacijų NVO ir tyrėjams 2026 m."
+        "fig": "25",
+        "text": "konsultacijos NVO 2026 m.: vietos bendruomenėms, su dezinformacija dirbančioms organizacijoms, paveldo projektams ir kt."
       }
     ],
     "bubbles": [
@@ -107,15 +107,15 @@
       "Smaller funds"
     ],
     "slot": "Fridays 13:00 and 13:30",
-    "statsTitle": "Proposal Fridays in numbers",
+    "statsTitle": "Our experience in numbers",
     "stats": [
       {
         "fig": "100+",
-        "text": "proposals Monika has written or advised on"
+        "text": "consultations given by the association's experts to projects, consortia and organisations in the past year"
       },
       {
-        "fig": "20",
-        "text": "consultations with NGOs and researchers in 2026"
+        "fig": "25",
+        "text": "consultations with NGOs in 2026: local communities, organisations working on disinformation, heritage projects and more"
       }
     ],
     "bubbles": [
