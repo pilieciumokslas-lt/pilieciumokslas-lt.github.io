@@ -42,17 +42,21 @@ eleventyComputed:
   </div>
 </section>
 <section class="band">
-  <div class="wrap narrow prose">
-    <h2>{{ c.helpTitle }}</h2>
-    {% if c.helpText %}<p>{{ c.helpText }}</p>{% endif %}
-    <ul>
-      {%- for h in c.help %}
-      <li>{{ h }}</li>
-      {%- endfor %}
-    </ul>
-    {% if c.helpCalls %}<p class="ch-calls">{{ c.helpCalls | safe }}</p>{% endif %}
-    {% if c.helpAfter %}<p>{{ c.helpAfter }}</p>{% endif %}
-    <p>{{ c.note }}</p>
+  <div class="wrap ch-help">
+    <div class="prose">
+      <h2>{{ c.helpTitle }}</h2>
+      {% if c.helpText %}<p>{{ c.helpText }}</p>{% endif %}
+      <ul>
+        {%- for h in c.help %}
+        <li>{{ h }}</li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <aside class="ch-side">
+      {% if c.helpCalls %}<p class="ch-card ch-card-blue">{{ c.helpCalls | safe }}</p>{% endif %}
+      {% if c.helpAfter %}<p class="ch-card">{{ c.helpAfter }}</p>{% endif %}
+      {% if c.note %}<p class="ch-card ch-card-pink">{{ c.note }}</p>{% endif %}
+    </aside>
   </div>
 </section>
 <section class="ch-stats">

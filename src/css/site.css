@@ -676,6 +676,13 @@ p { margin: 0 0 1em; }
 .ch-slot { top: 64%; }
 @media (max-width: 600px) { .ch-visual { width: 92%; } .ch-bubble { left: -4%; top: -6%; min-width: 0; max-width: 78%; } .ch-tag { right: -4%; max-width: 84%; } }
 .ch-bubble > span { align-self: center; }
-/* Narrow text columns line up with the page's left edge instead of being centred */
-.wrap.narrow { max-width: none; }
-.wrap.narrow > * { max-width: 760px; }
+/* Reading pages (news posts, explainer): title, image and text share one centred column */
+.center { text-align: left; }
+.ch-help { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: clamp(32px, 5vw, 72px); align-items: start; }
+.ch-help h2 { margin-top: 0; }
+.ch-side { display: grid; gap: 16px; padding-top: 6px; }
+.ch-card { margin: 0; background: var(--mist); border-radius: 10px; padding: 20px 22px; border-left: 4px solid var(--ink); font-size: 0.98rem; }
+.ch-card-blue { border-left-color: var(--blue); font-weight: 500; }
+.ch-card-blue a { font-weight: 700; }
+.ch-card-pink { border-left-color: var(--pink); }
+@media (max-width: 900px) { .ch-help { grid-template-columns: minmax(0, 1fr); } }

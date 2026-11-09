@@ -10,7 +10,7 @@ permalink: "{{ routes.explainer[lang] }}"
 {%- from "macros.njk" import pageHead -%}
 {%- set t = i18n[lang] -%}
 {%- set e = db.explainer[lang] -%}
-{{ pageHead(e.title, e.intro) }}
+{{ pageHead(e.title, e.intro, true) }}
 <section class="band">
   <div class="wrap narrow prose explainer">{{ e.body | richText | safe }}</div>
 </section>

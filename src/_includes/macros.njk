@@ -6,9 +6,9 @@
 </a>
 {% endmacro %}
 
-{% macro pageHead(title, intro) %}
+{% macro pageHead(title, intro, narrow) %}
 <section class="page-head">
-  <div class="wrap">
+  <div class="wrap{% if narrow %} narrow{% endif %}">
     <h1>{{ title }}</h1>
     {% if intro %}<p class="lead">{{ intro }}</p>{% endif %}
   </div>
