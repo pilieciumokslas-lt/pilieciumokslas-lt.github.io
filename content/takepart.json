@@ -51,14 +51,22 @@
             "text": "Prancūzijos mokslo institutų sukurta programėlė augalams atpažinti: nufotografuokite augalą, programėlė pasiūlys rūšį, o jūsų stebėjimas papildys tyrėjų duomenis. Pl@ntNet turi beveik 10 milijonų naudotojų paskyrų.",
             "how": "augalus atpažinti galima ir be paskyros, o stebėjimams išsaugoti reikia susikurti paskyrą. Svetainė iš dalies išversta į lietuvių kalbą.",
             "url": "https://plantnet.org",
-            "link": "Pl@ntNet"
+            "link": "Pl@ntNet",
+            "img": "/assets/uploads/kaip-prisideti/plantnet.jpg",
+            "alt": "Žydinti rugiagėlė Molėtų rajone",
+            "credit": "Nuotrauka: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/49261174"
           },
           {
             "name": "eBird ir Merlin",
             "text": "Kornelio universiteto Ornitologijos laboratorijos programėlės. Merlin padeda atpažinti paukščius pagal balsą ar nuotrauką, o eBird skirta pažymėti, kokius paukščius matėte ar girdėjote. Į eBird kasmet pateikiama daugiau kaip 100 milijonų stebėjimų, jais naudojasi mokslininkai. Kasmet gegužę vyksta pasaulinė paukščių stebėjimo diena „Global Big Day“.",
             "how": "atsisiųskite nemokamas programėles. Norint pateikti stebėjimus į eBird, reikia nemokamos paskyros.",
             "url": "https://ebird.org",
-            "link": "eBird"
+            "link": "eBird",
+            "img": "/assets/uploads/kaip-prisideti/ebird.jpg",
+            "alt": "Didžioji zylė su vikšru snape Kauno rajone",
+            "credit": "Nuotrauka: Kristupas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/366105172"
           },
           {
             "name": "Reti paukščiai",
@@ -110,28 +118,44 @@
             "text": "NASA ir GLOBE programos programėlė: fotografuojate debesis, žemės dangą, medžius ar uodų veisimosi vietas, o mokslininkai jūsų stebėjimus lygina su palydovų duomenimis. Lietuva GLOBE programoje dalyvauja nuo 2002 m., todėl programėle galima naudotis ir čia.",
             "how": "atsisiųskite nemokamą „GLOBE Observer“ programėlę ir sekite jos nurodymus.",
             "url": "https://observer.globe.gov",
-            "link": "GLOBE Observer"
+            "link": "GLOBE Observer",
+            "img": "/assets/uploads/kaip-prisideti/globe-observer.jpg",
+            "alt": "Moteris telefonu fotografuoja debesis GLOBE Observer programėlei",
+            "credit": "Nuotrauka: NASA Goddard Space Flight Center, viešoji sritis",
+            "creditUrl": "https://svs.gsfc.nasa.gov/13149"
           },
           {
             "name": "Bolidų stebėjimai",
             "text": "Pamatėte labai ryškų meteorą, vadinamąjį bolidą? Tarptautinė meteorų organizacija (IMO) kartu su Amerikos meteorų draugija renka liudininkų pranešimus ir pagal juos apskaičiuoja, kaip bolidas skriejo. Vien 2026 m. sausio-kovo mėn. visame pasaulyje užfiksuota daugiau kaip 2 300 bolidų.",
             "how": "užpildykite formą internete. Paskyros nereikia, forma yra lietuvių kalba.",
             "url": "https://fireball.imo.net",
-            "link": "Pranešti apie bolidą"
+            "link": "Pranešti apie bolidą",
+            "img": "/assets/uploads/kaip-prisideti/bolidai.jpg",
+            "alt": "Perseidų meteorai virš ežero rytų Lietuvoje 2016 m. rugpjūtį",
+            "credit": "Nuotrauka: Arnas Goldberg / Wikimedia Commons, CC BY 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Perseids_2016_(167839765).jpeg"
           },
           {
             "name": "Zooniverse",
             "text": "Didžiausia piliečių mokslo platforma internete: savanoriai peržiūri nuotraukas, garsus ar senus dokumentus ir atsako į paprastus klausimus. Pavyzdžiui, „Galaxy Zoo“ projekte klasifikuojamos galaktikos, „Planet Hunters TESS“ ieškoma naujų planetų, o „European Camera Trap Project“ skaičiuojami gyvūnai Europos fotospąstų nuotraukose. Platformoje daugiau kaip 3 milijonai savanorių iš 160 šalių.",
             "how": "pasirinkite projektą ir pradėkite. Paskyra nebūtina. Dauguma projektų anglų kalba.",
             "url": "https://www.zooniverse.org/projects",
-            "link": "Zooniverse projektai"
+            "link": "Zooniverse projektai",
+            "img": "/assets/uploads/kaip-prisideti/zooniverse.jpg",
+            "alt": "Galaktikų nuotraukos, kurias Galaxy Zoo savanoriai klasifikuoja pagal formą",
+            "credit": "Iliustracija: ESA/Euclid/Euclid Consortium/NASA, CC BY-SA 3.0 IGO",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Euclid_Galaxy_Zoo_galaxies_to_classify_ESA500386.jpg"
           },
           {
             "name": "OpenStreetMap",
             "text": "Laisvas pasaulio žemėlapis, kurį kuria daugiau kaip 11 milijonų naudotojų: galite įrašyti kelius, takus, pastatus ir kitas vietas savo apylinkėse. Humanitarinė OpenStreetMap komanda (HOT) skelbia žemėlapių kūrimo užduotis, kurios padeda nelaimių ištiktoms vietovėms. Lietuvos bendruomenė turi svetainę openstreetmap.lt.",
             "how": "susikurkite nemokamą paskyrą ir redaguokite žemėlapį naršyklėje. Sąsaja yra lietuvių kalba.",
             "url": "https://www.openstreetmap.org",
-            "link": "OpenStreetMap"
+            "link": "OpenStreetMap",
+            "img": "/assets/uploads/kaip-prisideti/openstreetmap.jpg",
+            "alt": "Vilniaus senamiesčio OpenStreetMap žemėlapis",
+            "credit": "Žemėlapis: © OpenStreetMap bendraautoriai, ODbL",
+            "creditUrl": "https://www.openstreetmap.org/copyright"
           }
         ]
       },
@@ -191,7 +215,11 @@
             "text": "Tarptautinė šviesos taršos stebėsena: giedrą naktį be mėnulio išeikite į lauką, palyginkite dangų su žvaigždžių žemėlapiais ir pažymėkite, kiek žvaigždžių matote. Taip matuojama, kiek dirbtinė šviesa šviesina naktinį dangų. Vien 2026 m. pateikta daugiau kaip 11 000 stebėjimų.",
             "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Užtenka 10-15 minučių ir telefono ar kompiuterio.",
             "url": "https://globeatnight.org",
-            "link": "Globe at Night"
+            "link": "Globe at Night",
+            "img": "/assets/uploads/kaip-prisideti/globe-at-night.jpg",
+            "alt": "Žvaigždėtas dangus virš tvenkinio Vaitiekūnuose ir dirbtinės šviesos švytėjimas horizonte",
+            "credit": "Nuotrauka: Valentinas Kuras / Wikimedia Commons, CC0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vaitiek%C5%ABnai_(250534059).jpeg"
           }
         ]
       },
@@ -239,15 +267,19 @@
             "text": "Tarptautinis savanorių tinklas, kuris matuoja oro taršą kietosiomis dalelėmis (KD2,5 ir KD10). Pigų jutiklį galima susikonstruoti pagal instrukciją ir pritvirtinti už lango, o jo duomenys rodomi viešame pasaulio žemėlapyje. Pasaulyje veikia daugiau kaip 18 000 jutiklių, tačiau Lietuvoje jų kol kas vos keli.",
             "how": "jutiklį sukonstruoti užtrunka maždaug popietę, vėliau jis veikia savaime. Instrukcijos ir registracija svetainėje.",
             "url": "https://sensor.community",
-            "link": "Sensor.Community"
+            "link": "Sensor.Community",
+            "img": "/assets/uploads/kaip-prisideti/sensor-community.jpg",
+            "alt": "Kietųjų dalelių jutiklis SDS011",
+            "credit": "Nuotrauka: ubahnverleih / Wikimedia Commons, CC0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Feinstaubsensor_SDS011.jpg"
           }
         ]
       },
       {
         "id": "kultura",
         "short": "Kalba ir paveldas",
-        "title": "Ne tik gamta: kalba, kultūra ir paveldas",
-        "text": "Piliečių mokslas apima ir humanitarinius bei socialinius mokslus: kalbą, istoriją, bendruomenių atmintį.",
+        "title": "Kalba, kultūra ir paveldas",
+        "text": "Piliečių mokslas apima ir humanitarinius mokslus: kalbą, istoriją, archyvus ir bendruomenių atmintį.",
         "items": [
           {
             "name": "Naujažodžių duomenynas",
@@ -255,7 +287,11 @@
             "text": "Lietuvių kalbos instituto duomenynas renka naujus lietuvių kalbos žodžius. Pastebėjote naują žodį, pavartotą viešai? Pasiūlykite jį, o redaktoriai patikrins.",
             "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
             "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
-            "link": "Pasiūlyti žodį"
+            "link": "Pasiūlyti žodį",
+            "img": "/assets/uploads/kaip-prisideti/naujazodziai.jpg",
+            "alt": "Lietuvių kalbos instituto pastatas Vilniuje",
+            "credit": "Nuotrauka: Augustas Didžgalvis / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:LKI_by_Augustas_Didzgalvis.jpg"
           },
           {
             "name": "Common Voice lietuviškai",
@@ -263,15 +299,23 @@
             "text": "Garsiai perskaitykite lietuviškus sakinius arba patikrinkite kitų įrašus. Iš įrašų kuriamas atviras lietuvių kalbos duomenų rinkinys kalbos atpažinimo technologijoms. Kol kas lietuviškai įrašų yra palyginti nedaug, todėl kiekvienas balsas svarbus.",
             "how": "atsidarykite puslapį ir pradėkite skaityti. Dalis sąsajos dar angliškai.",
             "url": "https://commonvoice.mozilla.org/lt/speak",
-            "link": "Common Voice"
+            "link": "Common Voice",
+            "img": "/assets/uploads/kaip-prisideti/common-voice.jpg",
+            "alt": "Mikrofonas",
+            "credit": "Nuotrauka: Evan-Amos / Wikimedia Commons, viešoji sritis",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:USB-Microphone.jpg"
           },
           {
             "name": "Vikipedija",
             "logo": "/assets/uploads/logos/wikipedia.svg",
-            "text": "Rašykite ar papildykite straipsnius apie Lietuvos vietas, žmones ir istoriją, pridėkite šaltinius. Lietuviškoje Vikipedijoje jau daugiau kaip 227 000 straipsnių.",
+            "text": "Rašykite ar papildykite straipsnius apie Lietuvos vietas, žmones ir istoriją, pridėkite šaltinius. Lietuviškoje Vikipedijoje jau daugiau kaip 227 000 straipsnių. Senus lietuviškus tekstus galite perrašyti ir tikrinti Vikišaltiniuose (lt.wikisource.org).",
             "how": "perskaitykite redagavimo pagalbos puslapį ir susikurkite nemokamą paskyrą.",
             "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
-            "link": "Kaip redaguoti"
+            "link": "Kaip redaguoti",
+            "img": "/assets/uploads/kaip-prisideti/vikipedija.jpg",
+            "alt": "Lietuviškos Vikipedijos redagavimo langas",
+            "credit": "Iliustracija: Zygimantus / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:How_to_edit_a_page_Edit_box_-_2025_ltwiki.png"
           },
           {
             "name": "Gyvas archyvas",
@@ -279,7 +323,140 @@
             "text": "Kauno viešosios įstaigos „Kultūros dirbtuvė“ metodika: gyventojai dalijasi asmeninėmis nuotraukomis ir pasakojimais apie savo mikrorajoną, o medžiaga perduodama muziejams ir bibliotekoms archyvuoti. Taikyta Kauno Šilainiuose, Tauragės Žalgiriuose ir Naujojoje Akmenėje.",
             "how": "sekite „Kultūros dirbtuvės“ naujienas. Savivaldybės ir institucijos tokį projektą gali užsisakyti.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
-            "link": "Apie metodiką"
+            "link": "Apie metodiką",
+            "img": "/assets/uploads/kaip-prisideti/gyvas-archyvas.jpg",
+            "alt": "Valušių šeima Kaune, 1935 m.",
+            "credit": "Nuotrauka: nežinomas autorius / Wikimedia Commons, viešoji sritis",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Valu%C5%A1is_Family,_Kaunas,_1935,_Lithuania.jpg"
+          },
+          {
+            "name": "Adresų istorija: senieji Vilniaus adresai",
+            "text": "Lietuvos nacionalinio muziejaus projektas, kuriame kuriamas senųjų Vilniaus adresų (iki 1945 m.) žemėlapis. Savanoriai siunčia istorinį adresą, dabartinį adresą ir šaltinį, o projekto komanda duomenis patikrina ir įtraukia į bendrą žemėlapį.",
+            "how": "užpildykite formą svetainėje ir būtinai nurodykite šaltinį. Paskyros nereikia.",
+            "url": "https://adresuistorija.lnm.lt/lt/pildyk-zemelapi/",
+            "link": "Pildyk žemėlapį",
+            "img": "/assets/uploads/kaip-prisideti/adresu-istorija.jpg",
+            "alt": "Senas atvirukas: Bokšto gatvė Vilniuje 1923-1937 m.",
+            "credit": "Nuotrauka: nežinomas autorius / Wikimedia Commons, viešoji sritis",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vilnia,_Bak%C5%A1ta._%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8F,_%D0%91%D0%B0%D0%BA%D1%88%D1%82%D0%B0_(1923-37).jpg"
+          },
+          {
+            "name": "Mano ir mūsų istorija",
+            "text": "Lietuvos muziejų informacinės sistemos LIMIS platforma, kurioje kiekvienas gali paskelbti asmeninę ar šeimos istoriją su nuotraukomis, vaizdo, garso įrašais ar tekstais ir susieti ją su muziejuose saugomais eksponatais. Platformą administruoja Lietuvos nacionalinis dailės muziejus.",
+            "how": "susikurkite LIMIS paskyrą (galima prisijungti ir per Elektroninius valdžios vartus) ir spauskite „Kurti istoriją“.",
+            "url": "https://www.limis.lt/mimi",
+            "link": "Mano ir mūsų istorija",
+            "img": "/assets/uploads/kaip-prisideti/limis.jpg",
+            "alt": "Lietuvos nacionalinio dailės muziejaus kiemas Vilniuje",
+            "credit": "Nuotrauka: Gintarė Grigėnaitė / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Lietuvos_nacionalinis_dail%C4%97s_muziejus.jpg"
+          },
+          {
+            "name": "1991 m. sausio įvykiai: Tavo istorija",
+            "text": "Lietuvos nacionalinės Martyno Mažvydo bibliotekos Valstybingumo centras renka žmonių atsiminimus apie 1991 m. sausio įvykius: užrašytus, įrašytus garso ar vaizdo įrašu, taip pat to meto dienoraščius, laiškus ir nuotraukas. Galite padėti užrašyti ir savo artimųjų atsiminimus. Jie saugomi bibliotekos rankraščių fonde, o skelbiami tik autoriui sutikus.",
+            "how": "atsiminimus siųskite el. paštu valstybingumocentras@lnb.lt arba paštu. Jų laukiama nuolat.",
+            "url": "https://sausio13.lnb.lt/",
+            "link": "Sausio 13-osios atsiminimai",
+            "img": "/assets/uploads/kaip-prisideti/sausio-13.jpg",
+            "alt": "Beginklis žmogus prieš sovietų tanką Vilniuje 1991 m. sausio 13 d.",
+            "credit": "Nuotrauka: Andrius Petrulevičius, Lietuvos centrinis valstybės archyvas / Wikimedia Commons, CC BY 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Unarmed_Lithuanian_citizen_standing_against_Soviet_tank,_Vilnius,_January_13,_1991_(cropped).jpg"
+          },
+          {
+            "name": "Dingusios LRT juostos",
+            "text": "LRT ieško namuose įrašytų senų televizijos (1957-2004 m.) ir radijo (1926-2010 m.) laidų bei valstybinių renginių įrašų, kurių trūksta nacionalinio transliuotojo archyve.",
+            "how": "skaitmeninius failus įkelkite per formą svetainėje. Vaizdajuostes ir ritines juostas LRT suskaitmenina ir originalus grąžina.",
+            "url": "https://www.lrt.lt/lrt100/ikelk",
+            "link": "Įkelti įrašą",
+            "img": "/assets/uploads/kaip-prisideti/lrt-juostos.jpg",
+            "alt": "Vaizdajuostė, garso kasetė ir mini kasetė",
+            "credit": "Nuotrauka: Jacek Halicki / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:2023_Kaseta_VHS,_magnetofonowa_i_minikaseta.jpg"
+          },
+          {
+            "name": "Europeana Transcribathon",
+            "text": "Europeana platforma, kurioje savanoriai perrašo, anotuoja ir žemėlapyje pažymi suskaitmenintus laiškus, dienoraščius ir dokumentus. Joje yra daugiau kaip 250 su Lietuva susijusių istorijų, ir dauguma jų dar laukia perrašytojų: pavyzdžiui, Rokiškio krašto muziejaus rankraštis ar 2013 m. Vilniuje surinktos Baltijos kelio nuotraukos.",
+            "how": "susikurkite nemokamą paskyrą ir dokumentų sąraše pasirinkite šalį „Lithuania“. Svetainė anglų kalba.",
+            "url": "https://europeana.transcribathon.eu/documents/",
+            "link": "Transcribathon",
+            "img": "/assets/uploads/kaip-prisideti/transcribathon.jpg",
+            "alt": "Ranka rašyti 1918 m. vasario 16 d. Nepriklausomybės akto originalai",
+            "credit": "Nuotrauka: Pofka / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Hand-written_originals_in_the_Lithuanian_and_German_languages_of_the_Resolution_of_the_Council_of_Lithuania_on_Reinstating_Independence_of_Lithuania,_which_was_adopted_on_16_February_1918_in_Vilnius.jpg"
+          },
+          {
+            "name": "#everynamecounts",
+            "text": "Arolseno archyvų (Vokietija) projektas: savanoriai iš nacių laikų dokumentų perrašo vardus ir kitus duomenis į internetinę formą, kad archyvas taptų lengviau ieškomas. Prie projekto jau prisidėjo daugiau kaip 450 000 žmonių, o dokumentuose pasitaiko ir lietuviškų pavardžių.",
+            "how": "vienam dokumentui užtenka maždaug 5 minučių. Užduotys anglų kalba.",
+            "url": "https://arolsen-archives.org/en/participate/everynamecounts/",
+            "link": "#everynamecounts",
+            "img": "/assets/uploads/kaip-prisideti/everynamecounts.jpg",
+            "alt": "Arolseno archyvų centrinės vardų kartotekos lentynos",
+            "credit": "Nuotrauka: ITS Arolsen, Andreas Greiner-Napp / Wikimedia Commons, CC BY-SA 3.0 DE (apkarpyta)",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:ITS_Zentrale_Namenkartei.jpg"
+          },
+          {
+            "name": "Lingscape: kalbos mieste",
+            "text": "Liuksemburgo universiteto programėlė, kuria fotografuojami užrašai ir ženklai viešoje erdvėje ir pažymima, kokiomis kalbomis jie parašyti. Taip tyrėjai mato, kaip skirtingos kalbos naudojamos miestuose visame pasaulyje. Galite fotografuoti ir savo mieste.",
+            "how": "atsisiųskite nemokamą programėlę („iOS“ ir „Android“). Sąsaja anglų ir vokiečių kalbomis.",
+            "url": "https://lingscape.app",
+            "link": "Lingscape",
+            "img": "/assets/uploads/kaip-prisideti/lingscape.jpg",
+            "alt": "Totorių gatvės lentelės lietuvių ir krymo totorių kalbomis Vilniuje",
+            "credit": "Nuotrauka: Shoorick / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_Tatar_street_signs.jpg"
+          },
+          {
+            "name": "Zooniverse: istorijos projektai",
+            "text": "Zooniverse platformoje veikia ir istorijos projektai, kuriuose savanoriai perrašo senus laiškus ir dokumentus. Pavyzdžiui, projekte PRINT perrašomi XVII-XVIII a. Europos religinių mažumų laiškai, o projekte „The Lessons of Stories“ tiriama, kokias moralines vertybes renkasi literatūros ir kino veikėjai.",
+            "how": "pasirinkite projektą iš sąrašo. Paskyra nebūtina. Projektai anglų kalba.",
+            "url": "https://www.zooniverse.org/projects?discipline=history&status=live",
+            "link": "Istorijos projektai",
+            "img": "/assets/uploads/kaip-prisideti/zooniverse-istorija.jpg",
+            "alt": "Ranka rašytas Gedimino 1323 m. laiško nuorašas",
+            "credit": "Nuotrauka: nežinomas autorius / Wikimedia Commons, viešoji sritis",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Transcript_of_Gediminas%27_letter,_which_is_the_oldest_known_mentioning_of_Vilnius_in_written_sources_(25_January_1323).jpg"
+          }
+        ]
+      },
+      {
+        "id": "visuomene",
+        "short": "Visuomenė",
+        "title": "Visuomenė: dalyvaukite priimant sprendimus",
+        "text": "Tai nėra moksliniai tyrimai, tačiau šie procesai artimi piliečių mokslo principams: į sprendimus, kurie tradiciškai priklausė specialistams, įtraukiami gyventojai.",
+        "items": [
+          {
+            "name": "Dalyvaujamasis biudžetas",
+            "text": "Kai kurios Lietuvos savivaldybės, pavyzdžiui, Vilnius, Klaipėda ir Šiauliai, dalį biudžeto skiria gyventojų idėjoms: gyventojai siūlo projektus savo miestui ir balsuoja už labiausiai patinkančius. Vilniuje nuo 2026 m. balsuoti gali 16 metų ir vyresni gyventojai, deklaravę gyvenamąją vietą mieste.",
+            "how": "sekite savo savivaldybės svetainę: idėjų teikimo ir balsavimo datas kasmet skelbia kiekviena savivaldybė.",
+            "url": "https://dalyvauk.vilnius.lt",
+            "link": "Dalyvauk! Vilnius",
+            "img": "/assets/uploads/kaip-prisideti/dalyvaujamasis-biudzetas.jpg",
+            "alt": "Teatro aikštė Klaipėdoje",
+            "credit": "Nuotrauka: Daniel Cox / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Cox_-_Theaterplatz_mit_Simon-Dach-Brunnen_in_Memel_(LTU).jpg"
+          },
+          {
+            "name": "Viešosios konsultacijos",
+            "text": "Vyriausybės portale E. pilietis galite komentuoti rengiamus įstatymų projektus ir atsakyti į ministerijų apklausas. Konsultacijos skelbiamos visus metus.",
+            "how": "pasirinkite atvirą konsultaciją ir pateikite pastabas. Apie naujas konsultacijas galite gauti naujienlaiškį.",
+            "url": "https://epilietis.lrv.lt/lt/dalyvaukite/viesosios-konsultacijos/",
+            "link": "E. pilietis",
+            "img": "/assets/uploads/kaip-prisideti/konsultacijos.jpg",
+            "alt": "Lietuvos Respublikos Seimo rūmai Vilniuje",
+            "credit": "Nuotrauka: Terminator216 / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Lietuvos_Respublikos_Seimas.jpg"
+          },
+          {
+            "name": "Išsakykite savo nuomonę apie ES teisės aktus",
+            "text": "Europos Komisija kviečia gyventojus ir organizacijas teikti nuomonę apie rengiamus ES teisės aktus ir politiką. Svetainė veikia lietuvių kalba, tačiau konsultacijų dokumentai dažnai būna tik anglų kalba.",
+            "how": "pasirinkite iniciatyvą, kurios konsultacija atvira, ir pateikite atsiliepimą.",
+            "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives_lt",
+            "link": "Išsakykite savo nuomonę",
+            "img": "/assets/uploads/kaip-prisideti/have-your-say.jpg",
+            "alt": "Europos Komisijos Berlaymont pastatas Briuselyje",
+            "credit": "Nuotrauka: Andersen Pecorone / Wikimedia Commons, CC BY 2.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_2015.jpg"
           }
         ]
       }
@@ -399,7 +576,11 @@
               "link": "GLOBE Lietuvoje",
               "caseText": "Panevėžio STEAM centro mokinių komanda 2025 m. pristatė savo darbą tarptautinėje GLOBE pradinių klasių mokinių konferencijoje.",
               "caseUrl": "https://globe.gov/web/italy/news/-/newsdetail/14028/celebrating-student-achievements-at-the-best-of-globe-europe-and-eurasia-2025-virtual-student-conference",
-              "caseLink": "Apie konferenciją"
+              "caseLink": "Apie konferenciją",
+              "img": "/assets/uploads/kaip-prisideti/globe-programa.jpg",
+              "alt": "Vandens kokybės matavimas upelyje",
+              "credit": "Nuotrauka: NASA Goddard Space Flight Center, viešoji sritis",
+              "creditUrl": "https://svs.gsfc.nasa.gov/13629"
             },
             {
               "when": "Gamta, geografija · 5-13 m.",
@@ -407,7 +588,11 @@
               "text": "Europos kosmoso agentūros programa: vaikų komandos atlieka užduotis apie klimatą savo aplinkoje ir renka ženklelius. Medžiaga yra lietuvių kalba.",
               "how": "mokytojas užregistruoja komandą ir tampa jos vadovu. Dalyvavimas nemokamas, 2026-2027 m. vaikų etapas vyksta iki 2027 m. rugpjūčio 6 d.",
               "url": "https://climatedetectives.esa.int/lt/",
-              "link": "Klimato detektyvai"
+              "link": "Klimato detektyvai",
+              "img": "/assets/uploads/kaip-prisideti/klimato-detektyvai.jpg",
+              "alt": "Vilniaus palydovinė nuotrauka iš Sentinel-2",
+              "credit": "Iliustracija: ESA, Copernicus Sentinel duomenys (2020), CC BY-SA 3.0 IGO",
+              "creditUrl": "https://www.esa.int/ESA_Multimedia/Images/2022/07/Vilnius_Lithuania"
             },
             {
               "when": "Gamta, fizika · visų amžių",
@@ -415,7 +600,11 @@
               "text": "Tarptautinė šviesos taršos stebėsena: mokiniai su tėvais giedrą naktį palygina dangų su žvaigždžių žemėlapiais ir pažymi, kiek žvaigždžių mato. Klasėje galima aptarti, kodėl vienur žvaigždžių matyti daugiau nei kitur.",
               "how": "stebėjimų laikotarpiai trunka apie 10 dienų kiekvieną mėnesį, datos skelbiamos svetainėje. Dalyvavimas nemokamas, užtenka telefono ar kompiuterio.",
               "url": "https://globeatnight.org",
-              "link": "Globe at Night"
+              "link": "Globe at Night",
+              "img": "/assets/uploads/kaip-prisideti/globe-at-night.jpg",
+              "alt": "Žvaigždėtas dangus virš tvenkinio Vaitiekūnuose ir dirbtinės šviesos švytėjimas horizonte",
+              "credit": "Nuotrauka: Valentinas Kuras / Wikimedia Commons, CC0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Vaitiek%C5%ABnai_(250534059).jpeg"
             }
           ]
         },
@@ -431,7 +620,11 @@
               "link": "Plastiko piratai",
               "caseText": "Visagino „Verdenės“ gimnazijos mokiniai su tėvais tyrė Šventosios pakrantę: 290 m atkarpoje surado 37 šiukšles, o mokslininkai mėginyje aptiko mikroplastiko.",
               "caseUrl": "https://www.lituanistika.lt/content/110124",
-              "caseLink": "Mokytojos straipsnis"
+              "caseLink": "Mokytojos straipsnis",
+              "img": "/assets/uploads/kaip-prisideti/plastiko-piratai.jpg",
+              "alt": "Plastikinės šiukšlės tarp sąnašų upės pakrantėje",
+              "credit": "Nuotrauka: Günther Lamek, Rhein-Museum Koblenz / Wikimedia Commons, CC BY 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Treibgut_1998_RMK00938.tif"
             },
             {
               "when": "Geografija · 5-12 kl.",
@@ -439,7 +632,11 @@
               "text": "Kasmet balandį mokyklos, universitetai ir kitos organizacijos rengia nemokamus geografijos renginius. Dalyje jų dalyviai padeda rinkti ar interpretuoti geografinius duomenis. 2026 m. renginius rengė ir mokyklos, pavyzdžiui, Vilniaus Aleksandro Puškino gimnazija.",
               "how": "jūsų mokykla gali surengti savo renginį. Dėl dalyvavimo kreipkitės į Lietuvos geografų draugiją.",
               "url": "https://lgd.lt/veiklos/geografijos-naktis/",
-              "link": "Lietuvos geografų draugija"
+              "link": "Lietuvos geografų draugija",
+              "img": "/assets/uploads/kaip-prisideti/geografijos-naktis.jpg",
+              "alt": "Geografijos nakties 2026 plakatas",
+              "credit": "Iliustracija: Lietuvos geografų draugija",
+              "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
             },
             {
               "when": "Istorija, pilietiškumas · progimnazija",
@@ -450,7 +647,11 @@
               "link": "Šančių žemėlapiai",
               "caseText": "Metodikos aprašymas mokslo žurnale (anglų k.).",
               "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
-              "caseLink": "Straipsnis"
+              "caseLink": "Straipsnis",
+              "img": "/assets/uploads/kaip-prisideti/sanciai.jpg",
+              "alt": "Seni mediniai namai Šančiuose, Kaune",
+              "credit": "Nuotrauka: mikrimas / Wikimedia Commons, CC BY 3.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Old_%C5%A0an%C4%8Diai_-_panoramio_(2).jpg"
             },
             {
               "when": "Biologija, fizika, istorija · 9-12 m.",
@@ -458,7 +659,11 @@
               "text": "Mokiniai internete klasifikuoja tikrus tyrimų duomenis: galaktikas, gyvūnus fotospąstų nuotraukose ar senus dokumentus. Zooniverse turi skiltį mokytojams: klasės paskyras, klasės pažangos statistiką ir pamokų planus.",
               "how": "susikurkite nemokamą paskyrą ir pasirinkite projektą. Projektai anglų kalba, todėl tinka ir anglų kalbos pamokai.",
               "url": "https://www.zooniverse.org/get-involved/educate",
-              "link": "Zooniverse mokytojams"
+              "link": "Zooniverse mokytojams",
+              "img": "/assets/uploads/kaip-prisideti/zooniverse.jpg",
+              "alt": "Galaktikų nuotraukos, kurias Galaxy Zoo savanoriai klasifikuoja pagal formą",
+              "credit": "Iliustracija: ESA/Euclid/Euclid Consortium/NASA, CC BY-SA 3.0 IGO",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Euclid_Galaxy_Zoo_galaxies_to_classify_ESA500386.jpg"
             }
           ]
         },
@@ -472,7 +677,11 @@
               "text": "Europos kosmoso agentūros programa: mokinių komandos tiria vietos klimato problemą, pavyzdžiui, oro kokybę, karštį mieste ar biologinę įvairovę, naudodamos savo matavimus ir palydovinius duomenis.",
               "how": "mokytojas užregistruoja komandą. Dalyvavimas nemokamas, 2026-2027 m. projektų etapas vyksta iki 2027 m. balandžio 2 d.",
               "url": "https://climatedetectives.esa.int/lt/",
-              "link": "Klimato detektyvai"
+              "link": "Klimato detektyvai",
+              "img": "/assets/uploads/kaip-prisideti/klimato-detektyvai.jpg",
+              "alt": "Vilniaus palydovinė nuotrauka iš Sentinel-2",
+              "credit": "Iliustracija: ESA, Copernicus Sentinel duomenys (2020), CC BY-SA 3.0 IGO",
+              "creditUrl": "https://www.esa.int/ESA_Multimedia/Images/2022/07/Vilnius_Lithuania"
             },
             {
               "when": "Matematika, informatika",
@@ -483,7 +692,11 @@
               "link": "Duomenų rinkinys",
               "caseText": "FTMC mokslininkų straipsnis apie šiukšles Lietuvos upių pakrantėse (anglų k.).",
               "caseUrl": "https://doi.org/10.1007/s10661-024-12503-7",
-              "caseLink": "Straipsnis"
+              "caseLink": "Straipsnis",
+              "img": "/assets/uploads/kaip-prisideti/tikri-duomenys.jpg",
+              "alt": "Grafikas: plastiko šiukšlių kiekis Lietuvos paplūdimiuose 2017-2022 m.",
+              "credit": "Iliustracija: Our World in Data / Wikimedia Commons, CC BY 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Beach_litter,_2015_to_2023,_LTU.svg"
             },
             {
               "when": "Lietuvių kalba",
@@ -491,7 +704,11 @@
               "text": "Mokiniai ieško naujų lietuvių kalbos žodžių žiniasklaidoje ar socialiniuose tinkluose ir siūlo juos Lietuvių kalbos instituto naujažodžių duomenynui. Redaktoriai kiekvieną pasiūlymą patikrina.",
               "how": "užpildykite pasiūlymo formą: žodis, reikšmė, pavyzdys ir šaltinis. Paskyros nereikia.",
               "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
-              "link": "Pasiūlyti žodį"
+              "link": "Pasiūlyti žodį",
+              "img": "/assets/uploads/kaip-prisideti/naujazodziai.jpg",
+              "alt": "Lietuvių kalbos instituto pastatas Vilniuje",
+              "credit": "Nuotrauka: Augustas Didžgalvis / Wikimedia Commons, CC BY-SA 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:LKI_by_Augustas_Didzgalvis.jpg"
             },
             {
               "when": "Informatika, fizika, geografija · iki 19 m.",
@@ -499,7 +716,11 @@
               "text": "Europos kosmoso agentūros (ESA) ir Raspberry Pi fondo konkursas: 2-6 mokinių komanda parašo Python programą, kuri Tarptautinėje kosminėje stotyje renka jutiklių ar kameros duomenis, o komanda gauna juos atgal ir analizuoja. Lietuvos mokiniai gali dalyvauti visose ESA švietimo programose. Vien lengvesnėje užduotyje „Mission Zero“ 2024-2025 m. dalyvavo daugiau kaip 25 000 jaunuolių.",
               "how": "mokytojas užregistruoja komandą kaip jos vadovas. Dalyvavimas nemokamas, Raspberry Pi kompiuterio nereikia. 2026-2027 m. programas reikia pateikti iki 2027 m. vasario 22 d. Pradedantiesiems skirta lengvesnė užduotis „Mission Zero“ (apie valandą darbo), iki 2027 m. kovo 22 d.",
               "url": "https://astro-pi.org",
-              "link": "Astro Pi"
+              "link": "Astro Pi",
+              "img": "/assets/uploads/kaip-prisideti/astro-pi.jpg",
+              "alt": "Du Astro Pi kompiuteriai Tarptautinėje kosminėje stotyje",
+              "credit": "Nuotrauka: NASA, viešoji sritis",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:ESA_AstroPi.jpg"
             },
             {
               "when": "Fizika, astronomija · gimnazija",
@@ -507,7 +728,11 @@
               "text": "Tarptautinė asteroidų paieškos kampanija mokykloms: mokiniai tikrose teleskopų nuotraukose ieško dar nežinomų asteroidų, o radiniai užregistruojami kaip preliminarūs atradimai. Iki 2018 m. programoje dalyvavo daugiau kaip 500 mokyklų iš 60 šalių.",
               "how": "kampanijos trunka apie mėnesį ir 2026-2027 m. vyksta beveik kas mėnesį iki 2027 m. gegužės. Europoje registruojamasi per Erasmus+ projektą StAnD, vietos dažnai užpildomos likus mėnesiui. Dalyvavimas nemokamas. Programa „Astrometrica“ veikia tik su „Windows“, medžiaga anglų kalba.",
               "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
-              "link": "Kampanijų datos ir registracija"
+              "link": "Kampanijų datos ir registracija",
+              "img": "/assets/uploads/kaip-prisideti/asteroidai.jpg",
+              "alt": "Hablo teleskopo nuotrauka: galaktiką kerta asteroido pėdsakas",
+              "credit": "Iliustracija: NASA, ESA, P. G. Martín, J. DePasquale, CC BY 4.0",
+              "creditUrl": "https://esahubble.org/images/heic2407a/"
             }
           ]
         }
@@ -568,14 +793,22 @@
             "text": "A plant identification app made by French research institutes: photograph a plant, the app suggests the species, and your observation adds to the researchers' data. Pl@ntNet has almost 10 million user accounts.",
             "how": "you can identify plants without an account; to save observations you need one. The website is partly translated into Lithuanian.",
             "url": "https://plantnet.org",
-            "link": "Pl@ntNet"
+            "link": "Pl@ntNet",
+            "img": "/assets/uploads/kaip-prisideti/plantnet.jpg",
+            "alt": "A cornflower in bloom in Molėtai district, Lithuania",
+            "credit": "Photo: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/49261174"
           },
           {
             "name": "eBird and Merlin",
             "text": "Apps from the Cornell Lab of Ornithology. Merlin helps you identify birds by sound or photo, and eBird lets you record which birds you saw or heard. More than 100 million sightings are submitted to eBird each year, and researchers use them. Every May there is a worldwide birding day, Global Big Day.",
             "how": "download the free apps. You need a free account to submit sightings to eBird.",
             "url": "https://ebird.org",
-            "link": "eBird"
+            "link": "eBird",
+            "img": "/assets/uploads/kaip-prisideti/ebird.jpg",
+            "alt": "A great tit with a caterpillar in its beak, Kaunas district, Lithuania",
+            "credit": "Photo: Kristupas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/366105172"
           },
           {
             "name": "Rare birds",
@@ -627,28 +860,44 @@
             "text": "An app from NASA and the GLOBE programme: you photograph clouds, land cover, trees or mosquito breeding sites, and researchers compare your observations with satellite data. Lithuania has been a GLOBE country since 2002, so the app can be used here.",
             "how": "download the free GLOBE Observer app and follow its instructions.",
             "url": "https://observer.globe.gov",
-            "link": "GLOBE Observer"
+            "link": "GLOBE Observer",
+            "img": "/assets/uploads/kaip-prisideti/globe-observer.jpg",
+            "alt": "A woman photographs clouds with her phone for the GLOBE Observer app",
+            "credit": "Photo: NASA Goddard Space Flight Center, public domain",
+            "creditUrl": "https://svs.gsfc.nasa.gov/13149"
           },
           {
             "name": "Fireball reports",
             "text": "Did you see a very bright meteor, a fireball? The International Meteor Organization (IMO) and the American Meteor Society collect witness reports and use them to work out the fireball's path. More than 2,300 fireballs were recorded worldwide in January-March 2026 alone.",
             "how": "fill in the online form. No account is needed, and the form is available in Lithuanian.",
             "url": "https://fireball.imo.net",
-            "link": "Report a fireball"
+            "link": "Report a fireball",
+            "img": "/assets/uploads/kaip-prisideti/bolidai.jpg",
+            "alt": "Perseid meteors over a lake in eastern Lithuania, August 2016",
+            "credit": "Photo: Arnas Goldberg / Wikimedia Commons, CC BY 3.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Perseids_2016_(167839765).jpeg"
           },
           {
             "name": "Zooniverse",
             "text": "The largest online citizen science platform: volunteers look at images, sounds or old documents and answer simple questions. In Galaxy Zoo you classify galaxies, in Planet Hunters TESS you look for new planets, and in the European Camera Trap Project you count animals in camera-trap photos from across Europe. The platform has more than 3 million volunteers in 160 countries.",
             "how": "choose a project and start. An account is optional.",
             "url": "https://www.zooniverse.org/projects",
-            "link": "Zooniverse projects"
+            "link": "Zooniverse projects",
+            "img": "/assets/uploads/kaip-prisideti/zooniverse.jpg",
+            "alt": "Galaxy images for Galaxy Zoo volunteers to classify by shape",
+            "credit": "Image: ESA/Euclid/Euclid Consortium/NASA, CC BY-SA 3.0 IGO",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Euclid_Galaxy_Zoo_galaxies_to_classify_ESA500386.jpg"
           },
           {
             "name": "OpenStreetMap",
             "text": "The free map of the world, built by more than 11 million users: you can add roads, paths, buildings and other places around where you live. The Humanitarian OpenStreetMap Team (HOT) posts mapping tasks that help areas hit by disasters. The Lithuanian community has a website, openstreetmap.lt.",
             "how": "create a free account and edit the map in your browser. The interface is available in Lithuanian.",
             "url": "https://www.openstreetmap.org",
-            "link": "OpenStreetMap"
+            "link": "OpenStreetMap",
+            "img": "/assets/uploads/kaip-prisideti/openstreetmap.jpg",
+            "alt": "OpenStreetMap map of Vilnius Old Town",
+            "credit": "Map: © OpenStreetMap contributors, ODbL",
+            "creditUrl": "https://www.openstreetmap.org/copyright"
           }
         ]
       },
@@ -708,7 +957,11 @@
             "text": "International light pollution monitoring: on a clear, moonless night, go outside, compare the sky with star charts and record how many stars you can see. This measures how much artificial light brightens the night sky. More than 11,000 observations were submitted in 2026 alone.",
             "how": "observing windows last about 10 days each month, and the dates are on the website. You need 10-15 minutes and a phone or computer.",
             "url": "https://globeatnight.org",
-            "link": "Globe at Night"
+            "link": "Globe at Night",
+            "img": "/assets/uploads/kaip-prisideti/globe-at-night.jpg",
+            "alt": "A starry sky over a reservoir at Vaitiekūnai, Lithuania, with the glow of artificial light on the horizon",
+            "credit": "Photo: Valentinas Kuras / Wikimedia Commons, CC0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vaitiek%C5%ABnai_(250534059).jpeg"
           }
         ]
       },
@@ -756,15 +1009,19 @@
             "text": "An international volunteer network that measures particulate air pollution (PM2.5 and PM10). You can build a low-cost sensor from the instructions and fix it outside your window, and its data appear on a public world map. More than 18,000 sensors are running worldwide, but only a handful in Lithuania so far.",
             "how": "building the sensor takes about an afternoon, then it runs on its own. Instructions and registration are on the website.",
             "url": "https://sensor.community",
-            "link": "Sensor.Community"
+            "link": "Sensor.Community",
+            "img": "/assets/uploads/kaip-prisideti/sensor-community.jpg",
+            "alt": "An SDS011 particulate matter sensor",
+            "credit": "Photo: ubahnverleih / Wikimedia Commons, CC0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Feinstaubsensor_SDS011.jpg"
           }
         ]
       },
       {
         "id": "kultura",
         "short": "Language and heritage",
-        "title": "Not just nature: language, culture and heritage",
-        "text": "Citizen science also reaches into the humanities and social sciences: language, history and community memory.",
+        "title": "Language, culture and heritage",
+        "text": "Citizen science also reaches into the humanities: language, history, archives and community memory.",
         "items": [
           {
             "name": "Lithuanian neologisms database",
@@ -772,7 +1029,11 @@
             "text": "The Institute of the Lithuanian Language collects new Lithuanian words. Seen a new word used in public? Suggest it, and the editors will check it.",
             "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
             "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
-            "link": "Suggest a word"
+            "link": "Suggest a word",
+            "img": "/assets/uploads/kaip-prisideti/naujazodziai.jpg",
+            "alt": "The Institute of the Lithuanian Language building in Vilnius",
+            "credit": "Photo: Augustas Didžgalvis / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:LKI_by_Augustas_Didzgalvis.jpg"
           },
           {
             "name": "Common Voice in Lithuanian",
@@ -780,15 +1041,23 @@
             "text": "Read Lithuanian sentences aloud or check other people's recordings. The recordings become an open Lithuanian speech dataset for speech recognition technology. There are still relatively few Lithuanian recordings, so every voice counts.",
             "how": "open the page and start reading. Part of the interface is still in English.",
             "url": "https://commonvoice.mozilla.org/lt/speak",
-            "link": "Common Voice"
+            "link": "Common Voice",
+            "img": "/assets/uploads/kaip-prisideti/common-voice.jpg",
+            "alt": "A microphone",
+            "credit": "Photo: Evan-Amos / Wikimedia Commons, public domain",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:USB-Microphone.jpg"
           },
           {
             "name": "Lithuanian Wikipedia",
             "logo": "/assets/uploads/logos/wikipedia.svg",
-            "text": "Write or improve articles about places, people and history in Lithuania, and add sources. Lithuanian Wikipedia already has more than 227,000 articles.",
+            "text": "Write or improve articles about places, people and history in Lithuania, and add sources. Lithuanian Wikipedia already has more than 227,000 articles. You can also transcribe and proofread old Lithuanian texts on Lithuanian Wikisource (lt.wikisource.org).",
             "how": "read the help page on editing (in Lithuanian) and create a free account.",
             "url": "https://lt.wikipedia.org/wiki/Pagalba:Kaip_redaguoti_puslapį",
-            "link": "How to edit"
+            "link": "How to edit",
+            "img": "/assets/uploads/kaip-prisideti/vikipedija.jpg",
+            "alt": "The Lithuanian Wikipedia editing window",
+            "credit": "Image: Zygimantus / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:How_to_edit_a_page_Edit_box_-_2025_ltwiki.png"
           },
           {
             "name": "Living Archive (Gyvas archyvas)",
@@ -796,7 +1065,140 @@
             "text": "A method by the Kaunas non-profit Kultūros dirbtuvė: residents share personal photographs and stories about their neighbourhood, and the material is handed over to museums and libraries for archiving. It has been used in Šilainiai (Kaunas), Žalgiriai (Tauragė) and Naujoji Akmenė.",
             "how": "follow Kultūros dirbtuvė for new projects. Municipalities and institutions can commission one.",
             "url": "https://kulturosdirbtuve.lt/gyvas-archyvas/",
-            "link": "About the method"
+            "link": "About the method",
+            "img": "/assets/uploads/kaip-prisideti/gyvas-archyvas.jpg",
+            "alt": "The Valušis family in Kaunas, 1935",
+            "credit": "Photo: unknown author / Wikimedia Commons, public domain",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:The_Valu%C5%A1is_Family,_Kaunas,_1935,_Lithuania.jpg"
+          },
+          {
+            "name": "Address history: old Vilnius addresses",
+            "text": "A project of the National Museum of Lithuania that maps historical Vilnius addresses (up to 1945). Volunteers send a historical address, the present-day address and a source, and the project team checks the data and adds it to the shared map.",
+            "how": "fill in the form on the website and always give a source. No account needed.",
+            "url": "https://adresuistorija.lnm.lt/en/",
+            "link": "Address history",
+            "img": "/assets/uploads/kaip-prisideti/adresu-istorija.jpg",
+            "alt": "Old postcard of Bokšto street in Vilnius, 1923-1937",
+            "credit": "Photo: unknown author / Wikimedia Commons, public domain",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vilnia,_Bak%C5%A1ta._%D0%92%D1%96%D0%BB%D1%8C%D0%BD%D1%8F,_%D0%91%D0%B0%D0%BA%D1%88%D1%82%D0%B0_(1923-37).jpg"
+          },
+          {
+            "name": "My and our history (Mano ir mūsų istorija)",
+            "text": "A platform of the Lithuanian museums information system LIMIS where anyone can publish a personal or family story with photos, video, audio or text and link it to objects held in Lithuanian museums. It is run by the Lithuanian National Museum of Art.",
+            "how": "create a LIMIS account (you can also sign in through the state e-government gateway) and click \"Kurti istoriją\" (create a story). In Lithuanian.",
+            "url": "https://www.limis.lt/mimi",
+            "link": "My and our history",
+            "img": "/assets/uploads/kaip-prisideti/limis.jpg",
+            "alt": "The courtyard of the Lithuanian National Museum of Art in Vilnius",
+            "credit": "Photo: Gintarė Grigėnaitė / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Lietuvos_nacionalinis_dail%C4%97s_muziejus.jpg"
+          },
+          {
+            "name": "January 1991: your story",
+            "text": "The Statehood Centre of the Martynas Mažvydas National Library of Lithuania collects people's memories of the January 1991 events: written down or recorded on audio or video, and diaries, letters and photos from that time. You can also help relatives record theirs. Memories are kept in the library's manuscript collection and published only with the author's consent.",
+            "how": "send your memories by email to valstybingumocentras@lnb.lt or by post. They are welcome at any time. In Lithuanian.",
+            "url": "https://sausio13.lnb.lt/",
+            "link": "January 13 memories",
+            "img": "/assets/uploads/kaip-prisideti/sausio-13.jpg",
+            "alt": "An unarmed man in front of a Soviet tank in Vilnius, 13 January 1991",
+            "credit": "Photo: Andrius Petrulevičius, Lithuanian Central State Archives / Wikimedia Commons, CC BY 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Unarmed_Lithuanian_citizen_standing_against_Soviet_tank,_Vilnius,_January_13,_1991_(cropped).jpg"
+          },
+          {
+            "name": "LRT's lost tapes",
+            "text": "Lithuanian National Radio and Television (LRT) is looking for home recordings of old TV (1957-2004) and radio (1926-2010) broadcasts and state events that are missing from its archive.",
+            "how": "upload digital files through the form on the website. LRT digitises video cassettes and reel tapes and returns the originals. In Lithuanian.",
+            "url": "https://www.lrt.lt/lrt100/ikelk",
+            "link": "Upload a recording",
+            "img": "/assets/uploads/kaip-prisideti/lrt-juostos.jpg",
+            "alt": "A VHS cassette, an audio cassette and a mini-cassette",
+            "credit": "Photo: Jacek Halicki / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:2023_Kaseta_VHS,_magnetofonowa_i_minikaseta.jpg"
+          },
+          {
+            "name": "Europeana Transcribathon",
+            "text": "A Europeana platform where volunteers transcribe, annotate and map digitised letters, diaries and documents. It holds more than 250 stories related to Lithuania, and most of them are still waiting for transcribers: for example a manuscript from the Rokiškis Regional Museum and Baltic Way photos collected in Vilnius in 2013.",
+            "how": "create a free account and choose the country \"Lithuania\" in the document list.",
+            "url": "https://europeana.transcribathon.eu/documents/",
+            "link": "Transcribathon",
+            "img": "/assets/uploads/kaip-prisideti/transcribathon.jpg",
+            "alt": "Handwritten originals of the 16 February 1918 Act of Independence of Lithuania",
+            "credit": "Photo: Pofka / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Hand-written_originals_in_the_Lithuanian_and_German_languages_of_the_Resolution_of_the_Council_of_Lithuania_on_Reinstating_Independence_of_Lithuania,_which_was_adopted_on_16_February_1918_in_Vilnius.jpg"
+          },
+          {
+            "name": "#everynamecounts",
+            "text": "A project of the Arolsen Archives (Germany): volunteers copy names and other details from Nazi-era documents into an online form so that the archive becomes easier to search. More than 450,000 people have already taken part, and Lithuanian names also appear in the documents.",
+            "how": "one document takes about 5 minutes.",
+            "url": "https://arolsen-archives.org/en/participate/everynamecounts/",
+            "link": "#everynamecounts",
+            "img": "/assets/uploads/kaip-prisideti/everynamecounts.jpg",
+            "alt": "Shelves of the Central Name Index at the Arolsen Archives",
+            "credit": "Photo: ITS Arolsen, Andreas Greiner-Napp / Wikimedia Commons, CC BY-SA 3.0 DE (cropped)",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:ITS_Zentrale_Namenkartei.jpg"
+          },
+          {
+            "name": "Lingscape: languages in the city",
+            "text": "An app from the University of Luxembourg for photographing signs and writing in public space and tagging which languages they use. This shows researchers how different languages are used in cities around the world. You can also photograph your own town.",
+            "how": "download the free app (iOS and Android). The interface is in English and German.",
+            "url": "https://lingscape.app",
+            "link": "Lingscape",
+            "img": "/assets/uploads/kaip-prisideti/lingscape.jpg",
+            "alt": "Totorių street signs in Lithuanian and Crimean Tatar in Vilnius",
+            "credit": "Photo: Shoorick / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Vilnius_Tatar_street_signs.jpg"
+          },
+          {
+            "name": "Zooniverse: history projects",
+            "text": "Zooniverse also runs history projects in which volunteers transcribe old letters and documents. For example, PRINT transcribes 17th-18th century letters of European religious minorities, and The Lessons of Stories looks at which moral values characters in books and films choose.",
+            "how": "choose a project from the list. An account is optional.",
+            "url": "https://www.zooniverse.org/projects?discipline=history&status=live",
+            "link": "History projects",
+            "img": "/assets/uploads/kaip-prisideti/zooniverse-istorija.jpg",
+            "alt": "Handwritten transcript of Gediminas' letter of 1323",
+            "credit": "Photo: unknown author / Wikimedia Commons, public domain",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Transcript_of_Gediminas%27_letter,_which_is_the_oldest_known_mentioning_of_Vilnius_in_written_sources_(25_January_1323).jpg"
+          }
+        ]
+      },
+      {
+        "id": "visuomene",
+        "short": "Society",
+        "title": "Society: take part in decisions",
+        "text": "These are not research projects, but they are close to the principles of citizen science: they involve residents in decisions that traditionally belonged to specialists.",
+        "items": [
+          {
+            "name": "Participatory budgets",
+            "text": "Some Lithuanian municipalities, for example Vilnius, Klaipėda and Šiauliai, set aside part of their budget for residents' ideas: residents propose projects for their city and vote for the ones they like best. In Vilnius, since 2026, residents aged 16 and over who have declared their residence in the city can vote.",
+            "how": "follow your municipality's website: each municipality announces the dates for ideas and voting every year. In Lithuanian.",
+            "url": "https://dalyvauk.vilnius.lt",
+            "link": "Dalyvauk! Vilnius",
+            "img": "/assets/uploads/kaip-prisideti/dalyvaujamasis-biudzetas.jpg",
+            "alt": "Theatre Square in Klaipėda",
+            "credit": "Photo: Daniel Cox / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Daniel_Cox_-_Theaterplatz_mit_Simon-Dach-Brunnen_in_Memel_(LTU).jpg"
+          },
+          {
+            "name": "Public consultations",
+            "text": "On the Government's E. pilietis portal you can comment on draft laws and answer surveys from ministries. Consultations are published throughout the year.",
+            "how": "choose an open consultation and submit your comments. You can subscribe to a newsletter about new consultations. In Lithuanian.",
+            "url": "https://epilietis.lrv.lt/lt/dalyvaukite/viesosios-konsultacijos/",
+            "link": "E. pilietis",
+            "img": "/assets/uploads/kaip-prisideti/konsultacijos.jpg",
+            "alt": "The Seimas of the Republic of Lithuania in Vilnius",
+            "credit": "Photo: Terminator216 / Wikimedia Commons, CC BY-SA 4.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Lietuvos_Respublikos_Seimas.jpg"
+          },
+          {
+            "name": "Have Your Say on EU laws",
+            "text": "The European Commission invites residents and organisations to give feedback on EU laws and policies that are being prepared. The site is available in Lithuanian, but consultation documents are often in English only.",
+            "how": "choose an initiative with an open consultation and submit your feedback.",
+            "url": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives_en",
+            "link": "Have Your Say",
+            "img": "/assets/uploads/kaip-prisideti/have-your-say.jpg",
+            "alt": "The European Commission's Berlaymont building in Brussels",
+            "credit": "Photo: Andersen Pecorone / Wikimedia Commons, CC BY 2.0",
+            "creditUrl": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_2015.jpg"
           }
         ]
       }
@@ -917,7 +1319,11 @@
               "link": "GLOBE in Lithuania",
               "caseText": "A pupil team from the Panevėžys STEAM centre presented its work at the international GLOBE conference for primary pupils in 2025.",
               "caseUrl": "https://globe.gov/web/italy/news/-/newsdetail/14028/celebrating-student-achievements-at-the-best-of-globe-europe-and-eurasia-2025-virtual-student-conference",
-              "caseLink": "About the conference"
+              "caseLink": "About the conference",
+              "img": "/assets/uploads/kaip-prisideti/globe-programa.jpg",
+              "alt": "Measuring water quality in a stream",
+              "credit": "Photo: NASA Goddard Space Flight Center, public domain",
+              "creditUrl": "https://svs.gsfc.nasa.gov/13629"
             },
             {
               "when": "Nature, geography · ages 5-13",
@@ -925,7 +1331,11 @@
               "text": "A European Space Agency programme: children's teams complete climate tasks in their own surroundings and collect badges. Materials are available in Lithuanian.",
               "how": "a teacher registers a team as its leader. It is free; the 2026-2027 kids' stage runs until 6 August 2027.",
               "url": "https://climatedetectives.esa.int/lt/",
-              "link": "Climate Detectives"
+              "link": "Climate Detectives",
+              "img": "/assets/uploads/kaip-prisideti/klimato-detektyvai.jpg",
+              "alt": "Sentinel-2 satellite image of Vilnius",
+              "credit": "Image: ESA, contains modified Copernicus Sentinel data (2020), CC BY-SA 3.0 IGO",
+              "creditUrl": "https://www.esa.int/ESA_Multimedia/Images/2022/07/Vilnius_Lithuania"
             },
             {
               "when": "Nature, physics · all ages",
@@ -933,7 +1343,11 @@
               "text": "International light pollution monitoring: on a clear night, pupils and their parents compare the sky with star charts and record how many stars they can see. In class you can discuss why more stars are visible in some places than in others.",
               "how": "observing windows last about 10 days each month, and the dates are on the website. It is free; a phone or computer is enough.",
               "url": "https://globeatnight.org",
-              "link": "Globe at Night"
+              "link": "Globe at Night",
+              "img": "/assets/uploads/kaip-prisideti/globe-at-night.jpg",
+              "alt": "A starry sky over a reservoir at Vaitiekūnai, Lithuania, with the glow of artificial light on the horizon",
+              "credit": "Photo: Valentinas Kuras / Wikimedia Commons, CC0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Vaitiek%C5%ABnai_(250534059).jpeg"
             }
           ]
         },
@@ -949,7 +1363,11 @@
               "link": "Plastic Pirates (in Lithuanian)",
               "caseText": "Pupils of Verdenės gymnasium in Visaginas and their parents surveyed the bank of the Šventoji: they found 37 litter items along 290 m, and researchers found microplastics in their sample.",
               "caseUrl": "https://www.lituanistika.lt/content/110124",
-              "caseLink": "The teacher's article"
+              "caseLink": "The teacher's article",
+              "img": "/assets/uploads/kaip-prisideti/plastiko-piratai.jpg",
+              "alt": "Plastic litter caught in driftwood on a riverbank",
+              "credit": "Photo: Günther Lamek, Rhein-Museum Koblenz / Wikimedia Commons, CC BY 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Treibgut_1998_RMK00938.tif"
             },
             {
               "when": "Geography · grades 5-12",
@@ -957,7 +1375,11 @@
               "text": "Every April schools, universities and other organisations host free geography events. In some of them participants help collect or interpret geographical data. In 2026 schools hosted events too, for example Aleksandras Puškinas gymnasium in Vilnius.",
               "how": "your school can host its own event. Contact the Lithuanian Geographical Society about taking part.",
               "url": "https://lgd.lt/veiklos/geografijos-naktis/",
-              "link": "Lithuanian Geographical Society"
+              "link": "Lithuanian Geographical Society",
+              "img": "/assets/uploads/kaip-prisideti/geografijos-naktis.jpg",
+              "alt": "Geography Night 2026 poster",
+              "credit": "Illustration: Lithuanian Geographical Society",
+              "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
             },
             {
               "when": "History, civic education · lower secondary",
@@ -968,7 +1390,11 @@
               "link": "The Šančiai maps",
               "caseText": "The method described in a research journal.",
               "caseUrl": "https://doi.org/10.1108/JCHMSD-04-2022-0065",
-              "caseLink": "Article"
+              "caseLink": "Article",
+              "img": "/assets/uploads/kaip-prisideti/sanciai.jpg",
+              "alt": "Old wooden houses in Šančiai, Kaunas",
+              "credit": "Photo: mikrimas / Wikimedia Commons, CC BY 3.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Old_%C5%A0an%C4%8Diai_-_panoramio_(2).jpg"
             },
             {
               "when": "Biology, physics, history · ages 9-12",
@@ -976,7 +1402,11 @@
               "text": "Pupils classify real research data online: galaxies, animals in camera-trap photos or old documents. Zooniverse has a section for teachers with classroom accounts, class progress statistics and lesson plans.",
               "how": "create a free account and choose a project. Projects are in English, so they also suit an English lesson.",
               "url": "https://www.zooniverse.org/get-involved/educate",
-              "link": "Zooniverse for educators"
+              "link": "Zooniverse for educators",
+              "img": "/assets/uploads/kaip-prisideti/zooniverse.jpg",
+              "alt": "Galaxy images for Galaxy Zoo volunteers to classify by shape",
+              "credit": "Image: ESA/Euclid/Euclid Consortium/NASA, CC BY-SA 3.0 IGO",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Euclid_Galaxy_Zoo_galaxies_to_classify_ESA500386.jpg"
             }
           ]
         },
@@ -990,7 +1420,11 @@
               "text": "A European Space Agency programme: pupil teams investigate a local climate issue, such as air quality, urban heat or biodiversity, using their own measurements and satellite data.",
               "how": "a teacher registers the team. It is free; the 2026-2027 project stage runs until 2 April 2027.",
               "url": "https://climatedetectives.esa.int/lt/",
-              "link": "Climate Detectives"
+              "link": "Climate Detectives",
+              "img": "/assets/uploads/kaip-prisideti/klimato-detektyvai.jpg",
+              "alt": "Sentinel-2 satellite image of Vilnius",
+              "credit": "Image: ESA, contains modified Copernicus Sentinel data (2020), CC BY-SA 3.0 IGO",
+              "creditUrl": "https://www.esa.int/ESA_Multimedia/Images/2022/07/Vilnius_Lithuania"
             },
             {
               "when": "Mathematics, IT",
@@ -1001,7 +1435,11 @@
               "link": "The dataset",
               "caseText": "The FTMC article on litter on Lithuanian riversides.",
               "caseUrl": "https://doi.org/10.1007/s10661-024-12503-7",
-              "caseLink": "Article"
+              "caseLink": "Article",
+              "img": "/assets/uploads/kaip-prisideti/tikri-duomenys.jpg",
+              "alt": "Chart: plastic litter on Lithuanian beaches, 2017-2022",
+              "credit": "Image: Our World in Data / Wikimedia Commons, CC BY 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:Beach_litter,_2015_to_2023,_LTU.svg"
             },
             {
               "when": "Lithuanian language",
@@ -1009,7 +1447,11 @@
               "text": "Pupils look for new Lithuanian words in the media or on social networks and suggest them to the neologisms database of the Institute of the Lithuanian Language. Editors check every suggestion.",
               "how": "fill in the suggestion form: the word, its meaning, an example and the source. No account needed.",
               "url": "https://ekalba.lt/naujazodziai/pasiulymai/naujas",
-              "link": "Suggest a word"
+              "link": "Suggest a word",
+              "img": "/assets/uploads/kaip-prisideti/naujazodziai.jpg",
+              "alt": "The Institute of the Lithuanian Language building in Vilnius",
+              "credit": "Photo: Augustas Didžgalvis / Wikimedia Commons, CC BY-SA 4.0",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:LKI_by_Augustas_Didzgalvis.jpg"
             },
             {
               "when": "IT, physics, geography · up to age 19",
@@ -1017,7 +1459,11 @@
               "text": "A competition by the European Space Agency (ESA) and the Raspberry Pi Foundation: a team of 2-6 pupils writes a Python program that collects sensor or camera data on the International Space Station, and the team gets the data back to analyse. Pupils in Lithuania can take part in all ESA education programmes. The easier Mission Zero alone had more than 25,000 young participants in 2024-2025.",
               "how": "a teacher registers the team as its mentor. It is free and no Raspberry Pi computer is needed. In 2026-2027, programs must be submitted by 22 February 2027. Beginners can do the easier Mission Zero (about an hour), by 22 March 2027.",
               "url": "https://astro-pi.org",
-              "link": "Astro Pi"
+              "link": "Astro Pi",
+              "img": "/assets/uploads/kaip-prisideti/astro-pi.jpg",
+              "alt": "The two Astro Pi computers on the International Space Station",
+              "credit": "Photo: NASA, public domain",
+              "creditUrl": "https://commons.wikimedia.org/wiki/File:ESA_AstroPi.jpg"
             },
             {
               "when": "Physics, astronomy · upper secondary",
@@ -1025,7 +1471,11 @@
               "text": "An international asteroid search campaign for schools: pupils look for unknown asteroids in real telescope images, and their finds are recorded as preliminary discoveries. By 2018 more than 500 schools in 60 countries had taken part.",
               "how": "campaigns last about a month and in 2026-2027 run almost every month until May 2027. In Europe you register through the Erasmus+ project StAnD, and places often fill up a month ahead. It is free. The Astrometrica software runs on Windows only, and materials are in English.",
               "url": "https://projectstand.eu/stand-asteroid-search-campaigns/",
-              "link": "Campaign dates and registration"
+              "link": "Campaign dates and registration",
+              "img": "/assets/uploads/kaip-prisideti/asteroidai.jpg",
+              "alt": "Hubble image of a galaxy crossed by the trail of an asteroid",
+              "credit": "Image: NASA, ESA, P. G. Martín, J. DePasquale, CC BY 4.0",
+              "creditUrl": "https://esahubble.org/images/heic2407a/"
             }
           ]
         }
