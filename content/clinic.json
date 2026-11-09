@@ -19,19 +19,20 @@
         "text": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį."
       }
     ],
-    "helpTitle": "Kam labiausiai tinka",
-    "helpText": "Labiausiai galime padėti, jei rengiate mokslinių tyrimų ar visuomeninio projekto paraišką, kurioje svarbūs žmonės: piliečių mokslas, bendrakūra, bendruomenių ar tikslinių grupių įtraukimas. Pavyzdžiui:",
+    "helpTitle": "Kuo galime padėti",
+    "helpText": "Padedame mokslininkams, mokslo institucijoms ir NVO parengti gerą paraišką. Patariame, kaip idėją susieti su kvietimo tikslais, aiškiai aprašyti tikslus, metodiką ir darbo planą, įtikinamai parodyti poveikį ir prasmingai įtraukti piliečius bei bendruomenes. Labiausiai galime padėti projektams, kuriuose svarbūs žmonės: piliečių mokslui, bendrakūrai, bendruomenių ar tikslinių grupių įtraukimui. Dažniausiai konsultuojame dėl šių programų:",
     "help": [
       "„Europos horizontas“",
       "kaskadinis finansavimas (ES projektų atviri kvietimai)",
       "CERV",
+      "LMT",
+      "Erasmus+",
       "mažesni fondai ir programos"
     ],
     "helpAfter": "Verslo investicijų ir paramos MVĮ paraiškų nekonsultuojame. Nesate tikri, ar jūsų idėja tinka? Parašykite info@pilieciumokslas.lt.",
     "note": "Jei reikia išsamesnės visos paraiškos peržiūros ar pagalbos ją rengiant, galime susitarti dėl atskiros mokamos paslaugos.",
     "ctaTitle": "Turite klausimą apie savo paraišką?",
     "eyebrow": "Nemokama konsultacija",
-    "meta": "30 min. · internetu · nemokamai",
     "personName": "Dr. Monika Mačiulienė",
     "personRole": "Piliečių mokslo asociacijos steigėja ir vadovė",
     "chips": [
@@ -81,19 +82,20 @@
         "text": "Half an hour for your proposal: we discuss your idea, the call or your draft."
       }
     ],
-    "helpTitle": "Who it suits best",
-    "helpText": "We can help most if you are preparing a research or civil society proposal where people matter: citizen science, co-creation, involving communities or target groups. For example:",
+    "helpTitle": "How we can help",
+    "helpText": "We help researchers, research organisations and NGOs prepare a strong proposal. We advise on linking your idea to the aims of the call, describing objectives, methodology and work plan clearly, showing impact convincingly and involving citizens and communities in a meaningful way. We can help most with projects where people matter: citizen science, co-creation, involving communities or target groups. We most often advise on:",
     "help": [
       "Horizon Europe",
       "cascade funding (open calls by EU projects)",
       "CERV",
+      "Research Council of Lithuania (LMT)",
+      "Erasmus+",
       "smaller funds and programmes"
     ],
     "helpAfter": "We do not advise on business investment or SME support applications. Not sure if your idea fits? Write to info@pilieciumokslas.lt.",
     "note": "If you need a more thorough review of the whole proposal or help with writing it, we can agree on a separate paid service.",
     "ctaTitle": "Have a question about your proposal?",
     "eyebrow": "Free consultation",
-    "meta": "30 min · online · free",
     "personName": "Dr Monika Mačiulienė",
     "personRole": "Founder and Director, Lithuanian Citizen Science Association",
     "chips": [

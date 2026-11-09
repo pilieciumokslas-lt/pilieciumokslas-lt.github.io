@@ -284,7 +284,6 @@ content:
           - { name: intro, label: Įžanga / Intro, type: text }
           - { name: button, label: Mygtuko tekstas / Button text, type: string }
           - { name: eyebrow, label: Žyma virš pavadinimo / Label above the title, type: string }
-          - { name: meta, label: Tekstas šalia mygtuko / Text next to the button, type: string }
           - { name: personName, label: Konsultantės vardas / Consultant name, type: string }
           - { name: personRole, label: Pareigos / Role, type: string }
           - { name: bubbles, label: Klausimai burbule (keičiasi vienas po kito) / Questions in the bubble (rotate), type: string, list: true }
