@@ -90,7 +90,11 @@
             "text": "Pamatėte retą paukščių rūšį? Lietuvos ornitologų draugija renka retų rūšių stebėjimus, kuriuos įvertina retųjų paukščių komisija.",
             "how": "užpildykite formą LOD svetainėje: vardas, el. paštas, data, rūšis, jei turite, nuotrauka ar garso įrašas.",
             "url": "https://birdlife.lt/sris/",
-            "link": "LOD forma"
+            "link": "LOD forma",
+            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
+            "alt": "Žalvarnis, viena rečiausių Lietuvos paukščių rūšių, tupintis ant pušies šakos",
+            "credit": "Nuotrauka: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/231900191"
           }
         ]
       },
@@ -119,7 +123,11 @@
             "text": "Nemokami geografijos renginiai visoje Lietuvoje vieną vakarą. 2026 m. vyko 46 renginiai, juose dalyvavo daugiau kaip 3 100 žmonių. Renginius rengia mokyklos, universitetai, saugomų teritorijų direkcijos ir mokslo centrai.",
             "how": "pasirinkite renginį tarptautiniame Geografijos nakties žemėlapyje. Mokyklos ir organizacijos gali surengti savo renginį.",
             "url": "https://lgd.lt/veiklos/geografijos-naktis/",
-            "link": "Lietuvos geografų draugija"
+            "link": "Lietuvos geografų draugija",
+            "img": "/assets/uploads/kaip-prisideti/geografijos-naktis.jpg",
+            "alt": "Geografijos nakties 2026 plakatas",
+            "credit": "Iliustracija: Lietuvos geografų draugija",
+            "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
           },
           {
             "when": "Birželį",
@@ -631,7 +639,11 @@
             "text": "Seen a rare bird species? The Lithuanian Ornithological Society collects sightings of rare species, which are assessed by its rarities committee.",
             "how": "fill in the form on the society's website: name, email, date, species and, if you have them, a photo or sound recording. The description may be in English.",
             "url": "https://birdlife.lt/sris/",
-            "link": "The society's form"
+            "link": "The society's form",
+            "img": "/assets/uploads/kaip-prisideti/reti-pauksciai.jpg",
+            "alt": "A European roller, one of the rarest birds in Lithuania, perched on a pine branch",
+            "credit": "Photo: Edmundas Greimas / iNaturalist, CC BY 4.0",
+            "creditUrl": "https://www.inaturalist.org/observations/231900191"
           }
         ]
       },
@@ -660,7 +672,11 @@
             "text": "Free geography events across Lithuania on one evening. In 2026 there were 46 events with more than 3,100 participants, hosted by schools, universities, protected-area directorates and science centres.",
             "how": "pick an event on the international Geography Night map. Schools and organisations can host their own event.",
             "url": "https://lgd.lt/veiklos/geografijos-naktis/",
-            "link": "Lithuanian Geographical Society"
+            "link": "Lithuanian Geographical Society",
+            "img": "/assets/uploads/kaip-prisideti/geografijos-naktis.jpg",
+            "alt": "Geography Night 2026 poster",
+            "credit": "Illustration: Lithuanian Geographical Society",
+            "creditUrl": "https://lgd.lt/geografijos-naktis-2026-perkoptas-3000-susidomejusiuju-slenkstis/"
           },
           {
             "when": "June",
