@@ -1159,6 +1159,9 @@ dash.calc('cycles', {
       const x = excl[f.key];
       if (x && x.size && f.of(c).some((v) => x.has(v))) return false;
       if (!s.size || s.has('All')) continue;
+      // Compass keeps cascade calls on its topics whatever their "who can lead" reading: the Portal text
+      // rarely names NGOs even when they can apply (e.g. VALLEYS).
+      if (f.key === 'lead' && c.family === 'cascade' && presetOn()) continue;
       if (!f.of(c).some((v) => s.has(v))) return false;
     }
     if (words.length) {
