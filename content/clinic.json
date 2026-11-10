@@ -2,7 +2,7 @@
   "formUrl": "https://calendly.com/pilieciumokslas-info/paraisku-penktadieniai",
   "lt": {
     "title": "Paraiškų penktadieniai",
-    "intro": "Pusvalandis jūsų paraiškai: aptarsime idėją, kvietimą ar juodraštį. Nemokama 30 minučių konsultacija internetu su dr. Monika Mačiuliene, Piliečių mokslo asociacijos steigėja ir vadove.",
+    "intro": "Piliečių mokslo asociacija padeda jauniesiems mokslininkams, bendruomenėms ir NVO, norintiems savo projektuose taikyti piliečių mokslo ir kitus dalyvaujamuosius metodus. Konsultuoja asociacijos steigėja ir vadovė dr. Monika Mačiulienė.",
     "button": "Užsiregistruoti konsultacijai",
     "stepsTitle": "Kaip tai vyksta",
     "steps": [
@@ -20,7 +20,7 @@
       }
     ],
     "helpTitle": "Kuo galime padėti",
-    "helpText": "Padedame mokslininkams, mokslo institucijoms ir NVO parengti gerą paraišką. Patariame, kaip:",
+    "helpText": "Padedame į projektą prasmingai įtraukti piliečius ir tai aiškiai aprašyti paraiškoje. Patariame, kaip:",
     "help": [
       "„Europos horizontas“",
       "Kaskadinis finansavimas (ES projektų atviri kvietimai)",
@@ -30,8 +30,8 @@
     ],
     "helpAfter": "Verslo investicijų ir paramos MVĮ paraiškų nekonsultuojame. Nesate tikri, ar jūsų idėja tinka? Parašykite info@pilieciumokslas.lt.",
     "note": "Jei reikia išsamesnės visos paraiškos peržiūros ar pagalbos ją rengiant, galime susitarti dėl atskiros mokamos paslaugos.",
-    "ctaTitle": "Turite klausimą apie savo paraišką?",
-    "eyebrow": "Nemokama konsultacija",
+    "ctaTitle": "Norite į savo projektą įtraukti piliečius?",
+    "eyebrow": "Piliečių mokslo asociacijos iniciatyva",
     "personName": "Dr. Monika Mačiulienė",
     "personRole": "Piliečių mokslo asociacijos steigėja ir vadovė",
     "chips": [
@@ -64,19 +64,19 @@
       "Kokių partnerių man reikia?"
     ],
     "helpCalls": "Ieškote tinkamo kvietimo? Peržiūrėkite mūsų <a href=\"/kvietimai/\">finansavimo kvietimų duomenų bazę</a>.",
-    "audience": "NVO, mokslininkams ir mokslo institucijoms · registracija iki 2027 m. vasario 12 d.",
+    "audience": "Pusvalandis internetu · registracija iki 2027 m. vasario 12 d.",
     "helpPoints": [
-      "idėją susieti su kvietimo tikslais",
-      "aiškiai aprašyti tikslus, metodiką ir darbo planą",
-      "įtikinamai parodyti poveikį",
-      "prasmingai įtraukti piliečius ir bendruomenes"
+      "pasirinkti tinkamą piliečių mokslo ar dalyvaujamąjį metodą",
+      "suplanuoti, kaip pasieksite ir įtrauksite dalyvius",
+      "idėją susieti su kvietimo tikslais ir aiškiai aprašyti darbo planą",
+      "parodyti piliečių įtraukimo naudą ir poveikį"
     ],
-    "helpFocus": "Labiausiai galime padėti projektams, kuriuose svarbūs žmonės: piliečių mokslui, bendrakūrai, bendruomenių ar tikslinių grupių įtraukimui.",
+    "helpFocus": "Konsultacijos skirtos projektams, kuriuose svarbūs žmonės: piliečių mokslui, bendrakūrai, bendruomenių ar tikslinių grupių įtraukimui.",
     "helpProgLabel": "Dažniausiai konsultuojame dėl šių programų"
   },
   "en": {
     "title": "Proposal Fridays",
-    "intro": "Half an hour for your proposal: we discuss your idea, the call or your draft. A free 30-minute online consultation with Dr Monika Mačiulienė, founder and director of the Lithuanian Citizen Science Association.",
+    "intro": "The Lithuanian Citizen Science Association helps early-career researchers, communities and NGOs who want to use citizen science and other participatory methods in their projects. Consultations are given by our founder and director Dr Monika Mačiulienė.",
     "button": "Book a consultation",
     "stepsTitle": "How it works",
     "steps": [
@@ -94,7 +94,7 @@
       }
     ],
     "helpTitle": "How we can help",
-    "helpText": "We help researchers, research organisations and NGOs prepare a strong proposal. We advise on how to:",
+    "helpText": "We help you involve citizens in your project in a meaningful way and describe this clearly in your proposal. We advise on how to:",
     "help": [
       "Horizon Europe",
       "Cascade funding (open calls by EU projects)",
@@ -104,8 +104,8 @@
     ],
     "helpAfter": "We do not advise on business investment or SME support applications. Not sure if your idea fits? Write to info@pilieciumokslas.lt.",
     "note": "If you need a more thorough review of the whole proposal or help with writing it, we can agree on a separate paid service.",
-    "ctaTitle": "Have a question about your proposal?",
-    "eyebrow": "Free consultation",
+    "ctaTitle": "Want to involve citizens in your project?",
+    "eyebrow": "An initiative of the Lithuanian Citizen Science Association",
     "personName": "Dr Monika Mačiulienė",
     "personRole": "Founder and Director, Lithuanian Citizen Science Association",
     "chips": [
@@ -138,14 +138,14 @@
       "What partners do I need?"
     ],
     "helpCalls": "Looking for a call? Browse our <a href=\"/kvietimai/\">funding calls database</a>.",
-    "audience": "For NGOs, researchers and research organisations · book by 12 February 2027",
+    "audience": "Half an hour online · book by 12 February 2027",
     "helpPoints": [
-      "link your idea to the aims of the call",
-      "describe objectives, methodology and work plan clearly",
-      "show impact convincingly",
-      "involve citizens and communities in a meaningful way"
+      "choose a suitable citizen science or participatory method",
+      "plan how you will reach and involve participants",
+      "link your idea to the aims of the call and describe the work plan clearly",
+      "show the value and impact of involving citizens"
     ],
-    "helpFocus": "We can help most with projects where people matter: citizen science, co-creation, involving communities or target groups.",
+    "helpFocus": "The consultations are for projects where people matter: citizen science, co-creation, involving communities or target groups.",
     "helpProgLabel": "We most often advise on"
   },
   "photo": "/assets/uploads/people/monika-penktadieniai.jpg"
